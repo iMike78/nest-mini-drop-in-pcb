@@ -35,3 +35,8 @@ If you have experience with PCB routing, ground pouring, or noise-sensitive digi
 ---
 
 > ⚠️ Flashing via USB-C requires disconnecting the main 14V power input. See silkscreen note on PCB for details.
+
+## License
+
+This project is licensed under the [CERN Open Hardware License Version 2 - Strongly Reciprocal (CERN-OHL-S v2)]
+Any modified version of this hardware must also be distributed under the same license.
