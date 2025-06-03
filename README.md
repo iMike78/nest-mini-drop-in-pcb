@@ -17,9 +17,8 @@ If you have experience with PCB routing, ground pouring, or noise-sensitive digi
 
 ## Tools used
 
-- 🛠️ KiCad 7
+- 🛠️ KiCad 9
 - 🧰 SnapEDA / LCSC for footprint sourcing
-- 🖼️ FreeCAD + KiCad StepUp for mechanical validation
 
 ## Known hardware specs
 
@@ -29,7 +28,7 @@ If you have experience with PCB routing, ground pouring, or noise-sensitive digi
 - Dual SPI flash
 - MAX98357 for speaker output
 - 2x MEMS microphones (MSM261DHP)
-- SK6812 LEDs (side-emitting)
+- SK6812 LEDs
 - Custom USB-C and 14V power input
 
 ---
