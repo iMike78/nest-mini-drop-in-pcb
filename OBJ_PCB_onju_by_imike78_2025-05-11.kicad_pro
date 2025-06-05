@@ -638,6 +638,18 @@
       {
         "netclass": "led",
         "pattern": "*LED*"
+      },
+      {
+        "netclass": "power",
+        "pattern": "+0V9"
+      },
+      {
+        "netclass": "power",
+        "pattern": "+14V"
+      },
+      {
+        "netclass": "power",
+        "pattern": "+1V8"
       }
     ]
   },
