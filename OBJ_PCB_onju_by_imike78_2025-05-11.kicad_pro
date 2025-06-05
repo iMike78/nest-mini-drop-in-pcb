@@ -515,12 +515,12 @@
         "via_drill": 0.2
       },
       {
-        "clearance": 0.15,
+        "clearance": 0.2,
         "name": "led",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
+        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3
       },
