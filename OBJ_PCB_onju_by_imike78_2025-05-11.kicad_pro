@@ -498,7 +498,7 @@
         "clearance": 0.2,
         "name": "gnd",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.6,
@@ -508,17 +508,27 @@
         "clearance": 0.15,
         "name": "i2s",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.4,
         "via_drill": 0.2
       },
       {
+        "clearance": 0.15,
+        "name": "led",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
         "clearance": 0.2,
         "name": "led_data",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -528,7 +538,7 @@
         "clearance": 0.15,
         "name": "mic_data",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.6,
@@ -538,7 +548,7 @@
         "clearance": 0.25,
         "name": "power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "via_diameter": 0.8,
@@ -548,7 +558,7 @@
         "clearance": 0.15,
         "name": "usb",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.6,
@@ -624,6 +634,10 @@
       {
         "netclass": "i2s",
         "pattern": "*TOUCH*"
+      },
+      {
+        "netclass": "led",
+        "pattern": "*LED*"
       }
     ]
   },
