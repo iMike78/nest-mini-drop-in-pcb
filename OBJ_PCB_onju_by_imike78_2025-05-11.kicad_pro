@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.65,
+          "height": 2.44,
+          "width": 1.14
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -590,7 +590,7 @@
         "pattern": "/XMOS/MIC*"
       },
       {
-        "netclass": "led_data",
+        "netclass": "i2s",
         "pattern": "ESP_WS2812"
       },
       {
@@ -624,6 +624,22 @@
       {
         "netclass": "i2s",
         "pattern": "*TOUCH*"
+      },
+      {
+        "netclass": "i2s",
+        "pattern": "/XMOS/*"
+      },
+      {
+        "netclass": "i2s",
+        "pattern": "/ESP32-S3R8/*"
+      },
+      {
+        "netclass": "i2s",
+        "pattern": "AUDIO_*"
+      },
+      {
+        "netclass": "power",
+        "pattern": "+14V"
       }
     ]
   },
