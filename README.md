@@ -6,13 +6,19 @@ This is an open-source hardware project, taking inspiration from both [Onju Voic
 
 # Project scope
 
-The goal of this project (which is similar to the [Onju Voice](https://github.com/justLV/onju-voice) project but fully open-source) is to design a drop-in replacement PCB (Printed Circuit Board) with open schematics som that anyone can make/build a custom drop-in replacement PCB for the Google Nest Mini (2nd Gen).
+The goal of this project and repository (which is similar to the [Onju Voice](https://github.com/justLV/onju-voice) but under a fully open-source hardware license) is to design a drop-in replacement PCB (Printed Circuit Board) with hardware schematics that anyone can make/build or order from a one-stop PCB manufacturer as a custom drop-in replacement PCB for the Google Nest Mini (2nd Gen).
 
-Primarly targeting people looking to convert/repurpose their old Google Nest Mini smart speakers into open-source hardware for [Voice Control of Home Assistant](https://www.home-assistant.io/voice_control/) and/or media player speaker output for [Music Assistant](https://www.music-assistant.io), (the hardware can however probably also be used with other applications as well with other firmware as it is based on the popular Espressif ESP32 platform).
+This is primarly targeting people looking to convert/repurpose their old Google Nest Mini smart speakers into open-source hardware for [Voice Control of Home Assistant](https://www.home-assistant.io/voice_control/) and/or media player speaker output for [Music Assistant](https://www.music-assistant.io), (the hardware can however probably also be used with other applications as well with other firmware as it is based on the popular Espressif ESP32 platform).
 
-The design will integrate an ESP32-S3 SoC for WiFi, BLE, and [onboard wake-word detection](https://www.home-assistant.io/voice_control/about_wake_word/) (using no-code [ESPHome firmware](https://esphome.io/)) + an XMOS xCORE XU316 chip for advanced audio processing (with custom firmware for microphone cleanup offloading for better voice recognition capabilities by using using locally running algorithms for Noise Suppression, Acoustic Echo Cancellation, Interference Cancellation, and Automatic Gain Control).
+The hardware design will (similar to [Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)) integrate an ESP32-S3 SoC for WiFi, BLE, and [onboard wake-word detection](https://www.home-assistant.io/voice_control/about_wake_word/) (using no-code [ESPHome firmware](https://esphome.io/)) + an XMOS xCORE XU316 chip for advanced audio processing (with custom firmware for microphone cleanup offloading for better voice recognition capabilities by using using locally running algorithms for Noise Suppression, Acoustic Echo Cancellation, Interference Cancellation, and Automatic Gain Control).
 
 Functionality-wise it is made to mostly hardware comatible with the [Home Assistant Voice Preview Edition (a.k.a. Home Assistant Voice PE](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) reference design (which has been released as open-source hardware design from Open Home Foundation in coolaboration with Nabu Casa). The main difference will be due to constraints defined by the Google Nest Mini enclosure and comonents, (i.e. the nest-mini-drop-in-pcb project hardware design will be limited by the same type of physical capacity inputs as the original hardware from Google).
+
+As such the scope of this project/repository is not to develop new features/functions for the ESPHome firmware, so if you want that then you instead need to turn to the firmware development of the Home Assistant Voice Preview Edition as well as to the upstream ESPHome mainline code:
+
+- https://github.com/esphome/home-assistant-voice-pe
+  - https://github.com/esphome/esphome
+      - https://github.com/esphome/feature-requests
 
 ## Request for collaboration
 
