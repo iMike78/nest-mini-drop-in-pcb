@@ -89,3 +89,5 @@ For more information about the concept/idea see and contribute to related discus
 
 This project is licensed under the [CERN Open Hardware License Version 2 - Strongly Reciprocal (CERN-OHL-S v2)]
 Any modified version of this hardware must also be distributed under the same license.
+
+https://ko-fi.com/imike78
