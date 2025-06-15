@@ -3246,6 +3246,10 @@
 		(uuid "a02708ca-1b17-4401-8e7d-64e7b72b7e0b")
 	)
 	(no_connect
+		(at 162.56 134.62)
+		(uuid "aef66685-05e8-4131-a316-8789b290f295")
+	)
+	(no_connect
 		(at 162.56 68.58)
 		(uuid "d874ac05-9073-4464-b5ea-8bd57b3d001b")
 	)
@@ -4858,28 +4862,6 @@
 		(uuid "5088e865-b96c-4845-a6f5-ac7fd731f10c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 179.394 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GROVE_PWR"
-		(shape output)
-		(at 162.56 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5b2d3577-e360-4aa3-bb81-26077b3baaa0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.6123 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)

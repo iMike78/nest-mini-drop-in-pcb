@@ -5826,6 +5826,30 @@
 		(at 234.95 78.74)
 		(uuid "27926798-f505-4400-89ac-df5b09cf7286")
 	)
+	(no_connect
+		(at 107.95 78.74)
+		(uuid "31347ff2-4694-4255-a90f-18ba260b9437")
+	)
+	(no_connect
+		(at 107.95 106.68)
+		(uuid "59fe403e-eca7-4b0e-9c4d-9ab51b25f836")
+	)
+	(no_connect
+		(at 107.95 116.84)
+		(uuid "812930ad-ac62-43c0-9f3e-b543bf987eb7")
+	)
+	(no_connect
+		(at 107.95 73.66)
+		(uuid "94c5a977-33fc-449a-bb53-9a06b4251878")
+	)
+	(no_connect
+		(at 107.95 111.76)
+		(uuid "9a4c5384-f8d2-42d4-8656-3b051d4202ab")
+	)
+	(no_connect
+		(at 107.95 109.22)
+		(uuid "fe3d2072-5fe3-4a58-8e1b-7a7465d1426e")
+	)
 	(wire
 		(pts
 			(xy 29.21 45.72) (xy 52.07 45.72)
@@ -6138,16 +6162,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 78.74) (xy 137.16 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dd6f6b9-0900-46d1-a6ec-34619192cd48")
-	)
-	(wire
-		(pts
 			(xy 100.33 217.17) (xy 100.33 219.71)
 		)
 		(stroke
@@ -6185,16 +6199,6 @@
 			(type default)
 		)
 		(uuid "23e9c39f-b454-4158-acdf-38c13d01eb37")
-	)
-	(wire
-		(pts
-			(xy 107.95 106.68) (xy 111.76 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "242970db-ebe1-41b5-a2c3-d83c5027ea38")
 	)
 	(wire
 		(pts
@@ -7038,16 +7042,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 109.22) (xy 132.08 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "766fc7e6-4732-4d97-b306-fd4a6f416dee")
-	)
-	(wire
-		(pts
 			(xy 266.7 127) (xy 266.7 129.54)
 		)
 		(stroke
@@ -7578,16 +7572,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 109.22) (xy 111.76 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7feb146-016a-4d3b-b6cf-77e12f8f5edf")
-	)
-	(wire
-		(pts
 			(xy 246.38 29.21) (xy 256.54 29.21)
 		)
 		(stroke
@@ -7625,16 +7609,6 @@
 			(type default)
 		)
 		(uuid "ada549bc-9873-4931-85a1-c7d641f64ffd")
-	)
-	(wire
-		(pts
-			(xy 107.95 111.76) (xy 132.08 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af5aadcf-fa3e-4402-bdc6-66a4bd77f514")
 	)
 	(wire
 		(pts
@@ -8068,16 +8042,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 73.66) (xy 137.16 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5be1d83-d2c3-4e23-b6eb-b6c5dc0b0e86")
-	)
-	(wire
-		(pts
 			(xy 252.73 200.66) (xy 250.19 200.66)
 		)
 		(stroke
@@ -8318,16 +8282,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 106.68) (xy 132.08 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5852afd-b0d7-4c6c-a807-987924f8ec65")
-	)
-	(wire
-		(pts
 			(xy 107.95 86.36) (xy 137.16 86.36)
 		)
 		(stroke
@@ -8518,16 +8472,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 116.84) (xy 132.08 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f46237c8-48a6-48a2-b8fb-63b7de0f50cb")
-	)
-	(wire
-		(pts
 			(xy 27.94 83.82) (xy 27.94 87.63)
 		)
 		(stroke
@@ -8606,16 +8550,6 @@
 		)
 		(uuid "fcdbff05-5273-4c9e-b9a7-76413f50a693")
 	)
-	(label "BUT_A"
-		(at 115.57 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "06c5c751-50bd-4892-b1cf-8c5034deaa8c")
-	)
 	(label "QSPI_D0"
 		(at 132.08 50.8 180)
 		(effects
@@ -8666,16 +8600,6 @@
 		)
 		(uuid "0cd4a05e-56d5-48eb-9d9a-49fb74ea9dbc")
 	)
-	(label "XL_UP1"
-		(at 132.08 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "12a3a3a3-7fac-4842-afd9-16e8b5bca273")
-	)
 	(label "TDO"
 		(at 40.64 83.82 0)
 		(effects
@@ -8695,16 +8619,6 @@
 			(justify left bottom)
 		)
 		(uuid "2952065a-121f-490f-bc0e-b83dd69fa69f")
-	)
-	(label "XOD42"
-		(at 115.57 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "31f7681a-ed49-4191-8905-744ac79dbb21")
 	)
 	(label "MIC_DATA_M"
 		(at 275.59 182.88 180)
@@ -8776,16 +8690,6 @@
 		)
 		(uuid "58172771-1e3c-49e3-b426-c0da53713057")
 	)
-	(label "XL_UP0"
-		(at 132.08 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "601b62fd-4359-45f5-97cb-377562ce8e86")
-	)
 	(label "MIC_CLK_M"
 		(at 264.16 86.36 180)
 		(effects
@@ -8845,16 +8749,6 @@
 			(justify right bottom)
 		)
 		(uuid "778f6c16-e483-49bd-b62c-56b6b15d041c")
-	)
-	(label "XL_DN1"
-		(at 132.08 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7816bb23-9903-4a9e-9481-9faa2b4ff357")
 	)
 	(label "MIC_CLK_M"
 		(at 177.8 172.72 0)
@@ -9035,16 +8929,6 @@
 			(justify left bottom)
 		)
 		(uuid "e29443ab-38ca-4cb8-bc47-ce4c0c5e65f7")
-	)
-	(label "XL_DN0"
-		(at 132.08 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f1ab2c23-8982-4489-8515-97c22a20fbbf")
 	)
 	(label "XOD33"
 		(at 115.57 53.34 180)
@@ -9450,28 +9334,6 @@
 			)
 		)
 	)
-	(global_label "BUT_A"
-		(shape input)
-		(at 137.16 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "925c0451-52d3-427d-a657-ec89db55f066")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.7695 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MUTE"
 		(shape input)
 		(at 228.6 29.21 180)
@@ -9600,28 +9462,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "XU316_WS2812"
-		(shape output)
-		(at 137.16 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e3196449-a471-451e-b3a3-8517e94566b8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.7802 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -19548,90 +19388,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 115.57 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e6ba6e9c-a295-4322-904b-a4f8030b421a")
-		(property "Reference" "R48"
-			(at 110.998 105.918 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33R"
-			(at 120.65 105.918 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 115.57 108.458 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 115.57 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 115.57 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Function" "XMOS"
-			(at 115.57 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d6ff77de-0217-45a9-9aa8-fcf3b8da33b4")
-		)
-		(pin "1"
-			(uuid "c83e1ad7-265f-437e-96af-60b94b65a227")
-		)
-		(instances
-			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "New_Library:LBSS138WT1G")
 		(at 142.24 147.32 0)
 		(unit 1)
@@ -20021,90 +19777,6 @@
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
 					(reference "C41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 115.57 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f276cb4f-a670-47d2-a389-8d4df5eee2c8")
-		(property "Reference" "R49"
-			(at 110.998 108.458 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33R"
-			(at 120.65 108.458 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 115.57 110.998 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 115.57 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 115.57 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Function" "XMOS"
-			(at 115.57 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d7a5f26e-752b-4e4b-ad2a-3d22eef59fea")
-		)
-		(pin "1"
-			(uuid "31e2ad8d-a6dc-416a-a582-70399d3c4a46")
-		)
-		(instances
-			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R49")
 					(unit 1)
 				)
 			)
