@@ -1,0 +1,229 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "204e071a-14ed-47a0-be54-332ac2b951cf")
+	(paper "A4")
+	(title_block
+		(title "Nest mini drop in PCB replacement")
+		(rev "v1")
+		(company "by iMike78 (inpired by Onju voice and HA VPE)")
+	)
+	(lib_symbols)
+	(sheet
+		(at 31.75 132.08)
+		(size 93.98 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "18f90dfa-9bd7-48d0-80c5-47366522e296")
+		(property "Sheetname" "LEDs"
+			(at 31.75 131.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds.kicad_sch"
+			(at 31.75 178.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
+				(path "/204e071a-14ed-47a0-be54-332ac2b951cf"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 20.32)
+		(size 95.25 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1e1926d7-db4f-450f-be85-739e9691d6cf")
+		(property "Sheetname" "Power"
+			(at 29.21 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_handling.kicad_sch"
+			(at 29.21 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
+				(path "/204e071a-14ed-47a0-be54-332ac2b951cf"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 80.01)
+		(size 83.82 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "62ce711e-2967-4164-94ee-cdd918e5185e")
+		(property "Sheetname" "AUDIO"
+			(at 137.16 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio.kicad_sch"
+			(at 137.16 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
+				(path "/204e071a-14ed-47a0-be54-332ac2b951cf"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 21.59)
+		(size 86.36 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9225bf54-69e7-451b-b0f1-a75bb133308e")
+		(property "Sheetname" "ESP32-S3R8"
+			(at 135.89 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32.kicad_sch"
+			(at 135.89 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
+				(path "/204e071a-14ed-47a0-be54-332ac2b951cf"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 77.47)
+		(size 93.98 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc")
+		(property "Sheetname" "XMOS"
+			(at 30.48 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "xmos.kicad_sch"
+			(at 30.48 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
+				(path "/204e071a-14ed-47a0-be54-332ac2b951cf"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
