@@ -627,7 +627,7 @@
       },
       {
         "netclass": "i2s",
-        "pattern": "/XMOS/*"
+        "pattern": "*XMOS*"
       },
       {
         "netclass": "i2s",
