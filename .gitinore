@@ -4,6 +4,7 @@
 *.swp
 *.swo
 *.kicad_prl
+*.lck
 
 # KiCad symbol and footprint cache
 fp-info-cache
