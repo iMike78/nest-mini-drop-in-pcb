@@ -5827,6 +5827,10 @@
 		(uuid "27926798-f505-4400-89ac-df5b09cf7286")
 	)
 	(no_connect
+		(at 52.07 48.26)
+		(uuid "2a7cf0d4-8734-4b38-a098-e4f1ffc0e7f4")
+	)
+	(no_connect
 		(at 107.95 78.74)
 		(uuid "31347ff2-4694-4255-a90f-18ba260b9437")
 	)
@@ -7119,16 +7123,6 @@
 			(type default)
 		)
 		(uuid "7e6d5f77-682a-4395-b6a8-f5dba5281515")
-	)
-	(wire
-		(pts
-			(xy 29.21 48.26) (xy 52.07 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e9ebc0f-31b5-4ea7-b745-fab8eff5fa3d")
 	)
 	(wire
 		(pts
@@ -8949,16 +8943,6 @@
 			(justify right bottom)
 		)
 		(uuid "f77c9481-edf9-47bf-a2d0-472fdf1c9446")
-	)
-	(label "QSPI_D2"
-		(at 29.21 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fc3a1753-0633-4802-81b9-98ca200a5741")
 	)
 	(global_label "I2S2_BCLK"
 		(shape input)

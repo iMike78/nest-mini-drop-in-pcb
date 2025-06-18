@@ -84,6 +84,10 @@
           ""
         ],
         [
+          "connection_width|149365324|111708362|da2b2a3a-9160-40a0-9013-75ffc1951ae6|c8918373-0e21-4b37-b68a-94dd7172d8c2",
+          ""
+        ],
+        [
           "copper_edge_clearance|103252316|82200117|eabbda25-34ba-4083-9542-488ed5ed87a4|0421e471-77a1-4c6e-a453-0e4093e385e3",
           ""
         ],
@@ -136,7 +140,15 @@
           ""
         ],
         [
+          "copper_edge_clearance|138910000|90800000|2cd02acf-afc1-4ef5-aa34-03bfd5fb46c8|72eb74dd-b7ee-46fe-9656-8146747cb6df",
+          ""
+        ],
+        [
           "copper_edge_clearance|139590000|87381999|5f04863b-bef8-46c6-8cc4-5c43617e4624|3aabe3fd-8f4f-4914-9e45-c5d814795a2c",
+          ""
+        ],
+        [
+          "copper_edge_clearance|140410000|90800000|2cd02acf-afc1-4ef5-aa34-03bfd5fb46c8|f5560eac-6a94-423c-865a-22ac0e4a633e",
           ""
         ],
         [
@@ -222,7 +234,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "warning",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
