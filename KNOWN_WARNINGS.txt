@@ -1,0 +1,34 @@
+KNOWN AND ACCEPTED WARNINGS – Nest Mini Drop-in PCB
+
+These DRC violations are intentionally excluded and do not pose a manufacturing or functional risk.
+
+1. Board edge clearance violations for MK1/MK2 microphones:
+   - GND pads are close to the panel edge or internal cutout as per microphone footprint design.
+   - Necessary for acoustic opening and fully supported by manufacturer specs.
+
+2. Board edge clearance violations for LED2 to LED5:
+   - LEDs are placed near panel edge for visual alignment with case windows.
+   - Some copper pads are within 0.00 mm of Edge.Cuts for mechanical alignment.
+   - All such violations are intentional and acceptable for SK6812/WS2812 LEDs.
+
+3. Board edge clearance violations for capacitive touch ring:
+   - The copper rings for TOUCH_L / TOUCH_C / TOUCH_R intentionally overlap the edge cutout.
+   - This is required for optimal capacitive sensing performance against the enclosure.
+   - Actual clearance is 0.000 mm by design.
+
+4. Thermal relief warning for U1 GND pads:
+   - Only one thermal spoke is connected to these pads.
+   - Pads are directly connected to pad 17, which has full GND zone contact.
+   - No electrical or thermal issues expected; behavior is intentional.
+
+5. Copper connection too narrow warnings for GND pads on U12:
+   - Pads 5 and 10 report sub-minimum connection width (0.0695 mm vs. 0.15 mm).
+   - This is due to the geometry of solid zone connections and pad-trace transitions.
+   - Electrically sound and visually confirmed connections; warning safely ignored.
+
+6. Hole and board edge clearance violations for USB-C connector shield pads (J2):
+   - SH1 and SH2 shield pads have 0 mm clearance to edge and 0.0769 mm to nearby holes.
+   - This is intentional based on the USB-C footprint design.
+   - Pads are mechanical (no signal) and supported by manufacturer recommendations.
+
+All excluded items were reviewed and validated for safety and manufacturability.
