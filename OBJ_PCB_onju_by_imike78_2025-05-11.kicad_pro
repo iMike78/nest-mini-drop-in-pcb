@@ -778,7 +778,7 @@
       "idf": "",
       "netlist": "",
       "plot": "./GERBER",
-      "pos_files": "GERBER/",
+      "pos_files": "../",
       "specctra_dsn": "",
       "step": "OBJ_PCB_onju_by_imike78_2025-05-11.step",
       "svg": "",

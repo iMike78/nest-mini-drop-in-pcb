@@ -103,7 +103,6 @@
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0.03)
-		(solder_mask_min_width 0.07)
 		(allow_soldermask_bridges_in_footprints yes)
 		(tenting front back)
 		(pcbplotparams
@@ -764,7 +763,7 @@
 				)
 			)
 		)
-		(property "Value" "49.9"
+		(property "Value" "49.9R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1194,7 +1193,7 @@
 				)
 			)
 		)
-		(property "Value" "49.9"
+		(property "Value" "49.9R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41418,7 +41417,7 @@
 				)
 			)
 		)
-		(property "Value" "TE_2345986-1"
+		(property "Value" "usb_c"
 			(at 2.52 -6.085 37)
 			(layer "F.Fab")
 			(hide yes)
@@ -42381,6 +42380,9 @@
 			(drill 0.65)
 			(layers "*.Cu")
 			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "SHIELD")
+			(pintype "passive")
 			(thermal_bridge_angle 90)
 			(options
 				(clearance outline)
@@ -42429,6 +42431,9 @@
 			(drill 0.65)
 			(layers "*.Cu")
 			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "SHIELD")
+			(pintype "passive")
 			(thermal_bridge_angle 90)
 			(options
 				(clearance outline)
@@ -42477,6 +42482,9 @@
 			(drill oval 0.65 1.95)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "SHIELD")
+			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "ca4de685-8c67-4cc4-810f-611fb7863624")
 		)
@@ -42486,6 +42494,9 @@
 			(drill oval 0.65 1.95)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "SHIELD")
+			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "e4ecdb75-43e9-403f-b313-5840b8eabf43")
 		)
