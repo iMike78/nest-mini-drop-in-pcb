@@ -804,7 +804,7 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Reference",
           "name": "Reference",
           "show": true
@@ -813,7 +813,7 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -849,7 +849,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -864,13 +864,13 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Dielectric",
           "name": "Dielectric",
-          "show": false
+          "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Function",
           "name": "Function",
           "show": true
@@ -942,10 +942,10 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Voltage",
           "name": "Voltage",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -972,10 +972,10 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Current",
           "name": "Current",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1008,10 +1008,10 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Supplier Part",
           "name": "Supplier Part",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1057,8 +1057,8 @@
         }
       ],
       "filter_string": "",
-      "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "group_symbols": false,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"

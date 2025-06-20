@@ -1,0 +1,48 @@
+PCB statistics report
+=====================
+- Date: 2025. 06. 20. 6:57:07
+- Project: OBJ_PCB_onju_by_imike78_2025-05-11
+- Board name: OBJ_PCB_onju_by_imike78_2025-05-11
+
+Board
+-----
+- Width: 74,5000 mm
+- Height: 70,5665 mm
+- Area: 3860,1557 mm²
+
+Pads
+----
+- Through hole: 12
+- SMD: 629
+- Connector: 0
+- NPTH: 4
+
+Vias
+----
+- Through vias: 343
+- Blind/buried: 0
+- Micro vias: 0
+
+Components
+----------
+
+|              | Front Side | Back Side | Total |
+|--------------|------------|-----------|-------|
+|THT:          |          0 |         0 |     0 |
+|SMD:          |        174 |         0 |   174 |
+|Unspecified:  |          3 |         0 |     3 |
+|Total:        |        177 |         0 |   177 |
+
+Drill holes
+-----------
+
+| Count | Shape |    X Size |    Y Size | Plated | Via/Pad | Start Layer | Stop Layer |
+|-------|-------|-----------|-----------|--------|---------|-------------|------------|
+|   277 | Round | 0,2000 mm | 0,2000 mm |    PTH |     Via |        F.Cu |       B.Cu |
+|    64 | Round | 0,3000 mm | 0,3000 mm |    PTH |     Via |        F.Cu |       B.Cu |
+|     8 | Round | 0,2000 mm | 0,2000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     2 | Round | 0,5500 mm | 0,5500 mm |   NPTH |     Pad |        F.Cu |       B.Cu |
+|     2 | Round | 0,6500 mm | 0,6500 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     2 |  Slot | 0,6500 mm | 1,9500 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     2 | Round | 0,5000 mm | 0,5000 mm |   NPTH |     Pad |        F.Cu |       B.Cu |
+|     2 | Round | 0,2500 mm | 0,2500 mm |    PTH |     Via |        F.Cu |       B.Cu |
