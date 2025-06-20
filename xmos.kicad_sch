@@ -12350,7 +12350,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PESD0402-050"
+		(property "Value" "PESD0402V05"
 			(at 195.58 180.3399 90)
 			(effects
 				(font
@@ -12377,7 +12377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PESD0402-050, 5V TVS, 0.3pF"
+		(property "Description" "PESD0402V05, 5V TVS, 0.3pF"
 			(at 193.04 179.07 0)
 			(effects
 				(font
@@ -13485,7 +13485,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PESD0402-050"
+		(property "Value" "PESD0402V05"
 			(at 242.57 199.644 90)
 			(effects
 				(font
@@ -13512,7 +13512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PESD0402-050, 5V TVS, 0.3pF"
+		(property "Description" "PESD0402V05, 5V TVS, 0.3pF"
 			(at 250.19 204.47 0)
 			(effects
 				(font
@@ -16929,7 +16929,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PESD0402-050"
+		(property "Value" "PESD0402V05"
 			(at 242.57 171.704 90)
 			(effects
 				(font
@@ -16956,7 +16956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PESD0402-050, 5V TVS, 0.3pF"
+		(property "Description" "PESD0402V05, 5V TVS, 0.3pF"
 			(at 250.19 176.53 0)
 			(effects
 				(font
@@ -18360,7 +18360,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PESD0402-050"
+		(property "Value" "PESD0402V05"
 			(at 194.818 204.47 90)
 			(effects
 				(font
@@ -18387,7 +18387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PESD0402-050, 5V TVS, 0.3pF"
+		(property "Description" "PESD0402V05, 5V TVS, 0.3pF"
 			(at 193.04 204.47 0)
 			(effects
 				(font
@@ -20000,7 +20000,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PESD0402-050"
+		(property "Value" "PESD0402V05"
 			(at 248.158 194.818 90)
 			(effects
 				(font
@@ -20027,7 +20027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PESD0402-050, 5V TVS, 0.3pF"
+		(property "Description" "PESD0402V05, 5V TVS, 0.3pF"
 			(at 259.08 199.39 0)
 			(effects
 				(font
@@ -20305,7 +20305,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PESD0402-050"
+		(property "Value" "PESD0402V05"
 			(at 261.62 172.7199 90)
 			(effects
 				(font
@@ -20332,7 +20332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PESD0402-050, 5V TVS, 0.3pF"
+		(property "Description" "PESD0402V05, 5V TVS, 0.3pF"
 			(at 259.08 171.45 0)
 			(effects
 				(font

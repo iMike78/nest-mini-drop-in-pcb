@@ -320,7 +320,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -973,12 +973,12 @@
 			(uuid "bb508bfa-3fd4-4184-b12f-1ecc3100f713")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
-		(property "Value" "PESD0402-050"
+		(property "Value" "PESD0402V05"
 			(at 0 1.17 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -1002,7 +1002,7 @@
 				)
 			)
 		)
-		(property "Description" "PESD0402-050, 5V TVS, 0.3pF"
+		(property "Description" "PESD0402V05, 5V TVS, 0.3pF"
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -5812,12 +5812,12 @@
 			(uuid "3ce62a50-c2a9-4091-a28a-a20e5d95ad99")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
-		(property "Value" "PESD0402-050"
+		(property "Value" "PESD0402V05"
 			(at 0 1.17 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -5841,7 +5841,7 @@
 				)
 			)
 		)
-		(property "Description" "PESD0402-050, 5V TVS, 0.3pF"
+		(property "Description" "PESD0402V05, 5V TVS, 0.3pF"
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -6027,12 +6027,12 @@
 			(uuid "1a8ea8bf-4843-4743-9828-c68f526ef257")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
-		(property "Value" "PESD0402-050"
+		(property "Value" "PESD0402V05"
 			(at 0 1.17 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -6056,7 +6056,7 @@
 				)
 			)
 		)
-		(property "Description" "PESD0402-050, 5V TVS, 0.3pF"
+		(property "Description" "PESD0402V05, 5V TVS, 0.3pF"
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -8007,7 +8007,7 @@
 				)
 			)
 		)
-		(property "Value" "CHS-01TA"
+		(property "Value" "SMXS‑01K‑TP"
 			(at 0.839974 4.253187 0)
 			(layer "Dwgs.User")
 			(hide yes)
@@ -8043,7 +8043,7 @@
 				)
 			)
 		)
-		(property "MF" "Nidec Copal"
+		(property "MF" "SM Switch"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8069,77 +8069,12 @@
 				)
 			)
 		)
-		(property "Package" "None"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "55e9e5c5-95b6-42fc-b62c-4212fe730b52")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "486d8962-c79e-4e14-84e7-b03f1b213338")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CHS-01TA/Nidec/view-part/?ref=snap"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e6278179-1017-40b9-b9f7-0245232778f9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MP" "CHS-01TA"
+		(property "MP" "SMXS‑01K‑TP"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fd700b7c-77be-4691-8870-4975a7b00edd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2de1eae2-489d-4d1a-92a8-a9b58b6905f6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/CHS-01TA/Nidec/view-part/?ref=eda"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c1ef82cc-4945-4ebe-8ad0-f93192596f24")
 			(effects
 				(font
 					(size 1 1)
@@ -10859,8 +10794,8 @@
 			(uuid "33756311-64ea-4c72-b9db-cbf20dbce095")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -14638,8 +14573,8 @@
 			(uuid "4d6f5810-d03c-4df6-b4d2-0a79c64ec994")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -15086,7 +15021,7 @@
 				)
 			)
 		)
-		(property "Value" "PESD0402-050"
+		(property "Value" "PESD0402V05"
 			(at 0 1.170001 127)
 			(layer "F.Fab")
 			(hide yes)
@@ -15110,7 +15045,7 @@
 				)
 			)
 		)
-		(property "Description" "PESD0402-050, 5V TVS, 0.3pF"
+		(property "Description" "PESD0402V05, 5V TVS, 0.3pF"
 			(at 0 0 127)
 			(layer "F.Fab")
 			(hide yes)
@@ -15122,7 +15057,7 @@
 				)
 			)
 		)
-		(property "Function" "MIC"
+		(property "Function" "USB"
 			(at 0 0 307)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16368,8 +16303,8 @@
 			(uuid "c639b2d2-24c5-4212-ba2f-dba16c54d53c")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -17287,7 +17222,7 @@
 				)
 			)
 		)
-		(property "Value" "PESD0402-050"
+		(property "Value" "PESD0402V05"
 			(at 0 1.170001 37)
 			(layer "F.Fab")
 			(hide yes)
@@ -17311,7 +17246,7 @@
 				)
 			)
 		)
-		(property "Description" "PESD0402-050, 5V TVS, 0.3pF"
+		(property "Description" "PESD0402V05, 5V TVS, 0.3pF"
 			(at 0 0 37)
 			(layer "F.Fab")
 			(hide yes)
@@ -17323,7 +17258,7 @@
 				)
 			)
 		)
-		(property "Function" "MIC"
+		(property "Function" "USB"
 			(at 0 0 37)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19640,7 +19575,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25419,7 +25354,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26989,7 +26924,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -28556,12 +28491,12 @@
 			(uuid "f1c701a2-1575-4cd0-9853-b76c47516ab8")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
-		(property "Value" "PESD0402-050"
+		(property "Value" "PESD0402V05"
 			(at 0 1.17 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -28585,7 +28520,7 @@
 				)
 			)
 		)
-		(property "Description" "PESD0402-050, 5V TVS, 0.3pF"
+		(property "Description" "PESD0402V05, 5V TVS, 0.3pF"
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -29511,8 +29446,8 @@
 			(uuid "997154d0-5ab6-4290-8c2d-9227758ecf1c")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -34814,12 +34749,12 @@
 			(uuid "f2ed8956-8a28-49bb-90d7-83612c48056a")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
-		(property "Value" "PESD0402-050"
+		(property "Value" "PESD0402V05"
 			(at 0 1.17 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -34843,7 +34778,7 @@
 				)
 			)
 		)
-		(property "Description" "PESD0402-050, 5V TVS, 0.3pF"
+		(property "Description" "PESD0402V05, 5V TVS, 0.3pF"
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -37202,8 +37137,8 @@
 			(uuid "19a2e340-fbb8-4f14-89e5-0dce742d0aae")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -37878,7 +37813,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40971,12 +40906,12 @@
 			(uuid "399f6ee6-f86a-47ae-bfc9-c2be790ec8a7")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
-		(property "Value" "PESD0402-050"
+		(property "Value" "PESD0402V05"
 			(at 0 1.17 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -41000,7 +40935,7 @@
 				)
 			)
 		)
-		(property "Description" "PESD0402-050, 5V TVS, 0.3pF"
+		(property "Description" "PESD0402V05, 5V TVS, 0.3pF"
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -41441,7 +41376,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2345986-1"
 			(at 0 0 37)
 			(layer "F.Fab")
 			(hide yes)
@@ -42501,6 +42436,17 @@
 			(uuid "e4ecdb75-43e9-403f-b313-5840b8eabf43")
 		)
 		(embedded_fonts no)
+		(model "D:/temp/Onju voice/Parts/usb_c.step"
+			(offset
+				(xyz 0 -4 1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Onju:SOP65P640X120-14N"
 		(layer "F.Cu")
@@ -42512,8 +42458,8 @@
 			(uuid "f0890400-2761-4841-91d8-c9f0f7b0f802")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -43645,6 +43591,17 @@
 			(uuid "06cd9231-d960-4486-8ba0-c5c313cabf85")
 		)
 		(embedded_fonts no)
+		(model "D:/temp/Onju voice/Parts/DMM-3526-B-R.step"
+			(offset
+				(xyz 0 0 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -44974,8 +44931,8 @@
 			(uuid "e67589f8-1ed9-43a5-98db-5c2e1c901649")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -45207,7 +45164,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47494,7 +47451,7 @@
 				)
 			)
 		)
-		(property "Value" "PESD0402-050"
+		(property "Value" "PESD0402V05"
 			(at 0 1.170001 127)
 			(layer "F.Fab")
 			(hide yes)
@@ -47518,7 +47475,7 @@
 				)
 			)
 		)
-		(property "Description" "PESD0402-050, 5V TVS, 0.3pF"
+		(property "Description" "PESD0402V05, 5V TVS, 0.3pF"
 			(at 0 0 127)
 			(layer "F.Fab")
 			(hide yes)
@@ -47530,7 +47487,7 @@
 				)
 			)
 		)
-		(property "Function" "MIC"
+		(property "Function" "USB"
 			(at 0 0 307)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49255,8 +49212,8 @@
 		(uuid "b9ad1faf-fd01-4cbb-8754-6d17219a3a37")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.125)
+				(size 0.8 0.8)
+				(thickness 0.12)
 			)
 			(justify left bottom)
 		)

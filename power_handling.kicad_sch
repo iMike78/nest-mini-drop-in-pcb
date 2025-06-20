@@ -9057,7 +9057,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PESD0402-050"
+		(property "Value" "PESD0402V05"
 			(at 133.858 102.108 0)
 			(effects
 				(font
@@ -9084,7 +9084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PESD0402-050, 5V TVS, 0.3pF"
+		(property "Description" "PESD0402V05, 5V TVS, 0.3pF"
 			(at 129.54 109.22 0)
 			(effects
 				(font
@@ -9093,7 +9093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "MIC"
+		(property "Function" "USB"
 			(at 129.54 109.22 90)
 			(effects
 				(font
@@ -11355,7 +11355,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PESD0402-050"
+		(property "Value" "PESD0402V05"
 			(at 126.238 102.108 0)
 			(effects
 				(font
@@ -11382,7 +11382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PESD0402-050, 5V TVS, 0.3pF"
+		(property "Description" "PESD0402V05, 5V TVS, 0.3pF"
 			(at 121.92 109.22 0)
 			(effects
 				(font
@@ -11391,7 +11391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "MIC"
+		(property "Function" "USB"
 			(at 121.92 109.22 90)
 			(effects
 				(font
@@ -12227,7 +12227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2345986-1"
 			(at 78.74 100.33 0)
 			(effects
 				(font
@@ -13691,7 +13691,7 @@
 				)
 			)
 		)
-		(property "Value" "CHS-01TA"
+		(property "Value" "SMXS‑01K‑TP"
 			(at 25.4 173.736 0)
 			(effects
 				(font
@@ -13727,7 +13727,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Nidec Copal"
+		(property "MF" "SM Switch"
 			(at 20.32 176.53 0)
 			(effects
 				(font
@@ -13747,57 +13747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "None"
-			(at 20.32 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 20.32 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CHS-01TA/Nidec/view-part/?ref=snap"
-			(at 20.32 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "CHS-01TA"
-			(at 20.32 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 20.32 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/CHS-01TA/Nidec/view-part/?ref=eda"
+		(property "MP" "SMXS‑01K‑TP"
 			(at 20.32 176.53 0)
 			(effects
 				(font
@@ -15193,7 +15143,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PESD0402-050"
+		(property "Value" "PESD0402V05"
 			(at 33.528 188.722 90)
 			(effects
 				(font
@@ -15220,7 +15170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PESD0402-050, 5V TVS, 0.3pF"
+		(property "Description" "PESD0402V05, 5V TVS, 0.3pF"
 			(at 39.37 181.61 0)
 			(effects
 				(font
@@ -15229,7 +15179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "MIC"
+		(property "Function" "USB"
 			(at 39.37 181.61 90)
 			(effects
 				(font
