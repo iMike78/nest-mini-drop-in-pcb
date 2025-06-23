@@ -5,7 +5,7 @@
     "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -58,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "OBJ_PCB_onju_by_imike78_2025-05-11.kicad_prl",
+    "filename": "nest-mini-v2-drop-in-pcb.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
