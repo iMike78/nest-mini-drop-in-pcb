@@ -1447,7 +1447,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "16V"
 			(at 107.188 78.994 0)
 			(effects
 				(font
@@ -1456,6 +1456,15 @@
 			)
 		)
 		(property "Function" "LED"
+			(at 102.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 102.87 76.2 0)
 			(effects
 				(font
@@ -1673,7 +1682,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "16V"
 			(at 237.998 87.884 0)
 			(effects
 				(font
@@ -1682,6 +1691,15 @@
 			)
 		)
 		(property "Function" "LED"
+			(at 233.68 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 233.68 85.09 0)
 			(effects
 				(font
@@ -1839,7 +1857,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "SK6812-E"
+		(property "MP" "SK6812MINI-E"
 			(at 85.09 76.2 0)
 			(effects
 				(font
@@ -1869,7 +1887,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "DONGGUANG OPSCO"
+		(property "MANUFACTURER" "OPSCO Optoelectronics"
 			(at 85.09 76.2 0)
 			(effects
 				(font
@@ -1880,6 +1898,15 @@
 			)
 		)
 		(property "Function" "LED"
+			(at 85.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C5149201"
 			(at 85.09 76.2 0)
 			(effects
 				(font
@@ -2175,7 +2202,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "SK6812-E"
+		(property "MP" "SK6812MINI-E"
 			(at 125.73 76.2 0)
 			(effects
 				(font
@@ -2205,7 +2232,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "DONGGUANG OPSCO"
+		(property "MANUFACTURER" "OPSCO Optoelectronics"
 			(at 125.73 76.2 0)
 			(effects
 				(font
@@ -2216,6 +2243,15 @@
 			)
 		)
 		(property "Function" "LED"
+			(at 125.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C5149201"
 			(at 125.73 76.2 0)
 			(effects
 				(font
@@ -2445,7 +2481,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "SK6812-E"
+		(property "MP" "SK6812MINI-E"
 			(at 165.1 76.2 0)
 			(effects
 				(font
@@ -2475,7 +2511,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "DONGGUANG OPSCO"
+		(property "MANUFACTURER" "OPSCO Optoelectronics"
 			(at 165.1 76.2 0)
 			(effects
 				(font
@@ -2486,6 +2522,15 @@
 			)
 		)
 		(property "Function" "LED"
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C5149201"
 			(at 165.1 76.2 0)
 			(effects
 				(font
@@ -2577,7 +2622,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "16V"
 			(at 226.568 78.994 0)
 			(effects
 				(font
@@ -2586,6 +2631,15 @@
 			)
 		)
 		(property "Function" "LED"
+			(at 222.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 222.25 76.2 0)
 			(effects
 				(font
@@ -2707,6 +2761,24 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "OPSCO Optoelectronics"
+			(at 45.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "SK6812D-EC3210R"
+			(at 45.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "56052b7b-03fc-4880-843a-3c0236059c54")
 		)
@@ -2818,6 +2890,24 @@
 			)
 		)
 		(property "Function" "LED"
+			(at 245.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "OPSCO Optoelectronics"
+			(at 245.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "SK6812D-EC3210R"
 			(at 245.11 77.47 0)
 			(effects
 				(font
@@ -3047,7 +3137,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "SK6812-E"
+		(property "MP" "SK6812MINI-E"
 			(at 204.47 76.2 0)
 			(effects
 				(font
@@ -3077,7 +3167,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "DONGGUANG OPSCO"
+		(property "MANUFACTURER" "OPSCO Optoelectronics"
 			(at 204.47 76.2 0)
 			(effects
 				(font
@@ -3088,6 +3178,15 @@
 			)
 		)
 		(property "Function" "LED"
+			(at 204.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C5149201"
 			(at 204.47 76.2 0)
 			(effects
 				(font
@@ -3245,7 +3344,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "16V"
 			(at 147.828 78.994 0)
 			(effects
 				(font
@@ -3254,6 +3353,15 @@
 			)
 		)
 		(property "Function" "LED"
+			(at 143.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 143.51 76.2 0)
 			(effects
 				(font
@@ -3604,7 +3712,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "16V"
 			(at 38.608 87.884 0)
 			(effects
 				(font
@@ -3613,6 +3721,15 @@
 			)
 		)
 		(property "Function" "LED"
+			(at 34.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 34.29 85.09 0)
 			(effects
 				(font
@@ -3698,7 +3815,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "16V"
 			(at 187.198 78.994 0)
 			(effects
 				(font
@@ -3707,6 +3824,15 @@
 			)
 		)
 		(property "Function" "LED"
+			(at 182.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 182.88 76.2 0)
 			(effects
 				(font

@@ -9556,7 +9556,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 191.008 133.604 0)
 			(effects
 				(font
@@ -9565,6 +9565,15 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 186.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 186.69 130.81 0)
 			(effects
 				(font
@@ -9853,7 +9862,7 @@
 				)
 			)
 		)
-		(property "Part number" "BLM18AG601SN1D"
+		(property "Part number" "BLM18KG601SN1D"
 			(at 34.29 207.01 90)
 			(effects
 				(font
@@ -9863,6 +9872,33 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
+			(at 34.29 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C85833"
+			(at 34.29 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 34.29 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "BLM18KG601SN1D"
 			(at 34.29 207.01 90)
 			(effects
 				(font
@@ -9948,7 +9984,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 58.928 216.154 0)
 			(effects
 				(font
@@ -9957,6 +9993,15 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 54.61 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 54.61 213.36 0)
 			(effects
 				(font
@@ -10042,7 +10087,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 271.018 136.144 0)
 			(effects
 				(font
@@ -10051,6 +10096,15 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 266.7 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 266.7 133.35 0)
 			(effects
 				(font
@@ -10167,7 +10221,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 176.2252 134.62 0)
 			(effects
 				(font
@@ -10202,7 +10256,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "16V"
 			(at 179.578 133.604 0)
 			(effects
 				(font
@@ -10297,6 +10351,15 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 129.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C25792"
 			(at 129.54 153.67 0)
 			(effects
 				(font
@@ -10718,6 +10781,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C26083"
+			(at 21.59 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ed6e0b9-81b1-4d61-8a4d-888e164ec09b")
 		)
@@ -11058,7 +11130,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 279.908 202.184 0)
 			(effects
 				(font
@@ -11067,6 +11139,15 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 275.59 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 275.59 199.39 0)
 			(effects
 				(font
@@ -11152,7 +11233,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "25V"
 			(at 77.978 99.314 0)
 			(effects
 				(font
@@ -11161,6 +11242,15 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 73.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C52923"
 			(at 73.66 96.52 0)
 			(effects
 				(font
@@ -11334,7 +11424,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20pF"
+		(property "Value" "15pF"
 			(at 18.542 96.012 0)
 			(effects
 				(font
@@ -11370,7 +11460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "NP0"
+		(property "Dielectric" "C0G"
 			(at 20.574 97.536 0)
 			(effects
 				(font
@@ -11387,6 +11477,15 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 16.51 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1548"
 			(at 16.51 96.52 0)
 			(effects
 				(font
@@ -11472,6 +11571,15 @@
 		)
 		(property "Function" "XMOS"
 			(at 246.38 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C11702"
+			(at 246.38 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11624,6 +11732,33 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Winbond Elec"
+			(at 176.53 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "W25Q128JVSIQ"
+			(at 176.53 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C97521"
+			(at 176.53 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "3ad56d18-56b0-4fbe-897c-c2c083efe9cc")
 		)
@@ -11691,7 +11826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588880998050779136"
 			(at 22.86 87.63 0)
 			(effects
 				(font
@@ -11700,7 +11835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "±10ppm, 12pF, 50Ω"
+		(property "Description" "24MHz Surface Mount Crystal 12pF ±10ppm ±20ppm SMD3225-4P Crystals ROHS"
 			(at 22.86 87.63 0)
 			(effects
 				(font
@@ -11732,6 +11867,42 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "YXC Crystal Oscillators"
+			(at 22.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "X322524MOB4SI"
+			(at 22.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C70590"
+			(at 22.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YXC Crystal Oscillators"
+			(at 22.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11824,6 +11995,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C25076"
+			(at 259.08 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7859f0bc-594c-40bf-92a6-b0678d44221c")
 		)
@@ -11901,7 +12081,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 250.698 37.084 0)
 			(effects
 				(font
@@ -11910,6 +12090,15 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 246.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 246.38 34.29 0)
 			(effects
 				(font
@@ -12116,6 +12305,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C3171752"
+			(at 227.33 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5845864b-4874-498d-9c3d-28b50d2cd44e")
 		)
@@ -12205,7 +12403,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 25.908 157.734 0)
 			(effects
 				(font
@@ -12214,6 +12412,15 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 21.59 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 21.59 154.94 0)
 			(effects
 				(font
@@ -12299,7 +12506,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 201.168 26.924 0)
 			(effects
 				(font
@@ -12308,6 +12515,15 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 196.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 196.85 24.13 0)
 			(effects
 				(font
@@ -12387,6 +12603,33 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 193.04 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C19626254"
+			(at 193.04 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "DOWO"
+			(at 193.04 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "PESD0402V05"
 			(at 193.04 179.07 90)
 			(effects
 				(font
@@ -12545,6 +12788,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C25076"
+			(at 243.84 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "da33cc5e-ada2-4bdb-ac79-6baf23aa1259")
 		)
@@ -12622,7 +12874,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 138.938 216.154 0)
 			(effects
 				(font
@@ -12631,6 +12883,15 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 134.62 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 134.62 213.36 0)
 			(effects
 				(font
@@ -12716,7 +12977,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 93.218 216.154 0)
 			(effects
 				(font
@@ -12725,6 +12986,15 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 88.9 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 88.9 213.36 0)
 			(effects
 				(font
@@ -12809,6 +13079,15 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 269.24 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C25076"
 			(at 269.24 195.58 90)
 			(effects
 				(font
@@ -12981,7 +13260,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20pF"
+		(property "Value" "15pF"
 			(at 28.702 96.012 0)
 			(effects
 				(font
@@ -13017,7 +13296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "NP0"
+		(property "Dielectric" "C0G"
 			(at 30.734 97.536 0)
 			(effects
 				(font
@@ -13034,6 +13313,15 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 26.67 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1548"
 			(at 26.67 96.52 0)
 			(effects
 				(font
@@ -13258,6 +13546,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C25900"
+			(at 153.67 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3a314278-5f2f-4210-bbb6-6b77c09149bf")
 		)
@@ -13416,6 +13713,24 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 217.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C7813"
+			(at 217.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "fef3508a-0092-4c12-b712-e254e9ef7165")
 		)
@@ -13522,6 +13837,33 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 250.19 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C19626254"
+			(at 250.19 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "DOWO"
+			(at 250.19 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "PESD0402V05"
 			(at 250.19 204.47 90)
 			(effects
 				(font
@@ -13793,6 +14135,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C27636108"
+			(at 247.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ed9d7aa7-5afb-4f93-98c7-606e160e9887")
 		)
@@ -13870,7 +14221,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 76.708 157.734 0)
 			(effects
 				(font
@@ -13879,6 +14230,15 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 72.39 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 72.39 154.94 0)
 			(effects
 				(font
@@ -14161,7 +14521,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 37.338 157.734 0)
 			(effects
 				(font
@@ -14170,6 +14530,15 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 33.02 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 33.02 154.94 0)
 			(effects
 				(font
@@ -14447,6 +14816,33 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 52.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "XMOS"
+			(at 52.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "XU316-1024-QF60B-C24"
+			(at 52.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C6617472"
 			(at 52.07 35.56 0)
 			(effects
 				(font
@@ -14786,6 +15182,15 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 269.24 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C25076"
 			(at 269.24 167.64 90)
 			(effects
 				(font
@@ -15264,7 +15669,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "25V"
 			(at 260.858 136.144 0)
 			(effects
 				(font
@@ -15273,6 +15678,15 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 256.54 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C52923"
 			(at 256.54 133.35 0)
 			(effects
 				(font
@@ -15359,6 +15773,15 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 27.94 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C25130"
 			(at 27.94 80.01 0)
 			(effects
 				(font
@@ -15714,6 +16137,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C25792"
+			(at 166.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "75b14ed3-6ac8-4a44-8297-9ca20dff8624")
 		)
@@ -15882,6 +16314,33 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C14709"
+			(at 66.04 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 66.04 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "BLM18PG121SN1D"
+			(at 66.04 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d736ebd-c9a0-42ba-90de-4855ec4802ea")
 		)
@@ -15966,6 +16425,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C25792"
+			(at 276.86 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d7dcc142-306b-4a14-9487-d842a4a94762")
 		)
@@ -16043,7 +16511,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 277.368 72.644 0)
 			(effects
 				(font
@@ -16052,6 +16520,15 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 273.05 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 273.05 69.85 0)
 			(effects
 				(font
@@ -16136,6 +16613,15 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 196.85 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C25890"
 			(at 196.85 143.51 90)
 			(effects
 				(font
@@ -16426,6 +16912,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C25790"
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ac8d6079-c670-4197-97aa-a2a4192d6e85")
 		)
@@ -16569,7 +17064,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "25V"
 			(at 47.498 216.154 0)
 			(effects
 				(font
@@ -16578,6 +17073,15 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 43.18 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C52923"
 			(at 43.18 213.36 0)
 			(effects
 				(font
@@ -16663,7 +17167,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 81.788 216.154 0)
 			(effects
 				(font
@@ -16672,6 +17176,15 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 77.47 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 77.47 213.36 0)
 			(effects
 				(font
@@ -16830,6 +17343,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C25076"
+			(at 236.22 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "33f46011-6342-4458-bf07-173e6a7d00cd")
 		)
@@ -16966,6 +17488,33 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 250.19 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C19626254"
+			(at 250.19 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "DOWO"
+			(at 250.19 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "PESD0402V05"
 			(at 250.19 176.53 90)
 			(effects
 				(font
@@ -17118,6 +17667,15 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 142.24 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C25530"
 			(at 142.24 135.89 0)
 			(effects
 				(font
@@ -17324,6 +17882,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C134139"
+			(at 232.41 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08df66f1-a516-4e65-b8da-c019f6723945")
 		)
@@ -17410,7 +17977,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 99.568 157.734 0)
 			(effects
 				(font
@@ -17419,6 +17986,15 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 95.25 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 95.25 154.94 0)
 			(effects
 				(font
@@ -17636,7 +18212,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 281.178 179.324 0)
 			(effects
 				(font
@@ -17645,6 +18221,15 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 276.86 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 276.86 176.53 0)
 			(effects
 				(font
@@ -17737,6 +18322,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C25076"
+			(at 259.08 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "15c1d54e-570a-42da-9925-522fa9608f25")
 		)
@@ -17814,7 +18408,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 116.078 216.154 0)
 			(effects
 				(font
@@ -17823,6 +18417,15 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 111.76 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 111.76 213.36 0)
 			(effects
 				(font
@@ -18309,7 +18912,7 @@
 				)
 			)
 		)
-		(property "Part number" "BLM18AG601SN1D"
+		(property "Part number" "BLM18KG601SN1D"
 			(at 73.66 86.36 90)
 			(effects
 				(font
@@ -18319,6 +18922,33 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
+			(at 73.66 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C85833"
+			(at 73.66 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 73.66 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "BLM18KG601SN1D"
 			(at 73.66 86.36 90)
 			(effects
 				(font
@@ -18405,6 +19035,33 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C19626254"
+			(at 193.04 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "DOWO"
+			(at 193.04 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "PESD0402V05"
+			(at 193.04 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "21f3f241-c4c2-455d-88ab-60aa6bbcabe8")
 		)
@@ -18482,7 +19139,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 104.648 216.154 0)
 			(effects
 				(font
@@ -18491,6 +19148,15 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 100.33 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 100.33 213.36 0)
 			(effects
 				(font
@@ -18576,7 +19242,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 48.768 157.734 0)
 			(effects
 				(font
@@ -18585,6 +19251,15 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 44.45 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 44.45 154.94 0)
 			(effects
 				(font
@@ -18923,6 +19598,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C3171752"
+			(at 227.33 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3_1"
 			(uuid "75e4ba46-bcad-403e-b324-abaf266822d7")
 		)
@@ -19012,7 +19696,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 127.508 216.154 0)
 			(effects
 				(font
@@ -19021,6 +19705,15 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 123.19 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 123.19 213.36 0)
 			(effects
 				(font
@@ -19478,6 +20171,24 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" "LRC"
+			(at 142.24 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "LBSS138WT1G"
+			(at 142.24 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "afbb0fc1-99a1-4146-820d-9e6829c49dd9")
 		)
@@ -19558,7 +20269,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 119.888 157.734 0)
 			(effects
 				(font
@@ -19567,6 +20278,15 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 115.57 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 115.57 154.94 0)
 			(effects
 				(font
@@ -19646,6 +20366,33 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 207.01 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C20069135"
+			(at 207.01 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "hongjiacheng"
+			(at 207.01 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "BC847B"
 			(at 207.01 143.51 0)
 			(effects
 				(font
@@ -19734,7 +20481,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 88.138 157.734 0)
 			(effects
 				(font
@@ -19743,6 +20490,15 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 83.82 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 83.82 154.94 0)
 			(effects
 				(font
@@ -19901,6 +20657,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C25744"
+			(at 256.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c83d6f9a-31cc-4b6f-9af1-20f99b82d0aa")
 		)
@@ -20037,6 +20802,33 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 259.08 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C19626254"
+			(at 259.08 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "DOWO"
+			(at 259.08 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "PESD0402V05"
 			(at 259.08 199.39 90)
 			(effects
 				(font
@@ -20254,7 +21046,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 70.358 216.154 0)
 			(effects
 				(font
@@ -20263,6 +21055,15 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 66.04 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 66.04 213.36 0)
 			(effects
 				(font
@@ -20342,6 +21143,33 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 259.08 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C19626254"
+			(at 259.08 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "DOWO"
+			(at 259.08 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "PESD0402V05"
 			(at 259.08 171.45 90)
 			(effects
 				(font

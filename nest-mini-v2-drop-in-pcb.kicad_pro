@@ -152,14 +152,6 @@
           ""
         ],
         [
-          "copper_edge_clearance|148646848|112686985|a5da558f-1703-47d9-b3b7-29b37541fa20|35032f7c-d148-454e-a811-156f3fbd1a89",
-          ""
-        ],
-        [
-          "copper_edge_clearance|155027945|107878483|1c741280-2473-45f7-b29c-a3ebc382ad89|514c1eed-a38e-42b7-97d4-3178a97cc827",
-          ""
-        ],
-        [
           "copper_edge_clearance|164869738|89075308|3c32a755-9131-4ee5-aa41-1ddabedbea22|a81c1fac-aa82-42d9-a86e-ba16c4b6b4c0",
           ""
         ],
@@ -169,14 +161,6 @@
         ],
         [
           "copper_edge_clearance|167945362|97095000|cc545a54-294c-4f44-88d7-66669761960d|07301a4a-6029-4a33-9a75-ba061718a39f",
-          ""
-        ],
-        [
-          "hole_clearance|149617750|113242592|917147a6-d288-4321-94d1-f82f16319ae6|35032f7c-d148-454e-a811-156f3fbd1a89",
-          ""
-        ],
-        [
-          "hole_clearance|155294429|108964918|c3337735-77ec-4658-8d3b-89ce1711bde5|514c1eed-a38e-42b7-97d4-3178a97cc827",
           ""
         ],
         [
@@ -600,7 +584,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "OBJ_PCB_onju_by_imike78_2025-05-11.kicad_pro",
+    "filename": "nest-mini-v2-drop-in-pcb.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -870,7 +854,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Function",
           "name": "Function",
           "show": true
@@ -879,7 +863,7 @@
           "group_by": false,
           "label": "MANUFACTURER",
           "name": "MANUFACTURER",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -895,9 +879,15 @@
         },
         {
           "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "MP",
           "name": "MP",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -942,6 +932,12 @@
           "show": false
         },
         {
+          "group_by": false,
+          "label": "Manufacturer Part",
+          "name": "Manufacturer Part",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "Voltage",
           "name": "Voltage",
@@ -979,12 +975,6 @@
         },
         {
           "group_by": false,
-          "label": "Manufacturer",
-          "name": "Manufacturer",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Part number",
           "name": "Part number",
           "show": false
@@ -1012,12 +1002,6 @@
           "label": "Supplier Part",
           "name": "Supplier Part",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer Part",
-          "name": "Manufacturer Part",
-          "show": false
         },
         {
           "group_by": false,
@@ -1054,10 +1038,16 @@
           "label": "EU_RoHS_Compliance",
           "name": "EU_RoHS_Compliance",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part",
+          "name": "Part",
+          "show": false
         }
       ],
       "filter_string": "",
-      "group_symbols": false,
+      "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,

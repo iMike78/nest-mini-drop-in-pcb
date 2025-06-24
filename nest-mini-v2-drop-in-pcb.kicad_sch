@@ -45,7 +45,7 @@
 			)
 		)
 		(instances
-			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
+			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf"
 					(page "6")
 				)
@@ -87,7 +87,7 @@
 			)
 		)
 		(instances
-			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
+			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf"
 					(page "2")
 				)
@@ -129,7 +129,7 @@
 			)
 		)
 		(instances
-			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
+			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf"
 					(page "5")
 				)
@@ -171,7 +171,7 @@
 			)
 		)
 		(instances
-			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
+			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf"
 					(page "3")
 				)
@@ -213,7 +213,7 @@
 			)
 		)
 		(instances
-			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
+			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf"
 					(page "4")
 				)

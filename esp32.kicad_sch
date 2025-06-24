@@ -5394,7 +5394,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 224.028 62.23 0)
 			(effects
 				(font
@@ -5403,6 +5403,15 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 219.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 219.71 59.69 0)
 			(effects
 				(font
@@ -5488,7 +5497,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "25V"
 			(at 36.068 177.8 0)
 			(effects
 				(font
@@ -5497,6 +5506,15 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 31.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C52923"
 			(at 31.75 175.26 0)
 			(effects
 				(font
@@ -5647,7 +5665,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "25V"
 			(at 183.642 46.99 0)
 			(effects
 				(font
@@ -5656,6 +5674,15 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 181.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C52923"
 			(at 181.61 41.91 0)
 			(effects
 				(font
@@ -5873,6 +5900,33 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C27124"
+			(at 39.37 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Sunlord"
+			(at 39.37 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "SDCL1005C3N3STDF"
+			(at 39.37 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ad626556-08fb-4861-8ddf-7f9d4f91e207")
 		)
@@ -5944,6 +5998,33 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 52.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C434826"
+			(at 52.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TDK"
+			(at 52.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "MHQ1005P2N7BT000"
 			(at 52.07 67.31 0)
 			(effects
 				(font
@@ -6094,7 +6175,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 189.992 46.99 0)
 			(effects
 				(font
@@ -6103,6 +6184,15 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 187.96 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 187.96 41.91 0)
 			(effects
 				(font
@@ -6253,7 +6343,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 267.208 132.334 0)
 			(effects
 				(font
@@ -6262,6 +6352,15 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 262.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 262.89 129.54 0)
 			(effects
 				(font
@@ -6800,7 +6899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "NP0"
+		(property "Dielectric" "C0G"
 			(at 79.248 176.784 0)
 			(effects
 				(font
@@ -6817,6 +6916,15 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 74.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1547"
 			(at 74.93 175.26 0)
 			(effects
 				(font
@@ -6913,6 +7021,33 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 22.86 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C83680"
+			(at 22.86 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "LRC"
+			(at 22.86 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "LRB520S-30T1G"
 			(at 22.86 162.56 90)
 			(effects
 				(font
@@ -7136,6 +7271,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C17168"
+			(at 77.47 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ebf54e3e-db8a-4aa1-9ad5-00872ea0abd5")
 		)
@@ -7203,7 +7347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "NP0"
+		(property "Dielectric" "C0G"
 			(at 50.8 79.502 90)
 			(effects
 				(font
@@ -7220,6 +7364,15 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 50.8 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1547"
 			(at 50.8 76.2 90)
 			(effects
 				(font
@@ -7361,7 +7514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X5R"
+		(property "Dielectric" "C0G"
 			(at 64.77 68.072 90)
 			(effects
 				(font
@@ -7370,6 +7523,24 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 64.77 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 64.77 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C327292"
 			(at 64.77 71.12 90)
 			(effects
 				(font
@@ -7454,6 +7625,15 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 101.6 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C137970"
 			(at 101.6 106.68 90)
 			(effects
 				(font
@@ -7622,6 +7802,24 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Espressif Systems"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2913194"
 			(at 137.16 93.98 0)
 			(effects
 				(font
@@ -7881,6 +8079,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C25900"
+			(at 237.49 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7cfe7396-1bec-4541-b3e2-fa9d8f8b2394")
 		)
@@ -7952,6 +8159,33 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 242.57 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Winbond Elec"
+			(at 242.57 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "W25Q128JVSIQ"
+			(at 242.57 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C97521"
 			(at 242.57 142.24 0)
 			(effects
 				(font
@@ -8055,7 +8289,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 196.342 62.23 0)
 			(effects
 				(font
@@ -8064,6 +8298,15 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 194.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 194.31 57.15 0)
 			(effects
 				(font
@@ -8149,7 +8392,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "25V"
 			(at 253.238 61.976 0)
 			(effects
 				(font
@@ -8158,6 +8401,15 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 248.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C52923"
 			(at 248.92 59.69 0)
 			(effects
 				(font
@@ -8391,6 +8643,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C89334"
+			(at 29.21 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f5fafb8-1c09-410e-bf3a-e56cdc53bc1f")
 		)
@@ -8457,7 +8718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "NP0"
+		(property "Dielectric" "C0G"
 			(at 212.344 60.452 0)
 			(effects
 				(font
@@ -8474,6 +8735,15 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 208.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C48346"
 			(at 208.28 59.69 0)
 			(effects
 				(font
@@ -8691,6 +8961,33 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 228.6 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C162540"
+			(at 228.6 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 228.6 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "LQG15HS2N2B02D"
 			(at 228.6 55.88 90)
 			(effects
 				(font
@@ -8918,6 +9215,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C25744"
+			(at 74.93 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7f87be4-31ef-4b05-a70e-6e7ba0136294")
 		)
@@ -9012,6 +9318,33 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
+			(at 29.21 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C14709"
+			(at 29.21 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 29.21 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "BLM18PG121SN1D"
 			(at 29.21 24.13 90)
 			(effects
 				(font
@@ -9171,6 +9504,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C25744"
+			(at 31.75 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a997e76-4403-4597-92df-5dbf5267fba9")
 		)
@@ -9248,7 +9590,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 190.754 67.056 0)
 			(effects
 				(font
@@ -9257,6 +9599,15 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 187.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 187.96 62.23 0)
 			(effects
 				(font
@@ -9342,7 +9693,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "6.3V"
 			(at 263.652 61.976 0)
 			(effects
 				(font
@@ -9351,6 +9702,15 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 259.08 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C15525"
 			(at 259.08 59.69 0)
 			(effects
 				(font
@@ -9437,6 +9797,15 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 229.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C25900"
 			(at 229.87 93.98 0)
 			(effects
 				(font
@@ -9569,7 +9938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "±10ppm, 18pF, 50Ω, ABM8G-40.000MHZ-B2-T"
+		(property "Description" "40MHz Surface Mount Crystal 15pF ±10ppm ±20ppm SMD3225-4P Crystals ROHS"
 			(at 64.77 85.09 0)
 			(effects
 				(font
@@ -9587,6 +9956,51 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 64.77 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD3225-4P"
+			(at 64.77 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YXC Crystal Oscillators"
+			(at 64.77 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "X322540MPB4SI"
+			(at 64.77 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C9010"
+			(at 64.77 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YXC Crystal Oscillators"
 			(at 64.77 85.09 90)
 			(effects
 				(font
@@ -9743,6 +10157,15 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 181.61 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C17168"
 			(at 181.61 92.71 90)
 			(effects
 				(font
@@ -10093,7 +10516,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "25V"
 			(at 202.692 62.23 0)
 			(effects
 				(font
@@ -10102,6 +10525,15 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 200.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C52923"
 			(at 200.66 57.15 0)
 			(effects
 				(font
@@ -10187,7 +10619,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 242.824 61.976 0)
 			(effects
 				(font
@@ -10196,6 +10628,15 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 238.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 238.76 59.69 0)
 			(effects
 				(font
@@ -10281,7 +10722,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 181.864 69.596 0)
 			(effects
 				(font
@@ -10290,6 +10731,15 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 179.07 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 179.07 64.77 0)
 			(effects
 				(font
@@ -10365,7 +10815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "NP0"
+		(property "Dielectric" "C0G"
 			(at 50.8 94.742 90)
 			(effects
 				(font
@@ -10382,6 +10832,15 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 50.8 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1547"
 			(at 50.8 91.44 90)
 			(effects
 				(font
@@ -10468,6 +10927,15 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 252.73 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C25900"
 			(at 252.73 93.98 0)
 			(effects
 				(font
@@ -10570,6 +11038,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C14663"
+			(at 39.37 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2f65dbb3-cedc-4686-9543-0288e860efd6")
 		)
@@ -10648,6 +11125,15 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 245.11 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C25900"
 			(at 245.11 93.98 0)
 			(effects
 				(font

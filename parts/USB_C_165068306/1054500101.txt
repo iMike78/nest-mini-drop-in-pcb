@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-09042024-035689";"";
+"REFERENCE";"1054500101";"";
+"TraceParts.PartTitle";"USB";"";
+"TraceParts.InstanceId";"90-09042024-0356892N3XX9WWY2MK673V115V3T3RA";"";
+"SUPPLIER";"Molex";"";
+"DESIGN";"Universal Serial Bus (USB) Shielded I/O Receptacle, Type C, Right-Angle,  Top Mount, Surface Mount, Gold (Au) Flash over 0.76µm Palladium Nickel Plating";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.4";"";

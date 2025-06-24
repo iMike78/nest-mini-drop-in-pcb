@@ -2004,6 +2004,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C5162845"
+			(at 196.85 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0c01242f-df70-43ce-a564-a3353694c52c")
 		)
@@ -2037,7 +2046,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "10uF"
 			(at 167.132 60.452 0)
 			(effects
 				(font
@@ -2073,7 +2082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X5R"
+		(property "Dielectric" "X7R"
 			(at 169.164 64.262 0)
 			(effects
 				(font
@@ -2090,6 +2099,15 @@
 			)
 		)
 		(property "Function" "AUDIO"
+			(at 166.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C86038"
 			(at 166.37 62.23 0)
 			(effects
 				(font
@@ -2183,7 +2201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "BLM18AG601SN1D"
+		(property "Part number" "BLM18KG601SN1D"
 			(at 170.18 77.47 90)
 			(effects
 				(font
@@ -2193,6 +2211,33 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
+			(at 170.18 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C85833"
+			(at 170.18 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 170.18 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "BLM18KG601SN1D"
 			(at 170.18 77.47 90)
 			(effects
 				(font
@@ -2353,6 +2398,15 @@
 			)
 		)
 		(property "Function" "AUDIO"
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C49678"
 			(at 173.99 62.23 0)
 			(effects
 				(font
@@ -2672,7 +2726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "BLM18AG601SN1D"
+		(property "Part number" "BLM18KG601SN1D"
 			(at 170.18 85.09 90)
 			(effects
 				(font
@@ -2682,6 +2736,33 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
+			(at 170.18 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C85833"
+			(at 170.18 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 170.18 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "BLM18KG601SN1D"
 			(at 170.18 85.09 90)
 			(effects
 				(font
@@ -2750,7 +2831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Monaural 3.2Wx2@4Ω TQFN-16-EP(3x3) Audio Amplifiers ROHS"
 			(at 132.08 87.63 0)
 			(effects
 				(font
@@ -2769,27 +2850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "Tiny, Low-Cost, PCM Class D Amplifier with Class AB Performance"
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "TQFN-16 Maxim"
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
+		(property "Package" "TQFN-16-EP(3x3)"
 			(at 132.08 87.63 0)
 			(effects
 				(font
@@ -2819,27 +2880,25 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" "In Stock"
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MAX98357AETE+T/Analog+Devices/view-part/?ref=eda"
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Function" "AUDIO"
+			(at 132.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C910544"
+			(at 132.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Analog Devices Inc./Maxim Integrated"
 			(at 132.08 87.63 0)
 			(effects
 				(font

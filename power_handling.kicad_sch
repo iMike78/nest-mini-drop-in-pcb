@@ -7081,6 +7081,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C14663"
+			(at 58.42 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25b8ca08-8d8d-4e81-9b8d-e02d9f0fa833")
 		)
@@ -7167,6 +7176,15 @@
 			)
 		)
 		(property "Function" "5V_BUCK"
+			(at 160.02 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C49678"
 			(at 160.02 39.37 0)
 			(effects
 				(font
@@ -7393,6 +7411,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C25803"
+			(at 242.57 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1cc8b92-45fe-4feb-ac30-4b87a265edfb")
 		)
@@ -7479,6 +7506,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C25961"
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1eeb4097-dac8-450a-a9c9-f9ab146b4cfd")
 		)
@@ -7557,6 +7593,15 @@
 			)
 		)
 		(property "Function" "3.3V_BUCK"
+			(at 242.57 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C23185"
 			(at 242.57 39.37 0)
 			(effects
 				(font
@@ -7775,6 +7820,15 @@
 			)
 		)
 		(property "Function" "3.3V_BUCK"
+			(at 182.88 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C25530"
 			(at 182.88 33.02 0)
 			(effects
 				(font
@@ -8183,6 +8237,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C15850"
+			(at 90.17 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5754cf54-b091-43ad-b72f-c770a9a04814")
 		)
@@ -8252,7 +8315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "NP0"
+		(property "Dielectric" "C0G"
 			(at 147.32 54.61 0)
 			(effects
 				(font
@@ -8269,6 +8332,15 @@
 			)
 		)
 		(property "Function" "5V_BUCK"
+			(at 144.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C156398"
 			(at 144.78 50.8 0)
 			(effects
 				(font
@@ -8429,6 +8501,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C3016445"
+			(at 134.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2f3d7e8a-e5a7-4081-bc4a-608a624ecfc8")
 		)
@@ -8533,6 +8614,24 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Diodes Incorporated"
+			(at 152.4 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "AP22802AW5-7"
+			(at 152.4 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "623fbbc8-634e-4498-b814-85b451183f28")
 		)
@@ -8620,6 +8719,15 @@
 			)
 		)
 		(property "Function" "5V_BUCK"
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C25530"
 			(at 74.93 33.02 0)
 			(effects
 				(font
@@ -9102,6 +9210,33 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C19626254"
+			(at 129.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "DOWO"
+			(at 129.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "PESD0402V05"
+			(at 129.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "40fcbd80-108c-45e4-b924-fbeee24011e8")
 		)
@@ -9196,6 +9331,15 @@
 				)
 			)
 		)
+		(property "Supplier Part" "C86018"
+			(at 205.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7cafed0c-66d0-4893-9f28-f0b74e71f4ff")
 		)
@@ -9238,7 +9382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 267.6652 144.78 0)
 			(effects
 				(font
@@ -9274,7 +9418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "NP0"
+		(property "Dielectric" "X7R"
 			(at 271.272 141.732 0)
 			(effects
 				(font
@@ -9368,6 +9512,15 @@
 			)
 		)
 		(property "Function" "5V_BUCK"
+			(at 134.62 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C23185"
 			(at 134.62 39.37 0)
 			(effects
 				(font
@@ -9502,22 +9655,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+105℃ 10P Dual-sided contacts / top and bottom connection Horizontal attachment 0.5mm SMD,P=0.5mm,Surface Mount，Right Angle FFC, FPC (Flat Flexible) Connector Assemblies ROHS"
 			(at 39.37 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Hirose Electric"
-			(at 39.37 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -9531,47 +9674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "None"
-			(at 39.37 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 39.37 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/FH34SRJ-10S-0.5SH(50)/Hirose/view-part/?ref=eda"
-			(at 39.37 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 39.37 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "Apr.1.2022"
+		(property "Package" "SMD,P=0.5mm,Surface Mount，Right Angle"
 			(at 39.37 35.56 0)
 			(effects
 				(font
@@ -9611,7 +9714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" "In Stock"
+		(property "MANUFACTURER" "Hirose"
 			(at 39.37 35.56 0)
 			(effects
 				(font
@@ -9621,13 +9724,12 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Hirose"
+		(property "Supplier Part" "C324723"
 			(at 39.37 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -9880,6 +9982,15 @@
 				)
 			)
 		)
+		(property "Supplier Part" "C913474"
+			(at 256.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "604e8541-58e3-467d-acf7-992424d38373")
 		)
@@ -9957,7 +10068,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "25V"
 			(at 85.598 32.258 0)
 			(effects
 				(font
@@ -9966,6 +10077,15 @@
 			)
 		)
 		(property "Function" "5V_BUCK"
+			(at 82.55 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C45783"
 			(at 82.55 26.67 0)
 			(effects
 				(font
@@ -10052,6 +10172,15 @@
 			)
 		)
 		(property "Function" "5V_BUCK"
+			(at 134.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C22952"
 			(at 134.62 50.8 0)
 			(effects
 				(font
@@ -10276,6 +10405,33 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C49067"
+			(at 127 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Sunlord"
+			(at 127 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "SDFL1005P2R2KTF"
+			(at 127 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2f857200-47e6-496f-8428-4e3a296377f4")
 		)
@@ -10450,7 +10606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 267.6652 101.6 0)
 			(effects
 				(font
@@ -10486,7 +10642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "NP0"
+		(property "Dielectric" "X7R"
 			(at 271.272 98.552 0)
 			(effects
 				(font
@@ -10596,6 +10752,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C49678"
+			(at 267.97 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f4a6b0c4-7670-4e50-8a24-a1640d555a7d")
 		)
@@ -10688,6 +10853,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Supplier Part" "C86018"
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10825,7 +10999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "NP0"
+		(property "Dielectric" "C0G"
 			(at 255.27 54.61 0)
 			(effects
 				(font
@@ -10842,6 +11016,15 @@
 			)
 		)
 		(property "Function" "3.3V_BUCK"
+			(at 252.73 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C156398"
 			(at 252.73 50.8 0)
 			(effects
 				(font
@@ -10936,6 +11119,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C25530"
+			(at 114.3 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fd2e7671-bf67-49c8-996b-8d6ed102b7f5")
 		)
@@ -11013,7 +11205,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 51.054 185.166 0)
 			(effects
 				(font
@@ -11022,6 +11214,15 @@
 			)
 		)
 		(property "Function" "USB"
+			(at 48.26 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 48.26 181.61 0)
 			(effects
 				(font
@@ -11256,6 +11457,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C15850"
+			(at 198.12 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b4b085d9-5474-4e8b-a59d-c720f10d093f")
 		)
@@ -11393,6 +11603,51 @@
 		)
 		(property "Function" "USB"
 			(at 121.92 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DOWO"
+			(at 121.92 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "C19626254"
+			(at 121.92 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C19626254"
+			(at 121.92 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "DOWO"
+			(at 121.92 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "PESD0402V05"
+			(at 121.92 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11551,6 +11806,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C25744"
+			(at 57.15 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dc257b88-c9a6-45a3-b2d4-beaad4f9ab0d")
 		)
@@ -11622,6 +11886,33 @@
 			)
 		)
 		(property "Function" "3.3V_BUCK"
+			(at 218.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 218.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "TPS62130ARGTR"
+			(at 218.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C337502"
 			(at 218.44 40.64 0)
 			(effects
 				(font
@@ -11761,6 +12052,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C25530"
+			(at 222.25 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "366ecee3-6cd0-4ad5-9591-c4101193957a")
 		)
@@ -11855,6 +12155,15 @@
 				)
 			)
 		)
+		(property "Supplier Part" "C913474"
+			(at 256.54 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5dea71da-f3ac-4813-8195-73bbbfc58486")
 		)
@@ -11917,6 +12226,42 @@
 			)
 		)
 		(property "Description" "Low-Power, Two-Port, High-Speed, USB2.0 (480Mbps) or UART Switch, MSOP-10"
+			(at 71.12 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "USB"
+			(at 71.12 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "onsemi"
+			(at 71.12 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "FSUSB42MUX"
+			(at 71.12 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C11355"
 			(at 71.12 171.45 0)
 			(effects
 				(font
@@ -12101,6 +12446,33 @@
 				)
 			)
 		)
+		(property "Supplier Part" "C48260"
+			(at 31.75 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 31.75 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "TPD1E10B06DPYR"
+			(at 31.75 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d9ec307d-e93f-4805-ac20-37810eb0ec1a")
 		)
@@ -12208,7 +12580,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Onju:usb_c"
+		(property "Footprint" "Onju:USB-C-SMD_TYPE-C-USB-18"
 			(at 78.74 100.33 0)
 			(effects
 				(font
@@ -12218,7 +12590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/105/105450/1054500101_sd.pdf?inline\\"
 			(at 78.74 100.33 0)
 			(effects
 				(font
@@ -12227,7 +12599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2345986-1"
+		(property "Description" "USB 3.2 1 24P Female -30℃~+85℃ Type-C SMD USB Connectors ROHS"
 			(at 78.74 100.33 0)
 			(effects
 				(font
@@ -12236,7 +12608,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TE Connectivity"
+		(property "Package" "SMD"
 			(at 78.74 100.33 0)
 			(effects
 				(font
@@ -12246,7 +12618,7 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "3.16mm"
+		(property "MP" "1054500101"
 			(at 78.74 100.33 0)
 			(effects
 				(font
@@ -12256,7 +12628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "None"
+		(property "MANUFACTURER" "MOLEX"
 			(at 78.74 100.33 0)
 			(effects
 				(font
@@ -12266,93 +12638,12 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
+		(property "Supplier Part" "C134092"
 			(at 78.74 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/2345986-1/TE+Connectivity/view-part/?ref=eda"
-			(at 78.74 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 78.74 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "C"
-			(at 78.74 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/2345986-1/TE+Connectivity/view-part/?ref=snap"
-			(at 78.74 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "2345986-1"
-			(at 78.74 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "USB TYPE C 3.1 TOP MOUNT DUAL SMT 1.63CH"
-			(at 78.74 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 78.74 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TE Connectivity"
-			(at 78.74 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -12520,6 +12811,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C25905"
+			(at 111.76 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "210280c0-9b1e-428a-85c3-a2ff6c32b968")
 		)
@@ -12614,6 +12914,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C45783"
+			(at 151.13 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9dd1d808-29eb-4074-9a35-ef0eaa6206e8")
 		)
@@ -12693,6 +13002,15 @@
 		)
 		(property "Function" "USB"
 			(at 41.91 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C25092"
+			(at 41.91 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12841,6 +13159,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 110.49 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "TPS62130ARGTR"
+			(at 110.49 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C337502"
+			(at 110.49 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "15"
@@ -13317,7 +13662,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "30R"
 			(at 30.226 85.852 90)
 			(effects
 				(font
@@ -13379,6 +13724,33 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
+			(at 25.4 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C17305"
+			(at 25.4 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 25.4 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "BLM18PG300SN1D"
 			(at 25.4 87.63 90)
 			(effects
 				(font
@@ -13464,7 +13836,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "10V"
 			(at 123.444 185.166 0)
 			(effects
 				(font
@@ -13473,6 +13845,15 @@
 			)
 		)
 		(property "Function" "USB"
+			(at 120.65 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C913474"
 			(at 120.65 181.61 0)
 			(effects
 				(font
@@ -13548,7 +13929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "NP0"
+		(property "Dielectric" "C0G"
 			(at 198.628 39.116 90)
 			(effects
 				(font
@@ -13565,6 +13946,15 @@
 			)
 		)
 		(property "Function" "3.3V_BUCK"
+			(at 201.93 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C15195"
 			(at 201.93 38.1 90)
 			(effects
 				(font
@@ -13651,6 +14041,15 @@
 			)
 		)
 		(property "Function" "USB"
+			(at 20.32 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C25905"
 			(at 20.32 101.6 0)
 			(effects
 				(font
@@ -13758,6 +14157,24 @@
 			)
 		)
 		(property "Function" "USB"
+			(at 20.32 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C5439760"
+			(at 20.32 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "SM Switch"
 			(at 20.32 176.53 0)
 			(effects
 				(font
@@ -13909,7 +14326,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "25V"
 			(at 193.548 32.258 0)
 			(effects
 				(font
@@ -13918,6 +14335,15 @@
 			)
 		)
 		(property "Function" "3.3V_BUCK"
+			(at 190.5 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C45783"
 			(at 190.5 26.67 0)
 			(effects
 				(font
@@ -14012,6 +14438,15 @@
 			)
 		)
 		(property "Function" "USB"
+			(at 129.54 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C14663"
 			(at 129.54 181.61 0)
 			(effects
 				(font
@@ -14164,6 +14599,15 @@
 			)
 		)
 		(property "Function" "3.3V_BUCK"
+			(at 204.47 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C25530"
 			(at 204.47 26.67 0)
 			(effects
 				(font
@@ -14331,7 +14775,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Micrel"
+		(property "MANUFACTURER" "Microchip Tech"
 			(at 233.68 96.52 0)
 			(effects
 				(font
@@ -14342,6 +14786,15 @@
 			)
 		)
 		(property "Function" "1.8V_LDO"
+			(at 233.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C626087"
 			(at 233.68 96.52 0)
 			(effects
 				(font
@@ -14517,6 +14970,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C14663"
+			(at 165.1 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78f98f62-6861-4084-9ed8-8058777cfec7")
 		)
@@ -14661,6 +15123,15 @@
 			)
 		)
 		(property "Function" "USB"
+			(at 133.35 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C25530"
 			(at 133.35 171.45 0)
 			(effects
 				(font
@@ -14868,7 +15339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "NP0"
+		(property "Dielectric" "C0G"
 			(at 90.678 39.116 90)
 			(effects
 				(font
@@ -14885,6 +15356,15 @@
 			)
 		)
 		(property "Function" "5V_BUCK"
+			(at 93.98 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C15195"
 			(at 93.98 38.1 90)
 			(effects
 				(font
@@ -15110,6 +15590,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C25092"
+			(at 41.91 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1e7c997f-57e3-4fef-8af9-b285175b409f")
 		)
@@ -15180,6 +15669,51 @@
 			)
 		)
 		(property "Function" "USB"
+			(at 39.37 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DOWO"
+			(at 39.37 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "C19626254"
+			(at 39.37 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C19626254"
+			(at 39.37 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "DOWO"
+			(at 39.37 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "PESD0402V05"
 			(at 39.37 181.61 90)
 			(effects
 				(font
@@ -15274,6 +15808,15 @@
 			)
 		)
 		(property "Function" "3.3V_BUCK"
+			(at 259.08 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C45783"
 			(at 259.08 39.37 0)
 			(effects
 				(font
@@ -15500,6 +16043,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C25530"
+			(at 96.52 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "701f398a-34ec-4f92-bf8d-2b2b34e83897")
 		)
@@ -15576,6 +16128,33 @@
 			)
 		)
 		(property "Function" "3.3V_BUCK"
+			(at 234.95 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C49067"
+			(at 234.95 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Sunlord"
+			(at 234.95 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "SDFL1005P2R2KTF"
 			(at 234.95 35.56 90)
 			(effects
 				(font
