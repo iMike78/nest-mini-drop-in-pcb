@@ -1,0 +1,43 @@
+{
+  "head": {
+    "docType": "2",
+    "editorVersion": "6.5.46",
+    "x": 360,
+    "y": 310,
+    "c_para": {
+      "pre": "SW?",
+      "name": "SMXS-01K-TP_C5439760",
+      "package": "SW-SMD_2P-L6.2-W2.5-LS9.4",
+      "Supplier": "LCSC",
+      "Supplier Part": "C5439760",
+      "Manufacturer": "SM Switch",
+      "Manufacturer Part": "SMXS-01K-TP",
+      "JLCPCB Part Class": "Extended Part",
+      "Contributor": "lcsc"
+    },
+    "puuid": "1826a44ac28845dca23c613a025e79fe",
+    "utime": 1726037072,
+    "uuid": "3b5aaecb380942d1bf6f76c4abc32a95",
+    "importFlag": 0,
+    "c_spiceCmd": null,
+    "hasIdFlag": true
+  },
+  "canvas": "CA~1000~1000~#FFFFFF~yes~#CCCCCC~10~1000~1000~line~10~pixel~5~360~310",
+  "shape": [
+    "P~show~0~2~400~310~0~gge7~0^^400~310^^M 400 310 h -20~#880000^^1~378~313~0~2~end~~~#0000FF^^1~385~309~0~2~start~~~#0000FF^^0~383~310^^0~M 380 307 L 377 310 L 380 313",
+    "P~show~0~1~320~310~180~gge28~0^^320~310^^M 320 310 h 20~#880000^^1~342~313~0~1~start~~~#0000FF^^1~335~309~0~1~end~~~#0000FF^^0~337~310^^0~M 340 313 L 343 310 L 340 307",
+    "R~340~300~2~2~40~20~#880000~1~0~none~gge49~0~",
+    "PL~353 308 367 305~#880000~1~0~none~gge52~0",
+    "E~366~310~1~1~#880000~1~0~none~gge55~0",
+    "E~354~310~1~1~#880000~1~0~none~gge58~0",
+    "PL~366 310 380 310~#880000~1~0~none~gge61~0",
+    "PL~340 310 354 310~#880000~1~0~none~gge64~0"
+  ],
+  "BBox": {
+    "x": 319,
+    "y": 299.6,
+    "width": 82,
+    "height": 20.4
+  },
+  "colors": {}
+}

@@ -1915,6 +1915,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "OPSCO Optoelectronics"
+			(at 85.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SK6812MINI-E"
+			(at 85.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0e3331bc-ff43-4026-b001-e274a9d10dd5")
 		)
@@ -2260,6 +2278,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "OPSCO Optoelectronics"
+			(at 125.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SK6812MINI-E"
+			(at 125.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ed3d6c0f-6cc2-4f65-bcf7-5679f86f25c2")
 		)
@@ -2539,6 +2575,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "OPSCO Optoelectronics"
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SK6812MINI-E"
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bfda5f8c-08c7-4d77-8940-b781ff843724")
 		)
@@ -2725,7 +2779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "欧思科光电"
+		(property "Manufacturer" "OPSCO Optoelectronics"
 			(at 45.72 77.47 0)
 			(effects
 				(font
@@ -2862,7 +2916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "欧思科光电"
+		(property "Manufacturer" "OPSCO Optoelectronics"
 			(at 245.11 77.47 0)
 			(effects
 				(font
@@ -3187,6 +3241,24 @@
 			)
 		)
 		(property "Supplier Part" "C5149201"
+			(at 204.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics"
+			(at 204.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SK6812MINI-E"
 			(at 204.47 76.2 0)
 			(effects
 				(font

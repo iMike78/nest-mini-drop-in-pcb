@@ -2013,6 +2013,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "TE Connectivity"
+			(at 196.85 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "1775443-2"
+			(at 196.85 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0c01242f-df70-43ce-a564-a3353694c52c")
 		)
@@ -2238,6 +2256,15 @@
 			)
 		)
 		(property "MP" "BLM18KG601SN1D"
+			(at 170.18 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "BLM18KG601SN1D"
 			(at 170.18 77.47 90)
 			(effects
 				(font
@@ -2641,6 +2668,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part" "C1710"
+			(at 189.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "31f5ba26-311b-4cea-aed4-4b209812bc51")
 		)
@@ -2763,6 +2799,15 @@
 			)
 		)
 		(property "MP" "BLM18KG601SN1D"
+			(at 170.18 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "BLM18KG601SN1D"
 			(at 170.18 85.09 90)
 			(effects
 				(font
@@ -2899,6 +2944,24 @@
 			)
 		)
 		(property "MANUFACTURER" "Analog Devices Inc./Maxim Integrated"
+			(at 132.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices Inc./Maxim Integrated"
+			(at 132.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "MAX98357AETE+T"
 			(at 132.08 87.63 0)
 			(effects
 				(font
@@ -3092,6 +3155,15 @@
 			)
 		)
 		(property "Function" "AUDIO"
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1710"
 			(at 181.61 90.17 0)
 			(effects
 				(font

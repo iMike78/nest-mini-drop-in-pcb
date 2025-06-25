@@ -5927,6 +5927,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Sunlord"
+			(at 39.37 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SDCL1005C3N3STDF"
+			(at 39.37 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ad626556-08fb-4861-8ddf-7f9d4f91e207")
 		)
@@ -6025,6 +6043,24 @@
 			)
 		)
 		(property "MP" "MHQ1005P2N7BT000"
+			(at 52.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 52.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "MHQ1005P2N7BT000"
 			(at 52.07 67.31 0)
 			(effects
 				(font
@@ -7056,6 +7092,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "LRC"
+			(at 22.86 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "LRB520S-30T1G"
+			(at 22.86 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3bc6561b-5483-4438-bba6-f85766a0551c")
 		)
@@ -7828,6 +7882,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Espressif Systems"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "ESP32-S3R8"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "35"
 			(uuid "308f8603-0f11-4c62-9673-510283fdb40e")
 		)
@@ -8186,6 +8258,24 @@
 			)
 		)
 		(property "Supplier Part" "C97521"
+			(at 242.57 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Winbond Elec"
+			(at 242.57 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "W25Q128JVSIQ"
 			(at 242.57 142.24 0)
 			(effects
 				(font
@@ -8652,6 +8742,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "JOHANSON DESIGN"
+			(at 29.21 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "2450AT18A100E"
+			(at 29.21 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f5fafb8-1c09-410e-bf3a-e56cdc53bc1f")
 		)
@@ -8988,6 +9096,24 @@
 			)
 		)
 		(property "MP" "LQG15HS2N2B02D"
+			(at 228.6 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 228.6 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "LQG15HS2N2B02D"
 			(at 228.6 55.88 90)
 			(effects
 				(font
@@ -9345,6 +9471,15 @@
 			)
 		)
 		(property "MP" "BLM18PG121SN1D"
+			(at 29.21 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "BLM18PG121SN1D"
 			(at 29.21 24.13 90)
 			(effects
 				(font
@@ -10001,6 +10136,15 @@
 			)
 		)
 		(property "MANUFACTURER" "YXC Crystal Oscillators"
+			(at 64.77 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "X322540MPB4SI"
 			(at 64.77 85.09 90)
 			(effects
 				(font

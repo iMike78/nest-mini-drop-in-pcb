@@ -9907,6 +9907,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" "BLM18KG601SN1D"
+			(at 34.29 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5c9f5ef-5b0d-4361-afff-4988fd429168")
 		)
@@ -10256,7 +10265,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "10V"
 			(at 179.578 133.604 0)
 			(effects
 				(font
@@ -10265,6 +10274,15 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 175.26 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C86018"
 			(at 175.26 130.81 0)
 			(effects
 				(font
@@ -11759,6 +11777,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Winbond Elec"
+			(at 176.53 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "W25Q128JVSIQ"
+			(at 176.53 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "3ad56d18-56b0-4fbe-897c-c2c083efe9cc")
 		)
@@ -11897,6 +11933,15 @@
 			)
 		)
 		(property "MANUFACTURER" "YXC Crystal Oscillators"
+			(at 22.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "X322524MOB4SI"
 			(at 22.86 87.63 0)
 			(effects
 				(font
@@ -12314,6 +12359,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "TDK InvenSense"
+			(at 227.33 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "T3902"
+			(at 227.33 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5845864b-4874-498d-9c3d-28b50d2cd44e")
 		)
@@ -12630,6 +12693,24 @@
 			)
 		)
 		(property "MP" "PESD0402V05"
+			(at 193.04 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DOWO"
+			(at 193.04 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "PESD0402V05"
 			(at 193.04 179.07 90)
 			(effects
 				(font
@@ -13731,6 +13812,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 217.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SN74LVC125APWR"
+			(at 217.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "fef3508a-0092-4c12-b712-e254e9ef7165")
 		)
@@ -13864,6 +13963,24 @@
 			)
 		)
 		(property "MP" "PESD0402V05"
+			(at 250.19 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DOWO"
+			(at 250.19 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "PESD0402V05"
 			(at 250.19 204.47 90)
 			(effects
 				(font
@@ -14136,6 +14253,24 @@
 			)
 		)
 		(property "Supplier Part" "C27636108"
+			(at 247.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ON SEMICONDUCTOR"
+			(at 247.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "RB521S30T1G"
 			(at 247.65 81.28 0)
 			(effects
 				(font
@@ -14843,6 +14978,24 @@
 			)
 		)
 		(property "Supplier Part" "C6617472"
+			(at 52.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XMOS"
+			(at 52.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XU316-1024-QF60B-C24"
 			(at 52.07 35.56 0)
 			(effects
 				(font
@@ -16341,6 +16494,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" "BLM18PG121SN1D"
+			(at 66.04 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d736ebd-c9a0-42ba-90de-4855ec4802ea")
 		)
@@ -17523,6 +17685,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "DOWO"
+			(at 250.19 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "PESD0402V05"
+			(at 250.19 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e3b78566-1c16-46bb-bf1f-a3e76078d9f6")
 		)
@@ -17883,6 +18063,24 @@
 			)
 		)
 		(property "Supplier Part" "C134139"
+			(at 232.41 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 232.41 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "TLV73333PDBVR"
 			(at 232.41 132.08 0)
 			(effects
 				(font
@@ -18957,6 +19155,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" "BLM18KG601SN1D"
+			(at 73.66 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d4fcc9e-1287-4963-94b9-0530f76f0286")
 		)
@@ -19054,6 +19261,24 @@
 			)
 		)
 		(property "MP" "PESD0402V05"
+			(at 193.04 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DOWO"
+			(at 193.04 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "PESD0402V05"
 			(at 193.04 204.47 90)
 			(effects
 				(font
@@ -19599,6 +19824,24 @@
 			)
 		)
 		(property "Supplier Part" "C3171752"
+			(at 227.33 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK InvenSense"
+			(at 227.33 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "T3902"
 			(at 227.33 203.2 0)
 			(effects
 				(font
@@ -20401,6 +20644,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 207.01 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "BC847B"
+			(at 207.01 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "d4837543-943e-4a7e-bd2b-20da3360cc3b")
 		)
@@ -20837,6 +21098,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "DOWO"
+			(at 259.08 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "PESD0402V05"
+			(at 259.08 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "15c3804d-86e7-4d06-9b7b-c5f3884ccd0b")
 		)
@@ -21170,6 +21449,24 @@
 			)
 		)
 		(property "MP" "PESD0402V05"
+			(at 259.08 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DOWO"
+			(at 259.08 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "PESD0402V05"
 			(at 259.08 171.45 90)
 			(effects
 				(font

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15.57mm" height="7.645mm" viewBox="3928.1 2943.5 61.3 30.1"><title></title><style type="text/css">
+*[layerid="1"] {stroke:#000000;fill:#000000;}
+*[layerid="2"] {stroke:#000000;fill:#000000;}
+*[layerid="3"] {stroke:#000000;fill:#000000;}
+*[layerid="4"] {stroke:#000000;fill:#000000;}
+*[layerid="5"] {stroke:#000000;fill:#000000;}
+*[layerid="6"] {stroke:#000000;fill:#000000;}
+*[layerid="7"] {stroke:#000000;fill:#000000;}
+*[layerid="8"] {stroke:#000000;fill:#000000;}
+*[layerid="9"] {stroke:#000000;fill:#000000;}
+*[layerid="10"] {stroke:#000000;fill:#000000;}
+*[layerid="11"] {stroke:#000000;fill:#000000;}
+*[layerid="12"] {stroke:#000000;fill:#000000;}
+*[layerid="13"] {stroke:#000000;fill:#000000;}
+*[layerid="14"] {stroke:#000000;fill:#000000;}
+*[layerid="15"] {stroke:#000000;fill:#000000;}
+*[layerid="19"] {stroke:#000000;fill:#000000;}
+*[layerid="21"] {stroke:#000000;fill:#000000;}
+*[layerid="22"] {stroke:#000000;fill:#000000;}
+*[layerid="23"] {stroke:#000000;fill:#000000;}
+*[layerid="24"] {stroke:#000000;fill:#000000;}
+*[layerid="25"] {stroke:#000000;fill:#000000;}
+*[layerid="26"] {stroke:#000000;fill:#000000;}
+*[layerid="27"] {stroke:#000000;fill:#000000;}
+*[layerid="28"] {stroke:#000000;fill:#000000;}
+*[layerid="29"] {stroke:#000000;fill:#000000;}
+*[layerid="30"] {stroke:#000000;fill:#000000;}
+*[layerid="31"] {stroke:#000000;fill:#000000;}
+*[layerid="32"] {stroke:#000000;fill:#000000;}
+*[layerid="33"] {stroke:#000000;fill:#000000;}
+*[layerid="34"] {stroke:#000000;fill:#000000;}
+*[layerid="35"] {stroke:#000000;fill:#000000;}
+*[layerid="36"] {stroke:#000000;fill:#000000;}
+*[layerid="37"] {stroke:#000000;fill:#000000;}
+*[layerid="38"] {stroke:#000000;fill:#000000;}
+*[layerid="39"] {stroke:#000000;fill:#000000;}
+*[layerid="40"] {stroke:#000000;fill:#000000;}
+*[layerid="41"] {stroke:#000000;fill:#000000;}
+*[layerid="42"] {stroke:#000000;fill:#000000;}
+*[layerid="43"] {stroke:#000000;fill:#000000;}
+*[layerid="44"] {stroke:#000000;fill:#000000;}
+*[layerid="45"] {stroke:#000000;fill:#000000;}
+*[layerid="46"] {stroke:#000000;fill:#000000;}
+*[layerid="47"] {stroke:#000000;fill:#000000;}
+*[layerid="48"] {stroke:#000000;fill:#000000;}
+*[layerid="49"] {stroke:#000000;fill:#000000;}
+*[layerid="50"] {stroke:#000000;fill:#000000;}
+*[layerid="51"] {stroke:#000000;fill:#000000;}
+*[layerid="52"] {stroke:#000000;fill:#000000;}
+*[layerid="99"] {stroke:#000000;fill:#000000;}
+*[layerid="100"] {stroke:#000000;fill:#000000;}
+*[layerid="101"] {stroke:#000000;fill:#000000;}
+*[layerid="Hole"] {stroke:#000000;fill:#000000;}
+*[layerid="DRCError"] {stroke:#000000;fill:#000000;}
+*[fill="none"] {fill: none;}
+*[stroke="none"] {stroke: none;}
+path, polyline, polygon, line {stroke-linecap:round;}
+g[c_partid="part_pad"][layerid="1"] ellipse:not([c_etype="pad_outer"]) {fill:#000000;}
+g[c_partid="part_pad"][layerid="1"] polygon:not([c_etype="pad_outer"]) {fill:#000000;}
+g[c_partid="part_pad"][layerid="1"] polyline:not([c_etype="pad_outer"]) {stroke:#000000;}
+g[c_partid="part_pad"][layerid="2"] ellipse:not([c_etype="pad_outer"]) {fill:#000000;}
+g[c_partid="part_pad"][layerid="2"] polygon:not([c_etype="pad_outer"]) {fill:#000000;}
+g[c_partid="part_pad"][layerid="2"] polyline:not([c_etype="pad_outer"]) {stroke:#000000;}
+g[c_partid="part_pad"][layerid="11"] ellipse:not([c_etype="pad_outer"]) {fill:#000000;}
+g[c_partid="part_pad"][layerid="11"] polygon:not([c_etype="pad_outer"]) {fill:#000000;}
+g[c_partid="part_pad"][layerid="11"] polyline:not([c_etype="pad_outer"]) {stroke:#000000;}
+g[c_partid="part_pad"][layerid="11"] circle {fill:#FFFFFF;}
+g[c_partid="part_pad"][layerid="11"] > polyline:nth-of-type(2) {stroke:#FFFFFF;}
+g[c_partid="part_pad"][layerid="11"][c_shape="ELLIPSE"]  polyline:nth-last-of-type(1) {stroke:#FFFFFF;}
+g[c_partid="part_pad"][layerid="11"][c_shape="RECT"]  polyline:nth-last-of-type(1) {stroke:#FFFFFF;}
+g[c_partid="part_pad"][layerid="11"][c_shape="POLYGON"]  polyline:nth-last-of-type(1) {stroke:#FFFFFF;}
+g[c_partid="part_via"] > * + circle, #gCurParts g[c_partid="part_via"] > * + circle {fill:#FFFFFF;}
+g[c_partid="part_pad"] > polygon[c_etype="pad_outer"], #gCurParts g[c_partid="part_pad"] > polygon[c_etype="pad_outer"] {stroke-linejoin: round;stroke-miterlimit: 100;}
+g[c_partid="part_hole"] > circle {fill: #FFFFFF;}path, polyline, polygon {stroke-linejoin:round;}
+rect, circle, ellipse, polyline, line, polygon, path {shape-rendering:crispEdges;}
+</style>
+<rect x="3928.1" y="2943.5" width="61.3" height="30.1" fill="#FFFFFF" stroke="none"/><g c_partid="part_pad" c_etype="pinpart" c_origin="3941.067,2958.5" layerid="1" number="1" net="" plated ="Y"  id="gge106" locked="0" c_rotation="270" c_width="4.3307" c_height="5.9055" title="" c_shape="RECT" pasteexpansion="0" solderexpansion="0.2"><polygon  c_etype="pad_shell" points="3944.0196 2956.3351 3944.0196 2960.6658 3938.114 2960.6658 3938.114 2956.3351" layerid="1" stroke-width="0" /><circle c_etype="pad_hole" cx="3941.0663" cy="2958.4999" r="0" layerid="1" stroke-width="0"/></g><g c_partid="part_pad" c_etype="pinpart" c_origin="3976.5,2958.5" layerid="1" number="2" net="" plated ="Y"  id="gge109" locked="0" c_rotation="270" c_width="4.3307" c_height="5.9055" title="" c_shape="RECT" pasteexpansion="0" solderexpansion="0.2"><polygon  c_etype="pad_shell" points="3979.4526 2956.3351 3979.4526 2960.6658 3973.547 2960.6658 3973.547 2956.3351" layerid="1" stroke-width="0" /><circle c_etype="pad_hole" cx="3976.4993" cy="2958.4999" r="0" layerid="1" stroke-width="0"/></g><polyline points="3970.988 2953.5004 3946.5786 2953.5004 3946.5786 2963.5004 3970.988 2963.5004 3970.988 2953.5004" stroke-width="1"  stroke-linecap="round" fill="none" layerid="3" net="" id="gge136" locked="0" /><polyline points="3966.8534 2955.9999 3966.8534 2960.9999 3950.8534 2960.9999 3950.8534 2955.9999 3966.8534 2955.9999" stroke-width="1"  stroke-linecap="round" fill="none" layerid="3" net="" id="gge133" locked="0" /><polyline points="3965.3534 2955.9999 3965.3534 2960.9999" stroke-width="1"  stroke-linecap="round" fill="none" layerid="3" net="" id="gge130" locked="0" /><polyline points="3963.8534 2955.9999 3963.8534 2960.9999" stroke-width="1"  stroke-linecap="round" fill="none" layerid="3" net="" id="gge127" locked="0" /><polyline points="3954.1034 2955.9999 3954.1034 2960.9999" stroke-width="1"  stroke-linecap="round" fill="none" layerid="3" net="" id="gge124" locked="0" /><polyline points="3952.6034 2955.9999 3952.6034 2960.9999" stroke-width="1"  stroke-linecap="round" fill="none" layerid="3" net="" id="gge121" locked="0" /><g c_partid="part_pcbtext" c_etype="" c_origin="3968.626,2956.885" c_rotation="270" c_mirror="0" id="gge112" locked="0" layerid="3" c_shapetype="group" ><path c_fontsize="1.9685" c_fontfamily="" c_text="ON" d="M 3969.6952 2957.4257 L 3969.6052 2957.2457 L 3969.4352 2957.0657 L 3969.2552 2956.9757 L 3968.9852 2956.8857 L 3968.5352 2956.8857 L 3968.2652 2956.9757 L 3968.0852 2957.0657 L 3967.9052 2957.2457 L 3967.8152 2957.4257 L 3967.8152 2957.7757 L 3967.9052 2957.9557 L 3968.0852 2958.1357 L 3968.2652 2958.2257 L 3968.5352 2958.3157 L 3968.9852 2958.3157 L 3969.2552 2958.2257 L 3969.4352 2958.1357 L 3969.6052 2957.9557 L 3969.6952 2957.7757 L 3969.6952 2957.4257 M 3969.6952 2958.9057 L 3967.8152 2958.9057 M 3969.6952 2958.9057 L 3967.8152 2960.1557 M 3969.6952 2960.1557 L 3967.8152 2960.1557" fill="none"  stroke-width="0.3937"  /></g><g c_partid="part_pcbtext" c_etype="" c_origin="3946.461,2957.752" c_rotation="270" c_mirror="0" id="gge115" locked="0" layerid="3" c_shapetype="group" ><path c_fontsize="3.937" c_fontfamily="" c_text="1" d="M 3949.7215 2957.7514 L 3949.8915 2958.1114 L 3950.4315 2958.6514 L 3946.6715 2958.6514" fill="none"  stroke-width="0.3937"  /></g><rect x="3956.854" y="2957" width="5" height="3" stroke-width="1" fill="none" c_etype="" transform="" layerid="3" id="gge118" locked="0" c_shapetype="line" net="" stroke-linejoin="round"/></svg>
