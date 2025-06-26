@@ -1044,6 +1044,12 @@
           "label": "Part",
           "name": "Part",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
+          "show": false
         }
       ],
       "filter_string": "",

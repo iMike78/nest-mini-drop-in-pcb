@@ -2031,6 +2031,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C5162845"
+			(at 196.85 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0c01242f-df70-43ce-a564-a3353694c52c")
 		)
@@ -2144,6 +2153,15 @@
 			)
 		)
 		(property "Manufacturer Part" "GRM21BR71A106KE51L"
+			(at 166.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C86038"
 			(at 166.37 62.23 0)
 			(effects
 				(font
@@ -2283,6 +2301,15 @@
 			)
 		)
 		(property "Manufacturer Part" "BLM18KG601SN1D"
+			(at 170.18 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C85833"
 			(at 170.18 77.47 90)
 			(effects
 				(font
@@ -2470,6 +2497,15 @@
 			)
 		)
 		(property "Manufacturer Part" "CC0805KRX7R9BB104"
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C49678"
 			(at 173.99 62.23 0)
 			(effects
 				(font
@@ -2713,6 +2749,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C1710"
+			(at 189.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "31f5ba26-311b-4cea-aed4-4b209812bc51")
 		)
@@ -2844,6 +2889,15 @@
 			)
 		)
 		(property "Manufacturer Part" "BLM18KG601SN1D"
+			(at 170.18 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C85833"
 			(at 170.18 85.09 90)
 			(effects
 				(font
@@ -2998,6 +3052,15 @@
 			)
 		)
 		(property "Manufacturer Part" "MAX98357AETE+T"
+			(at 132.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C910544"
 			(at 132.08 87.63 0)
 			(effects
 				(font
@@ -3200,6 +3263,15 @@
 			)
 		)
 		(property "Supplier Part" "C1710"
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1710"
 			(at 181.61 90.17 0)
 			(effects
 				(font
