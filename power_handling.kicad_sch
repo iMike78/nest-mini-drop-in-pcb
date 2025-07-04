@@ -4371,7 +4371,7 @@
 		)
 		(uuid "1fb68eb0-a9a0-4ea6-aae2-78e1007669d5")
 	)
-	(text "POWER IN"
+	(text "V2 POWER IN"
 		(exclude_from_sim no)
 		(at 42.672 60.706 0)
 		(effects
@@ -10828,7 +10828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Coilcraft_XxL4020"
+		(property "Footprint" "Inductor_SMD:L_Cenker_CKCS4020"
 			(at 127 35.56 0)
 			(effects
 				(font
@@ -14677,7 +14677,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Onju:TPD1E05U06DPYR"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 25.4 89.408 90)
 			(effects
 				(font
@@ -17482,7 +17482,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Coilcraft_XxL4020"
+		(property "Footprint" "Inductor_SMD:L_Cenker_CKCS4020"
 			(at 234.95 35.56 0)
 			(effects
 				(font
