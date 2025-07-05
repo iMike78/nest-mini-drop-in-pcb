@@ -5,6 +5,9 @@
 *.swo
 *.kicad_prl
 *.lck
+*.json
+*.txt
+nest-mini-v2-drop-in-pcb-backups/
 
 # KiCad symbol and footprint cache
 fp-info-cache
