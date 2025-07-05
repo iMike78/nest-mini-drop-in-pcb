@@ -7,6 +7,9 @@
 *.lck
 *.json
 *.txt
+*.dsn
+*.ses
+*.zip
 nest-mini-v2-drop-in-pcb-backups/
 production/
 
