@@ -3371,8 +3371,16 @@
 		(uuid "a02708ca-1b17-4401-8e7d-64e7b72b7e0b")
 	)
 	(no_connect
+		(at 162.56 116.84)
+		(uuid "a577fa5a-f49a-426e-bcb3-b8e15dd399c8")
+	)
+	(no_connect
 		(at 162.56 134.62)
 		(uuid "aef66685-05e8-4131-a316-8789b290f295")
+	)
+	(no_connect
+		(at 162.56 119.38)
+		(uuid "c38cabfe-05e2-43b7-9e60-4942867b20be")
 	)
 	(no_connect
 		(at 162.56 68.58)
@@ -4916,6 +4924,28 @@
 			)
 		)
 	)
+	(global_label "ESP_MUTE_DET"
+		(shape input)
+		(at 162.56 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40c279a7-befe-401b-9bea-ffb16d4d2ebf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.394 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ESP_RX0"
 		(shape input)
 		(at 111.76 104.14 180)
@@ -4934,28 +4964,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "X316_RST"
-		(shape output)
-		(at 162.56 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4797f836-da41-443c-a6bb-fae09c88bc9f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.7979 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5000,28 +5008,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ESP_MUTE_DET"
-		(shape input)
-		(at 162.56 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5088e865-b96c-4845-a6f5-ac7fd731f10c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.394 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5268,6 +5254,28 @@
 			)
 		)
 	)
+	(global_label "X316_RST"
+		(shape output)
+		(at 162.56 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3a3e706-73bc-4527-a35f-2b02b5d2242a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.7979 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2S2_LRCLK"
 		(shape bidirectional)
 		(at 187.96 101.6 0)
@@ -5312,28 +5320,6 @@
 			)
 		)
 	)
-	(global_label "WS2812_PWR"
-		(shape output)
-		(at 162.56 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c8c9ba0f-b47f-4691-be78-b70eb540c24b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.0031 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "I2S_LRCK"
 		(shape bidirectional)
 		(at 187.96 83.82 0)
@@ -5347,28 +5333,6 @@
 		(uuid "ca39d574-a5c8-43e6-96d9-8f7f373e8f1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 200.886 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AUDIO_DET"
-		(shape input)
-		(at 162.56 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d1b24647-b143-4ddc-82bb-2f5b257db6c3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.5238 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
