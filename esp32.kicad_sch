@@ -4638,28 +4638,6 @@
 			)
 		)
 	)
-	(global_label "I2C2_SDA"
-		(shape bidirectional)
-		(at 162.56 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "04a84243-e82f-4735-bbfb-86565ca290a4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.486 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "I2S_MCLK"
 		(shape bidirectional)
 		(at 187.96 88.9 0)
@@ -4893,6 +4871,28 @@
 		(uuid "342fd3b8-8248-4f85-98c7-6010ffead963")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 177.3607 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C2_SDA"
+		(shape bidirectional)
+		(at 162.56 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35c74072-f656-485f-b3f5-46ff4b291035")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.486 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5254,7 +5254,7 @@
 			)
 		)
 	)
-	(global_label "X316_RST"
+	(global_label "XU316_RST"
 		(shape output)
 		(at 162.56 132.08 0)
 		(fields_autoplaced yes)
@@ -5266,7 +5266,7 @@
 		)
 		(uuid "b3a3e706-73bc-4527-a35f-2b02b5d2242a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.7979 132.08 0)
+			(at 176.1284 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)

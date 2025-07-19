@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10.008mm" height="8.23mm" viewBox="4040 3063 39.4 32.4"><title></title><style type="text/css">
+*[layerid="1"] {stroke:#000000;fill:#000000;}
+*[layerid="2"] {stroke:#000000;fill:#000000;}
+*[layerid="3"] {stroke:#000000;fill:#000000;}
+*[layerid="4"] {stroke:#000000;fill:#000000;}
+*[layerid="5"] {stroke:#000000;fill:#000000;}
+*[layerid="6"] {stroke:#000000;fill:#000000;}
+*[layerid="7"] {stroke:#000000;fill:#000000;}
+*[layerid="8"] {stroke:#000000;fill:#000000;}
+*[layerid="9"] {stroke:#000000;fill:#000000;}
+*[layerid="10"] {stroke:#000000;fill:#000000;}
+*[layerid="11"] {stroke:#000000;fill:#000000;}
+*[layerid="12"] {stroke:#000000;fill:#000000;}
+*[layerid="13"] {stroke:#000000;fill:#000000;}
+*[layerid="14"] {stroke:#000000;fill:#000000;}
+*[layerid="15"] {stroke:#000000;fill:#000000;}
+*[layerid="19"] {stroke:#000000;fill:#000000;}
+*[layerid="21"] {stroke:#000000;fill:#000000;}
+*[layerid="22"] {stroke:#000000;fill:#000000;}
+*[layerid="23"] {stroke:#000000;fill:#000000;}
+*[layerid="24"] {stroke:#000000;fill:#000000;}
+*[layerid="25"] {stroke:#000000;fill:#000000;}
+*[layerid="26"] {stroke:#000000;fill:#000000;}
+*[layerid="27"] {stroke:#000000;fill:#000000;}
+*[layerid="28"] {stroke:#000000;fill:#000000;}
+*[layerid="29"] {stroke:#000000;fill:#000000;}
+*[layerid="30"] {stroke:#000000;fill:#000000;}
+*[layerid="31"] {stroke:#000000;fill:#000000;}
+*[layerid="32"] {stroke:#000000;fill:#000000;}
+*[layerid="33"] {stroke:#000000;fill:#000000;}
+*[layerid="34"] {stroke:#000000;fill:#000000;}
+*[layerid="35"] {stroke:#000000;fill:#000000;}
+*[layerid="36"] {stroke:#000000;fill:#000000;}
+*[layerid="37"] {stroke:#000000;fill:#000000;}
+*[layerid="38"] {stroke:#000000;fill:#000000;}
+*[layerid="39"] {stroke:#000000;fill:#000000;}
+*[layerid="40"] {stroke:#000000;fill:#000000;}
+*[layerid="41"] {stroke:#000000;fill:#000000;}
+*[layerid="42"] {stroke:#000000;fill:#000000;}
+*[layerid="43"] {stroke:#000000;fill:#000000;}
+*[layerid="44"] {stroke:#000000;fill:#000000;}
+*[layerid="45"] {stroke:#000000;fill:#000000;}
+*[layerid="46"] {stroke:#000000;fill:#000000;}
+*[layerid="47"] {stroke:#000000;fill:#000000;}
+*[layerid="48"] {stroke:#000000;fill:#000000;}
+*[layerid="49"] {stroke:#000000;fill:#000000;}
+*[layerid="50"] {stroke:#000000;fill:#000000;}
+*[layerid="51"] {stroke:#000000;fill:#000000;}
+*[layerid="52"] {stroke:#000000;fill:#000000;}
+*[layerid="99"] {stroke:#000000;fill:#000000;}
+*[layerid="100"] {stroke:#000000;fill:#000000;}
+*[layerid="101"] {stroke:#000000;fill:#000000;}
+*[layerid="Hole"] {stroke:#000000;fill:#000000;}
+*[layerid="DRCError"] {stroke:#000000;fill:#000000;}
+*[fill="none"] {fill: none;}
+*[stroke="none"] {stroke: none;}
+path, polyline, polygon, line {stroke-linecap:round;}
+g[c_partid="part_pad"][layerid="1"] ellipse:not([c_etype="pad_outer"]) {fill:#000000;}
+g[c_partid="part_pad"][layerid="1"] polygon:not([c_etype="pad_outer"]) {fill:#000000;}
+g[c_partid="part_pad"][layerid="1"] polyline:not([c_etype="pad_outer"]) {stroke:#000000;}
+g[c_partid="part_pad"][layerid="2"] ellipse:not([c_etype="pad_outer"]) {fill:#000000;}
+g[c_partid="part_pad"][layerid="2"] polygon:not([c_etype="pad_outer"]) {fill:#000000;}
+g[c_partid="part_pad"][layerid="2"] polyline:not([c_etype="pad_outer"]) {stroke:#000000;}
+g[c_partid="part_pad"][layerid="11"] ellipse:not([c_etype="pad_outer"]) {fill:#000000;}
+g[c_partid="part_pad"][layerid="11"] polygon:not([c_etype="pad_outer"]) {fill:#000000;}
+g[c_partid="part_pad"][layerid="11"] polyline:not([c_etype="pad_outer"]) {stroke:#000000;}
+g[c_partid="part_pad"][layerid="11"] circle {fill:#FFFFFF;}
+g[c_partid="part_pad"][layerid="11"] > polyline:nth-of-type(2) {stroke:#FFFFFF;}
+g[c_partid="part_pad"][layerid="11"][c_shape="ELLIPSE"]  polyline:nth-last-of-type(1) {stroke:#FFFFFF;}
+g[c_partid="part_pad"][layerid="11"][c_shape="RECT"]  polyline:nth-last-of-type(1) {stroke:#FFFFFF;}
+g[c_partid="part_pad"][layerid="11"][c_shape="POLYGON"]  polyline:nth-last-of-type(1) {stroke:#FFFFFF;}
+g[c_partid="part_via"] > * + circle, #gCurParts g[c_partid="part_via"] > * + circle {fill:#FFFFFF;}
+g[c_partid="part_pad"] > polygon[c_etype="pad_outer"], #gCurParts g[c_partid="part_pad"] > polygon[c_etype="pad_outer"] {stroke-linejoin: round;stroke-miterlimit: 100;}
+g[c_partid="part_hole"] > circle {fill: #FFFFFF;}path, polyline, polygon {stroke-linejoin:round;}
+rect, circle, ellipse, polyline, line, polygon, path {shape-rendering:crispEdges;}
+</style>
+<rect x="4040" y="3063" width="39.4" height="32.4" fill="#FFFFFF" stroke="none"/><g c_partid="part_pad" c_etype="pinpart" c_origin="4058.9759,3080.556" layerid="1" number="4" net="LED1_4" plated ="Y"  id="gge72" locked="0" c_rotation="0" c_width="1.9685" c_height="1.9685" title="LED1_4" c_shape="RECT" pasteexpansion="0" solderexpansion="0.1969"><polygon  c_etype="pad_shell" points="4057.992 3079.5714 4059.9606 3079.5714 4059.9606 3081.5399 4057.992 3081.5399" layerid="1" stroke-width="0" /><circle c_etype="pad_hole" cx="4058.9763" cy="3080.5556" r="0" layerid="1" stroke-width="0"/></g><g c_partid="part_pad" c_etype="pinpart" c_origin="4063.2279,3081.54" layerid="1" number="3" net="LED1_3" plated ="Y"  id="gge87" locked="0" c_rotation="0" c_width="2.7559" c_height="3.937" title="LED1_3" c_shape="RECT" pasteexpansion="0" solderexpansion="0.1969"><polygon  c_etype="pad_shell" points="4061.8504 3079.5715 4064.6063 3079.5715 4064.6063 3083.5085 4061.8504 3083.5085" layerid="1" stroke-width="0" /><circle c_etype="pad_hole" cx="4063.2283" cy="3081.54" r="0" layerid="1" stroke-width="0"/></g><g c_partid="part_pad" c_etype="pinpart" c_origin="4051.3779,3081.54" layerid="1" number="2" net="LED1_2" plated ="Y"  id="gge102" locked="0" c_rotation="0" c_width="2.7559" c_height="3.937" title="LED1_2" c_shape="RECT" pasteexpansion="0" solderexpansion="0.1969"><polygon  c_etype="pad_shell" points="4049.9999 3079.5715 4052.7559 3079.5715 4052.7559 3083.5085 4049.9999 3083.5085" layerid="1" stroke-width="0" /><circle c_etype="pad_hole" cx="4051.3779" cy="3081.54" r="0" layerid="1" stroke-width="0"/></g><g c_partid="part_pad" c_etype="pinpart" c_origin="4055.6299,3080.556" layerid="1" number="1" net="LED1_1" plated ="Y"  id="gge117" locked="0" c_rotation="0" c_width="1.9685" c_height="1.9685" title="LED1_1" c_shape="RECT" pasteexpansion="0" solderexpansion="0.1969"><polygon  c_etype="pad_shell" points="4054.6456 3079.5714 4056.6142 3079.5714 4056.6142 3081.5399 4054.6456 3081.5399" layerid="1" stroke-width="0" /><circle c_etype="pad_hole" cx="4055.6299" cy="3080.5556" r="0" layerid="1" stroke-width="0"/></g><polyline points="4053.3661 3083.7307 4061.2401 3083.7307" stroke-width="0.4921"  stroke-linecap="round" fill="none" layerid="3" net="" id="gge39" locked="0" /><polyline points="4053.9896 3081.0478 4053.412 3081.0478" stroke-width="0.4921"  stroke-linecap="round" fill="none" layerid="3" net="" id="gge42" locked="0" /><polyline points="4057.336 3081.0478 4057.2702 3081.0478" stroke-width="0.4921"  stroke-linecap="round" fill="none" layerid="3" net="" id="gge45" locked="0" /><polyline points="4061.1944 3081.0478 4060.6167 3081.0478" stroke-width="0.4921"  stroke-linecap="round" fill="none" layerid="3" net="" id="gge48" locked="0" /><polyline points="4053.3661 3083.7307 4053.3661 3085.3785 4061.2401 3085.3785 4061.2401 3083.7304" stroke-width="0.4921"  stroke-linecap="round" fill="none" layerid="3" net="" id="gge51" locked="0" /><g c_partid="part_pcbtext" c_etype="" c_origin="4056.3779,3070.54" c_rotation="0" c_mirror="" id="gge9" locked="0" layerid="3" c_shapetype="group" display="none"><path c_fontsize="4.5" c_fontfamily="" c_text="SK6812D-EC3210R" d="M 4059.2379 3066.61 L 4058.8279 3066.2 L 4058.2179 3066 L 4057.3979 3066 L 4056.7879 3066.2 L 4056.3779 3066.61 L 4056.3779 3067.02 L 4056.5779 3067.43 L 4056.7879 3067.64 L 4057.1979 3067.84 L 4058.4279 3068.25 L 4058.8279 3068.45 L 4059.0379 3068.66 L 4059.2379 3069.07 L 4059.2379 3069.68 L 4058.8279 3070.09 L 4058.2179 3070.29 L 4057.3979 3070.29 L 4056.7879 3070.09 L 4056.3779 3069.68 M 4060.5879 3066 L 4060.5879 3070.29 M 4063.4579 3066 L 4060.5879 3068.86 M 4061.6179 3067.84 L 4063.4579 3070.29 M 4067.2579 3066.61 L 4067.0579 3066.2 L 4066.4379 3066 L 4066.0279 3066 L 4065.4179 3066.2 L 4065.0079 3066.82 L 4064.8079 3067.84 L 4064.8079 3068.86 L 4065.0079 3069.68 L 4065.4179 3070.09 L 4066.0279 3070.29 L 4066.2379 3070.29 L 4066.8479 3070.09 L 4067.2579 3069.68 L 4067.4679 3069.07 L 4067.4679 3068.86 L 4067.2579 3068.25 L 4066.8479 3067.84 L 4066.2379 3067.64 L 4066.0279 3067.64 L 4065.4179 3067.84 L 4065.0079 3068.25 L 4064.8079 3068.86 M 4069.8379 3066 L 4069.2279 3066.2 L 4069.0179 3066.61 L 4069.0179 3067.02 L 4069.2279 3067.43 L 4069.6279 3067.64 L 4070.4479 3067.84 L 4071.0679 3068.04 L 4071.4779 3068.45 L 4071.6779 3068.86 L 4071.6779 3069.48 L 4071.4779 3069.89 L 4071.2679 3070.09 L 4070.6579 3070.29 L 4069.8379 3070.29 L 4069.2279 3070.09 L 4069.0179 3069.89 L 4068.8179 3069.48 L 4068.8179 3068.86 L 4069.0179 3068.45 L 4069.4279 3068.04 L 4070.0379 3067.84 L 4070.8579 3067.64 L 4071.2679 3067.43 L 4071.4779 3067.02 L 4071.4779 3066.61 L 4071.2679 3066.2 L 4070.6579 3066 L 4069.8379 3066 M 4073.0279 3066.82 L 4073.4379 3066.61 L 4074.0479 3066 L 4074.0479 3070.29 M 4075.6079 3067.02 L 4075.6079 3066.82 L 4075.8079 3066.41 L 4076.0179 3066.2 L 4076.4279 3066 L 4077.2379 3066 L 4077.6479 3066.2 L 4077.8579 3066.41 L 4078.0579 3066.82 L 4078.0579 3067.23 L 4077.8579 3067.64 L 4077.4479 3068.25 L 4075.3979 3070.29 L 4078.2679 3070.29 M 4079.6179 3066 L 4079.6179 3070.29 M 4079.6179 3066 L 4081.0479 3066 L 4081.6579 3066.2 L 4082.0679 3066.61 L 4082.2779 3067.02 L 4082.4779 3067.64 L 4082.4779 3068.66 L 4082.2779 3069.27 L 4082.0679 3069.68 L 4081.6579 3070.09 L 4081.0479 3070.29 L 4079.6179 3070.29 M 4083.8279 3068.45 L 4087.5079 3068.45 M 4088.8579 3066 L 4088.8579 3070.29 M 4088.8579 3066 L 4091.5179 3066 M 4088.8579 3068.04 L 4090.4979 3068.04 M 4088.8579 3070.29 L 4091.5179 3070.29 M 4095.9379 3067.02 L 4095.7279 3066.61 L 4095.3279 3066.2 L 4094.9179 3066 L 4094.0979 3066 L 4093.6879 3066.2 L 4093.2779 3066.61 L 4093.0779 3067.02 L 4092.8679 3067.64 L 4092.8679 3068.66 L 4093.0779 3069.27 L 4093.2779 3069.68 L 4093.6879 3070.09 L 4094.0979 3070.29 L 4094.9179 3070.29 L 4095.3279 3070.09 L 4095.7279 3069.68 L 4095.9379 3069.27 M 4097.6979 3066 L 4099.9479 3066 L 4098.7179 3067.64 L 4099.3279 3067.64 L 4099.7379 3067.84 L 4099.9479 3068.04 L 4100.1479 3068.66 L 4100.1479 3069.07 L 4099.9479 3069.68 L 4099.5379 3070.09 L 4098.9279 3070.29 L 4098.3079 3070.29 L 4097.6979 3070.09 L 4097.4879 3069.89 L 4097.2879 3069.48 M 4101.7079 3067.02 L 4101.7079 3066.82 L 4101.9079 3066.41 L 4102.1179 3066.2 L 4102.5279 3066 L 4103.3379 3066 L 4103.7479 3066.2 L 4103.9579 3066.41 L 4104.1579 3066.82 L 4104.1579 3067.23 L 4103.9579 3067.64 L 4103.5479 3068.25 L 4101.4979 3070.29 L 4104.3679 3070.29 M 4105.7179 3066.82 L 4106.1279 3066.61 L 4106.7379 3066 L 4106.7379 3070.29 M 4109.3179 3066 L 4108.6979 3066.2 L 4108.2879 3066.82 L 4108.0879 3067.84 L 4108.0879 3068.45 L 4108.2879 3069.48 L 4108.6979 3070.09 L 4109.3179 3070.29 L 4109.7279 3070.29 L 4110.3379 3070.09 L 4110.7479 3069.48 L 4110.9479 3068.45 L 4110.9479 3067.84 L 4110.7479 3066.82 L 4110.3379 3066.2 L 4109.7279 3066 L 4109.3179 3066 M 4112.2979 3066 L 4112.2979 3070.29 M 4112.2979 3066 L 4114.1379 3066 L 4114.7579 3066.2 L 4114.9579 3066.41 L 4115.1679 3066.82 L 4115.1679 3067.23 L 4114.9579 3067.64 L 4114.7579 3067.84 L 4114.1379 3068.04 L 4112.2979 3068.04 M 4113.7279 3068.04 L 4115.1679 3070.29" fill="none"  stroke-width="0.6" c_note="note_name" /></g><g c_partid="part_pcbtext" c_etype="" c_origin="4056.3779,3077.54" c_rotation="0" c_mirror="" id="gge15" locked="0" layerid="3" c_shapetype="group" ><path c_fontsize="4.5" c_fontfamily="" c_text="LED1" d="M 4056.3779 3073 L 4056.3779 3077.29 M 4056.3779 3077.29 L 4058.8279 3077.29 M 4060.1779 3073 L 4060.1779 3077.29 M 4060.1779 3073 L 4062.8379 3073 M 4060.1779 3075.04 L 4061.8179 3075.04 M 4060.1779 3077.29 L 4062.8379 3077.29 M 4064.1879 3073 L 4064.1879 3077.29 M 4064.1879 3073 L 4065.6279 3073 L 4066.2379 3073.2 L 4066.6479 3073.61 L 4066.8479 3074.02 L 4067.0579 3074.64 L 4067.0579 3075.66 L 4066.8479 3076.27 L 4066.6479 3076.68 L 4066.2379 3077.09 L 4065.6279 3077.29 L 4064.1879 3077.29 M 4068.4079 3073.82 L 4068.8179 3073.61 L 4069.4279 3073 L 4069.4279 3077.29" fill="none"  stroke-width="0.6" c_note="note_pre" /></g></svg>
