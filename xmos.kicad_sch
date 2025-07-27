@@ -17761,7 +17761,7 @@
 				)
 			)
 		)
-		(property "Value" "XU316-1024-QF60B-C24"
+		(property "Value" "XU316-1024-QF60B-C32"
 			(at 80.01 27.94 0)
 			(effects
 				(font
@@ -17779,7 +17779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "XU316-1024-QF60B-C24"
+		(property "Datasheet" "XU316-1024-QF60B-C32"
 			(at 52.07 35.56 0)
 			(effects
 				(font
@@ -17816,7 +17816,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "XU316-1024-QF60B-C24"
+		(property "MP" "XU316-1024-QF60B-C32"
 			(at 52.07 35.56 0)
 			(effects
 				(font
@@ -17825,7 +17825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C6617472"
+		(property "Supplier Part" "C7397517"
 			(at 52.07 35.56 0)
 			(effects
 				(font
@@ -17843,7 +17843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "XU316-1024-QF60B-C24"
+		(property "Manufacturer Part" "XU316-1024-QF60B-C32"
 			(at 52.07 35.56 0)
 			(effects
 				(font
@@ -17852,7 +17852,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C6617472"
+		(property "LCSC Part #" "C7397517"
 			(at 52.07 35.56 0)
 			(effects
 				(font
