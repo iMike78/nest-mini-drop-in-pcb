@@ -6199,7 +6199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C27124"
+		(property "Supplier Part" "C16526"
 			(at 39.37 71.12 90)
 			(effects
 				(font
@@ -9192,6 +9192,51 @@
 				(hide yes)
 			)
 		)
+		(property "Function" "ESP32"
+			(at 39.37 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 39.37 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "PTS810SJS250SMTRLFS"
+			(at 39.37 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C221897"
+			(at 39.37 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C221897"
+			(at 39.37 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a9782669-9bef-4675-99ef-71dc8b80585d")
 		)
@@ -11290,6 +11335,51 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 83.82 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "ESP32"
+			(at 83.82 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 83.82 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "PTS810SJS250SMTRLFS"
+			(at 83.82 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C221897"
+			(at 83.82 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C221897"
+			(at 83.82 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)

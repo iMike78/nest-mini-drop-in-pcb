@@ -11122,7 +11122,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 146.05 151.13 90)
 			(effects
 				(font
@@ -11282,6 +11282,15 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 144.78 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744"
 			(at 144.78 151.13 90)
 			(effects
 				(font
@@ -14085,6 +14094,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C1525"
+			(at 144.78 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "02c236e4-b907-48d9-bada-7f1fc2240da5")
 		)
@@ -15316,6 +15334,15 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 107.95 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25076"
 			(at 107.95 165.1 0)
 			(effects
 				(font
@@ -23423,7 +23450,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "470K"
+		(property "Value" "470k"
 			(at 115.57 170.1799 90)
 			(effects
 				(font
@@ -23583,6 +23610,15 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 114.3 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25790"
 			(at 114.3 170.18 90)
 			(effects
 				(font
@@ -24505,6 +24541,15 @@
 			)
 		)
 		(property "Manufacturer Part" "LBSS138WT1G"
+			(at 124.46 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C383201"
 			(at 124.46 165.1 0)
 			(effects
 				(font

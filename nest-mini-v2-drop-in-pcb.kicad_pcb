@@ -8754,6 +8754,71 @@
 				)
 			)
 		)
+		(property "Function" "ESP32"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6301f9e7-e73a-4f52-9e50-598262b7f364")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29ae27c5-6975-4d0e-a022-c7909fc134d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part" "PTS810SJS250SMTRLFS"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04134d21-7576-459d-b3bb-16c2f03b1b38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part" "C221897"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d51fe4ef-11ef-4317-83c9-4fc52be3634c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C221897"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4eb7fabf-f6cb-45a8-a0b1-250bd7a3ca53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/95ac15c9-8c41-4d1c-a079-b1a89951b3f8")
 		(sheetname "/ESP32-S3R8/")
 		(sheetfile "esp32.kicad_sch")
@@ -11533,7 +11598,7 @@
 				)
 			)
 		)
-		(property "Value" "470K"
+		(property "Value" "470k"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11757,6 +11822,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aa664c3f-6de2-4abf-8080-d59d5abde22d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25790"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90cfc9ec-1d70-4129-9328-044772ef624d")
 			(effects
 				(font
 					(size 1 1)
@@ -20293,7 +20371,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C27124"
+		(property "Supplier Part" "C16526"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26582,6 +26660,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" "ESP32"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13ba6213-5d9d-48fb-840e-752acda0f7eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0cd33195-dd74-4f8b-87d3-7d39d3b9329d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part" "PTS810SJS250SMTRLFS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "436eacc2-06c9-4602-82f1-65594dabd281")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part" "C221897"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4abed2d2-a5b1-4e85-867b-fa8b7832face")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C221897"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86a419e2-f776-439a-821c-4ec3391fd16f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -46689,6 +46832,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C25076"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bedb02ff-c2ae-4396-86e8-4168a7f3d227")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/3556c1e0-db03-437b-b3d6-5df71f255aeb")
 		(sheetname "/XMOS/")
 		(sheetfile "xmos.kicad_sch")
@@ -51316,6 +51472,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C383201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b91912e3-227f-4a26-825b-c9d032646e29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/e9c0f55d-8413-4c6a-83cc-3114afdce682")
 		(sheetname "/XMOS/")
 		(sheetfile "xmos.kicad_sch")
@@ -54855,7 +55024,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 0 1.17 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -55079,6 +55248,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6f13b421-c33e-473b-807a-d4bc3fc1ec39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25744"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b885710-9b9d-449d-a6a4-ab27d975fd45")
 			(effects
 				(font
 					(size 1 1)
@@ -62904,6 +63086,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3aa60427-d390-417d-a488-3935525401e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5bb1cb7-02ae-417d-b596-5e1dd96cd6d6")
 			(effects
 				(font
 					(size 1 1)
