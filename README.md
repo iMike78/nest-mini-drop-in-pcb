@@ -1,4 +1,4 @@
-# Google Nest Mini drop-in PCB replacement 
+# MiciMike Nest Mini drop-in PCB
 
 A drop-in PCB replacement for the [Google Nest Mini (WiFi voice assistant / smart speaker)](https://en.wikipedia.org/wiki/Google_Nest_(smart_speakers)), based on ESP32 and XMOS microcontrollers.
 
