@@ -1,4 +1,4 @@
-# Google Nest Mini drop-in PCB replacement 
+# MiciMike Nest Mini drop-in PCB
 
 A drop-in PCB replacement for the [Google Nest Mini (WiFi voice assistant / smart speaker)](https://en.wikipedia.org/wiki/Google_Nest_(smart_speakers)), based on ESP32 and XMOS microcontrollers.
 
@@ -50,8 +50,8 @@ For more information about the concept/idea see and contribute to related discus
 - Dual SPI flash
 - Dual I²S buses (to allow I2S interfaces at the same time, i.e. simultaneous audio output and audio input)
 - MAX98357 for speaker output (I2S Class-D Mono Audio Amplifyer)
-- 2x MEMS microphones (MSM261DHP)
-- SK6812 LEDs
+- 2x MEMS microphones (dual MSM261DHP with 68mm inter-mic spacing)
+- 4x SK6812 RGB LEDs
 - Custom USB-C and 14V power input
 
 ---
