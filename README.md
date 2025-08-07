@@ -34,8 +34,10 @@ For more information about the concept/idea see and contribute to related discus
 
 - ✅ Schematic completed
 - ✅ Component placement done
-- 🕓 Routing in progress
-- 🚧 Ground pour, shielding strategy, and EMI considerations pending
+- ✅ Routing is done
+- ✅ Ground pour, shielding strategy, and EMI considerations done
+- ⚠️ 1st test batch failed on two errors - fixed
+- 🕓 waiting for the 2nd test batch
 
 
 
