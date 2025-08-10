@@ -1,8 +1,10 @@
-# Google Nest Mini drop-in PCB replacement 
+# MiciMike drop-in PCB replacement for Google Nest Mini
 
-A drop-in PCB replacement for the [Google Nest Mini (WiFi voice assistant / smart speaker)](https://en.wikipedia.org/wiki/Google_Nest_(smart_speakers)), based on ESP32 and XMOS microcontrollers.
+[MiciMike Nest Mini](https://github.com/iMike78/nest-mini-drop-in-pcb) is a drop-in PCB replacement for the ["Google Nest Mini" (Google's second-generation smart speaker with a barrel connector charging port)](https://en.wikipedia.org/wiki/Google_Nest_(smart_speakers)), but based on ESP32 and XMOS microcontrollers for running open-source firmware.
 
-This is an open-source hardware project, taking inspiration from both [Onju Voice](https://github.com/justLV/onju-voice) and [Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) PCB designs.
+Tip! If you are instead looking for a similar drop-in PCB replacement for the "Google Home Mini" (Google's first-generation smart speaker hardware with a Micro-USB charging port) then check out the sister-project at https://github.com/iMike78/home-mini-v1-drop-in-pcb
+
+Both of these are fully open-source hardware projects, taking some concep inspiration from the [Onju Voice](https://github.com/justLV/onju-voice) however aiming to follow [Open Home Foundation's open voice assistants standard  with Home Assistant Voice Preview Edition as reference](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) for PCB designs and specifications.
 
 # Project scope
 
@@ -32,8 +34,10 @@ For more information about the concept/idea see and contribute to related discus
 
 - ✅ Schematic completed
 - ✅ Component placement done
-- 🕓 Routing in progress
-- 🚧 Ground pour, shielding strategy, and EMI considerations pending
+- ✅ Routing is done
+- ✅ Ground pour, shielding strategy, and EMI considerations done
+- ⚠️ 1st test batch failed on two errors - fixed
+- 🕓 waiting for the 2nd test batch
 
 
 
@@ -91,5 +95,5 @@ For more information about the concept/idea see and contribute to related discus
 This project is licensed under the [CERN Open Hardware License Version 2 - Strongly Reciprocal (CERN-OHL-S v2)]
 Any modified version of this hardware must also be distributed under the same license.
 
-☕ If you’d like to support this project, feel free to [buy me a coffee on Ko-fi](https://ko-fi.com/yourname)!
+☕ If you’d like to support this project, feel free to [buy me a coffee on Ko-fi](https://ko-fi.com/imike78)!
 
