@@ -7250,6 +7250,18 @@
 		(uuid "fef989b8-4919-43e4-8697-6b1b7272f2d6")
 	)
 	(no_connect
+		(at 107.95 53.34)
+		(uuid "000783d7-ac2c-498a-ae9f-f02a959bbe81")
+	)
+	(no_connect
+		(at 52.07 83.82)
+		(uuid "0ec167fb-0a9f-435c-9909-c7f724a9aae5")
+	)
+	(no_connect
+		(at 107.95 116.84)
+		(uuid "23e8482a-dfa4-483c-b0cc-d13d42987e39")
+	)
+	(no_connect
 		(at 234.95 78.74)
 		(uuid "27926798-f505-4400-89ac-df5b09cf7286")
 	)
@@ -7266,12 +7278,44 @@
 		(uuid "394b1a24-0aef-4fad-b3f5-17925817764d")
 	)
 	(no_connect
+		(at 52.07 93.98)
+		(uuid "6b4f7a40-509c-49e8-a6e6-0b18290467e6")
+	)
+	(no_connect
 		(at 107.95 109.22)
 		(uuid "6c68f1ae-f41e-48f8-a844-8315869f2d53")
 	)
 	(no_connect
+		(at 107.95 58.42)
+		(uuid "7c6f7e12-c0e8-4dce-920b-7193997a3c1f")
+	)
+	(no_connect
+		(at 52.07 78.74)
+		(uuid "81d9a559-98c4-4c1a-8cc1-76abf09f3953")
+	)
+	(no_connect
 		(at 107.95 73.66)
 		(uuid "94c5a977-33fc-449a-bb53-9a06b4251878")
+	)
+	(no_connect
+		(at 107.95 111.76)
+		(uuid "9591fefd-e8a0-4042-92dc-eaa4ef78be8a")
+	)
+	(no_connect
+		(at 107.95 71.12)
+		(uuid "b1481ac3-e6f6-486f-bf2b-216364198604")
+	)
+	(no_connect
+		(at 107.95 83.82)
+		(uuid "d82fc2dc-cff8-4266-b0b6-d799e7f29297")
+	)
+	(no_connect
+		(at 52.07 91.44)
+		(uuid "e47f5061-0805-4129-a42f-2a01cfdb6125")
+	)
+	(no_connect
+		(at 107.95 60.96)
+		(uuid "e59380c4-fd9a-4220-9add-889a08082e6d")
 	)
 	(wire
 		(pts
@@ -7365,16 +7409,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 71.12) (xy 137.16 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09222040-4e11-432a-8469-ecb5979086d7")
-	)
-	(wire
-		(pts
 			(xy 199.39 78.74) (xy 218.44 78.74)
 		)
 		(stroke
@@ -7382,16 +7416,6 @@
 			(type default)
 		)
 		(uuid "0934c1f4-b91c-43aa-aca3-4024893faaa9")
-	)
-	(wire
-		(pts
-			(xy 107.95 111.76) (xy 118.11 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "099b29e6-2043-4b81-b4a1-744106e45112")
 	)
 	(wire
 		(pts
@@ -7725,16 +7749,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 58.42) (xy 137.16 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a7f8b1b-5588-4844-b1a8-68e0c720d487")
-	)
-	(wire
-		(pts
 			(xy 186.69 127) (xy 209.55 127)
 		)
 		(stroke
@@ -7822,16 +7836,6 @@
 			(type default)
 		)
 		(uuid "36f34ff1-c6bb-449b-b870-cfd71bcb45e3")
-	)
-	(wire
-		(pts
-			(xy 107.95 83.82) (xy 124.46 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37c9f180-7e11-495a-b8cc-c2f14f379a27")
 	)
 	(wire
 		(pts
@@ -8735,16 +8739,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 78.74) (xy 52.07 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8869ea4b-bd96-4bda-b075-b7f6985cc531")
-	)
-	(wire
-		(pts
 			(xy 77.47 198.12) (xy 77.47 200.66)
 		)
 		(stroke
@@ -9195,16 +9189,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 83.82) (xy 52.07 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b72a0a54-41b0-4c2d-bc97-e556acf466b6")
-	)
-	(wire
-		(pts
 			(xy 252.73 182.88) (xy 252.73 172.72)
 		)
 		(stroke
@@ -9272,16 +9256,6 @@
 			(type default)
 		)
 		(uuid "bcbcb444-1757-4d5e-b3dd-98fa3db4870d")
-	)
-	(wire
-		(pts
-			(xy 40.64 91.44) (xy 52.07 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd63f9f4-02b1-45d2-8093-4f4bd7b6c7b6")
 	)
 	(wire
 		(pts
@@ -9382,16 +9356,6 @@
 			(type default)
 		)
 		(uuid "c3b8ce0b-ad35-4393-a195-b813d99b1b7f")
-	)
-	(wire
-		(pts
-			(xy 40.64 93.98) (xy 52.07 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c50433c4-febd-4a4e-b44f-97793d841e84")
 	)
 	(wire
 		(pts
@@ -9885,16 +9849,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 53.34) (xy 137.16 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8748047-11a6-4e51-bece-219aea2ac76c")
-	)
-	(wire
-		(pts
 			(xy 69.85 88.9) (xy 69.85 91.44)
 		)
 		(stroke
@@ -9962,26 +9916,6 @@
 			(type default)
 		)
 		(uuid "ef171205-d408-4660-ae51-59cc2c366682")
-	)
-	(wire
-		(pts
-			(xy 107.95 60.96) (xy 115.57 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef68b881-c9ef-4b7a-910f-6d1f3adfbc23")
-	)
-	(wire
-		(pts
-			(xy 107.95 116.84) (xy 118.11 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efc9b01d-02f0-429e-b573-bbf4cf36abe7")
 	)
 	(wire
 		(pts
@@ -10183,26 +10117,6 @@
 		)
 		(uuid "0cd4a05e-56d5-48eb-9d9a-49fb74ea9dbc")
 	)
-	(label "TDO"
-		(at 40.64 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "21dee645-e694-490b-8aba-13dcc36f8c8b")
-	)
-	(label "XL_DN0"
-		(at 118.11 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "276e4cc4-9171-46fb-bc49-45acb96136a4")
-	)
 	(label "MIC_DATA_M"
 		(at 170.18 91.44 0)
 		(effects
@@ -10212,16 +10126,6 @@
 			(justify left bottom)
 		)
 		(uuid "2952065a-121f-490f-bc0e-b83dd69fa69f")
-	)
-	(label "XL_DN1"
-		(at 118.11 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2af3afd2-c2da-439a-8198-0f790ad4d566")
 	)
 	(label "MIC_DATA_M"
 		(at 275.59 182.88 180)
@@ -10263,16 +10167,6 @@
 		)
 		(uuid "42147ff7-5d71-44b9-897a-c03b182fb908")
 	)
-	(label "XOD43"
-		(at 115.57 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "492b728b-064b-46c4-a4e2-e6388a0bec12")
-	)
 	(label "QSPI_CLK"
 		(at 29.21 45.72 0)
 		(effects
@@ -10283,16 +10177,6 @@
 		)
 		(uuid "4f64491b-8530-4868-9e8d-7b18deb9740f")
 	)
-	(label "TMS"
-		(at 40.64 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "58172771-1e3c-49e3-b426-c0da53713057")
-	)
 	(label "MIC_CLK_M"
 		(at 264.16 86.36 180)
 		(effects
@@ -10302,16 +10186,6 @@
 			(justify right bottom)
 		)
 		(uuid "623557d0-4c0b-41f7-8b08-ff1ffc7317dc")
-	)
-	(label "XOD31"
-		(at 115.57 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "676901fb-339d-4591-a051-00d2e2124a3b")
 	)
 	(label "MIC_CLK"
 		(at 132.08 101.6 180)
@@ -10362,16 +10236,6 @@
 			(justify left bottom)
 		)
 		(uuid "7abcd482-9b0a-4382-be96-0dd8a5af40cb")
-	)
-	(label "TDI"
-		(at 40.64 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7fcde71d-f89f-4fb5-a1e0-7f150e9e2ea5")
 	)
 	(label "QSPI_CS_N"
 		(at 29.21 40.64 0)
@@ -10443,26 +10307,6 @@
 		)
 		(uuid "a8581d70-6d71-4586-abeb-78ad3e2b0a5a")
 	)
-	(label "XMOS_MUTE_DET"
-		(at 124.46 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "acb4ef33-0fec-4293-9514-9d5b5dcb9ca8")
-	)
-	(label "TCK"
-		(at 40.64 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "af529025-7467-4122-9222-f60583c18ab6")
-	)
 	(label "RST_N"
 		(at 133.35 157.48 0)
 		(effects
@@ -10513,16 +10357,6 @@
 		)
 		(uuid "d04386c0-5232-472b-ba0a-4da5f3b97771")
 	)
-	(label "XOD32"
-		(at 115.57 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d48f5175-194f-4089-9149-568b26840c41")
-	)
 	(label "QSPI_D3"
 		(at 29.21 38.1 0)
 		(effects
@@ -10542,16 +10376,6 @@
 			(justify left bottom)
 		)
 		(uuid "e29443ab-38ca-4cb8-bc47-ce4c0c5e65f7")
-	)
-	(label "XOD33"
-		(at 115.57 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f5f74ddf-4d47-44ab-b418-b04d3da208ab")
 	)
 	(label "I2S_DIN"
 		(at 132.08 66.04 180)
@@ -10625,50 +10449,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ESP_IO41"
-		(shape input)
-		(at 137.16 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0fec4c72-cabd-4d67-a0d9-98595b1de493")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.0956 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ESP_IO40"
-		(shape input)
-		(at 137.16 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "26677e9d-aff6-4e37-ad3a-59a80db4120b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.0956 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -10999,28 +10779,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RST_DAC"
-		(shape output)
-		(at 137.16 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dc52d178-1606-42d7-ac21-79c342d096b2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.1885 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -13836,7 +13594,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W25Q128JVSIQ"
+		(property "Value" "W25Q32JVSSIQ"
 			(at 187.96 38.0999 0)
 			(effects
 				(font
@@ -13854,7 +13612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+		(property "Datasheet" ""
 			(at 176.53 11.43 0)
 			(effects
 				(font
@@ -13863,7 +13621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
+		(property "Description" "32Mbit / 4MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
 			(at 176.53 8.89 0)
 			(effects
 				(font
@@ -13873,60 +13631,6 @@
 			)
 		)
 		(property "Function" "XMOS"
-			(at 176.53 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Winbond Elec"
-			(at 176.53 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" "W25Q128JVSIQ"
-			(at 176.53 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C97521"
-			(at 176.53 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Winbond Elec"
-			(at 176.53 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "W25Q128JVSIQ"
-			(at 176.53 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C97521"
 			(at 176.53 36.83 0)
 			(effects
 				(font
@@ -13960,7 +13664,7 @@
 			(uuid "fc4aae80-98ac-4596-af28-a52890046176")
 		)
 		(instances
-			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
+			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
 					(reference "U8")
 					(unit 1)

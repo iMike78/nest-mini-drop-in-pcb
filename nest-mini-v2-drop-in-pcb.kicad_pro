@@ -100,6 +100,10 @@
           ""
         ],
         [
+          "copper_edge_clearance|126771362|88000000|a8c31ac3-d01a-4083-af36-f2ca55b689cc|5c1b30b1-72b6-4730-8d09-c99cdc7a7ac0",
+          ""
+        ],
+        [
           "copper_edge_clearance|131035818|87400000|e38312a8-f06b-4545-80f3-e4213fc0d0dd|f44ab8da-977a-48ce-ae27-288e99708942",
           ""
         ],
@@ -257,6 +261,22 @@
         ],
         [
           "padstack|154858535|109251639|cd337285-256c-45fb-bdc9-4cb99bd636ac|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|118124100|91994998|3a0cc162-4dd1-4c6e-881a-40a567f8a692|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|121074736|92600360|50a60468-f5fc-461e-b607-66890911f19b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|136011851|82309242|c6eddd36-1af1-4213-8c0b-c2da4bbfa1af|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|139001847|79357442|a513c3bd-4fb8-4400-9010-2dfa66658720|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -426,12 +446,12 @@
           "drill": 0.0
         },
         {
-          "diameter": 4.0,
-          "drill": 2.0
+          "diameter": 0.4,
+          "drill": 0.2
         },
         {
-          "diameter": 6.0,
-          "drill": 3.0
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -644,7 +664,7 @@
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
-      "lib_symbol_issues": "warning",
+      "lib_symbol_issues": "ignore",
       "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",

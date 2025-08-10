@@ -877,6 +877,10 @@
 		(color 0 0 0 0)
 		(uuid "fee4d444-d011-4d7e-b330-0df95fcdfc02")
 	)
+	(no_connect
+		(at 255.27 76.2)
+		(uuid "f27abebc-3b52-4371-a6b9-adae4b98b679")
+	)
 	(wire
 		(pts
 			(xy 232.41 78.74) (xy 233.68 78.74)
