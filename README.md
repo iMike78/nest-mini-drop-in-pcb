@@ -41,7 +41,7 @@ For more information about the concept/idea see and contribute to related discus
 - ⚠️ 1st test batch failed on two errors - fixed
 - 🕓 waiting for the 2nd test batch
 
-
+<img src="pics/MiciMike_Nest__PCB_Prototype_2.png" width="1000">
 
 ## Tools used
 
