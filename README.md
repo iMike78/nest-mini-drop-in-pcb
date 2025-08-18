@@ -14,6 +14,8 @@ The goal of this project and repository (which is similar to the [Onju Voice](ht
 
 This is primarly targeting people looking to convert/repurpose their old Google Nest Mini smart speakers into open-source hardware for [Voice Control of Home Assistant](https://www.home-assistant.io/voice_control/) and/or media player speaker output for [Music Assistant](https://www.music-assistant.io), (the hardware can however probably also be used with other applications as well with other firmware as it is based on the popular Espressif ESP32 platform).
 
+<img src="pics/MiciMike_Nest__PCB_Prototype_2.png" width="1000">
+
 The hardware design will (similar to [Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)) integrate an ESP32-S3 SoC for WiFi, BLE, and [onboard wake-word detection](https://www.home-assistant.io/voice_control/about_wake_word/) (using no-code [ESPHome firmware](https://esphome.io/)) + an XMOS xCORE XU316 chip for advanced audio processing (with custom firmware for microphone cleanup offloading for better voice recognition capabilities by using using locally running algorithms for Noise Suppression, Acoustic Echo Cancellation, Interference Cancellation, and Automatic Gain Control).
 
 Functionality-wise it is made to mostly hardware comatible with the [Home Assistant Voice Preview Edition (a.k.a. Home Assistant Voice PE](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) reference design (which has been released as open-source hardware design from Open Home Foundation in coolaboration with Nabu Casa). The main difference will be due to constraints defined by the Google Nest Mini enclosure and comonents, (i.e. the nest-mini-drop-in-pcb project hardware design will be limited by the same type of physical capacity inputs as the original hardware from Google).
@@ -41,7 +43,7 @@ For more information about the concept/idea see and contribute to related discus
 - ⚠️ 1st test batch failed on two errors - fixed
 - 🕓 waiting for the 2nd test batch
 
-<img src="pics/MiciMike_Nest__PCB_Prototype_2.png" width="1000">
+<img src="pics/3D.png" width="1000">
 
 ## Tools used
 
