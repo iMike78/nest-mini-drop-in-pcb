@@ -7339,7 +7339,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "68.1k"
 			(at 243.586 50.546 0)
 			(effects
 				(font
@@ -7392,7 +7392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C25803"
+		(property "Supplier Part" "C25976"
 			(at 242.57 50.8 0)
 			(effects
 				(font
@@ -7410,7 +7410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "0603WAF1003T5E"
+		(property "Manufacturer Part" "0603WAF6812T5E"
 			(at 242.57 50.8 0)
 			(effects
 				(font
@@ -7419,7 +7419,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25803"
+		(property "LCSC Part #" "C25976"
 			(at 242.57 50.8 0)
 			(effects
 				(font
