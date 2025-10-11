@@ -87,12 +87,12 @@ For more information about the concept/idea see and contribute to related discus
 - 4-layer PCB
 - ESP32-S3R8 bare chip (ESP32-S3 for WiFi, BLE, and onboard wake-word detection)
 - XMOS XU316-1024-QF60B-C32 (XMOS XU316 xCORE DSP audio processing)
-- Dual SPI flash
+- Dual SPI flash (as ESP32 and XMOS have their own SPI flash)
 - Dual I²S buses (to allow I2S interfaces at the same time, i.e. simultaneous audio output and audio input)
 - MAX98357 for speaker output (I2S Class-D Mono Audio Amplifyer)
-- 2x MEMS microphones (MSM261DHP)
-- SK6812 LEDs
-- Custom USB-C and 14V power input
+- 2x MEMS microphones (dual MSM261DHP with 68mm inter-mic spacing)
+- 4x SK6812 RGB LEDs
+- Custom USB-C and 14V power input (Note! USB-C and barrel-connector can not be connected at the same time)
 
 ---
 
