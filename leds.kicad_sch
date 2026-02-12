@@ -5,7 +5,7 @@
 	(uuid "efba2a45-d131-4475-a444-dcf8cb888351")
 	(paper "A4")
 	(title_block
-		(title "Nest mini drop in PCB replacement")
+		(title "Drop in replacement PCB for Nest mini GEN2")
 		(rev "v1")
 		(company "by iMike78 (inpired by Onju voice and HA VPE)")
 	)
@@ -1333,7 +1333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b565f6f-0b8f-4822-bef0-1c953b99485b")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR0157"
 			(at 182.88 72.39 0)
 			(effects
 				(font
@@ -1383,7 +1383,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "#PWR065")
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -1398,7 +1398,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22782bac-3703-422d-9fb5-5c5bfa8111a8")
-		(property "Reference" "C31"
+		(property "Reference" "C81"
 			(at 105.156 73.66 0)
 			(effects
 				(font
@@ -1486,6 +1486,15 @@
 				(hide yes)
 			)
 		)
+		(property "Isat" ""
+			(at 102.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ef770f0-2c65-40b1-97a4-88096c4ada92")
 		)
@@ -1495,7 +1504,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "C31")
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -1511,7 +1520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24f954ae-e9a9-4940-a878-a8678f479ae8")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR0152"
 			(at 58.42 87.63 0)
 			(effects
 				(font
@@ -1561,7 +1570,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "#PWR062")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -1577,7 +1586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "331a407e-71f0-4ebf-934b-91d22cd11e1c")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR0155"
 			(at 143.51 72.39 0)
 			(effects
 				(font
@@ -1627,7 +1636,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "#PWR064")
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -1642,7 +1651,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37c3006a-b745-46d5-a997-40397cfc064a")
-		(property "Reference" "C36"
+		(property "Reference" "C85"
 			(at 235.966 82.55 0)
 			(effects
 				(font
@@ -1730,6 +1739,15 @@
 				(hide yes)
 			)
 		)
+		(property "Isat" ""
+			(at 233.68 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "051ad853-c031-412e-9ece-adeaa7d9c662")
 		)
@@ -1739,7 +1757,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "C36")
+					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -1763,7 +1781,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6805-EC20"
 			(at 85.09 66.04 0)
 			(effects
 				(font
@@ -1771,7 +1789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Onju:SK6812MINI-E"
+		(property "Footprint" "Onju:SK6805-EC20"
 			(at 85.09 76.2 0)
 			(effects
 				(font
@@ -1799,7 +1817,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "DONGGUANG OPSCO OPTOELECTRONICS CO., LTD"
+		(property "MP" "SK6805-EC20"
 			(at 85.09 76.2 0)
 			(effects
 				(font
@@ -1809,107 +1827,7 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.84mm"
-			(at 85.09 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Package"
-			(at 85.09 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 85.09 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda"
-			(at 85.09 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer recommendations"
-			(at 85.09 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "2"
-			(at 85.09 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap"
-			(at 85.09 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SK6812MINI-E"
-			(at 85.09 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip."
-			(at 85.09 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 85.09 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "OPSCO Optoelectronics"
+		(property "MANUFACTURER" ""
 			(at 85.09 76.2 0)
 			(effects
 				(font
@@ -1928,7 +1846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C5149201"
+		(property "Supplier Part" "C2890036"
 			(at 85.09 76.2 0)
 			(effects
 				(font
@@ -1946,7 +1864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "SK6812MINI-E"
+		(property "Manufacturer Part" "SK6805-EC20"
 			(at 85.09 76.2 0)
 			(effects
 				(font
@@ -1955,7 +1873,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5149201"
+		(property "LCSC Part #" "C2890036"
+			(at 85.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
 			(at 85.09 76.2 0)
 			(effects
 				(font
@@ -1995,7 +1922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47af20c9-a858-4a00-a8c1-2745f6b1774c")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR0163"
 			(at 257.81 87.63 0)
 			(effects
 				(font
@@ -2045,7 +1972,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "#PWR059")
+					(reference "#PWR0163")
 					(unit 1)
 				)
 			)
@@ -2061,7 +1988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "531cd3a5-7385-4b40-9924-175dc76840e7")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR0160"
 			(at 222.25 90.17 0)
 			(effects
 				(font
@@ -2111,247 +2038,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "New_Library:SK6812-E")
-		(at 125.73 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "546609f8-2342-491a-b40b-2ac99bde5306")
-		(property "Reference" "LED3"
-			(at 125.73 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI-E"
-			(at 125.73 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Onju:SK6812MINI-E"
-			(at 125.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 125.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "DONGGUANG OPSCO OPTOELECTRONICS CO., LTD"
-			(at 125.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.84mm"
-			(at 125.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Package"
-			(at 125.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 125.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda"
-			(at 125.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer recommendations"
-			(at 125.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "2"
-			(at 125.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap"
-			(at 125.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SK6812MINI-E"
-			(at 125.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip."
-			(at 125.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 125.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "OPSCO Optoelectronics"
-			(at 125.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Function" "LED"
-			(at 125.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C5149201"
-			(at 125.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "OPSCO Optoelectronics"
-			(at 125.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "SK6812MINI-E"
-			(at 125.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C5149201"
-			(at 125.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ed3d6c0f-6cc2-4f65-bcf7-5679f86f25c2")
-		)
-		(pin "4"
-			(uuid "4e82cb55-65cf-4923-9d38-74a3b99e92f9")
-		)
-		(pin "1"
-			(uuid "3fd12dc9-71d0-42d7-8275-75c7de739b7b")
-		)
-		(pin "3"
-			(uuid "5d9f21ce-de35-4db7-a54c-63c7a651ea1f")
-		)
-		(instances
-			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "LED3")
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -2366,7 +2053,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70a3d347-107a-481f-adc7-906704add54d")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR0161"
 			(at 236.22 78.74 0)
 			(effects
 				(font
@@ -2417,247 +2104,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "New_Library:SK6812-E")
-		(at 165.1 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8270bce1-640c-4eab-9ad1-48a3a72bac62")
-		(property "Reference" "LED4"
-			(at 165.1 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI-E"
-			(at 165.1 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Onju:SK6812MINI-E"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "DONGGUANG OPSCO OPTOELECTRONICS CO., LTD"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.84mm"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Package"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer recommendations"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "2"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SK6812MINI-E"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip."
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "OPSCO Optoelectronics"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Function" "LED"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C5149201"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "OPSCO Optoelectronics"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "SK6812MINI-E"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C5149201"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bfda5f8c-08c7-4d77-8940-b781ff843724")
-		)
-		(pin "4"
-			(uuid "e23d21ac-6982-44d6-8b91-3a9150d42627")
-		)
-		(pin "1"
-			(uuid "5c582cfe-110c-4463-81d2-7876ece62825")
-		)
-		(pin "3"
-			(uuid "f564ab05-4f39-499b-92c2-3e5a3671250f")
-		)
-		(instances
-			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "LED4")
+					(reference "#PWR0161")
 					(unit 1)
 				)
 			)
@@ -2672,7 +2119,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "846ac443-155c-4e8a-b525-cf730c8b972b")
-		(property "Reference" "C34"
+		(property "Reference" "C84"
 			(at 224.536 73.66 0)
 			(effects
 				(font
@@ -2760,6 +2207,15 @@
 				(hide yes)
 			)
 		)
+		(property "Isat" ""
+			(at 222.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62349497-7c4e-4e34-a591-bebc930d0ee4")
 		)
@@ -2769,7 +2225,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "C34")
+					(reference "C84")
 					(unit 1)
 				)
 			)
@@ -2892,6 +2348,15 @@
 			)
 		)
 		(property "LCSC Part #" "C2890041"
+			(at 45.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
 			(at 45.72 77.47 0)
 			(effects
 				(font
@@ -3046,6 +2511,15 @@
 				(hide yes)
 			)
 		)
+		(property "Isat" ""
+			(at 245.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "d41cdb23-8655-4ace-8606-22842cb5ef55")
 		)
@@ -3077,7 +2551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "925232a8-a87c-473e-911b-6c5ffcdd7f0b")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR0154"
 			(at 102.87 90.17 0)
 			(effects
 				(font
@@ -3127,7 +2601,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "#PWR061")
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -3142,7 +2616,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a4390880-dd6c-4a5f-9a17-a270d90ec0a7")
+		(uuid "95db8f2e-e139-4a37-af8d-0b94c7d1ab0e")
 		(property "Reference" "LED5"
 			(at 204.47 63.5 0)
 			(effects
@@ -3151,7 +2625,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6805-EC20"
 			(at 204.47 66.04 0)
 			(effects
 				(font
@@ -3159,7 +2633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Onju:SK6812MINI-E"
+		(property "Footprint" "Onju:SK6805-EC20"
 			(at 204.47 76.2 0)
 			(effects
 				(font
@@ -3187,7 +2661,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "DONGGUANG OPSCO OPTOELECTRONICS CO., LTD"
+		(property "MP" "SK6805-EC20"
 			(at 204.47 76.2 0)
 			(effects
 				(font
@@ -3197,107 +2671,7 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.84mm"
-			(at 204.47 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Package"
-			(at 204.47 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 204.47 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda"
-			(at 204.47 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer recommendations"
-			(at 204.47 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "2"
-			(at 204.47 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap"
-			(at 204.47 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SK6812MINI-E"
-			(at 204.47 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip."
-			(at 204.47 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 204.47 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "OPSCO Optoelectronics"
+		(property "MANUFACTURER" ""
 			(at 204.47 76.2 0)
 			(effects
 				(font
@@ -3316,7 +2690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C5149201"
+		(property "Supplier Part" "C2890036"
 			(at 204.47 76.2 0)
 			(effects
 				(font
@@ -3334,7 +2708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "SK6812MINI-E"
+		(property "Manufacturer Part" "SK6805-EC20"
 			(at 204.47 76.2 0)
 			(effects
 				(font
@@ -3343,7 +2717,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5149201"
+		(property "LCSC Part #" "C2890036"
+			(at 204.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
 			(at 204.47 76.2 0)
 			(effects
 				(font
@@ -3353,19 +2736,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "4ef77a0f-1d91-481d-ba72-b255fccb61e2")
+			(uuid "1ee452d3-ce9f-4e83-94ec-072d91040236")
 		)
 		(pin "4"
-			(uuid "2d5daff6-6360-4052-a28a-43dbb317376b")
+			(uuid "7f0deeb4-9ec2-4bc3-b62e-8977dd576a04")
 		)
 		(pin "1"
-			(uuid "6d2da2fc-2ec7-4a86-a553-0cbbaf4f88d6")
+			(uuid "e1c40abf-cc88-4e46-9d62-da376c21cdb6")
 		)
 		(pin "3"
-			(uuid "3280c7fb-62c1-4226-9091-9d2c616ad991")
+			(uuid "cebeb9f5-7a46-4105-bbf7-d869a049d4ec")
 		)
 		(instances
-			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
+			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
 					(reference "LED5")
 					(unit 1)
@@ -3383,7 +2766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a56b104f-c8bd-412e-a7dc-659252de71f4")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR0156"
 			(at 143.51 90.17 0)
 			(effects
 				(font
@@ -3433,7 +2816,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "#PWR060")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -3448,7 +2831,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad8e91e5-f4c4-4a9f-b170-8816a6e62ea6")
-		(property "Reference" "C32"
+		(property "Reference" "C82"
 			(at 145.796 73.66 0)
 			(effects
 				(font
@@ -3536,6 +2919,15 @@
 				(hide yes)
 			)
 		)
+		(property "Isat" ""
+			(at 143.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ceadf22-4c5b-4586-939f-6316e22f2e82")
 		)
@@ -3545,7 +2937,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "C32")
+					(reference "C82")
 					(unit 1)
 				)
 			)
@@ -3561,7 +2953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc97069f-5a97-4be8-a4aa-480a6ecb2b6f")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR0153"
 			(at 102.87 72.39 0)
 			(effects
 				(font
@@ -3611,7 +3003,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "#PWR063")
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -3627,7 +3019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c31da1ff-958d-42ae-ae68-ecb73b85fa47")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR0150"
 			(at 36.83 78.74 0)
 			(effects
 				(font
@@ -3678,7 +3070,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "#PWR068")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -3694,7 +3086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c43f4b0e-df21-4898-9e06-ea4ebd6f6d94")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR0151"
 			(at 34.29 97.79 0)
 			(effects
 				(font
@@ -3744,7 +3136,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "#PWR070")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -3760,7 +3152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cce0ac82-b9b1-4a6a-b910-e223ade82fe7")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR0159"
 			(at 222.25 72.39 0)
 			(effects
 				(font
@@ -3810,7 +3202,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "#PWR066")
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -3825,7 +3217,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ced32880-c427-4cce-b2c7-9114d6a96c9e")
-		(property "Reference" "C35"
+		(property "Reference" "C80"
 			(at 36.576 82.55 0)
 			(effects
 				(font
@@ -3913,6 +3305,15 @@
 				(hide yes)
 			)
 		)
+		(property "Isat" ""
+			(at 34.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad431743-15af-45b5-8cb7-9abe38f8e750")
 		)
@@ -3922,7 +3323,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "C35")
+					(reference "C80")
 					(unit 1)
 				)
 			)
@@ -3937,7 +3338,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf1b5328-58eb-4387-9299-6e8b04dac273")
-		(property "Reference" "C33"
+		(property "Reference" "C83"
 			(at 185.166 73.66 0)
 			(effects
 				(font
@@ -4025,6 +3426,15 @@
 				(hide yes)
 			)
 		)
+		(property "Isat" ""
+			(at 182.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bad9cf67-7cd9-46f8-b598-374cac71fbba")
 		)
@@ -4034,7 +3444,156 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "C33")
+					(reference "C83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "New_Library:SK6812-E")
+		(at 165.1 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d296a9bc-2e8e-4350-a5e1-4bb0bb151250")
+		(property "Reference" "LED4"
+			(at 165.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805-EC20"
+			(at 165.1 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Onju:SK6805-EC20"
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "SK6805-EC20"
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Function" "LED"
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2890036"
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics"
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SK6805-EC20"
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2890036"
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77646242-6b78-4777-a51b-5f8300f3d09b")
+		)
+		(pin "4"
+			(uuid "7df3b74b-6ad8-4a02-8277-cb084f4e4175")
+		)
+		(pin "1"
+			(uuid "94583b18-5668-4f73-92ad-4b680e68288f")
+		)
+		(pin "3"
+			(uuid "2aa48dfb-bd33-435f-aa5b-7b4f3867dad3")
+		)
+		(instances
+			(project "nest-mini-v2-drop-in-pcb"
+				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
+					(reference "LED4")
 					(unit 1)
 				)
 			)
@@ -4050,7 +3609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef864a7c-bb0d-4d98-a859-f005bed54e4f")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR0162"
 			(at 233.68 97.79 0)
 			(effects
 				(font
@@ -4100,7 +3659,156 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "#PWR069")
+					(reference "#PWR0162")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "New_Library:SK6812-E")
+		(at 125.73 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9050e29-ca1f-4af6-a0a0-1ce75d8bd5a0")
+		(property "Reference" "LED3"
+			(at 125.73 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805-EC20"
+			(at 125.73 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Onju:SK6805-EC20"
+			(at 125.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "SK6805-EC20"
+			(at 125.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 125.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Function" "LED"
+			(at 125.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2890036"
+			(at 125.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics"
+			(at 125.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SK6805-EC20"
+			(at 125.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2890036"
+			(at 125.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 125.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ffd241a2-3ad2-4ef6-8b61-085612a13636")
+		)
+		(pin "4"
+			(uuid "cebc95f9-fe6b-4389-8cfa-77fa3b7c9df4")
+		)
+		(pin "1"
+			(uuid "d1734dec-eefa-4351-b036-6bea6f3b8531")
+		)
+		(pin "3"
+			(uuid "9f92fb2c-cbc8-4802-94bf-225041d3b98c")
+		)
+		(instances
+			(project "nest-mini-v2-drop-in-pcb"
+				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
+					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -4116,7 +3824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd6bddf8-0c8c-48a6-9693-04d720587dc0")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR0158"
 			(at 182.88 90.17 0)
 			(effects
 				(font
@@ -4166,7 +3874,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "#PWR058")
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
