@@ -121,7 +121,7 @@ For more information about the concept/idea see and contribute to related discus
   - https://www.xmos.com/usb-multichannel-audio/
   - https://www.xmos.com/xcore-ai
  
-#### XMOS firmware from the ESPHome prokect for the Home Assistant Voice Preview Edition hardware:
+#### XMOS firmware from the ESPHome project for the Home Assistant Voice Preview Edition hardware:
 
 - https://github.com/esphome/voice-kit-xmos-firmware
   - https://github.com/esphome/xmos_fwk_rtos
@@ -133,4 +133,5 @@ This project is licensed under the [CERN Open Hardware License Version 2 - Stron
 Any modified version of this hardware must also be distributed under the same license.
 
 ☕ If you’d like to support this project, feel free to [buy me a coffee on Ko-fi](https://ko-fi.com/imike78)!
+
 
