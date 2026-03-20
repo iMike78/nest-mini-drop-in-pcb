@@ -94,7 +94,7 @@ For more information about the concept/idea see and contribute to related discus
 - XMOS XU316-1024-QF60B-C24 (XMOS XU316 xCORE DSP audio processing)
 - Dual SPI flash (as ESP32 and XMOS have their own SPI flash)
 - Dual I²S buses (to allow I2S interfaces at the same time, i.e. simultaneous audio output and audio input)
-- MAX98357 for speaker output (I2S Class-D Mono Audio Amplifyer)
+- TAS5805M (TAS5805MPWPR) for speaker output (I2S Class-D Mono Audio Amplifyer with DSP config via I2C)
 - 2x MEMS microphones (dual MMICT390200012 with 68mm inter-mic spacing)
 - 6x SK6812 RGB LEDs
 - Custom USB-C and 14V power input (Note! USB-C and barrel-connector can not be connected at the same time)
