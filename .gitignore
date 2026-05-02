@@ -38,3 +38,5 @@ __pycache__/
 
 # Optional: VSCode project files (if you use it)
 .vscode/
+\#auto_saved_files\#
+esp32.kicad_sch-bak
