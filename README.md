@@ -39,6 +39,10 @@
 
 Tip! If you are instead looking for a similar drop-in PCB replacement for the "Google Home Mini" (Google's first-generation smart speaker hardware with a Micro-USB charging port) then check out the sister-project at https://github.com/iMike78/home-mini-v1-drop-in-pcb
 
+**Heads-up!** Upcoming crowdfunding campaign for "MiciMike Home Mini Drop-In PCB" (1st-gen Google Home Mini) is now listed in Crowd Supply pre-launch phase (project pre-view only), and if that is successful will plan a matching campaign for Nest Mini, so check it out here:
+
+* https://www.crowdsupply.com/micimike-rev-devices/micimike-home-mini-drop-in-pcb
+
 Both of these are fully open-source hardware projects, taking some concep inspiration from the [Onju Voice](https://github.com/justLV/onju-voice) however aiming to follow [Open Home Foundation's open voice assistants standard  with Home Assistant Voice Preview Edition as reference](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) for PCB designs and specifications.
 
 # Project scope
@@ -90,7 +94,7 @@ For more information about the concept/idea see and contribute to related discus
 - XMOS XU316-1024-QF60B-C24 (XMOS XU316 xCORE DSP audio processing)
 - Dual SPI flash (as ESP32 and XMOS have their own SPI flash)
 - Dual I²S buses (to allow I2S interfaces at the same time, i.e. simultaneous audio output and audio input)
-- MAX98357 for speaker output (I2S Class-D Mono Audio Amplifyer)
+- TAS5805M (TAS5805MPWPR) for speaker output (I2S Class-D Mono Audio Amplifyer with DSP config via I2C)
 - 2x MEMS microphones (dual MMICT390200012 with 68mm inter-mic spacing)
 - 6x SK6812 RGB LEDs
 - Custom USB-C and 14V power input (Note! USB-C and barrel-connector can not be connected at the same time)
@@ -121,7 +125,7 @@ For more information about the concept/idea see and contribute to related discus
   - https://www.xmos.com/usb-multichannel-audio/
   - https://www.xmos.com/xcore-ai
  
-#### XMOS firmware from the ESPHome prokect for the Home Assistant Voice Preview Edition hardware:
+#### XMOS firmware from the ESPHome project for the Home Assistant Voice Preview Edition hardware:
 
 - https://github.com/esphome/voice-kit-xmos-firmware
   - https://github.com/esphome/xmos_fwk_rtos
@@ -133,4 +137,5 @@ This project is licensed under the [CERN Open Hardware License Version 2 - Stron
 Any modified version of this hardware must also be distributed under the same license.
 
 ☕ If you’d like to support this project, feel free to [buy me a coffee on Ko-fi](https://ko-fi.com/imike78)!
+
 
