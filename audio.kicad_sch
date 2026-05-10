@@ -3059,10 +3059,10 @@
 		(uuid "6bc7c1b5-a6e6-427d-8f14-e81d27aadd94")
 	)
 	(junction
-		(at 149.86 81.28)
+		(at 162.56 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7516b64a-bae3-4b3a-b30d-10181b8286c5")
+		(uuid "81e0f4e7-8498-42f5-8a5a-83b02b2a5680")
 	)
 	(junction
 		(at 95.25 86.36)
@@ -3083,13 +3083,13 @@
 		(uuid "906cb06b-80d4-48f8-8e2e-95e2a389d5a1")
 	)
 	(junction
-		(at 157.48 73.66)
+		(at 224.79 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a16bd93f-f295-4bf7-9ac4-661db943711f")
 	)
 	(junction
-		(at 166.37 73.66)
+		(at 233.68 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a174b33e-cf53-449f-8fac-739e763e6d88")
@@ -3188,7 +3188,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 73.66) (xy 166.37 74.93)
+			(xy 233.68 73.66) (xy 233.68 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3298,7 +3298,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 88.9) (xy 72.39 88.9)
+			(xy 67.31 88.9) (xy 63.5 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3348,16 +3348,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 78.74) (xy 149.86 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d67ed3d-c432-4692-b0d5-7eda49c2d201")
-	)
-	(wire
-		(pts
 			(xy 93.98 111.76) (xy 111.76 111.76)
 		)
 		(stroke
@@ -3398,7 +3388,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 82.55) (xy 157.48 83.82)
+			(xy 224.79 82.55) (xy 224.79 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3425,16 +3415,6 @@
 			(type default)
 		)
 		(uuid "39713e32-658f-4341-b857-58e8c426d809")
-	)
-	(wire
-		(pts
-			(xy 147.32 81.28) (xy 149.86 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a8748d1-e5db-4898-869d-20ae694db7dd")
 	)
 	(wire
 		(pts
@@ -3478,7 +3458,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 88.9) (xy 72.39 91.44)
+			(xy 63.5 88.9) (xy 63.5 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3508,7 +3488,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 78.74) (xy 149.86 78.74)
+			(xy 147.32 78.74) (xy 162.56 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3545,6 +3525,16 @@
 			(type default)
 		)
 		(uuid "601107eb-78e7-43c0-ba04-57a456cbcb63")
+	)
+	(wire
+		(pts
+			(xy 147.32 81.28) (xy 152.4 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "614f9b1e-8661-4167-b1c2-0fcf30c00275")
 	)
 	(wire
 		(pts
@@ -3638,6 +3628,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 78.74) (xy 172.72 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fec2dae-bc29-47e8-a078-1bce62da40b8")
+	)
+	(wire
+		(pts
 			(xy 173.99 63.5) (xy 173.99 64.77)
 		)
 		(stroke
@@ -3688,7 +3688,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 73.66) (xy 166.37 73.66)
+			(xy 224.79 73.66) (xy 233.68 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3728,7 +3728,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 73.66) (xy 157.48 74.93)
+			(xy 224.79 73.66) (xy 224.79 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3808,7 +3808,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 88.9) (xy 111.76 88.9)
+			(xy 74.93 88.9) (xy 111.76 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3838,7 +3838,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 73.66) (xy 179.07 73.66)
+			(xy 233.68 73.66) (xy 246.38 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4008,7 +4008,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 73.66) (xy 157.48 73.66)
+			(xy 147.32 73.66) (xy 224.79 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4188,7 +4188,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 82.55) (xy 166.37 83.82)
+			(xy 233.68 82.55) (xy 233.68 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4215,16 +4215,6 @@
 			(type default)
 		)
 		(uuid "efca2266-503a-4e70-9c83-9d11e97dd540")
-	)
-	(wire
-		(pts
-			(xy 149.86 81.28) (xy 149.86 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1408a8c-163b-457a-b85f-1de3ec32b5f0")
 	)
 	(wire
 		(pts
@@ -4398,7 +4388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "054f684e-c89a-4bab-9796-3a4040f6a66d")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR0157"
 			(at 100.33 68.58 0)
 			(effects
 				(font
@@ -4448,7 +4438,276 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "#PWR0145")
+					(reference "#PWR0157")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 162.56 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07a88b8f-357e-4ede-bd65-9df2809dc251")
+		(property "Reference" "C80"
+			(at 164.846 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 164.846 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 163.5252 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 166.878 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 166.878 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" "TAS"
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a5d08af-6e6a-4364-8905-db1a66fdc928")
+		)
+		(pin "2"
+			(uuid "05398a76-869f-40ea-b4ba-ea2a00651aca")
+		)
+		(instances
+			(project "nest-mini-v2-drop-in-pcb"
+				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
+					(reference "C80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 172.72 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09622ef4-224a-492c-b9be-32111ef9729c")
+		(property "Reference" "C82"
+			(at 175.514 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 175.514 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 173.6852 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 172.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 177.546 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 177.546 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" "TAS"
+			(at 172.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 172.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 172.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 172.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 172.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 172.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8971860a-f738-4fd0-8ca8-4a3aafa69918")
+		)
+		(pin "2"
+			(uuid "88fe1616-0232-40f6-a1ee-2df9e6477252")
+		)
+		(instances
+			(project "nest-mini-v2-drop-in-pcb"
+				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
+					(reference "C82")
 					(unit 1)
 				)
 			)
@@ -4530,7 +4789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d04973c-0608-4d2e-8dee-b2f9248ac74c")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR0154"
 			(at 73.66 55.88 0)
 			(effects
 				(font
@@ -4580,7 +4839,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "#PWR0144")
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -4800,7 +5059,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "253403ce-d74b-4c5d-865b-1add009f4c67")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR0168"
 			(at 198.12 113.03 0)
 			(effects
 				(font
@@ -4850,7 +5109,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "#PWR0149")
+					(reference "#PWR0168")
 					(unit 1)
 				)
 			)
@@ -4866,7 +5125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2db356bb-30ba-4a00-b2b3-f1f26d09f55b")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0160"
 			(at 156.21 71.12 0)
 			(effects
 				(font
@@ -4916,7 +5175,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "#PWR0107")
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -4924,7 +5183,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 166.37 78.74 0)
+		(at 233.68 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4932,7 +5191,7 @@
 		(dnp no)
 		(uuid "2fd41fd7-52dd-46a6-9cb2-0d27663233e9")
 		(property "Reference" "C91"
-			(at 168.148 75.438 0)
+			(at 235.458 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4941,7 +5200,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 168.402 76.962 0)
+			(at 235.712 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4950,7 +5209,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 167.3352 82.55 0)
+			(at 234.6452 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4959,7 +5218,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 78.74 0)
+			(at 233.68 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4968,7 +5227,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 166.37 78.74 0)
+			(at 233.68 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4977,7 +5236,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 170.18 80.772 0)
+			(at 237.49 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4985,7 +5244,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 170.18 82.55 0)
+			(at 237.49 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4993,7 +5252,7 @@
 			)
 		)
 		(property "Function" "TAS"
-			(at 166.37 78.74 0)
+			(at 233.68 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5002,7 +5261,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 166.37 78.74 0)
+			(at 233.68 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5011,7 +5270,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 166.37 78.74 0)
+			(at 233.68 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,7 +5279,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 166.37 78.74 0)
+			(at 233.68 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5029,7 +5288,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 166.37 78.74 0)
+			(at 233.68 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5038,7 +5297,7 @@
 			)
 		)
 		(property "LCSC part #" ""
-			(at 166.37 78.74 0)
+			(at 233.68 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5063,15 +5322,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 102.87 88.9 90)
+		(at 71.12 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "347761c7-c61a-4ef1-8c76-a6c7595f4d75")
-		(property "Reference" "R40"
-			(at 98.044 87.376 90)
+		(property "Reference" "R70"
+			(at 66.294 87.376 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5079,7 +5338,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 106.934 87.376 90)
+			(at 75.184 87.376 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5087,7 +5346,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 102.87 90.678 90)
+			(at 71.12 90.678 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5096,7 +5355,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 88.9 0)
+			(at 71.12 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5105,7 +5364,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 102.87 88.9 0)
+			(at 71.12 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5114,7 +5373,7 @@
 			)
 		)
 		(property "Isat" ""
-			(at 102.87 88.9 90)
+			(at 71.12 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5131,7 +5390,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "R40")
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -5146,7 +5405,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "3d3bd346-90da-4195-9cd9-484fd0aa5181")
-		(property "Reference" "TP9"
+		(property "Reference" "TP13"
 			(at 93.726 79.502 0)
 			(effects
 				(font
@@ -5198,7 +5457,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "TP9")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -5213,7 +5472,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40542767-45d7-4471-815a-e531721d068e")
-		(property "Reference" "R38"
+		(property "Reference" "R69"
 			(at 62.23 153.67 0)
 			(effects
 				(font
@@ -5381,7 +5640,72 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "R38")
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 162.56 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41c3a0d0-a36d-44e5-9c10-c8eac4070a01")
+		(property "Reference" "#PWR0161"
+			(at 162.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 162.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ed1c1b0-213f-450b-811b-96db6f8d2aef")
+		)
+		(instances
+			(project "nest-mini-v2-drop-in-pcb"
+				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
+					(reference "#PWR0161")
 					(unit 1)
 				)
 			)
@@ -5684,7 +6008,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 157.48 78.74 0)
+		(at 224.79 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5692,7 +6016,7 @@
 		(dnp no)
 		(uuid "47f5abf9-9643-40c1-8fe0-a346a0eafb66")
 		(property "Reference" "C90"
-			(at 158.242 75.184 0)
+			(at 225.552 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5701,7 +6025,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 158.242 76.708 0)
+			(at 225.552 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5710,7 +6034,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 158.4452 82.55 0)
+			(at 225.7552 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5719,7 +6043,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 78.74 0)
+			(at 224.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5728,7 +6052,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 157.48 78.74 0)
+			(at 224.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5737,7 +6061,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 160.274 80.772 0)
+			(at 227.584 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5745,7 +6069,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 160.274 82.296 0)
+			(at 227.584 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5753,7 +6077,7 @@
 			)
 		)
 		(property "Function" "TAS"
-			(at 157.48 78.74 0)
+			(at 224.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5762,7 +6086,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 157.48 78.74 0)
+			(at 224.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5771,7 +6095,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 157.48 78.74 0)
+			(at 224.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5780,7 +6104,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 157.48 78.74 0)
+			(at 224.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5789,7 +6113,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 157.48 78.74 0)
+			(at 224.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6084,7 +6408,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 91.44 0)
+		(at 63.5 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6092,8 +6416,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e660bff-fbc1-4b88-a4b0-73fe9436aaad")
-		(property "Reference" "#PWR0175"
-			(at 72.39 97.79 0)
+		(property "Reference" "#PWR0153"
+			(at 63.5 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6102,7 +6426,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 72.39 96.52 0)
+			(at 63.5 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6110,7 +6434,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 91.44 0)
+			(at 63.5 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6119,7 +6443,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 91.44 0)
+			(at 63.5 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6128,7 +6452,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 91.44 0)
+			(at 63.5 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6142,7 +6466,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "#PWR0175")
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -6157,7 +6481,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60aa0a16-5c8d-45e5-82d0-87f57d92c9f3")
-		(property "Reference" "C62"
+		(property "Reference" "C85"
 			(at 195.072 57.658 0)
 			(effects
 				(font
@@ -6282,7 +6606,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "C62")
+					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -6290,7 +6614,7 @@
 	)
 	(symbol
 		(lib_id "New_Library:PVDD1")
-		(at 179.07 73.66 0)
+		(at 246.38 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6299,7 +6623,7 @@
 		(fields_autoplaced yes)
 		(uuid "68ae7f63-970f-4862-898c-da474385f315")
 		(property "Reference" "#PWR0174"
-			(at 179.07 77.47 0)
+			(at 246.38 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6308,7 +6632,7 @@
 			)
 		)
 		(property "Value" "DVDD"
-			(at 179.07 68.58 0)
+			(at 246.38 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6316,7 +6640,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 73.66 0)
+			(at 246.38 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6325,7 +6649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 73.66 0)
+			(at 246.38 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6334,7 +6658,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 179.07 73.66 0)
+			(at 246.38 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6363,7 +6687,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ec1b600-9e08-48a1-82f8-708b3c688717")
-		(property "Reference" "#PWR0170"
+		(property "Reference" "#PWR0156"
 			(at 82.55 166.37 0)
 			(effects
 				(font
@@ -6413,7 +6737,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "#PWR0170")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -6421,7 +6745,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 166.37 83.82 0)
+		(at 233.68 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6429,8 +6753,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "719ca2fc-4ea5-420c-ac5b-7e09655f2da9")
-		(property "Reference" "#PWR0171"
-			(at 166.37 90.17 0)
+		(property "Reference" "#PWR0173"
+			(at 233.68 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6439,7 +6763,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 166.37 88.9 0)
+			(at 233.68 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6447,7 +6771,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 83.82 0)
+			(at 233.68 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6456,7 +6780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 83.82 0)
+			(at 233.68 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6465,7 +6789,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 166.37 83.82 0)
+			(at 233.68 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6479,7 +6803,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "#PWR0171")
+					(reference "#PWR0173")
 					(unit 1)
 				)
 			)
@@ -6772,7 +7096,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b6932d0-4de7-4cdf-a092-c43fd84c6c9f")
-		(property "Reference" "R39"
+		(property "Reference" "R67"
 			(at 59.944 63.246 90)
 			(effects
 				(font
@@ -6833,7 +7157,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "R39")
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -6849,7 +7173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8177b5f1-a960-4ab6-bbd7-7851f647ec52")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR0151"
 			(at 55.88 55.88 0)
 			(effects
 				(font
@@ -6899,7 +7223,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "#PWR0143")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -6914,7 +7238,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "819e96fd-2ef8-4a8e-86d3-b5a7853cfee0")
-		(property "Reference" "R68"
+		(property "Reference" "R71"
 			(at 101.6 79.756 0)
 			(effects
 				(font
@@ -7030,7 +7354,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "R68")
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -7046,7 +7370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ae1bc4e-2c6f-47fb-ae4b-2d64f91e9788")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR0171"
 			(at 213.36 71.12 0)
 			(effects
 				(font
@@ -7096,7 +7420,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "#PWR0168")
+					(reference "#PWR0171")
 					(unit 1)
 				)
 			)
@@ -7111,7 +7435,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91bb4ad0-9a89-4ca9-91a9-5574a17b9fcd")
-		(property "Reference" "C59"
+		(property "Reference" "C79"
 			(at 158.242 57.658 0)
 			(effects
 				(font
@@ -7236,7 +7560,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "C59")
+					(reference "C79")
 					(unit 1)
 				)
 			)
@@ -7252,7 +7576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96a42a59-2281-4dc1-9023-ba73cdb7acc0")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR0158"
 			(at 149.86 140.97 0)
 			(effects
 				(font
@@ -7302,7 +7626,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "#PWR0147")
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -7317,7 +7641,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9769a8cf-0dc8-4e87-9367-a40527089894")
-		(property "Reference" "#PWR0169"
+		(property "Reference" "#PWR0150"
 			(at 54.61 166.37 0)
 			(effects
 				(font
@@ -7367,7 +7691,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "#PWR0169")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -7440,6 +7764,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 152.4 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b0526db-91bd-4d7b-844e-bf50fb021366")
+		(property "Reference" "#PWR0159"
+			(at 152.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 152.4 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89938e0b-606e-49a5-8381-0fbeac84a991")
+		)
+		(instances
+			(project "nest-mini-v2-drop-in-pcb"
+				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
+					(reference "#PWR0159")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 184.15 59.69 0)
 		(unit 1)
@@ -7448,7 +7837,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a86ca7b4-bbb7-484a-b1d3-a2625c3c8990")
-		(property "Reference" "C86"
+		(property "Reference" "C84"
 			(at 186.182 57.658 0)
 			(effects
 				(font
@@ -7573,7 +7962,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "C86")
+					(reference "C84")
 					(unit 1)
 				)
 			)
@@ -7581,16 +7970,15 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 149.86 83.82 0)
+		(at 172.72 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a979749f-baad-4e91-bdea-7ed7a2f4741c")
-		(property "Reference" "#PWR0146"
-			(at 149.86 90.17 0)
+		(property "Reference" "#PWR0163"
+			(at 172.72 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7599,7 +7987,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 149.86 88.9 0)
+			(at 172.72 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7607,7 +7995,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 83.82 0)
+			(at 172.72 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7616,7 +8004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 83.82 0)
+			(at 172.72 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7625,7 +8013,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 149.86 83.82 0)
+			(at 172.72 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7639,7 +8027,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "#PWR0146")
+					(reference "#PWR0163")
 					(unit 1)
 				)
 			)
@@ -7653,10 +8041,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ad36317b-59d5-4cd5-9a7a-d13a3fbadd3e")
-		(property "Reference" "C79"
-			(at 201.93 100.3299 0)
+		(property "Reference" "C87"
+			(at 200.914 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7665,7 +8052,7 @@
 			)
 		)
 		(property "Value" "0.68uF"
-			(at 201.93 102.8699 0)
+			(at 200.914 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7701,12 +8088,11 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 198.12 101.6 0)
+			(at 202.946 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" "TAS"
@@ -7763,7 +8149,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "C79")
+					(reference "C87")
 					(unit 1)
 				)
 			)
@@ -7778,7 +8164,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad4775d6-9a3d-4762-9eb2-2b5ca3dccb25")
-		(property "Reference" "C60"
+		(property "Reference" "C81"
 			(at 167.132 57.658 0)
 			(effects
 				(font
@@ -7903,7 +8289,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "C60")
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -8056,7 +8442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4ca200d-9baa-4ec2-92eb-9fc57d93c5cc")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0169"
 			(at 201.93 58.42 0)
 			(effects
 				(font
@@ -8106,7 +8492,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "#PWR0106")
+					(reference "#PWR0169")
 					(unit 1)
 				)
 			)
@@ -8122,7 +8508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bebc5a4b-e8ea-4a61-9bb8-f77e7a504590")
-		(property "Reference" "#PWR0173"
+		(property "Reference" "#PWR0155"
 			(at 73.66 67.31 0)
 			(effects
 				(font
@@ -8172,7 +8558,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "#PWR0173")
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -8187,8 +8573,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c24ced49-2b1f-4cdb-991e-7e42a7662804")
-		(property "Reference" "C78"
-			(at 195.834 87.63 0)
+		(property "Reference" "C86"
+			(at 204.724 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8197,7 +8583,7 @@
 			)
 		)
 		(property "Value" "0.68uF"
-			(at 195.834 85.09 0)
+			(at 207.518 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8233,12 +8619,11 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 198.12 86.36 0)
+			(at 202.946 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Function" "TAS"
@@ -8295,7 +8680,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "C78")
+					(reference "C86")
 					(unit 1)
 				)
 			)
@@ -8311,7 +8696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7f294a9-d1c4-44ed-b0f1-679a5aebc7de")
-		(property "Reference" "U12"
+		(property "Reference" "U14"
 			(at 129.54 63.5 0)
 			(effects
 				(font
@@ -8586,7 +8971,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "U12")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -8601,7 +8986,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9cb70d5-3626-47d0-bff9-8732d53cf8bf")
-		(property "Reference" "C87"
+		(property "Reference" "C83"
 			(at 176.022 57.912 0)
 			(effects
 				(font
@@ -8717,7 +9102,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "C87")
+					(reference "C83")
 					(unit 1)
 				)
 			)
@@ -8733,7 +9118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca3483e1-da91-441d-ba0d-90641f54cbb0")
-		(property "Reference" "#PWR0167"
+		(property "Reference" "#PWR0170"
 			(at 201.93 71.12 0)
 			(effects
 				(font
@@ -8783,7 +9168,146 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "#PWR0167")
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 152.4 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da1dae6e-bf0f-4c70-b9cd-61c594552e97")
+		(property "Reference" "C78"
+			(at 154.686 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 154.686 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 153.3652 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 156.718 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 156.718 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" "MIC"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C1525"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a92f4ac-0aa3-4a33-bae8-b277bc09ba1b")
+		)
+		(pin "2"
+			(uuid "984bf964-adfe-4ce7-9a1b-53694d1de8e2")
+		)
+		(instances
+			(project "nest-mini-v2-drop-in-pcb"
+				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -8798,7 +9322,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e01a8ce4-0723-44c1-8dac-4084c14b00c2")
-		(property "Reference" "R67"
+		(property "Reference" "R66"
 			(at 59.944 51.816 90)
 			(effects
 				(font
@@ -8859,7 +9383,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "R67")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -8874,7 +9398,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "edf9ab8e-b62c-415d-88e3-3fd22325d837")
-		(property "Reference" "#PWR0148"
+		(property "Reference" "#PWR0167"
 			(at 198.12 74.93 0)
 			(effects
 				(font
@@ -8924,7 +9448,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "#PWR0148")
+					(reference "#PWR0167")
 					(unit 1)
 				)
 			)
@@ -8932,7 +9456,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 157.48 83.82 0)
+		(at 224.79 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8940,8 +9464,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef9d2159-7f43-487b-b72c-7e711162fe9d")
-		(property "Reference" "#PWR0105"
-			(at 157.48 90.17 0)
+		(property "Reference" "#PWR0172"
+			(at 224.79 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8950,7 +9474,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 157.48 88.9 0)
+			(at 224.79 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8958,7 +9482,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 83.82 0)
+			(at 224.79 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8967,7 +9491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 83.82 0)
+			(at 224.79 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8976,7 +9500,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 157.48 83.82 0)
+			(at 224.79 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8990,7 +9514,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "#PWR0105")
+					(reference "#PWR0172")
 					(unit 1)
 				)
 			)
@@ -9266,7 +9790,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f55743bc-025f-4241-81c5-fcdb854116f2")
-		(property "Reference" "R36"
+		(property "Reference" "R68"
 			(at 62.23 149.86 0)
 			(effects
 				(font
@@ -9434,7 +9958,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "R36")
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -9450,7 +9974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f93703d0-0a81-446d-835e-c1129d74cd66")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0162"
 			(at 165.1 71.12 0)
 			(effects
 				(font
@@ -9500,7 +10024,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "#PWR0110")
+					(reference "#PWR0162")
 					(unit 1)
 				)
 			)
@@ -9516,7 +10040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd5fd119-b12d-458b-8929-0fb9eca2cd8d")
-		(property "Reference" "#PWR0172"
+		(property "Reference" "#PWR0152"
 			(at 55.88 67.31 0)
 			(effects
 				(font
@@ -9566,7 +10090,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "#PWR0172")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)

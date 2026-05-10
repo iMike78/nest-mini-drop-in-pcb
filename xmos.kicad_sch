@@ -349,6 +349,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic_MountingPin:Conn_2Rows-09Pins_MountingPin"
 			(pin_names
 				(offset 1.016)
@@ -9432,6 +9539,12 @@
 		(uuid "28ec387f-6114-41bf-bfdf-9ade064a205a")
 	)
 	(junction
+		(at 205.74 256.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29027f8e-3537-43c4-8bed-6a5dcc980712")
+	)
+	(junction
 		(at 388.62 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9462,7 +9575,7 @@
 		(uuid "46e3b53e-4b1e-480a-88d8-38953c8e62d5")
 	)
 	(junction
-		(at 368.3 30.48)
+		(at 377.19 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50d3907f-a220-4f7f-bc67-3ac3c3ed3742")
@@ -9714,6 +9827,12 @@
 		(uuid "f167de0d-79be-40fa-bde1-fccc6019941a")
 	)
 	(junction
+		(at 354.33 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f16e7eea-69de-4a88-bc8d-8d2ac80214c4")
+	)
+	(junction
 		(at 308.61 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9742,10 +9861,6 @@
 		(uuid "049c20ac-6983-4e54-9670-b44d54eb6cb3")
 	)
 	(no_connect
-		(at 119.38 109.22)
-		(uuid "1f362507-bea7-4246-9836-5137aac0f189")
-	)
-	(no_connect
 		(at 152.4 101.6)
 		(uuid "228e4d3d-5f1f-47e9-992b-954b1dd1cab4")
 	)
@@ -9772,10 +9887,6 @@
 	(no_connect
 		(at 152.4 111.76)
 		(uuid "5effc5b3-d402-4021-bcc1-f5c546e5e2b2")
-	)
-	(no_connect
-		(at 119.38 111.76)
-		(uuid "91ed7fd9-d5e3-4921-9507-46ed6939b121")
 	)
 	(no_connect
 		(at 152.4 80.01)
@@ -10897,6 +11008,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 256.54) (xy 214.63 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c8df010-3dcd-4c29-aa17-4b2633ddef91")
+	)
+	(wire
+		(pts
 			(xy 45.72 256.54) (xy 45.72 257.81)
 		)
 		(stroke
@@ -11177,7 +11298,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 29.21) (xy 368.3 30.48)
+			(xy 377.19 30.48) (xy 377.19 31.75)
 		)
 		(stroke
 			(width 0)
@@ -11224,6 +11345,16 @@
 			(type default)
 		)
 		(uuid "75da368a-d9b5-45c6-ac78-a2813e83ee4e")
+	)
+	(wire
+		(pts
+			(xy 205.74 251.46) (xy 205.74 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76fac21b-f97f-4599-b883-e5c3005a5f5a")
 	)
 	(wire
 		(pts
@@ -11327,7 +11458,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 30.48) (xy 368.3 31.75)
+			(xy 377.19 31.75) (xy 377.19 33.02)
 		)
 		(stroke
 			(width 0)
@@ -11857,7 +11988,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 30.48) (xy 378.46 30.48)
+			(xy 377.19 31.75) (xy 387.35 31.75)
 		)
 		(stroke
 			(width 0)
@@ -11997,7 +12128,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 30.48) (xy 368.3 30.48)
+			(xy 370.84 31.75) (xy 377.19 31.75)
 		)
 		(stroke
 			(width 0)
@@ -12167,7 +12298,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 256.54) (xy 214.63 256.54)
+			(xy 204.47 256.54) (xy 205.74 256.54)
 		)
 		(stroke
 			(width 0)
@@ -12214,6 +12345,16 @@
 			(type default)
 		)
 		(uuid "c2e48385-0105-4893-883a-2d2cd5cebdb3")
+	)
+	(wire
+		(pts
+			(xy 354.33 31.75) (xy 363.22 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3470bf0-ca22-4d3b-bc47-7e20858f76da")
 	)
 	(wire
 		(pts
@@ -12264,6 +12405,16 @@
 			(type default)
 		)
 		(uuid "c6b65bcc-ba7d-46ac-9e68-c7a864a49cec")
+	)
+	(wire
+		(pts
+			(xy 111.76 111.76) (xy 119.38 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6f917d0-bc92-4429-9ef3-07205edeba15")
 	)
 	(wire
 		(pts
@@ -12387,7 +12538,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 20.32) (xy 368.3 21.59)
+			(xy 377.19 21.59) (xy 377.19 22.86)
 		)
 		(stroke
 			(width 0)
@@ -12597,7 +12748,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 39.37) (xy 368.3 41.91)
+			(xy 377.19 40.64) (xy 377.19 43.18)
 		)
 		(stroke
 			(width 0)
@@ -12634,6 +12785,16 @@
 			(type default)
 		)
 		(uuid "dbc8d9e0-e0f6-412a-a225-833888131e71")
+	)
+	(wire
+		(pts
+			(xy 354.33 29.21) (xy 354.33 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbed901d-4cb1-4008-8a80-71da4d8c36eb")
 	)
 	(wire
 		(pts
@@ -12857,7 +13018,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 30.48) (xy 354.33 30.48)
+			(xy 351.79 31.75) (xy 354.33 31.75)
 		)
 		(stroke
 			(width 0)
@@ -12914,6 +13075,16 @@
 			(type default)
 		)
 		(uuid "ec36eaa2-db17-45aa-ba7e-34bd11f477a5")
+	)
+	(wire
+		(pts
+			(xy 111.76 109.22) (xy 119.38 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec8b2e70-0ce9-4915-b57f-adc088c8d060")
 	)
 	(wire
 		(pts
@@ -13719,7 +13890,7 @@
 	)
 	(global_label "MUTE_ON"
 		(shape output)
-		(at 378.46 30.48 0)
+		(at 387.35 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13729,7 +13900,7 @@
 		)
 		(uuid "39c24629-e8b7-4409-b8a4-5895740fd612")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 389.9723 30.48 0)
+			(at 398.8623 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13805,6 +13976,28 @@
 			)
 		)
 	)
+	(global_label "XMOS_USB_P"
+		(shape bidirectional)
+		(at 111.76 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify right)
+		)
+		(uuid "82e855dc-3f5f-4571-a69e-ef233dda2eb5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.0787 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2S_DIN_SEC"
 		(shape output)
 		(at 198.12 109.22 0)
@@ -13871,9 +14064,31 @@
 			)
 		)
 	)
+	(global_label "XMOS_USB_N"
+		(shape bidirectional)
+		(at 111.76 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify right)
+		)
+		(uuid "ba96b939-5cf8-4dd6-84fd-e5746c9ad3ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.0243 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MUTE"
 		(shape input)
-		(at 350.52 30.48 180)
+		(at 351.79 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13883,7 +14098,7 @@
 		)
 		(uuid "cbe56a9e-51aa-45dd-ba44-2a042a615e97")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 342.6363 30.48 0)
+			(at 343.9063 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13939,7 +14154,7 @@
 	)
 	(global_label "XU316_RST"
 		(shape input)
-		(at 212.09 256.54 180)
+		(at 204.47 256.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13949,7 +14164,7 @@
 		)
 		(uuid "e264df43-984e-4d2a-847b-6c072dc16436")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.5216 256.54 0)
+			(at 190.9016 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13991,7 +14206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00b65a8e-5792-4ae3-ae0d-d730b9bf567b")
-		(property "Reference" "R53"
+		(property "Reference" "R49"
 			(at 256.54 240.03 90)
 			(effects
 				(font
@@ -14195,7 +14410,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R53")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -14211,7 +14426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0391c074-6763-41a4-9be5-12b61bdba3ba")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR0102"
 			(at 115.57 43.18 0)
 			(effects
 				(font
@@ -14261,7 +14476,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR095")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -14276,7 +14491,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04174b9c-c4ae-42b9-abdd-edcdca795b74")
-		(property "Reference" "C66"
+		(property "Reference" "C65"
 			(at 310.896 136.398 0)
 			(effects
 				(font
@@ -14400,7 +14615,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C66")
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -14415,7 +14630,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "045dec68-6e78-4852-9da7-79494a06e590")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0143"
 			(at 397.51 217.17 0)
 			(effects
 				(font
@@ -14465,7 +14680,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0138")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -14481,7 +14696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04826029-e6f1-4304-b636-aebfaa19c0b8")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0144"
 			(at 398.78 135.89 0)
 			(effects
 				(font
@@ -14531,7 +14746,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0139")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -14546,7 +14761,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09b2fe3e-bd16-4a6a-80f5-18115be874bb")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0138"
 			(at 379.73 80.01 0)
 			(effects
 				(font
@@ -14596,7 +14811,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0132")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -14767,7 +14982,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c52f5f6-0790-4edc-8652-2a4b0749620e")
-		(property "Reference" "C44"
+		(property "Reference" "C46"
 			(at 59.436 262.128 0)
 			(effects
 				(font
@@ -14891,7 +15106,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C44")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -14906,7 +15121,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c5ad1c1-2aed-4886-8ae0-a61b5b3fbad9")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0112"
 			(at 207.01 200.66 0)
 			(effects
 				(font
@@ -14956,7 +15171,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0108")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -14971,7 +15186,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d7f88a7-9494-4865-83d0-5ea7f44617d9")
-		(property "Reference" "C70"
+		(property "Reference" "C69"
 			(at 390.906 138.938 0)
 			(effects
 				(font
@@ -15095,7 +15310,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C70")
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -15111,7 +15326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d8c7bc9-829e-4201-bc18-25743222fc7c")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR092"
 			(at 92.71 247.65 0)
 			(effects
 				(font
@@ -15161,7 +15376,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR085")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -15176,7 +15391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f13f17d-2fd4-4aec-94ca-8bd6fcf8e115")
-		(property "Reference" "C65"
+		(property "Reference" "C64"
 			(at 299.466 136.398 0)
 			(effects
 				(font
@@ -15300,7 +15515,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C65")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -15315,7 +15530,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1031f178-f47c-43e3-8b9f-482089dddbc5")
-		(property "Reference" "R32"
+		(property "Reference" "R36"
 			(at 156.21 261.366 0)
 			(effects
 				(font
@@ -15431,7 +15646,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R32")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -15447,7 +15662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10784dfe-7fa5-4716-b142-4b7a3b889cd3")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR0105"
 			(at 119.38 247.65 0)
 			(effects
 				(font
@@ -15497,7 +15712,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR098")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -15513,7 +15728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10854344-6f90-4072-bd5e-6e14c340f313")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0137"
 			(at 378.46 154.94 0)
 			(effects
 				(font
@@ -15563,7 +15778,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0131")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -15579,7 +15794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "113a31ca-8610-48ba-9d66-4f049107e2a2")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR0147"
 			(at 398.78 196.85 0)
 			(effects
 				(font
@@ -15629,7 +15844,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0142")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -15645,7 +15860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12a53c27-11d1-49e0-ac32-a95f9ff9ceca")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0134"
 			(at 369.57 154.94 0)
 			(effects
 				(font
@@ -15695,7 +15910,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0130")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -15711,7 +15926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14ef4374-3e83-4355-a241-a2e4ad9ea446")
-		(property "Reference" "C52"
+		(property "Reference" "C54"
 			(at 105.41 168.9099 0)
 			(effects
 				(font
@@ -15932,7 +16147,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C52")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -15947,7 +16162,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1594e7c6-e7ad-446a-ad3c-83145ebbbc00")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0124"
 			(at 308.61 148.59 0)
 			(effects
 				(font
@@ -15997,7 +16212,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0120")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -16005,7 +16220,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 368.3 41.91 0)
+		(at 377.19 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16013,8 +16228,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16a8b229-260d-4249-9836-978bd60e0018")
-		(property "Reference" "#PWR0129"
-			(at 368.3 48.26 0)
+		(property "Reference" "#PWR0136"
+			(at 377.19 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16023,7 +16238,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 368.3 46.99 0)
+			(at 377.19 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16031,7 +16246,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 368.3 41.91 0)
+			(at 377.19 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16040,7 +16255,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.3 41.91 0)
+			(at 377.19 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16049,7 +16264,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 368.3 41.91 0)
+			(at 377.19 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16063,7 +16278,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0129")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -16079,7 +16294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cac2f05-9dca-4069-ad97-79da564e6310")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0101"
 			(at 114.3 276.86 0)
 			(effects
 				(font
@@ -16129,7 +16344,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR094")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -16144,7 +16359,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d9d0f7e-7e92-4bed-9a0c-a21f99cbc686")
-		(property "Reference" "C72"
+		(property "Reference" "C71"
 			(at 399.796 204.978 0)
 			(effects
 				(font
@@ -16268,7 +16483,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C72")
+					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -16284,7 +16499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "233478e7-acb6-4e65-a00e-db54cbfdf5fa")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0130"
 			(at 361.95 115.57 0)
 			(effects
 				(font
@@ -16334,7 +16549,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0125")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -16349,7 +16564,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2467a985-ac9f-4d32-bda6-e0710fc47e0d")
-		(property "Reference" "R44"
+		(property "Reference" "R51"
 			(at 292.862 80.518 0)
 			(effects
 				(font
@@ -16463,7 +16678,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R44")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -16479,7 +16694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "280730f9-8726-4d2d-867b-c96dfecfee63")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0109"
 			(at 154.94 276.86 0)
 			(effects
 				(font
@@ -16529,7 +16744,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0102")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -16537,15 +16752,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 368.3 25.4 180)
+		(at 377.19 26.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2886b0ec-413d-4a81-8ef3-80679068914e")
-		(property "Reference" "R60"
-			(at 371.348 22.098 0)
+		(property "Reference" "R57"
+			(at 380.238 23.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16553,7 +16768,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 371.602 23.876 0)
+			(at 380.492 25.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16561,7 +16776,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 370.078 25.4 90)
+			(at 378.968 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16570,7 +16785,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 368.3 25.4 0)
+			(at 377.19 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16579,7 +16794,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 368.3 25.4 0)
+			(at 377.19 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16588,7 +16803,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 371.094 25.654 0)
+			(at 379.984 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16596,7 +16811,7 @@
 			)
 		)
 		(property "Function" "XMOS"
-			(at 368.3 25.4 90)
+			(at 377.19 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16605,7 +16820,7 @@
 			)
 		)
 		(property "Supplier Part" "C11702"
-			(at 368.3 25.4 0)
+			(at 377.19 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16614,7 +16829,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 368.3 25.4 0)
+			(at 377.19 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16623,7 +16838,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0402WGF1001TCE"
-			(at 368.3 25.4 0)
+			(at 377.19 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16632,7 +16847,7 @@
 			)
 		)
 		(property "LCSC Part #" "C11702"
-			(at 368.3 25.4 0)
+			(at 377.19 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16641,7 +16856,7 @@
 			)
 		)
 		(property "Isat" ""
-			(at 368.3 25.4 0)
+			(at 377.19 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16658,7 +16873,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R60")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -16666,7 +16881,7 @@
 	)
 	(symbol
 		(lib_id "New_Library:VDDIO")
-		(at 368.3 20.32 0)
+		(at 377.19 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16674,8 +16889,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "289ca28c-ed69-4c06-ae26-79205552f748")
-		(property "Reference" "#PWR0128"
-			(at 368.3 24.13 0)
+		(property "Reference" "#PWR0135"
+			(at 377.19 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16684,7 +16899,7 @@
 			)
 		)
 		(property "Value" "VDDIO"
-			(at 368.3 15.24 0)
+			(at 377.19 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16692,7 +16907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 368.3 20.32 0)
+			(at 377.19 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16701,7 +16916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.3 20.32 0)
+			(at 377.19 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16710,7 +16925,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 368.3 20.32 0)
+			(at 377.19 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16724,7 +16939,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0128")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -16740,7 +16955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28b92b5e-5e81-4c2f-a99b-7069b188f20f")
-		(property "Reference" "U9"
+		(property "Reference" "U11"
 			(at 309.88 36.8299 0)
 			(effects
 				(font
@@ -16830,7 +17045,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "U9")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -16845,7 +17060,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a265146-8917-4e54-92ad-bcc2bef6b875")
-		(property "Reference" "C64"
+		(property "Reference" "C63"
 			(at 257.175 254 0)
 			(effects
 				(font
@@ -17021,7 +17236,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C64")
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -17036,7 +17251,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2fcd4acd-88be-4950-9dee-6f010dda76cf")
-		(property "Reference" "R62"
+		(property "Reference" "R59"
 			(at 376.682 188.468 90)
 			(effects
 				(font
@@ -17150,7 +17365,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R62")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -17158,15 +17373,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 368.3 35.56 0)
+		(at 377.19 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "303bebd2-802e-4df8-b9ed-cc47b7122dfe")
-		(property "Reference" "C68"
-			(at 370.586 33.528 0)
+		(property "Reference" "C67"
+			(at 379.476 34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17175,7 +17390,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 370.586 35.306 0)
+			(at 379.476 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17184,7 +17399,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 369.2652 39.37 0)
+			(at 378.1552 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17193,7 +17408,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 368.3 35.56 0)
+			(at 377.19 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17202,7 +17417,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 368.3 35.56 0)
+			(at 377.19 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17211,7 +17426,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 372.618 36.83 0)
+			(at 381.508 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17219,7 +17434,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 372.618 38.354 0)
+			(at 381.508 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17227,7 +17442,7 @@
 			)
 		)
 		(property "Function" "XMOS"
-			(at 368.3 35.56 0)
+			(at 377.19 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17236,7 +17451,7 @@
 			)
 		)
 		(property "Supplier Part" "C1525"
-			(at 368.3 35.56 0)
+			(at 377.19 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17245,7 +17460,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 368.3 35.56 0)
+			(at 377.19 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17254,7 +17469,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CL05B104KO5NNNC"
-			(at 368.3 35.56 0)
+			(at 377.19 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17263,7 +17478,7 @@
 			)
 		)
 		(property "LCSC Part #" "C1525"
-			(at 368.3 35.56 0)
+			(at 377.19 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17272,7 +17487,7 @@
 			)
 		)
 		(property "Isat" ""
-			(at 368.3 35.56 0)
+			(at 377.19 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17289,7 +17504,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C68")
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -17559,7 +17774,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32277cc4-fb2e-4a8b-af55-a7a91d3994ed")
-		(property "Reference" "C40"
+		(property "Reference" "C42"
 			(at 32.766 232.918 0)
 			(effects
 				(font
@@ -17683,7 +17898,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C40")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -17698,7 +17913,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "333af97a-83f4-4507-afa6-9af61171af26")
-		(property "Reference" "C67"
+		(property "Reference" "C66"
 			(at 321.056 23.368 0)
 			(effects
 				(font
@@ -17822,7 +18037,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C67")
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -17837,7 +18052,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3556c1e0-db03-437b-b3d6-5df71f255aeb")
-		(property "Reference" "R51"
+		(property "Reference" "R47"
 			(at 218.44 251.46 0)
 			(effects
 				(font
@@ -18038,7 +18253,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R51")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -18054,7 +18269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35d8a4f7-57ef-481a-ad32-8f5741b99666")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0128"
 			(at 328.93 222.25 0)
 			(effects
 				(font
@@ -18104,7 +18319,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0123")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -18119,7 +18334,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38185c3c-397e-4a35-bdb5-96be8ae6261a")
-		(property "Reference" "R59"
+		(property "Reference" "R56"
 			(at 362.712 90.424 90)
 			(effects
 				(font
@@ -18233,7 +18448,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R59")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -18248,7 +18463,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39caa5fc-e2fe-4a7d-b9d1-f70836071346")
-		(property "Reference" "C58"
+		(property "Reference" "C60"
 			(at 139.446 262.128 0)
 			(effects
 				(font
@@ -18372,7 +18587,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C58")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -18387,7 +18602,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c59a073-1c2a-4a7f-b0df-142fe60bdccf")
-		(property "Reference" "C49"
+		(property "Reference" "C51"
 			(at 93.726 262.128 0)
 			(effects
 				(font
@@ -18511,7 +18726,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C49")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -18526,7 +18741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3cccbef9-2862-41d8-99b1-df333496769f")
-		(property "Reference" "R65"
+		(property "Reference" "R63"
 			(at 386.842 201.168 90)
 			(effects
 				(font
@@ -18640,7 +18855,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R65")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -18656,7 +18871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d2abe1a-a615-4312-941c-21b0656cc3f4")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR098"
 			(at 104.14 231.14 0)
 			(effects
 				(font
@@ -18706,7 +18921,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR091")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -18721,7 +18936,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d4a5152-07b0-46ce-9da5-eafd9552f4d4")
-		(property "Reference" "U8"
+		(property "Reference" "U10"
 			(at 123.19 35.56 0)
 			(effects
 				(font
@@ -19079,7 +19294,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "U8")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -19094,7 +19309,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ec8c230-cc00-43ab-ac83-36cd16fef3d0")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0142"
 			(at 397.51 205.74 0)
 			(effects
 				(font
@@ -19144,7 +19359,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0137")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -19160,7 +19375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "403898f7-eba6-4753-9fbe-012e4c4d586c")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR081"
 			(at 41.91 247.65 0)
 			(effects
 				(font
@@ -19210,7 +19425,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR074")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -19226,7 +19441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43709302-7e11-4d4d-93f1-59ba507fc686")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR086"
 			(at 67.31 231.14 0)
 			(effects
 				(font
@@ -19276,7 +19491,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR079")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -19291,7 +19506,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44ae96cb-25d7-43f7-823f-6c3e40c6b0db")
-		(property "Reference" "R54"
+		(property "Reference" "R50"
 			(at 278.638 22.098 0)
 			(effects
 				(font
@@ -19405,7 +19620,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R54")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -19421,7 +19636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "456f0323-2b2d-4e59-ad8f-d848368ee715")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0114"
 			(at 224.79 194.31 0)
 			(effects
 				(font
@@ -19471,7 +19686,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0111")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -19486,7 +19701,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "482ab4d6-77b7-4bc0-a4f9-ef7e69739d7d")
-		(property "Reference" "R34"
+		(property "Reference" "R38"
 			(at 158.75 138.43 0)
 			(effects
 				(font
@@ -19691,7 +19906,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R34")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -19707,7 +19922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a4265a1-088c-44f8-ab19-76d60974c1c1")
-		(property "Reference" "U10"
+		(property "Reference" "U12"
 			(at 340.36 71.12 0)
 			(effects
 				(font
@@ -19939,7 +20154,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "U10")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -19954,7 +20169,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d2162bb-f1b6-456b-b8cb-47da7b513067")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR094"
 			(at 93.98 96.52 0)
 			(effects
 				(font
@@ -20004,7 +20219,74 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR087")
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 205.74 251.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "531adc5f-cd66-4deb-aaab-439e01ddba5b")
+		(property "Reference" "TP11"
+			(at 208.28 246.8879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XU316_RST"
+			(at 208.28 249.4279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 210.82 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 205.74 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97551da7-100f-42f7-b507-3f1ff5b338b2")
+		)
+		(instances
+			(project ""
+				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -20020,7 +20302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "532e8ebe-a469-4b6a-8229-6b6c3492ed30")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR0100"
 			(at 109.22 43.18 0)
 			(effects
 				(font
@@ -20070,7 +20352,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR093")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -20085,7 +20367,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "595ee42b-6eca-4de4-826b-70cd8757e121")
-		(property "Reference" "D5"
+		(property "Reference" "D6"
 			(at 370.84 78.486 0)
 			(effects
 				(font
@@ -20312,7 +20594,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "D5")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -20327,7 +20609,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b7bf1ac-2779-4978-b0ab-ae454c4aa7b1")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR095"
 			(at 101.6 57.15 0)
 			(effects
 				(font
@@ -20377,7 +20659,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR088")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -20392,7 +20674,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5be5bb41-ca4b-47fc-a8d1-f097c11f28ef")
-		(property "Reference" "C48"
+		(property "Reference" "C50"
 			(at 83.566 232.918 0)
 			(effects
 				(font
@@ -20516,7 +20798,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C48")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -20532,7 +20814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5be94c59-93ea-4a32-b639-9c7cdbf8177d")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR080"
 			(at 30.48 260.35 0)
 			(effects
 				(font
@@ -20582,7 +20864,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR073")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -20699,7 +20981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e566297-1464-4b01-9ff2-fedb5a274395")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR083"
 			(at 45.72 276.86 0)
 			(effects
 				(font
@@ -20749,7 +21031,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR076")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -20764,7 +21046,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6295012d-5fc1-4971-841d-bd4bea849ea0")
-		(property "Reference" "C41"
+		(property "Reference" "C43"
 			(at 44.196 232.918 0)
 			(effects
 				(font
@@ -20888,7 +21170,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C41")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -20903,7 +21185,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62d483f0-6818-4ee5-a73a-9a409002efa0")
-		(property "Reference" "R43"
+		(property "Reference" "R64"
 			(at 386.842 229.108 90)
 			(effects
 				(font
@@ -21017,7 +21299,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R43")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -21236,7 +21518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6675fdc6-856c-40a2-86f2-310c982f847f")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0119"
 			(at 289.56 93.98 0)
 			(effects
 				(font
@@ -21286,7 +21568,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0133")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -21302,7 +21584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6adef6e7-2690-416c-af53-058a487aaf90")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR091"
 			(at 91.44 276.86 0)
 			(effects
 				(font
@@ -21352,7 +21634,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR084")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -21368,7 +21650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ba5d4ea-b103-494a-a38d-902abca7531f")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0108"
 			(at 154.94 259.08 0)
 			(effects
 				(font
@@ -21418,7 +21700,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0101")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -21433,7 +21715,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6dd9af06-eaa0-4f87-84a4-791f2b5333b2")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0116"
 			(at 234.95 275.59 0)
 			(effects
 				(font
@@ -21483,7 +21765,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0113")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -21499,7 +21781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e3e99ef-8ff4-4746-bd17-cc5b340b3015")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR085"
 			(at 57.15 276.86 0)
 			(effects
 				(font
@@ -21549,7 +21831,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR078")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -21564,7 +21846,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f462773-9b61-4518-96da-b0b1b288c6c0")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR0103"
 			(at 115.57 160.02 0)
 			(effects
 				(font
@@ -21614,7 +21896,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR096")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -21629,7 +21911,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f8e54d9-9c34-4fc1-a9c1-eccdaa28a193")
-		(property "Reference" "#PWR0176"
+		(property "Reference" "#PWR0133"
 			(at 367.03 252.73 0)
 			(effects
 				(font
@@ -21679,7 +21961,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0176")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -21694,7 +21976,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6fbc64d3-040f-4ce8-afe7-2116f75c29b2")
-		(property "Reference" "R64"
+		(property "Reference" "R62"
 			(at 386.842 173.228 90)
 			(effects
 				(font
@@ -21808,7 +22090,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R64")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -21823,7 +22105,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72d134bb-8a8c-4132-8c3a-3bd042de81b2")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0140"
 			(at 396.24 74.93 0)
 			(effects
 				(font
@@ -21873,7 +22155,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0135")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -21888,7 +22170,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73c68a66-2615-48cc-bcf2-da3752efb619")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0141"
 			(at 396.24 85.09 0)
 			(effects
 				(font
@@ -21938,7 +22220,74 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0136")
+					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 354.33 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "741cc6e2-2df5-4268-b366-8ae200e0a74e")
+		(property "Reference" "TP12"
+			(at 356.87 24.6379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MUTE"
+			(at 356.87 27.1779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 359.41 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 359.41 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 354.33 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "406b8347-e741-4d61-a768-28f2e1671301")
+		)
+		(instances
+			(project ""
+				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -22209,7 +22558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "753a860c-5629-4e76-af07-439c8c298f7d")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0106"
 			(at 125.73 276.86 0)
 			(effects
 				(font
@@ -22259,7 +22608,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR099")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -22275,7 +22624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "766d5c4c-a8c3-4ed1-835d-5eee610d159c")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR082"
 			(at 45.72 260.35 0)
 			(effects
 				(font
@@ -22325,7 +22674,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR075")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -22341,7 +22690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "767ca746-2d82-49da-adf0-99051a35f462")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0129"
 			(at 331.47 165.1 0)
 			(effects
 				(font
@@ -22391,7 +22740,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0124")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -22406,7 +22755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "771be60e-d625-457c-a6ce-7e1c6479fb49")
-		(property "Reference" "#PWR0179"
+		(property "Reference" "#PWR0127"
 			(at 314.96 88.9 0)
 			(effects
 				(font
@@ -22457,7 +22806,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0179")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -22472,7 +22821,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77563aff-429d-4322-83fb-8499ce239b7e")
-		(property "Reference" "C69"
+		(property "Reference" "C68"
 			(at 380.746 138.938 0)
 			(effects
 				(font
@@ -22596,7 +22945,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C69")
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -22611,7 +22960,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "778eb67d-1a07-4a50-b00f-cd2ac2ca747c")
-		(property "Reference" "R45"
+		(property "Reference" "R42"
 			(at 164.846 64.77 0)
 			(effects
 				(font
@@ -22789,7 +23138,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R45")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -22804,7 +23153,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a478ee1-bac4-4c54-a5ba-12625d57b0c9")
-		(property "Reference" "R37"
+		(property "Reference" "R40"
 			(at 162.052 107.442 0)
 			(effects
 				(font
@@ -23024,7 +23373,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R37")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -23040,7 +23389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a6ec2f4-3b7e-4356-a8c2-f4e6cfa3676c")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR090"
 			(at 81.28 247.65 0)
 			(effects
 				(font
@@ -23090,7 +23439,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR083")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -23106,7 +23455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bc51a87-f5c3-4861-a5ae-9abe5110932c")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR097"
 			(at 102.87 276.86 0)
 			(effects
 				(font
@@ -23156,7 +23505,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR090")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -23290,7 +23639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83a15c5f-6c6c-4bfb-8f41-b597bc44597b")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR084"
 			(at 53.34 247.65 0)
 			(effects
 				(font
@@ -23340,7 +23689,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR077")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -23355,7 +23704,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "851d0f11-3f2a-4e8c-a00f-de7d53b04042")
-		(property "Reference" "R55"
+		(property "Reference" "R52"
 			(at 293.116 99.568 0)
 			(effects
 				(font
@@ -23469,7 +23818,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R55")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -23485,7 +23834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86f0b352-1a6e-4bcd-b2d5-a72d135f55a9")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR099"
 			(at 104.14 247.65 0)
 			(effects
 				(font
@@ -23535,7 +23884,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR092")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -23706,7 +24055,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8cecae39-4c3a-4164-ae3a-c823246315f9")
-		(property "Reference" "R66"
+		(property "Reference" "R65"
 			(at 401.828 138.938 0)
 			(effects
 				(font
@@ -23820,7 +24169,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R66")
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -23835,7 +24184,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8deabdc3-f8af-4f56-ad78-2b3d5118c213")
-		(property "Reference" "C71"
+		(property "Reference" "C70"
 			(at 398.526 72.898 0)
 			(effects
 				(font
@@ -23959,7 +24308,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C71")
+					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -23974,7 +24323,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e3ee015-bc84-4d3f-8c6f-f49bb689b0d2")
-		(property "Reference" "R56"
+		(property "Reference" "R53"
 			(at 314.452 149.098 90)
 			(effects
 				(font
@@ -24088,7 +24437,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R56")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -24103,7 +24452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8fc46e43-57fc-477a-8c21-7a0023821d35")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0117"
 			(at 255.27 241.3 0)
 			(effects
 				(font
@@ -24153,7 +24502,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0114")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -24168,7 +24517,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "907c5d18-7875-4249-af09-8337ed36ee08")
-		(property "Reference" "C63"
+		(property "Reference" "C62"
 			(at 226.695 194.31 0)
 			(effects
 				(font
@@ -24356,7 +24705,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C63")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -24372,7 +24721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91a472be-ecdb-48c8-a850-48e91ea3f54a")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0145"
 			(at 398.78 154.94 0)
 			(effects
 				(font
@@ -24422,7 +24771,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0140")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -24438,7 +24787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92b93361-60f5-4f1e-bc4e-04edbd3eeaff")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0110"
 			(at 167.64 243.84 0)
 			(effects
 				(font
@@ -24488,7 +24837,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0103")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -24503,7 +24852,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93663b62-4027-40e4-8fa3-8da038ecf7a5")
-		(property "Reference" "C92"
+		(property "Reference" "C73"
 			(at 401.066 237.998 0)
 			(effects
 				(font
@@ -24627,7 +24976,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C92")
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -24642,7 +24991,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93679319-8718-4dc4-a83b-0271421d5a2a")
-		(property "Reference" "R57"
+		(property "Reference" "R54"
 			(at 334.518 136.398 0)
 			(effects
 				(font
@@ -24756,7 +25105,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R57")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -24772,7 +25121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "963d473f-bee5-4d61-867a-d11951ae4438")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR089"
 			(at 80.01 276.86 0)
 			(effects
 				(font
@@ -24822,7 +25171,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR082")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -24837,7 +25186,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99979a1c-11cb-411b-86d3-1d4d19f25665")
-		(property "Reference" "C42"
+		(property "Reference" "C44"
 			(at 48.006 262.128 0)
 			(effects
 				(font
@@ -24961,7 +25310,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C42")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -24976,7 +25325,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a18e858-0c2c-4a2c-ac8b-f5ab732a2ec5")
-		(property "Reference" "C47"
+		(property "Reference" "C49"
 			(at 82.296 262.128 0)
 			(effects
 				(font
@@ -25100,7 +25449,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C47")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -25115,7 +25464,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a261f5a-5afd-485d-9a85-5726ebcbaead")
-		(property "Reference" "R35"
+		(property "Reference" "R39"
 			(at 156.464 144.78 0)
 			(effects
 				(font
@@ -25335,7 +25684,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R35")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -25343,15 +25692,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 358.14 30.48 270)
+		(at 367.03 31.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9bab0a89-460a-4ce3-9822-c5fbffc8d054")
-		(property "Reference" "R58"
-			(at 353.822 28.448 90)
+		(property "Reference" "R55"
+			(at 362.712 29.718 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25359,7 +25708,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 362.966 28.448 90)
+			(at 371.856 29.718 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25367,7 +25716,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 358.14 28.702 90)
+			(at 367.03 29.972 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25376,7 +25725,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 358.14 30.48 0)
+			(at 367.03 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25385,7 +25734,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 358.14 30.48 0)
+			(at 367.03 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25394,7 +25743,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 358.14 30.48 90)
+			(at 367.03 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25402,7 +25751,7 @@
 			)
 		)
 		(property "Function" "XMOS"
-			(at 358.14 30.48 90)
+			(at 367.03 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25411,7 +25760,7 @@
 			)
 		)
 		(property "Supplier Part" "C25076"
-			(at 358.14 30.48 90)
+			(at 367.03 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25420,7 +25769,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 358.14 30.48 90)
+			(at 367.03 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25429,7 +25778,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0402WGF1000TCE"
-			(at 358.14 30.48 90)
+			(at 367.03 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25438,7 +25787,7 @@
 			)
 		)
 		(property "LCSC Part #" "C25076"
-			(at 358.14 30.48 90)
+			(at 367.03 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25447,7 +25796,7 @@
 			)
 		)
 		(property "Isat" ""
-			(at 358.14 30.48 90)
+			(at 367.03 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25464,7 +25813,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R58")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -25480,7 +25829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e349d0c-14a8-4bbb-ba7d-8dd2435a0080")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR087"
 			(at 68.58 276.86 0)
 			(effects
 				(font
@@ -25530,7 +25879,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR080")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -25546,7 +25895,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e46bfc5-ed69-4726-825f-5d6bb6addc36")
-		(property "Reference" "R30"
+		(property "Reference" "R34"
 			(at 81.915 147.32 0)
 			(effects
 				(font
@@ -25765,7 +26114,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R30")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -26002,7 +26351,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1b3a12f-25f3-4e3b-aeb9-3e86357d840b")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR096"
 			(at 102.87 184.15 0)
 			(effects
 				(font
@@ -26052,7 +26401,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR089")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -26068,7 +26417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a217160e-9142-4cb2-ac25-8d34b9313eb7")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0126"
 			(at 318.77 38.1 0)
 			(effects
 				(font
@@ -26118,7 +26467,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0122")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -26265,7 +26614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a652b8da-7e37-42b2-b4fb-b0691ab2fc5d")
-		(property "Reference" "U11"
+		(property "Reference" "U13"
 			(at 354.33 127 0)
 			(effects
 				(font
@@ -26501,7 +26850,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "U11")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -26516,7 +26865,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8432277-c506-4e98-b3bd-d76b45e7c4ca")
-		(property "Reference" "C54"
+		(property "Reference" "C56"
 			(at 106.426 232.918 0)
 			(effects
 				(font
@@ -26640,7 +26989,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C54")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -26656,7 +27005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab81d64f-4220-4431-b60b-6c494072d640")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0118"
 			(at 275.59 24.13 0)
 			(effects
 				(font
@@ -26706,7 +27055,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0115")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -26722,7 +27071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad5c80c1-684d-46d1-aa63-e5828f191c3c")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR078"
 			(at 30.48 231.14 0)
 			(effects
 				(font
@@ -26772,7 +27121,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR071")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -26787,7 +27136,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0185192-2c58-4b9a-a4ed-8a1575a4d192")
-		(property "Reference" "C73"
+		(property "Reference" "C72"
 			(at 401.066 182.118 0)
 			(effects
 				(font
@@ -26911,7 +27260,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C73")
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -26927,7 +27276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0c32209-c415-45d8-a319-e73e0c3ee3b7")
-		(property "Reference" "#PWR0178"
+		(property "Reference" "#PWR0149"
 			(at 398.78 252.73 0)
 			(effects
 				(font
@@ -26977,7 +27326,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0178")
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -26992,7 +27341,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b339f965-2f54-41de-8975-6a9946e72d16")
-		(property "Reference" "R63"
+		(property "Reference" "R60"
 			(at 376.682 216.408 90)
 			(effects
 				(font
@@ -27106,7 +27455,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R63")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -27121,7 +27470,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b41e398e-e38b-46a8-b5c1-9727d669e744")
-		(property "Reference" "C55"
+		(property "Reference" "C57"
 			(at 116.586 262.128 0)
 			(effects
 				(font
@@ -27245,7 +27594,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C55")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -27261,7 +27610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b52cbd45-c539-44cc-8ab3-b429d6cf015b")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR0146"
 			(at 398.78 176.53 0)
 			(effects
 				(font
@@ -27311,7 +27660,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0141")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -27326,7 +27675,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b559bd18-9265-4ba6-89a4-004762ffe5a1")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR088"
 			(at 69.85 184.15 0)
 			(effects
 				(font
@@ -27376,7 +27725,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR081")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -27391,7 +27740,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b69d83b9-b66e-4b96-9f0c-35a6e167ac22")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0132"
 			(at 367.03 224.79 0)
 			(effects
 				(font
@@ -27441,7 +27790,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0127")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -27457,7 +27806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7ba2727-e87e-4d52-adbd-b90f8589d2c5")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0125"
 			(at 318.77 24.13 0)
 			(effects
 				(font
@@ -27507,7 +27856,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0121")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -27522,7 +27871,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb4b86aa-8734-419e-a8f7-cb70c99a1d55")
-		(property "Reference" "R42"
+		(property "Reference" "R61"
 			(at 376.682 244.348 90)
 			(effects
 				(font
@@ -27636,7 +27985,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R42")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -27652,7 +28001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc5b66e8-7260-4b35-a048-500552250959")
-		(property "Reference" "C46"
+		(property "Reference" "C48"
 			(at 72.39 168.9099 0)
 			(effects
 				(font
@@ -27873,7 +28222,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C46")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -27888,7 +28237,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd0c902a-b6d5-4705-a5ca-93d36fe0868a")
-		(property "Reference" "R48"
+		(property "Reference" "R43"
 			(at 168.656 82.55 0)
 			(effects
 				(font
@@ -28108,7 +28457,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R48")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -28124,7 +28473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf3b42f4-f8e0-4280-926e-f61b752f58bc")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR079"
 			(at 30.48 247.65 0)
 			(effects
 				(font
@@ -28174,7 +28523,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR072")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -28189,7 +28538,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c51a5fce-267e-4a32-8d9c-02e87a951ff0")
-		(property "Reference" "C53"
+		(property "Reference" "C55"
 			(at 105.156 262.128 0)
 			(effects
 				(font
@@ -28313,7 +28662,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C53")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -28328,7 +28677,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c62f7a71-1a48-46fa-9527-31d85f380c1f")
-		(property "Reference" "C51"
+		(property "Reference" "C53"
 			(at 95.504 83.312 0)
 			(effects
 				(font
@@ -28471,7 +28820,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C51")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -28486,7 +28835,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6cd72b6-0ace-49dc-9de4-20aa54b4ac3a")
-		(property "Reference" "C43"
+		(property "Reference" "C45"
 			(at 55.626 232.918 0)
 			(effects
 				(font
@@ -28610,7 +28959,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C43")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -28626,7 +28975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cad5b3aa-f135-4eb4-be40-369218a5568c")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR0104"
 			(at 119.38 231.14 0)
 			(effects
 				(font
@@ -28676,7 +29025,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR097")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -28691,7 +29040,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cbace05d-7d9f-4f40-a86c-f791891cc500")
-		(property "Reference" "R69"
+		(property "Reference" "R45"
 			(at 168.656 87.63 0)
 			(effects
 				(font
@@ -28911,7 +29260,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R69")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -29156,7 +29505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce32ea4a-c78a-4069-8898-79ab17b283f7")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0123"
 			(at 298.45 59.69 0)
 			(effects
 				(font
@@ -29206,7 +29555,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0119")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -29221,7 +29570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2f31cfc-63dc-4242-85e8-7c262222fbb9")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR093"
 			(at 93.98 69.85 0)
 			(effects
 				(font
@@ -29271,7 +29620,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR086")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -29287,7 +29636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3af8b5e-67c1-4042-99c1-353ed8b36747")
-		(property "Reference" "#PWR0177"
+		(property "Reference" "#PWR0148"
 			(at 398.78 232.41 0)
 			(effects
 				(font
@@ -29337,7 +29686,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0177")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -29352,7 +29701,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5c85cf8-d4e2-47e4-8535-fa55daa6a792")
-		(property "Reference" "R70"
+		(property "Reference" "R46"
 			(at 168.656 90.17 0)
 			(effects
 				(font
@@ -29572,7 +29921,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R70")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -29814,7 +30163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd3d4a42-fab4-4d5e-bf6a-908f5ca3f056")
-		(property "Reference" "R52"
+		(property "Reference" "R48"
 			(at 226.06 259.0799 90)
 			(effects
 				(font
@@ -30018,7 +30367,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R52")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -30033,7 +30382,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dea19ff0-2dd3-44dc-a9f7-493e44a117d0")
-		(property "Reference" "C57"
+		(property "Reference" "C59"
 			(at 128.016 262.128 0)
 			(effects
 				(font
@@ -30157,7 +30506,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C57")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -30172,7 +30521,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e026c7da-2f5a-42c3-b8a1-c78694df21be")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0122"
 			(at 297.18 148.59 0)
 			(effects
 				(font
@@ -30222,7 +30571,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0118")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -30237,7 +30586,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0e76e86-917b-406e-8a3d-10c2a3e0cc6b")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0113"
 			(at 207.01 215.9 0)
 			(effects
 				(font
@@ -30287,7 +30636,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0109")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -30302,7 +30651,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0f39da2-53c0-4391-9fcc-3cb97dd20f05")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0131"
 			(at 367.03 196.85 0)
 			(effects
 				(font
@@ -30352,7 +30701,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0126")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -30368,7 +30717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e51da09b-9fec-4e45-89bd-de33bcfa0307")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0107"
 			(at 137.16 276.86 0)
 			(effects
 				(font
@@ -30418,7 +30767,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0100")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -30594,7 +30943,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8bb13d4-b890-4298-b795-062920fb54d4")
-		(property "Reference" "C56"
+		(property "Reference" "C58"
 			(at 121.666 232.918 0)
 			(effects
 				(font
@@ -30718,7 +31067,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C56")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -30938,7 +31287,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ec74e84e-441f-43f0-acdf-86722e14e707")
-		(property "Reference" "TP4"
+		(property "Reference" "TP10"
 			(at 167.64 33.6549 90)
 			(effects
 				(font
@@ -31034,7 +31383,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "TP4")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -31194,7 +31543,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef356cfb-cc42-48fa-b1a6-52e65317b9eb")
-		(property "Reference" "C50"
+		(property "Reference" "C52"
 			(at 94.996 232.918 0)
 			(effects
 				(font
@@ -31318,7 +31667,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C50")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -31334,7 +31683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0a0306b-fb44-4b54-a069-64c974833968")
-		(property "Reference" "R31"
+		(property "Reference" "R35"
 			(at 104.775 152.4 90)
 			(effects
 				(font
@@ -31556,7 +31905,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R31")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -31572,7 +31921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4c6b3fb-0c72-477d-9cb6-fa0949c30b09")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0121"
 			(at 297.18 135.89 0)
 			(effects
 				(font
@@ -31622,7 +31971,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0117")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -31637,7 +31986,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5e885a3-f8a5-4419-9939-d95d368868bf")
-		(property "Reference" "R61"
+		(property "Reference" "R58"
 			(at 382.27 79.248 0)
 			(effects
 				(font
@@ -31751,7 +32100,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R61")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -31767,7 +32116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f69e4766-b1e7-46f9-9cfe-3dc3756d6b2a")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0120"
 			(at 289.56 113.03 0)
 			(effects
 				(font
@@ -31817,7 +32166,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0116")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -31832,7 +32181,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7e13dff-1451-4d49-9bb7-ff75c849d713")
-		(property "Reference" "R33"
+		(property "Reference" "R37"
 			(at 158.75 135.89 0)
 			(effects
 				(font
@@ -32037,7 +32386,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R33")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -32053,7 +32402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8324ded-a7a6-4027-858e-38bbca381d67")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0111"
 			(at 167.64 276.86 0)
 			(effects
 				(font
@@ -32103,7 +32452,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0104")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -32119,7 +32468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb280b94-793f-49d8-8bdf-6e3b049c8c92")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0139"
 			(at 388.62 154.94 0)
 			(effects
 				(font
@@ -32169,7 +32518,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0134")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -32184,7 +32533,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb3d3d25-f956-4e49-8802-e9cbbf7a2ef5")
-		(property "Reference" "C45"
+		(property "Reference" "C47"
 			(at 70.866 262.128 0)
 			(effects
 				(font
@@ -32308,7 +32657,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C45")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -32323,7 +32672,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb808e0b-2d36-41ad-acc6-37bf28986dbe")
-		(property "Reference" "R49"
+		(property "Reference" "R44"
 			(at 168.656 85.09 0)
 			(effects
 				(font
@@ -32543,7 +32892,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "R49")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -32558,7 +32907,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ffc1421e-2e88-44e0-94e6-765ce2c9e37c")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0115"
 			(at 224.79 209.55 0)
 			(effects
 				(font
@@ -32608,7 +32957,7 @@
 		(instances
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0112")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)

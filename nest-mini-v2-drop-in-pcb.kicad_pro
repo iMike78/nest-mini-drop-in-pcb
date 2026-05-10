@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.254,
-          "width": 0.4572
+          "height": 0.8,
+          "width": 0.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -58,48 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "copper_edge_clearance|103252316|82200117|eabbda25-34ba-4083-9542-488ed5ed87a4|0421e471-77a1-4c6e-a453-0e4093e385e3",
-          ""
-        ],
-        [
-          "copper_edge_clearance|103413466|82312384|eabbda25-34ba-4083-9542-488ed5ed87a4|ebd4f518-8b01-4122-9ddd-776f36256901",
-          ""
-        ],
-        [
-          "copper_edge_clearance|110990618|89075712|5373f326-0605-4bd9-9f5f-37cb3cdb4215|4c61c5e7-b4c7-4dc5-9db6-ffaab6cecc2b",
-          ""
-        ],
-        [
-          "copper_edge_clearance|137870284|115924928|1aa2cdff-8549-489d-b032-785a82bd6042|ce7b8839-69d6-42e8-a4c9-f33ef1f97182",
-          ""
-        ],
-        [
-          "copper_edge_clearance|167581156|96942194|cc545a54-294c-4f44-88d7-66669761960d|e3e92497-42ce-42fa-8a86-a1aa6fe68e08",
-          ""
-        ],
-        [
-          "copper_edge_clearance|167945362|97095000|cc545a54-294c-4f44-88d7-66669761960d|07301a4a-6029-4a33-9a75-ba061718a39f",
-          ""
-        ],
-        [
-          "courtyards_overlap|156968559|71374271|33e4653b-3c64-48b6-b280-6344a0e6f1e9|deaf4af6-1c59-4832-ba45-4552d569f1f7",
-          ""
-        ],
-        [
-          "items_not_allowed|112961522|68657717|7afd9e01-1e47-4e08-b90b-61ac7200172f|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|114443121|65337640|a5e2e91c-68f8-46b8-8ba3-96b76d18040a|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "padstack|152963640|69979001|c8918373-0e21-4b37-b68a-94dd7172d8c2|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -978,7 +937,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "C:/Temp/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
