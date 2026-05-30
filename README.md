@@ -13,6 +13,7 @@
         | <a href="https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=th">ไทย</a>
         | <a href="https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=fr">Français</a>
         | <a href="https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=hu">Magyar</a>
         | <a href="https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=es">Español</a>
         | <a href="https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=it">Italiano</a>
         | <a href="https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ru">Русский</a>
@@ -51,7 +52,7 @@ The goal of this project and repository (which is similar to the [Onju Voice](ht
 
 This is primarly targeting people looking to convert/repurpose their old Google Nest Mini smart speakers into open-source hardware for [Voice Control of Home Assistant](https://www.home-assistant.io/voice_control/) and/or media player speaker output for [Music Assistant](https://www.music-assistant.io), (the hardware can however probably also be used with other applications as well with other firmware as it is based on the popular Espressif ESP32 platform).
 
-<img src="pics/MiciMike_Nest__PCB_Prototype_2.png" width="1000">
+<img src="pics/front_render.jpg" width="1000" alt="First test PCB">
 
 The hardware design will (similar to [Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)) integrate an ESP32-S3 SoC for WiFi, BLE, and [onboard wake-word detection](https://www.home-assistant.io/voice_control/about_wake_word/) (using no-code [ESPHome firmware](https://esphome.io/)) + an XMOS xCORE XU316 chip for advanced audio processing (with custom firmware for microphone cleanup offloading for better voice recognition capabilities by using using locally running algorithms for Noise Suppression, Acoustic Echo Cancellation, Interference Cancellation, and Automatic Gain Control).
 
@@ -77,10 +78,11 @@ For more information about the concept/idea see and contribute to related discus
 - ✅ Component placement done
 - ✅ Routing is done
 - ✅ Ground pour, shielding strategy, and EMI considerations done
-- ⚠️ 1st test batch failed on two errors - fixed
-- 🕓 waiting for the 2nd test batch
+- ⛔ 1st test batch failed on two errors - fixed
+- ⚠️ 2nd test batch partially working
+- XTAG4 debug option added for the next batch
 
-<img src="pics/3D.png" width="1000">
+<img src="pics/back_render.jpg" width="1000">
 
 ## Tools used
 
@@ -92,12 +94,15 @@ For more information about the concept/idea see and contribute to related discus
 - 4-layer PCB
 - ESP32-S3R8 bare chip (ESP32-S3 for WiFi, BLE, and onboard wake-word detection)
 - XMOS XU316-1024-QF60B-C24 (XMOS XU316 xCORE DSP audio processing)
-- Dual SPI flash (as ESP32 and XMOS have their own SPI flash)
-- Dual I²S buses (to allow I2S interfaces at the same time, i.e. simultaneous audio output and audio input)
-- TAS5805M (TAS5805MPWPR) for speaker output (I2S Class-D Mono Audio Amplifyer with DSP config via I2C)
-- 2x MEMS microphones (dual MMICT390200012 with 68mm inter-mic spacing)
+- 16 MB SPI flash (ESP32-S3)
+- 4 MB SPI flash (XMOS XU316)
+- Dual I²S buses (simultaneous audio input and output)
+- TAS5805M (TAS5805MPWPR) stereo Class-D amplifier with integrated DSP (I2S audio, I2C control), configured for mono BTL speaker output
+- 3x MEMS microphones (MMICT390200012) arranged on a 34 mm radius arc
+- current firmware uses 2 microphones, hardware support for a 3-microphone array is already present
 - 6x SK6812 RGB LEDs
 - Custom USB-C and 14V power input (Note! USB-C and barrel-connector can not be connected at the same time)
+- MPR121 capacitive touch controller (used for touch input instead of ESP32-S3 native touch sensing)
 
 ---
 
