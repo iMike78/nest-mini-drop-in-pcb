@@ -13,7 +13,6 @@
         | <a href="https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=th">ไทย</a>
         | <a href="https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=fr">Français</a>
         | <a href="https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=hu">Magyar</a>
         | <a href="https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=es">Español</a>
         | <a href="https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=it">Italiano</a>
         | <a href="https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ru">Русский</a>
@@ -44,7 +43,7 @@ Tip! If you are instead looking for a similar drop-in PCB replacement for the "G
 
 * https://www.crowdsupply.com/micimike-rev-devices/micimike-home-mini-drop-in-pcb
 
-Both of these are fully open-source hardware projects, taking some concep inspiration from the [Onju Voice](https://github.com/justLV/onju-voice) however aiming to follow [Open Home Foundation's open voice assistants standard  with Home Assistant Voice Preview Edition as reference](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) for PCB designs and specifications.
+Both of these are fully open-source hardware projects, taking some concept inspiration from the [Onju Voice](https://github.com/justLV/onju-voice) however aiming to follow [Open Home Foundation's open voice assistants standard  with Home Assistant Voice Preview Edition as reference](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) for PCB designs and specifications.
 
 # Project scope
 
@@ -80,7 +79,7 @@ For more information about the concept/idea see and contribute to related discus
 - ✅ Ground pour, shielding strategy, and EMI considerations done
 - ⛔ 1st test batch failed on two errors - fixed
 - ⚠️ 2nd test batch partially working
-- XTAG4 debug option added for the next batch
+- ✅ XTAG4 debug option added for the next batch
 
 <img src="pics/back_render.jpg" width="1000">
 
@@ -98,8 +97,7 @@ For more information about the concept/idea see and contribute to related discus
 - 4 MB SPI flash (XMOS XU316)
 - Dual I²S buses (simultaneous audio input and output)
 - TAS5805M (TAS5805MPWPR) stereo Class-D amplifier with integrated DSP (I2S audio, I2C control), configured for mono BTL speaker output
-- 3x MEMS microphones (MMICT390200012) arranged on a 34 mm radius arc
-- current firmware uses 2 microphones, hardware support for a 3-microphone array is already present
+- 3x MEMS microphones (MMICT390200012) arranged on a 34 mm radius arc - current firmware uses 2 microphones, hardware support for a 3-microphone array is already present
 - 6x SK6812 RGB LEDs
 - Custom USB-C and 14V power input (Note! USB-C and barrel-connector can not be connected at the same time)
 - MPR121 capacitive touch controller (used for touch input instead of ESP32-S3 native touch sensing)
@@ -122,7 +120,7 @@ For more information about the concept/idea see and contribute to related discus
   - https://esphome.github.io/home-assistant-voice-pe/
 - https://voice-pe.home-assistant.io/
 
-### XMOS xCORE DSP (XU316-1024-QF60B-C32) MCU IC chip
+### XMOS xCORE DSP (XU316-1024-QF60B-C24) MCU IC chip
 
 - https://www.xmos.com/download/XU316-1024-QF60B-xcore.ai-Datasheet(3).pdf
 - https://www.xmos.com/software-tools/
