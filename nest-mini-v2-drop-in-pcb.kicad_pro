@@ -58,7 +58,56 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|103252316|82200117|eabbda25-34ba-4083-9542-488ed5ed87a4|0421e471-77a1-4c6e-a453-0e4093e385e3",
+          ""
+        ],
+        [
+          "copper_edge_clearance|103413466|82312384|eabbda25-34ba-4083-9542-488ed5ed87a4|ebd4f518-8b01-4122-9ddd-776f36256901",
+          ""
+        ],
+        [
+          "copper_edge_clearance|110990618|89075712|5373f326-0605-4bd9-9f5f-37cb3cdb4215|4c61c5e7-b4c7-4dc5-9db6-ffaab6cecc2b",
+          ""
+        ],
+        [
+          "copper_edge_clearance|128235823|121701191|63af9ebd-1c49-4227-9397-978019d0428a|f31018d2-8eda-4a1d-abce-bce82c092a77",
+          ""
+        ],
+        [
+          "copper_edge_clearance|128813539|121587597|63af9ebd-1c49-4227-9397-978019d0428a|2a0640ad-5d9c-475a-982c-68870b14e7e4",
+          ""
+        ],
+        [
+          "copper_edge_clearance|137870284|115924928|1aa2cdff-8549-489d-b032-785a82bd6042|ce7b8839-69d6-42e8-a4c9-f33ef1f97182",
+          ""
+        ],
+        [
+          "copper_edge_clearance|164987664|89071830|3c32a755-9131-4ee5-aa41-1ddabedbea22|3e8c31a7-5a14-4455-96e9-df6a383953eb",
+          ""
+        ],
+        [
+          "copper_edge_clearance|167581156|96942194|cc545a54-294c-4f44-88d7-66669761960d|e3e92497-42ce-42fa-8a86-a1aa6fe68e08",
+          ""
+        ],
+        [
+          "copper_edge_clearance|167945362|97095000|cc545a54-294c-4f44-88d7-66669761960d|07301a4a-6029-4a33-9a75-ba061718a39f",
+          ""
+        ],
+        [
+          "courtyards_overlap|156968559|71374271|33e4653b-3c64-48b6-b280-6344a0e6f1e9|deaf4af6-1c59-4832-ba45-4552d569f1f7",
+          ""
+        ],
+        [
+          "items_not_allowed|112961522|68657717|7afd9e01-1e47-4e08-b90b-61ac7200172f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|114443121|65337640|a5e2e91c-68f8-46b8-8ba3-96b76d18040a|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -960,6 +1009,10 @@
     [
       "9225bf54-69e7-451b-b0f1-a75bb133308e",
       "ESP32-S3R8"
+    ],
+    [
+      "b82d794a-21d4-4a42-894b-78979157dbcb",
+      "ESP32-C6FH8"
     ],
     [
       "e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc",

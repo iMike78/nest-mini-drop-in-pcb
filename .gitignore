@@ -40,3 +40,5 @@ __pycache__/
 .vscode/
 \#auto_saved_files\#
 esp32.kicad_sch-bak
+
+_autosave-*
