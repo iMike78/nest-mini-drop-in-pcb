@@ -39,15 +39,11 @@
 
 Tip! If you are instead looking for a similar drop-in PCB replacement for the "Google Home Mini" (Google's first-generation smart speaker hardware with a Micro-USB charging port) then check out the sister-project at https://github.com/iMike78/home-mini-v1-drop-in-pcb
 
-**Heads-up!** There is currently an ongoing crowdfunding campaign for "MiciMike Home Mini Drop-In PCB" (1st-gen Google Home Mini) that is now live on Crowd Supply in a pre-sale phase (project pre-view only), and if that is successful then will plan a matching campaign for newer Nest Mini (2nd-gen), so check that out here and support this project indirectly by backing it if you can:
-
-* https://www.crowdsupply.com/micimike-rev-devices/micimike-home-mini-drop-in-pcb
-
 Both of these are fully open-source hardware projects, taking some concept inspiration from the [Onju Voice](https://github.com/justLV/onju-voice) however aiming to follow [Open Home Foundation's open voice assistants standard  with Home Assistant Voice Preview Edition as reference](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) for PCB designs and specifications.
 
 # Project scope
 
-The goal of this project and repository (which is similar to the [Onju Voice](https://github.com/justLV/onju-voice) but under a fully open-source hardware license) is to design a drop-in replacement PCB (Printed Circuit Board) with hardware schematics that anyone can make/build or order from a one-stop PCB manufacturer as a custom drop-in replacement PCB for the Google Nest Mini (2nd Gen).
+The goal of this project and repository (which is similar to the [Onju Voice](https://github.com/justLV/onju-voice) but under a fully open-source hardware license) is to design a custom drop-in replacement PCB (Printed Circuit Board) for the Google Nest Mini (2nd Gen).
 
 This is primarly targeting people looking to convert/repurpose their old Google Nest Mini smart speakers into open-source hardware for [Voice Control of Home Assistant](https://www.home-assistant.io/voice_control/) and/or media player speaker output for [Music Assistant](https://www.music-assistant.io), (the hardware can however probably also be used with other applications as well with other firmware as it is based on the popular Espressif ESP32 platform).
 
@@ -73,13 +69,16 @@ For more information about the concept/idea see and contribute to related discus
 
 ### Current status
 
-- ✅ Schematic completed
-- ✅ Component placement done
-- ✅ Routing is done
-- ✅ Ground pour, shielding strategy, and EMI considerations done
-- ⛔ 1st test batch failed on two errors - fixed
-- ⚠️ 2nd test batch partially working
-- ✅ XTAG4 debug option added for the next batch
+> [!CAUTION]
+> This project is under active development and is **not ready for fabrication or general use**. I do not recommend using the current files to manufacture a PCB.
+
+The hardware is currently being substantially reworked, including the addition and integration of an ESP32-C6 for Thread support. As a result, parts of the schematic are incomplete, some components and connections are not yet placed or routed on the PCB, and the schematic and PCB may not be in sync.
+
+The current ESPHome configuration also targets an earlier hardware revision and does not match the present schematic. It should not be treated as working firmware for the current board design.
+
+Several known and newly reported hardware issues are being reviewed and will need to be corrected before another prototype revision is considered. These include the XMOS core power supply, parts of the XMOS audio and echo-cancellation reference path, a microphone buffer connection, XMOS debug-header voltage levels, mute detection, ESP32-C6 integration, and other smaller signal-level and connectivity issues.
+
+Development and documentation updates have been slower recently due to limited availability and work on the related Home Mini project. The README and design files will be updated as the review and redesign progress.
 
 <img src="pics/back_render.jpg" width="1000">
 

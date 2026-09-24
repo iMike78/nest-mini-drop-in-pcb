@@ -6445,7 +6445,7 @@
 			)
 		)
 	)
-	(global_label "ESP_USB_N"
+	(global_label "S3_USB_N"
 		(shape bidirectional)
 		(at 106.68 264.16 180)
 		(fields_autoplaced yes)
@@ -6457,7 +6457,7 @@
 		)
 		(uuid "5b5f98eb-0492-4ce8-b00c-f7df0f9ee641")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.8793 264.16 0)
+			(at 93.0888 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6819,7 +6819,7 @@
 			)
 		)
 	)
-	(global_label "ESP_USB_P"
+	(global_label "S3_USB_P"
 		(shape bidirectional)
 		(at 106.68 266.7 180)
 		(fields_autoplaced yes)
@@ -6831,7 +6831,7 @@
 		)
 		(uuid "fa21ceed-a274-45ab-ab46-cdc8257fdd7c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.9398 266.7 0)
+			(at 93.1493 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7780,7 +7780,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+		(property "Footprint" "Onju:Touchpad"
 			(at 280.67 250.19 0)
 			(effects
 				(font
@@ -9162,7 +9162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+		(property "Footprint" "Onju:Touchpad"
 			(at 280.67 247.65 0)
 			(effects
 				(font
@@ -12477,7 +12477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+		(property "Footprint" "Onju:Touchpad"
 			(at 280.67 252.73 0)
 			(effects
 				(font
