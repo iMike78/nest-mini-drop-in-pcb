@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "204e071a-14ed-47a0-be54-332ac2b951cf")
 	(paper "A4")
 	(title_block
@@ -23,11 +23,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "18f90dfa-9bd7-48d0-80c5-47366522e296")
 		(property "Sheetname" "LEDs"
 			(at 31.75 131.3684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37,6 +39,8 @@
 		)
 		(property "Sheetfile" "leds.kicad_sch"
 			(at 31.75 178.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,11 +69,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "1e1926d7-db4f-450f-be85-739e9691d6cf")
 		(property "Sheetname" "Power"
 			(at 29.21 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -79,6 +85,8 @@
 		)
 		(property "Sheetfile" "power_handling.kicad_sch"
 			(at 29.21 65.3546 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -107,11 +115,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "62ce711e-2967-4164-94ee-cdd918e5185e")
 		(property "Sheetname" "AUDIO"
 			(at 121.92 76.7584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -121,6 +131,8 @@
 		)
 		(property "Sheetfile" "audio.kicad_sch"
 			(at 121.92 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -149,11 +161,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "9225bf54-69e7-451b-b0f1-a75bb133308e")
 		(property "Sheetname" "ESP32-S3R8"
 			(at 121.92 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -163,6 +177,8 @@
 		)
 		(property "Sheetfile" "esp32.kicad_sch"
 			(at 121.92 65.3546 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -191,11 +207,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "b82d794a-21d4-4a42-894b-78979157dbcb")
 		(property "Sheetname" "ESP32-C6FH8"
 			(at 209.55 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -205,6 +223,8 @@
 		)
 		(property "Sheetfile" "esp32c6fh8_sch.kicad_sch"
 			(at 209.55 65.3546 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -233,11 +253,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc")
 		(property "Sheetname" "XMOS"
 			(at 30.48 76.7584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -247,6 +269,8 @@
 		)
 		(property "Sheetfile" "xmos.kicad_sch"
 			(at 30.48 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
