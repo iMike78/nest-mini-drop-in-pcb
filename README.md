@@ -84,21 +84,22 @@ Development and documentation updates have been slower recently due to limited a
 
 ## Tools used
 
-- 🛠️ KiCad 9
+- 🛠️ KiCad 10
 - 🧰 SnapEDA / LCSC for footprint sourcing
 
 ## Known hardware specifications
 
 - 4-layer PCB
-- ESP32-S3R8 bare chip (ESP32-S3 for WiFi, BLE, and onboard wake-word detection)
+- ESP32-S3R8 bare chip (Wi-Fi, Bluetooth LE, and onboard wake-word detection)
+- ESP32-C6FH8 bare chip (Wi-Fi 6, Bluetooth LE, and 802.15.4 radio for Thread/Zigbee connectivity; 8 MB in-package flash)
 - XMOS XU316-1024-QF60B-C24 (XMOS XU316 xCORE DSP audio processing)
-- 16 MB SPI flash (ESP32-S3)
-- 4 MB SPI flash (XMOS XU316)
+- 16 MB external SPI flash for the ESP32-S3
+- 4 MB external SPI flash for the XMOS XU316
 - Dual I²S buses (simultaneous audio input and output)
 - TAS5805M (TAS5805MPWPR) stereo Class-D amplifier with integrated DSP (I2S audio, I2C control), configured for mono BTL speaker output
-- 3x MEMS microphones (MMICT390200012) arranged on a 34 mm radius arc - current firmware uses 2 microphones, hardware support for a 3-microphone array is already present
-- 6x SK6812 RGB LEDs
-- Custom USB-C and 14V power input (Note! USB-C and barrel-connector can not be connected at the same time)
+- 3x TDK MMICT390200012 MEMS microphones
+- 6x addressable RGB LEDs: 4x SK6805-EC20 and 2x SK6812D-EC3210R
+- USB-C and 14 V power inputs (do not connect at the same time)
 - MPR121 capacitive touch controller (used for touch input instead of ESP32-S3 native touch sensing)
 
 ---
