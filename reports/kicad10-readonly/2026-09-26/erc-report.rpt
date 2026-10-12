@@ -1,0 +1,722 @@
+ERC report (2026-09-26T08:11:04, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+[label_dangling]: Label not connected
+    ; error
+    @(318.77 mm, 153.67 mm): Global Label 'ESP_C6_RST'
+[label_dangling]: Label not connected
+    ; error
+    @(318.77 mm, 158.75 mm): Global Label 'ESP_C6_BOOT'
+[label_dangling]: Label not connected
+    ; error
+    @(318.77 mm, 163.83 mm): Global Label 'ESP_C6_GPIO9'
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(16.51 mm, 224.79 mm): Symbol #PWR021 [VBUS]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(17.78 mm, 85.09 mm): Symbol #PWR02 [VBUS]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(26.67 mm, 34.29 mm): Symbol POWER_IN1 [FH34SRJ-10S-0.5SH_50_]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'FH34SRJ-10S-0.5SH_50_' rajzjel könyvtárat
+    ; warning
+    @(26.67 mm, 34.29 mm): Symbol POWER_IN1 [FH34SRJ-10S-0.5SH_50_]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(27.94 mm, 180.34 mm): Symbol SW3 [CUS-12TB]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(27.94 mm, 180.34 mm): Symbol SW3 [CUS-12TB]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(31.75 mm, 101.60 mm): Symbol D1 [SZESD9B5.0ST5G]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(36.83 mm, 46.99 mm): Symbol #PWR07 [+14V]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libdb' rajzjel könyvtárat
+    ; warning
+    @(46.99 mm, 193.04 mm): Symbol TP1 [Misc/TP120C_SMD]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'libdb' rajzjel könyvtárat
+    ; warning
+    @(48.26 mm, 185.42 mm): Symbol TP2 [Misc/TP45C_SMD]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(48.26 mm, 222.25 mm): Symbol U4 [AP22802AW5-7]
+[unconnected_wire_endpoint]: Nem csatlakoztatott vezeték végpont
+    ; warning
+    @(50.80 mm, 165.10 mm): Horizontal Wire, length 19.05 mm
+[unconnected_wire_endpoint]: Nem csatlakoztatott vezeték végpont
+    ; warning
+    @(50.80 mm, 175.26 mm): Horizontal Wire, length 19.05 mm
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libadl' rajzjel könyvtárat
+    ; warning
+    @(73.66 mm, 165.10 mm): Symbol R2 [Resistors/301010002]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libadl' rajzjel könyvtárat
+    ; warning
+    @(73.66 mm, 175.26 mm): Symbol R3 [Resistors/301010002]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libadl' rajzjel könyvtárat
+    ; warning
+    @(76.20 mm, 185.42 mm): Symbol C1 [Capacitors/302010024]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(78.74 mm, 100.33 mm): Symbol J1 [usb_c]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(78.74 mm, 100.33 mm): Symbol J1 [usb_c]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libadl' rajzjel könyvtárat
+    ; warning
+    @(88.90 mm, 185.42 mm): Symbol R4 [Resistors/301010047]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(111.76 mm, 172.72 mm): Symbol U2 [Ic/310100627]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libdb' rajzjel könyvtárat
+    ; warning
+    @(111.76 mm, 172.72 mm): Symbol U2 [Ic/310100627]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libadl' rajzjel könyvtárat
+    ; warning
+    @(130.81 mm, 182.88 mm): Symbol R6 [Resistors/301010000]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(144.78 mm, 20.32 mm): Symbol #PWR017 [+14V]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(276.86 mm, 96.52 mm): Symbol U5 [MIC5365-1.8YC5-TR]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(276.86 mm, 96.52 mm): Symbol U5 [MIC5365-1.8YC5-TR]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(276.86 mm, 139.70 mm): Symbol U6 [MIC5365-1.8YC5-TR]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(309.88 mm, 137.16 mm): Symbol #PWR045 [+0V9]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(30.48 mm, 256.54 mm): Symbol #PWR080 [+0V9]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(36.83 mm, 257.81 mm): Symbol FB3 [FerriteBead]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(45.72 mm, 256.54 mm): Symbol #PWR082 [VDD]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libdb' rajzjel könyvtárat
+    ; warning
+    @(69.85 mm, 171.45 mm): Symbol C48 [Capacitors/302010050]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(74.93 mm, 228.60 mm): Symbol FB4 [FerriteBead]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libadl' rajzjel könyvtárat
+    ; warning
+    @(87.63 mm, 148.59 mm): Symbol R34 [Resistors/301010009]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(90.17 mm, 162.56 mm): Symbol X1 [OSC & XTAL/306011444]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libdb' rajzjel könyvtárat
+    ; warning
+    @(90.17 mm, 162.56 mm): Symbol X1 [OSC & XTAL/306011444]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(93.98 mm, 73.66 mm): Symbol FB5 [Ferrite Bead/303030521]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libadl' rajzjel könyvtárat
+    ; warning
+    @(93.98 mm, 73.66 mm): Symbol FB5 [Ferrite Bead/303030521]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libdb' rajzjel könyvtárat
+    ; warning
+    @(93.98 mm, 85.09 mm): Symbol C53 [Capacitors/302013249]
+[unconnected_wire_endpoint]: Nem csatlakoztatott vezeték végpont
+    ; warning
+    @(102.87 mm, 119.38 mm): Horizontal Wire, length 16.51 mm
+[unconnected_wire_endpoint]: Nem csatlakoztatott vezeték végpont
+    ; warning
+    @(102.87 mm, 121.92 mm): Horizontal Wire, length 16.51 mm
+[unconnected_wire_endpoint]: Nem csatlakoztatott vezeték végpont
+    ; warning
+    @(102.87 mm, 124.46 mm): Horizontal Wire, length 16.51 mm
+[unconnected_wire_endpoint]: Nem csatlakoztatott vezeték végpont
+    ; warning
+    @(102.87 mm, 127.00 mm): Horizontal Wire, length 16.51 mm
+[unconnected_wire_endpoint]: Nem csatlakoztatott vezeték végpont
+    ; warning
+    @(102.87 mm, 132.08 mm): Horizontal Wire, length 16.51 mm
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libadl' rajzjel könyvtárat
+    ; warning
+    @(102.87 mm, 154.94 mm): Symbol R35 [Resistors/301010505]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libdb' rajzjel könyvtárat
+    ; warning
+    @(102.87 mm, 171.45 mm): Symbol C54 [Capacitors/302010050]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(104.14 mm, 227.33 mm): Symbol #PWR098 [VDDIO]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(111.76 mm, 109.22 mm): Global Label 'XMOS_USB_P'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(111.76 mm, 111.76 mm): Global Label 'XMOS_USB_N'
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(135.89 mm, 97.79 mm): Symbol U10 [XU316-1024-QF60A-C24​]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'reSpeaker' rajzjel könyvtárat
+    ; warning
+    @(135.89 mm, 97.79 mm): Symbol U10 [XU316-1024-QF60A-C24​]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(154.94 mm, 255.27 mm): Symbol #PWR0108 [VBUS]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libdb' rajzjel könyvtárat
+    ; warning
+    @(162.56 mm, 137.16 mm): Symbol R37 [Resistors/301010002]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libdb' rajzjel könyvtárat
+    ; warning
+    @(162.56 mm, 139.70 mm): Symbol R38 [Resistors/301010002]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libdb' rajzjel könyvtárat
+    ; warning
+    @(162.56 mm, 146.05 mm): Symbol R39 [Resistors/301010028]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) '0_Seeed_Misc' rajzjel könyvtárat
+    ; warning
+    @(165.10 mm, 33.02 mm): Symbol TP10 [TEST-POINT]
+[unconnected_wire_endpoint]: Nem csatlakoztatott vezeték végpont
+    ; warning
+    @(152.40 mm, 45.72 mm): Horizontal Wire, length 12.70 mm
+[unconnected_wire_endpoint]: Nem csatlakoztatott vezeték végpont
+    ; warning
+    @(152.40 mm, 50.80 mm): Horizontal Wire, length 12.70 mm
+[unconnected_wire_endpoint]: Nem csatlakoztatott vezeték végpont
+    ; warning
+    @(152.40 mm, 55.88 mm): Horizontal Wire, length 12.70 mm
+[unconnected_wire_endpoint]: Nem csatlakoztatott vezeték végpont
+    ; warning
+    @(152.40 mm, 58.42 mm): Horizontal Wire, length 12.70 mm
+[unconnected_wire_endpoint]: Nem csatlakoztatott vezeték végpont
+    ; warning
+    @(152.40 mm, 116.84 mm): Horizontal Wire, length 12.70 mm
+[unconnected_wire_endpoint]: Nem csatlakoztatott vezeték végpont
+    ; warning
+    @(152.40 mm, 121.92 mm): Horizontal Wire, length 12.70 mm
+[unconnected_wire_endpoint]: Nem csatlakoztatott vezeték végpont
+    ; warning
+    @(152.40 mm, 127.00 mm): Horizontal Wire, length 12.70 mm
+[unconnected_wire_endpoint]: Nem csatlakoztatott vezeték végpont
+    ; warning
+    @(152.40 mm, 132.08 mm): Horizontal Wire, length 12.70 mm
+[unconnected_wire_endpoint]: Nem csatlakoztatott vezeték végpont
+    ; warning
+    @(152.40 mm, 134.62 mm): Horizontal Wire, length 12.70 mm
+[unconnected_wire_endpoint]: Nem csatlakoztatott vezeték végpont
+    ; warning
+    @(152.40 mm, 53.34 mm): Horizontal Wire, length 13.97 mm
+[unconnected_wire_endpoint]: Nem csatlakoztatott vezeték végpont
+    ; warning
+    @(152.40 mm, 63.50 mm): Horizontal Wire, length 13.97 mm
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libdb' rajzjel könyvtárat
+    ; warning
+    @(167.64 mm, 109.22 mm): Symbol R40 [Resistors/301010000]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(167.64 mm, 256.54 mm): Symbol Q1 [LBSS138WT1G]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(167.64 mm, 256.54 mm): Symbol Q1 [LBSS138WT1G]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libdb' rajzjel könyvtárat
+    ; warning
+    @(170.18 mm, 66.04 mm): Symbol R42 [Resistors/301010000]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libdb' rajzjel könyvtárat
+    ; warning
+    @(173.99 mm, 83.82 mm): Symbol R43 [Resistors/301010000]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libdb' rajzjel könyvtárat
+    ; warning
+    @(173.99 mm, 86.36 mm): Symbol R44 [Resistors/301010000]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libdb' rajzjel könyvtárat
+    ; warning
+    @(173.99 mm, 88.90 mm): Symbol R45 [Resistors/301010000]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libdb' rajzjel könyvtárat
+    ; warning
+    @(173.99 mm, 91.44 mm): Symbol R46 [Resistors/301010000]
+[unconnected_wire_endpoint]: Nem csatlakoztatott vezeték végpont
+    ; warning
+    @(166.37 mm, 137.16 mm): Horizontal Wire, length 20.32 mm
+[unconnected_wire_endpoint]: Nem csatlakoztatott vezeték végpont
+    ; warning
+    @(166.37 mm, 139.70 mm): Horizontal Wire, length 20.32 mm
+[unconnected_wire_endpoint]: Nem csatlakoztatott vezeték végpont
+    ; warning
+    @(166.37 mm, 146.05 mm): Horizontal Wire, length 20.32 mm
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(198.12 mm, 69.85 mm): Global Label 'I2C2_SCL'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(198.12 mm, 72.39 mm): Global Label 'I2C2_SDA'
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libadl' rajzjel könyvtárat
+    ; warning
+    @(207.01 mm, 203.20 mm): Symbol C61 [Capacitors/302010024]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libadl' rajzjel könyvtárat
+    ; warning
+    @(218.44 mm, 256.54 mm): Symbol R47 [Resistors/301010028]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libadl' rajzjel könyvtárat
+    ; warning
+    @(224.79 mm, 196.85 mm): Symbol C62 [Capacitors/302010024]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libdb' rajzjel könyvtárat
+    ; warning
+    @(224.79 mm, 261.62 mm): Symbol R48 [Resistors/301010069]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libadl' rajzjel könyvtárat
+    ; warning
+    @(234.95 mm, 256.54 mm): Symbol Q2 [Mosfet/305031542]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libadl' rajzjel könyvtárat
+    ; warning
+    @(255.27 mm, 242.57 mm): Symbol R49 [Resistors/301010047]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libadl' rajzjel könyvtárat
+    ; warning
+    @(255.27 mm, 256.54 mm): Symbol C63 [Capacitors/302010024]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(275.59 mm, 20.32 mm): Symbol #PWR0118 [VDDIO]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(318.77 mm, 20.32 mm): Symbol #PWR0125 [VDDIO]
+[lib_symbol_mismatch]: A(z) 'Q_NPN_BCE' rajzjel nem egyezik a(z) 'Transistor_BJT' könyvtárban található példánnyal
+    ; warning
+    @(328.93 mm, 151.13 mm): Symbol Q3 [Q_NPN_BCE]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(340.36 mm, 93.98 mm): Symbol U12 [SN74LVC125APWR]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(340.36 mm, 93.98 mm): Symbol U12 [SN74LVC125APWR]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(349.25 mm, 182.88 mm): Symbol MK1 [T3902]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(349.25 mm, 182.88 mm): Symbol MK1 [T3902]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(349.25 mm, 210.82 mm): Symbol MK2 [T3902]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(349.25 mm, 210.82 mm): Symbol MK2 [T3902]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(349.25 mm, 238.76 mm): Symbol MK3 [T3902]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(349.25 mm, 238.76 mm): Symbol MK3 [T3902]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(354.33 mm, 139.70 mm): Symbol U13 [TLV73333PDBVR]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(354.33 mm, 139.70 mm): Symbol U13 [TLV73333PDBVR]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(370.84 mm, 86.36 mm): Symbol D6 [RB521S30T1G]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(370.84 mm, 86.36 mm): Symbol D6 [RB521S30T1G]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(377.19 mm, 21.59 mm): Symbol #PWR0135 [VDDIO]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(379.73 mm, 76.20 mm): Symbol #PWR0138 [ESP_3V3]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(396.24 mm, 71.12 mm): Symbol #PWR0140 [VDDIO]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(397.51 mm, 201.93 mm): Symbol #PWR0142 [VDD_MIC]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(398.78 mm, 132.08 mm): Symbol #PWR0144 [VDD_MIC]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(398.78 mm, 172.72 mm): Symbol #PWR0146 [VDD_MIC]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(398.78 mm, 228.60 mm): Symbol #PWR0148 [VDD_MIC]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(45.72 mm, 77.47 mm): Symbol LED1 [SK6812D-EC3210R]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(45.72 mm, 77.47 mm): Symbol LED1 [SK6812D-EC3210R]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(85.09 mm, 76.20 mm): Symbol LED2 [SK6812-E]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(85.09 mm, 76.20 mm): Symbol LED2 [SK6812-E]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(125.73 mm, 76.20 mm): Symbol LED3 [SK6812-E]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(125.73 mm, 76.20 mm): Symbol LED3 [SK6812-E]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(165.10 mm, 76.20 mm): Symbol LED4 [SK6812-E]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(165.10 mm, 76.20 mm): Symbol LED4 [SK6812-E]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(204.47 mm, 76.20 mm): Symbol LED5 [SK6812-E]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(204.47 mm, 76.20 mm): Symbol LED5 [SK6812-E]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(245.11 mm, 77.47 mm): Symbol LED6 [SK6812D-EC3210R]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(245.11 mm, 77.47 mm): Symbol LED6 [SK6812D-EC3210R]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(40.64 mm, 255.27 mm): Symbol FB2 [FerriteBead]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(44.45 mm, 59.69 mm): Symbol AE1 [2450AT18A100E]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(46.99 mm, 186.69 mm): Symbol #PWR050 [ESP_3V3]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(50.80 mm, 255.27 mm): Symbol #PWR052 [ESP_3V3]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(54.61 mm, 208.28 mm): Symbol SW1 [SW_Push]
+[lib_symbol_mismatch]: A(z) 'Crystal_GND24' rajzjel nem egyezik a(z) 'Device' könyvtárban található példánnyal
+    ; warning
+    @(80.01 mm, 78.74 mm): Symbol Y1 [Crystal_GND24]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(99.06 mm, 186.69 mm): Symbol #PWR059 [ESP_3V3]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(107.95 mm, 209.55 mm): Symbol SW2 [SW_Push]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(110.49 mm, 107.95 mm): Global Label 'ESP_IO48'
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(152.40 mm, 87.63 mm): Symbol U8 [ESP32-S3R8]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(152.40 mm, 87.63 mm): Symbol U8 [ESP32-S3R8]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(177.80 mm, 189.23 mm): Symbol #PWR072 [ESP_3V3]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(187.96 mm, 240.03 mm): Symbol #PWR076 [ESP_3V3]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(194.31 mm, 54.61 mm): Symbol #PWR063 [ESP_3V3]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(203.20 mm, 41.91 mm): Symbol #PWR066 [ESP_3V3]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(203.20 mm, 50.80 mm): Symbol #PWR067 [ESP_3V3]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(215.90 mm, 46.99 mm): Symbol #PWR069 [ESP_3V3]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(257.81 mm, 242.57 mm): Symbol U15 [MPR121QR2]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(257.81 mm, 242.57 mm): Symbol U15 [MPR121QR2]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(274.32 mm, 49.53 mm): Symbol #PWR074 [ESP_3V3]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(280.67 mm, 242.57 mm): Symbol TP14 [TestPoint]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(280.67 mm, 245.11 mm): Symbol TP15 [TestPoint]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(280.67 mm, 247.65 mm): Symbol TP16 [TestPoint]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(55.88 mm, 52.07 mm): Symbol #PWR0151 [+14V]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libdb' rajzjel könyvtárat
+    ; warning
+    @(68.58 mm, 151.13 mm): Symbol R68 [Resistors/301010000]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Seeed_libdb' rajzjel könyvtárat
+    ; warning
+    @(68.58 mm, 154.94 mm): Symbol R69 [Resistors/301010000]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(73.66 mm, 52.07 mm): Symbol #PWR0154 [PVDD1]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(73.66 mm, 63.50 mm): Symbol #PWR0155 [PVDD1]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(129.54 mm, 99.06 mm): Symbol U14 [TAS5805MPWPR]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(129.54 mm, 99.06 mm): Symbol U14 [TAS5805MPWPR]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(181.61 mm, 91.44 mm): Symbol L6 [L]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(181.61 mm, 96.52 mm): Symbol L7 [L]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(201.93 mm, 54.61 mm): Symbol #PWR0169 [PVDD1]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(209.55 mm, 92.71 mm): Symbol J5 [1775443-2]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(209.55 mm, 92.71 mm): Symbol J5 [1775443-2]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(246.38 mm, 73.66 mm): Symbol #PWR0174 [PVDD1]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(29.21 mm, 121.92 mm): Symbol FB6 [FerriteBead]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(34.29 mm, 158.75 mm): Symbol #PWR0201 [ESP_3V3]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(39.37 mm, 121.92 mm): Symbol #PWR0217 [ESP_3V3]
+[lib_symbol_mismatch]: A(z) 'Crystal_GND24' rajzjel nem egyezik a(z) 'Device' könyvtárban található példánnyal
+    ; warning
+    @(71.12 mm, 57.15 mm): Symbol Y2 [Crystal_GND24]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(80.01 mm, 91.44 mm): Symbol #PWR0207 [ESP_3V3]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(81.28 mm, 158.75 mm): Symbol #PWR0203 [ESP_3V3]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(124.46 mm, 160.02 mm): Symbol #PWR0208 [ESP_3V3]
+[footprint_link_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'Onju' lábkiosztás könyvtárat
+    ; warning
+    @(133.35 mm, 71.12 mm): Symbol U16 [ESP32-C6FH4]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(133.35 mm, 71.12 mm): Symbol U16 [ESP32-C6FH4]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(166.37 mm, 73.66 mm): Global Label 'C6_UA0TXD'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(166.37 mm, 76.20 mm): Global Label 'C6_UA0RXD'
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(186.69 mm, 49.53 mm): Symbol #PWR0220 [ESP_3V3]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(209.55 mm, 46.99 mm): Symbol #PWR0219 [ESP_3V3]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(220.98 mm, 36.83 mm): Symbol #PWR0212 [ESP_3V3]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(236.22 mm, 43.18 mm): Symbol #PWR0206 [ESP_3V3]
+[lib_symbol_issues]: A jelenlegi konfiguráció nem tartalmazza a(z) 'New_Library' rajzjel könyvtárat
+    ; warning
+    @(280.67 mm, 53.34 mm): Symbol AE2 [2450AT18A100E]
+
+***** Sheet /Power/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(16.51 mm, 176.53 mm): Symbol #PWR01 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(17.78 mm, 85.09 mm): Symbol #PWR02 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(27.94 mm, 196.85 mm): Symbol #PWR04 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(36.83 mm, 46.99 mm): Symbol #PWR07 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(60.96 mm, 87.63 mm): Symbol J1 Pin A4 [VBUS_A, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(68.58 mm, 222.25 mm): Symbol #PWR028 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(309.88 mm, 93.98 mm): Symbol #PWR044 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(309.88 mm, 137.16 mm): Symbol #PWR045 Pin 1 [Power input, Line]
+[pin_to_pin]: Unspecified és Passive típusú lábak vannak összekötve
+    ; warning
+    @(38.10 mm, 219.71 mm): Symbol U4 Pin 4 [EN, Unspecified, Line]
+    @(29.21 mm, 218.44 mm): Symbol R9 Pin 1 [Passive, Line]
+[pin_to_pin]: Unspecified és Passive típusú lábak vannak összekötve
+    ; warning
+    @(38.10 mm, 224.79 mm): Symbol U4 Pin 5 [IN, Unspecified, Line]
+    @(29.21 mm, 226.06 mm): Symbol R9 Pin 2 [Passive, Line]
+[pin_to_pin]: Unspecified és Power input típusú lábak vannak összekötve
+    ; warning
+    @(58.42 mm, 222.25 mm): Symbol U4 Pin 2 [GND, Unspecified, Line]
+    @(59.69 mm, 222.25 mm): Symbol #PWR026 Pin 1 [Power input, Line]
+[pin_to_pin]: Unspecified és Passive típusú lábak vannak összekötve
+    ; warning
+    @(58.42 mm, 224.79 mm): Symbol U4 Pin 1 [OUT, Unspecified, Line]
+    @(60.96 mm, 227.33 mm): Symbol C8 Pin 1 [Passive, Line]
+
+***** Sheet /ESP32-S3R8/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(46.99 mm, 186.69 mm): Symbol #PWR050 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(177.80 mm, 49.53 mm): Symbol U8 Pin 2 [VDD3P3, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(242.57 mm, 262.89 mm): Symbol U15 Pin 5 [VREG, Power input, Line]
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(281.94 mm, 255.27 mm): Global Label 'I2C_SDA'
+    @(187.96 mm, 91.44 mm): Label 'I2C_SDA'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(281.94 mm, 257.81 mm): Global Label 'I2C_SCL'
+    @(187.96 mm, 88.90 mm): Label 'I2C_SCL'
+
+***** Sheet /ESP32-C6FH8/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(34.29 mm, 158.75 mm): Symbol #PWR0201 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(161.29 mm, 43.18 mm): Symbol U16 Pin 2 [VDDA3P3, Power input, Line]
+[multiple_net_names]: A(z) ESP_C6_RST és C6_CHIP_PU ugyanazokhoz az elemekhez van csatolva; a netlistában ESP_C6_RST lesz használva
+    ; warning
+    @(44.45 mm, 177.80 mm): Global Label 'ESP_C6_RST'
+    @(57.15 mm, 173.99 mm): Label 'C6_CHIP_PU'
+[multiple_net_names]: A(z) ESP_C6_BOOT és C6_BOOT ugyanazokhoz az elemekhez van csatolva; a netlistában ESP_C6_BOOT lesz használva
+    ; warning
+    @(92.71 mm, 177.80 mm): Global Label 'ESP_C6_BOOT'
+    @(102.87 mm, 173.99 mm): Label 'C6_BOOT'
+[multiple_net_names]: A(z) ESP_C6_GPIO9 és C6_GPIO9 ugyanazokhoz az elemekhez van csatolva; a netlistában ESP_C6_GPIO9 lesz használva
+    ; warning
+    @(135.89 mm, 179.07 mm): Global Label 'ESP_C6_GPIO9'
+    @(146.05 mm, 175.26 mm): Label 'C6_GPIO9'
+
+***** Sheet /XMOS/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(45.72 mm, 256.54 mm): Symbol #PWR082 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(101.60 mm, 53.34 mm): Symbol #PWR095 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(119.38 mm, 99.06 mm): Symbol U10 Pin 22 [PLL_AVDD, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(246.38 mm, 173.99 mm): Symbol J4 Pin MP [MountPin, Passive, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(367.03 mm, 175.26 mm): Symbol MK1 Pin 5 [VDD, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(367.03 mm, 203.20 mm): Symbol MK2 Pin 5 [VDD, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(367.03 mm, 231.14 mm): Symbol MK3 Pin 5 [VDD, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(397.51 mm, 201.93 mm): Symbol #PWR0142 Pin 1 [Power input, Line]
+[pin_to_pin]: Unspecified és Power input típusú lábak vannak összekötve
+    ; warning
+    @(162.56 mm, 256.54 mm): Symbol Q1 Pin 1 [G, Unspecified, Line]
+    @(154.94 mm, 255.27 mm): Symbol #PWR0108 Pin 1 [Power input, Line]
+[pin_to_pin]: Unspecified és Passive típusú lábak vannak összekötve
+    ; warning
+    @(167.64 mm, 251.46 mm): Symbol Q1 Pin 3 [D, Unspecified, Line]
+    @(167.64 mm, 248.92 mm): Symbol R41 Pin 2 [Passive, Line]
+[pin_to_pin]: Unspecified és Power input típusú lábak vannak összekötve
+    ; warning
+    @(167.64 mm, 261.62 mm): Symbol Q1 Pin 2 [S, Unspecified, Line]
+    @(167.64 mm, 270.51 mm): Symbol #PWR0111 Pin 1 [Power input, Line]
+[multiple_net_names]: A(z) I2S_DIN_SEC és I2S_DOUT ugyanazokhoz az elemekhez van csatolva; a netlistában I2S_DIN_SEC lesz használva
+    ; warning
+    @(198.12 mm, 109.22 mm): Global Label 'I2S_DIN_SEC'
+    @(177.80 mm, 109.22 mm): Label 'I2S_DOUT'
+
+***** Sheet /AUDIO/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(63.50 mm, 91.44 mm): Symbol #PWR0153 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(73.66 mm, 52.07 mm): Symbol #PWR0154 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(73.66 mm, 63.50 mm): Symbol #PWR0155 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(147.32 mm, 78.74 mm): Symbol U14 Pin 13 [AVDD, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(147.32 mm, 81.28 mm): Symbol U14 Pin 4 [VR_DIG, Power input, Line]
+[pin_to_pin]: Output és Output típusú lábak vannak összekötve
+    ; error
+    @(147.32 mm, 101.60 mm): Symbol U14 Pin 17 [OUT_B+, Output, Line]
+    @(147.32 mm, 93.98 mm): Symbol U14 Pin 26 [OUT_A+, Output, Line]
+[pin_to_pin]: Output és Output típusú lábak vannak összekötve
+    ; error
+    @(147.32 mm, 104.14 mm): Symbol U14 Pin 20 [OUT_B-, Output, Line]
+    @(147.32 mm, 96.52 mm): Symbol U14 Pin 23 [OUT_A-, Output, Line]
+[multiple_net_names]: A(z) GNDA és DGND ugyanazokhoz az elemekhez van csatolva; a netlistában GNDA lesz használva
+    ; warning
+    @(156.21 mm, 64.77 mm): Symbol #PWR0160 Pin 1 [Power input, Line]
+    @(147.32 mm, 127.00 mm): Symbol U14 Hidden pin 5 [DGND, Power input, Line]
+
+***** Sheet /LEDs/
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(69.85 mm, 76.20 mm): Symbol LED2 Pin 4 [DIN, Input, Line]
+[pin_to_pin]: Unspecified és Bidirectional típusú lábak vannak összekötve
+    ; warning
+    @(35.56 mm, 76.20 mm): Symbol LED1 Pin 3 [DIN, Unspecified, Line]
+    @(177.80 mm, 107.95 mm): Symbol U8 Pin 27 [GPIO21, Bidirectional, Line]
+[pin_to_pin]: Unspecified és Power input típusú lábak vannak összekötve
+    ; warning
+    @(35.56 mm, 78.74 mm): Symbol LED1 Pin 4 [VDD, Unspecified, Line]
+    @(33.02 mm, 78.74 mm): Symbol #PWR0175 Pin 1 [Power input, Line]
+[pin_to_pin]: Unspecified és Input típusú lábak vannak összekötve
+    ; warning
+    @(55.88 mm, 76.20 mm): Symbol LED1 Pin 2 [DOUT, Unspecified, Line]
+    @(69.85 mm, 76.20 mm): Symbol LED2 Pin 4 [DIN, Input, Line]
+[pin_to_pin]: Unspecified és Power input típusú lábak vannak összekötve
+    ; warning
+    @(55.88 mm, 78.74 mm): Symbol LED1 Pin 1 [GND, Unspecified, Line]
+    @(58.42 mm, 81.28 mm): Symbol #PWR0177 Pin 1 [Power input, Line]
+[pin_to_pin]: Unspecified és Output típusú lábak vannak összekötve
+    ; warning
+    @(234.95 mm, 76.20 mm): Symbol LED6 Pin 3 [DIN, Unspecified, Line]
+    @(219.71 mm, 76.20 mm): Symbol LED5 Pin 2 [DOUT, Output, Line]
+[pin_to_pin]: Unspecified és Power input típusú lábak vannak összekötve
+    ; warning
+    @(234.95 mm, 78.74 mm): Symbol LED6 Pin 4 [VDD, Unspecified, Line]
+    @(232.41 mm, 78.74 mm): Symbol #PWR0186 Pin 1 [Power input, Line]
+[pin_to_pin]: Unspecified és Power input típusú lábak vannak összekötve
+    ; warning
+    @(255.27 mm, 78.74 mm): Symbol LED6 Pin 1 [GND, Unspecified, Line]
+    @(257.81 mm, 81.28 mm): Symbol #PWR0188 Pin 1 [Power input, Line]
+
+ ** ERC messages: 225  Errors 32  Warnings 193
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

@@ -256,7 +256,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc")
-		(property "Sheetname" "XMOS"
+		(property "Sheetname" "ESP32-P4"
 			(at 30.48 76.7584 0)
 			(show_name no)
 			(do_not_autoplace no)

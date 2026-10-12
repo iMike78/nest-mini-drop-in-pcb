@@ -42,3 +42,17 @@ __pycache__/
 esp32.kicad_sch-bak
 
 _autosave-*
+
+# Local KiCad save history (contains its own Git repository)
+.history/
+
+# Local AI/agent tooling and workspaces
+AGENTS.md
+CLAUDE.md
+.claude/
+.codex/
+.mcp.json
+.mcp.*.json
+*agent*.md
+tools/scripts/New-RollbackPoint.ps1
+tools/scripts/Start-Konnect.ps1

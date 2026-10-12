@@ -1,0 +1,1218 @@
+** Drc report for nest-mini-v2-drop-in-pcb.kicad_pcb **
+** Created on 2026-09-26T08:11:10 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 237 DRC violations **
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2036 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(138.8000 mm, 81.1000 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 3.2527 mm
+    @(137.5000 mm, 81.9000 mm): Track [/XMOS/MIC_CLK_M] on B.Cu, length 2.4900 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,4052 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(138.8000 mm, 81.1000 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 3.2527 mm
+    @(136.3000 mm, 82.4100 mm): Pad 1 [GND] of R52 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2000 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(142.5000 mm, 82.1500 mm): Pad 7 [Net-(U15-REXT)] of U15 on B.Cu
+    @(142.9000 mm, 82.1500 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 0.5500 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2841 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(139.1765 mm, 81.7423 mm): Pad 1 [GND] of R72 on B.Cu
+    @(138.8000 mm, 81.1000 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 3.2527 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2972 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(143.4000 mm, 81.3000 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 0.1414 mm
+    @(142.9000 mm, 82.1500 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 0.5500 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2500 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(143.3000 mm, 81.4000 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 0.7500 mm
+    @(142.9000 mm, 82.1500 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 0.5500 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2419 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(142.5000 mm, 82.1500 mm): Pad 7 [Net-(U15-REXT)] of U15 on B.Cu
+    @(142.9000 mm, 81.6000 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 0.7071 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,4331 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(143.8000 mm, 81.3000 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 0.4000 mm
+    @(142.9000 mm, 82.1500 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 0.5500 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2500 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(142.9000 mm, 81.6000 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 0.7071 mm
+    @(143.3000 mm, 81.4000 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 0.7500 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2000 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(142.9000 mm, 82.1500 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 0.5500 mm
+    @(143.3000 mm, 82.1500 mm): Pad 9 [Net-(U15-ELEC1)] of U15 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2589 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(142.9000 mm, 81.6000 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 0.7071 mm
+    @(143.3000 mm, 82.1500 mm): Pad 9 [Net-(U15-ELEC1)] of U15 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2473 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(139.1765 mm, 81.7423 mm): Pad 1 [GND] of R72 on B.Cu
+    @(142.4000 mm, 81.1000 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 3.6000 mm
+[hole_clearance]: Furat szigetelési távolság megsértése (forrszem szigetelési távolság 1,0000 mm; tényleges 0,6058 mm)
+    Local override; error
+    @(138.2941 mm, 116.0000 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 4.5059 mm
+    @(135.8648 mm, 115.9141 mm): NPTH pad of TP15
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2473 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(142.4000 mm, 81.1000 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 3.6000 mm
+    @(140.1965 mm, 81.7423 mm): Pad 2 [Net-(U15-REXT)] of R72 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,4331 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(142.9000 mm, 81.6000 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 0.7071 mm
+    @(143.8000 mm, 81.3000 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 0.4000 mm
+[hole_clearance]: Furat szigetelési távolság megsértése (forrszem szigetelési távolság 1,0000 mm; tényleges 0,5354 mm)
+    Local override; error
+    @(138.2252 mm, 115.9311 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 0.0974 mm
+    @(135.8648 mm, 115.9141 mm): NPTH pad of TP15
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2000 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(143.3000 mm, 81.4000 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 0.7500 mm
+    @(142.9000 mm, 82.1500 mm): Pad 8 [Net-(U15-ELEC0)] of U15 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2000 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(143.3000 mm, 81.4000 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 0.7500 mm
+    @(143.7000 mm, 82.1500 mm): Pad 10 [Net-(U15-ELEC2)] of U15 on B.Cu
+[shorting_items]: Elemek két hálózatot zárnak rövidre (Net-(U15-ELEC0) és  hálózatok)
+    Local override; error
+    @(117.9113 mm, 89.0887 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 6.2486 mm
+    @(108.8000 mm, 89.1000 mm): Pad [<no net>] of TP16 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2972 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(143.4000 mm, 81.3000 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 0.1414 mm
+    @(142.9000 mm, 81.6000 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 0.7071 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,3250 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(143.8000 mm, 81.3000 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 0.4000 mm
+    @(143.7000 mm, 82.1500 mm): Pad 10 [Net-(U15-ELEC2)] of U15 on B.Cu
+[shorting_items]: Elemek két hálózatot zárnak rövidre ( és Net-(U15-ELEC1) hálózatok)
+    Local override; error
+    @(135.8648 mm, 115.9141 mm): Pad [<no net>] of TP15 on B.Cu
+    @(138.2941 mm, 116.0000 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 4.5059 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,3836 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(143.4000 mm, 81.3000 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 0.1414 mm
+    @(142.9000 mm, 82.1500 mm): Pad 8 [Net-(U15-ELEC0)] of U15 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,3836 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(143.4000 mm, 81.3000 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 0.1414 mm
+    @(143.7000 mm, 82.1500 mm): Pad 10 [Net-(U15-ELEC2)] of U15 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2094 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(143.7000 mm, 82.1500 mm): Pad 10 [Net-(U15-ELEC2)] of U15 on B.Cu
+    @(143.8000 mm, 81.3000 mm): Via [Net-(U15-ELEC1)] on F.Cu - B.Cu
+[shorting_items]: Elemek két hálózatot zárnak rövidre ( és Net-(U15-ELEC1) hálózatok)
+    Local override; error
+    @(135.8648 mm, 115.9141 mm): Pad [<no net>] of TP15 on B.Cu
+    @(138.2252 mm, 115.9311 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 0.0974 mm
+[clearance]: Szigetelési távolság megsértése (forrszem szigetelési távolság 1,0000 mm; tényleges 0,8250 mm)
+    Local override; error
+    @(165.7000 mm, 84.7000 mm): Track [/XMOS/MIC_DATA_M_1] on B.Cu, length 7.9000 mm
+    @(162.8102 mm, 89.1000 mm): Pad [<no net>] of TP14 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,4464 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(142.4000 mm, 81.1000 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 3.6000 mm
+    @(153.6036 mm, 80.5036 mm): Track [/XMOS/MIC_DATA_M_1] on B.Cu, length 16.9073 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,4464 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(142.9000 mm, 81.6000 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 0.7071 mm
+    @(153.6036 mm, 80.5036 mm): Track [/XMOS/MIC_DATA_M_1] on B.Cu, length 16.9073 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,4464 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(153.6036 mm, 80.5036 mm): Track [/XMOS/MIC_DATA_M_1] on B.Cu, length 16.9073 mm
+    @(138.8000 mm, 81.1000 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 3.2527 mm
+[hole_clearance]: Furat szigetelési távolság megsértése (forrszem szigetelési távolság 1,0000 mm; tényleges 0,0000 mm)
+    Local override; error
+    @(162.9000 mm, 89.1000 mm): Track [Net-(U15-ELEC2)] on B.Cu, length 1.414e-06 mm
+    @(162.8102 mm, 89.1000 mm): NPTH pad of TP14
+[shorting_items]: Elemek két hálózatot zárnak rövidre ( és Net-(U15-ELEC2) hálózatok)
+    Local override; error
+    @(162.8102 mm, 89.1000 mm): Pad [<no net>] of TP14 on B.Cu
+    @(162.9000 mm, 89.1000 mm): Track [Net-(U15-ELEC2)] on B.Cu, length 1.414e-06 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,4500 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(145.7500 mm, 82.1500 mm): Track [Net-(U15-ELEC2)] on B.Cu, length 2.0500 mm
+    @(144.3500 mm, 82.8000 mm): Pad 11 [Net-(U15-ELEC10)] of U15 on B.Cu
+[hole_clearance]: Furat szigetelési távolság megsértése (forrszem szigetelési távolság 1,0000 mm; tényleges 0,6750 mm)
+    Local override; error
+    @(160.3102 mm, 89.1000 mm): Track [Net-(U15-ELEC2)] on B.Cu, length 8.0610 mm
+    @(162.8102 mm, 89.1000 mm): NPTH pad of TP14
+[shorting_items]: Elemek két hálózatot zárnak rövidre (Net-(U15-ELEC2) és  hálózatok)
+    Local override; error
+    @(160.3102 mm, 89.1000 mm): Track [Net-(U15-ELEC2)] on B.Cu, length 8.0610 mm
+    @(162.8102 mm, 89.1000 mm): Pad [<no net>] of TP14 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2500 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(145.7500 mm, 82.1500 mm): Track [Net-(U15-ELEC2)] on B.Cu, length 2.0500 mm
+    @(143.3000 mm, 81.4000 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 0.7500 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2000 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(145.7500 mm, 82.1500 mm): Track [Net-(U15-ELEC2)] on B.Cu, length 2.0500 mm
+    @(143.3000 mm, 82.1500 mm): Pad 9 [Net-(U15-ELEC1)] of U15 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,3599 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(142.4000 mm, 81.1000 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 3.6000 mm
+    @(142.5000 mm, 82.1500 mm): Track [Net-(U15-REXT)] on B.Cu, length 0.5500 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,4923 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(142.4000 mm, 81.1000 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 3.6000 mm
+    @(140.6777 mm, 81.7423 mm): Track [Net-(U15-REXT)] on B.Cu, length 0.4812 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,1328 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(142.9000 mm, 81.6000 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 0.7071 mm
+    @(142.5000 mm, 82.1500 mm): Track [Net-(U15-REXT)] on B.Cu, length 0.5500 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,1500 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(142.4000 mm, 81.1000 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 3.6000 mm
+    @(142.5000 mm, 81.6000 mm): Track [Net-(U15-REXT)] on B.Cu, length 0.2828 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,1500 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(142.4000 mm, 81.1000 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 3.6000 mm
+    @(142.3000 mm, 81.4000 mm): Track [Net-(U15-REXT)] on B.Cu, length 1.2800 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,1500 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(142.4000 mm, 81.1000 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 3.6000 mm
+    @(141.0200 mm, 81.4000 mm): Track [Net-(U15-REXT)] on B.Cu, length 0.4840 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2500 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(142.9000 mm, 82.1500 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 0.5500 mm
+    @(142.5000 mm, 82.1500 mm): Track [Net-(U15-REXT)] on B.Cu, length 0.5500 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,1328 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(142.9000 mm, 81.6000 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 0.7071 mm
+    @(142.5000 mm, 81.6000 mm): Track [Net-(U15-REXT)] on B.Cu, length 0.2828 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,1328 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(142.9000 mm, 81.6000 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 0.7071 mm
+    @(142.3000 mm, 81.4000 mm): Track [Net-(U15-REXT)] on B.Cu, length 1.2800 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2500 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(142.9000 mm, 82.1500 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 0.5500 mm
+    @(142.5000 mm, 81.6000 mm): Track [Net-(U15-REXT)] on B.Cu, length 0.2828 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2000 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(142.9000 mm, 82.1500 mm): Pad 8 [Net-(U15-ELEC0)] of U15 on B.Cu
+    @(142.5000 mm, 82.1500 mm): Track [Net-(U15-REXT)] on B.Cu, length 0.5500 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,4825 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(142.9000 mm, 82.1500 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 0.5500 mm
+    @(142.3000 mm, 81.4000 mm): Track [Net-(U15-REXT)] on B.Cu, length 1.2800 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2589 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(142.5000 mm, 81.6000 mm): Track [Net-(U15-REXT)] on B.Cu, length 0.2828 mm
+    @(142.9000 mm, 82.1500 mm): Pad 8 [Net-(U15-ELEC0)] of U15 on B.Cu
+[hole_clearance]: Furat szigetelési távolság megsértése (forrszem szigetelési távolság 1,0000 mm; tényleges 0,0000 mm)
+    Local override; error
+    @(162.9000 mm, 89.1000 mm): Track [Net-(U15-ELEC2)] on B.Cu, length 0.0898 mm
+    @(162.8102 mm, 89.1000 mm): NPTH pad of TP14
+[shorting_items]: Elemek két hálózatot zárnak rövidre (Net-(U15-ELEC2) és  hálózatok)
+    Local override; error
+    @(162.9000 mm, 89.1000 mm): Track [Net-(U15-ELEC2)] on B.Cu, length 0.0898 mm
+    @(162.8102 mm, 89.1000 mm): Pad [<no net>] of TP14 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály '+1V8' szigetelési távolság 0,2000 mm; tényleges 0,1981 mm)
+    Rule: hálózatosztály '+1V8'; error
+    @(135.8747 mm, 61.3253 mm): Track [/XMOS/TDI] on B.Cu, length 2.9000 mm
+    @(135.4746 mm, 61.3253 mm): Pad 17 [+1V8] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1750 mm)
+    Rule: hálózatosztály 'power'; error
+    @(162.0000 mm, 78.6500 mm): Pad P$3 [+3V3] of SW3 on F.Cu
+    @(163.7000 mm, 78.3000 mm): Track [/Power/USB_SEL] on F.Cu, length 0.9899 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1750 mm)
+    Rule: hálózatosztály 'power'; error
+    @(163.0000 mm, 79.0000 mm): Track [/Power/USB_SEL] on F.Cu, length 0.9000 mm
+    @(162.0000 mm, 78.6500 mm): Pad P$3 [+3V3] of SW3 on F.Cu
+[clearance]: Szigetelési távolság megsértése (forrszem szigetelési távolság 1,0000 mm; tényleges 0,2832 mm)
+    Local override; error
+    @(162.8102 mm, 89.1000 mm): Pad [<no net>] of TP14 on B.Cu
+    @(165.2418 mm, 85.2418 mm): Track [/XMOS/MIC_CLK_M] on B.Cu, length 7.6000 mm
+[clearance]: Szigetelési távolság megsértése (forrszem szigetelési távolság 1,0000 mm; tényleges 0,8726 mm)
+    Local override; error
+    @(162.8102 mm, 89.1000 mm): Pad [<no net>] of TP14 on B.Cu
+    @(168.2000 mm, 88.2000 mm): Track [/XMOS/MIC_CLK_M] on B.Cu, length 4.1835 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2036 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(142.4000 mm, 81.1000 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 3.6000 mm
+    @(138.6000 mm, 80.8000 mm): Track [/XMOS/MIC_CLK_M] on B.Cu, length 1.5556 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2036 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(138.6000 mm, 80.8000 mm): Track [/XMOS/MIC_CLK_M] on B.Cu, length 1.5556 mm
+    @(138.8000 mm, 81.1000 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 3.2527 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,1500 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(153.2000 mm, 80.8000 mm): Track [/XMOS/MIC_CLK_M] on B.Cu, length 14.6000 mm
+    @(142.4000 mm, 81.1000 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 3.6000 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,1500 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(153.2000 mm, 80.8000 mm): Track [/XMOS/MIC_CLK_M] on B.Cu, length 14.6000 mm
+    @(142.9000 mm, 81.6000 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 0.7071 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2250 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(153.2000 mm, 80.8000 mm): Track [/XMOS/MIC_CLK_M] on B.Cu, length 14.6000 mm
+    @(143.8000 mm, 81.3000 mm): Via [Net-(U15-ELEC1)] on F.Cu - B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,3500 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(153.2000 mm, 80.8000 mm): Track [/XMOS/MIC_CLK_M] on B.Cu, length 14.6000 mm
+    @(143.4000 mm, 81.3000 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 0.1414 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,4500 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(153.2000 mm, 80.8000 mm): Track [/XMOS/MIC_CLK_M] on B.Cu, length 14.6000 mm
+    @(143.3000 mm, 81.4000 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 0.7500 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,3500 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(153.2000 mm, 80.8000 mm): Track [/XMOS/MIC_CLK_M] on B.Cu, length 14.6000 mm
+    @(143.8000 mm, 81.3000 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 0.4000 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,1500 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(153.2000 mm, 80.8000 mm): Track [/XMOS/MIC_CLK_M] on B.Cu, length 14.6000 mm
+    @(138.8000 mm, 81.1000 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 3.2527 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,3500 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(145.2000 mm, 113.3000 mm): Track [VDDIO] on B.Cu, length 21.1000 mm
+    @(144.7000 mm, 114.1000 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 22.6000 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,4602 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(144.7000 mm, 91.5000 mm): Via [Net-(U15-ELEC1)] on F.Cu - B.Cu
+    @(145.2000 mm, 92.2000 mm): Via [VDDIO] on F.Cu - B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2250 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(144.7000 mm, 114.1000 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 22.6000 mm
+    @(145.2000 mm, 113.3000 mm): Via [VDDIO] on F.Cu - B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,3500 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(144.7000 mm, 91.5000 mm): Track [Net-(U15-ELEC1)] on F.Cu, length 9.3000 mm
+    @(145.2000 mm, 89.1000 mm): Track [VDDIO] on F.Cu, length 1.2728 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2250 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(145.2000 mm, 92.2000 mm): Via [VDDIO] on F.Cu - B.Cu
+    @(144.7000 mm, 114.1000 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 22.6000 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,3500 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(145.2000 mm, 92.2000 mm): Track [VDDIO] on F.Cu, length 3.1000 mm
+    @(144.7000 mm, 91.5000 mm): Track [Net-(U15-ELEC1)] on F.Cu, length 9.3000 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,4602 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(144.7000 mm, 91.5000 mm): Via [Net-(U15-ELEC1)] on F.Cu - B.Cu
+    @(145.2000 mm, 92.2000 mm): Via [VDDIO] on F.Cu - B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2250 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(144.7000 mm, 91.5000 mm): Via [Net-(U15-ELEC1)] on F.Cu - B.Cu
+    @(145.2000 mm, 92.2000 mm): Track [VDDIO] on F.Cu, length 3.1000 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,4602 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(144.7000 mm, 91.5000 mm): Via [Net-(U15-ELEC1)] on F.Cu - B.Cu
+    @(145.2000 mm, 92.2000 mm): Via [VDDIO] on F.Cu - B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,4602 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(144.7000 mm, 91.5000 mm): Via [Net-(U15-ELEC1)] on F.Cu - B.Cu
+    @(145.2000 mm, 92.2000 mm): Via [VDDIO] on F.Cu - B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1480 mm)
+    Rule: hálózatosztály 'power'; error
+    @(134.6000 mm, 66.6005 mm): Pad 3 [/XMOS/QSPI_CS_N] of U10 on B.Cu
+    @(134.6000 mm, 66.2005 mm): Track [VDD] on B.Cu, length 0.6645 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1480 mm)
+    Rule: hálózatosztály 'power'; error
+    @(136.6748 mm, 67.8753 mm): Pad 56 [unconnected-(U10-X0D32-Pad56)] of U10 on B.Cu
+    @(136.2747 mm, 67.8753 mm): Track [VDD] on B.Cu, length 0.7156 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1480 mm)
+    Rule: hálózatosztály 'power'; error
+    @(134.6000 mm, 65.8004 mm): Pad 5 [/XMOS/QSPI_CLK] of U10 on B.Cu
+    @(134.6000 mm, 66.2005 mm): Track [VDD] on B.Cu, length 0.6645 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1480 mm)
+    Rule: hálózatosztály 'power'; error
+    @(135.8747 mm, 67.8753 mm): Pad 58 [unconnected-(U10-X0D33-Pad58)] of U10 on B.Cu
+    @(136.2747 mm, 67.8753 mm): Track [VDD] on B.Cu, length 0.7156 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1961 mm)
+    Rule: hálózatosztály 'power'; error
+    @(139.8752 mm, 61.3253 mm): Pad 28 [XMOS_USB_N] of U10 on B.Cu
+    @(139.3021 mm, 62.0000 mm): Track [VDD] on B.Cu, length 0.5979 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1992 mm)
+    Rule: hálózatosztály 'power'; error
+    @(135.8747 mm, 67.8753 mm): Pad 58 [unconnected-(U10-X0D33-Pad58)] of U10 on B.Cu
+    @(135.3236 mm, 66.8236 mm): Track [VDD] on B.Cu, length 0.5323 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1986 mm)
+    Rule: hálózatosztály 'power'; error
+    @(135.8747 mm, 61.3253 mm): Pad 18 [/XMOS/TDI] of U10 on B.Cu
+    @(135.3157 mm, 62.3843 mm): Track [VDD] on B.Cu, length 0.5435 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1961 mm)
+    Rule: hálózatosztály 'power'; error
+    @(140.2752 mm, 61.3253 mm): Pad 29 [XMOS_USB_P] of U10 on B.Cu
+    @(140.2000 mm, 62.0000 mm): Track [VDD] on B.Cu, length 0.4243 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1480 mm)
+    Rule: hálózatosztály 'power'; error
+    @(141.1499 mm, 63.0001 mm): Track [VDD] on B.Cu, length 0.6605 mm
+    @(141.1499 mm, 62.6001 mm): Pad 33 [/XMOS/XL_DN1] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1480 mm)
+    Rule: hálózatosztály 'power'; error
+    @(141.1499 mm, 63.0001 mm): Track [VDD] on B.Cu, length 0.6605 mm
+    @(141.1499 mm, 63.4001 mm): Pad 35 [/XMOS/XL_DN0] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1713 mm)
+    Rule: hálózatosztály 'power'; error
+    @(140.2000 mm, 62.0000 mm): Track [VDD] on B.Cu, length 0.4243 mm
+    @(141.1499 mm, 62.2000 mm): Pad 32 [/XMOS/MIC_DATA_1] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1480 mm)
+    Rule: hálózatosztály 'power'; error
+    @(139.4751 mm, 67.8753 mm): Track [VDD] on B.Cu, length 0.7228 mm
+    @(139.8752 mm, 67.8753 mm): Pad 48 [unconnected-(U10-X0D42-Pad48)] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1967 mm)
+    Rule: hálózatosztály 'power'; error
+    @(135.8747 mm, 67.8753 mm): Pad 58 [unconnected-(U10-X0D33-Pad58)] of U10 on B.Cu
+    @(135.7000 mm, 67.2000 mm): Track [VDD] on B.Cu, length 0.6970 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1480 mm)
+    Rule: hálózatosztály 'power'; error
+    @(139.4751 mm, 67.8753 mm): Track [VDD] on B.Cu, length 0.7228 mm
+    @(139.0751 mm, 67.8753 mm): Pad 50 [unconnected-(U10-X0D41-Pad50)] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1967 mm)
+    Rule: hálózatosztály 'power'; error
+    @(140.4377 mm, 66.7623 mm): Track [VDD] on B.Cu, length 0.6190 mm
+    @(139.8752 mm, 67.8753 mm): Pad 48 [unconnected-(U10-X0D42-Pad48)] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1713 mm)
+    Rule: hálózatosztály 'power'; error
+    @(140.5000 mm, 62.3000 mm): Track [VDD] on B.Cu, length 0.7295 mm
+    @(141.1499 mm, 62.2000 mm): Pad 32 [/XMOS/MIC_DATA_1] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1713 mm)
+    Rule: hálózatosztály 'power'; error
+    @(140.5000 mm, 62.3000 mm): Track [VDD] on B.Cu, length 0.7295 mm
+    @(141.1499 mm, 62.6001 mm): Pad 33 [/XMOS/XL_DN1] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1961 mm)
+    Rule: hálózatosztály 'power'; error
+    @(139.9000 mm, 62.0000 mm): Track [VDD] on B.Cu, length 0.3000 mm
+    @(139.8752 mm, 61.3253 mm): Pad 28 [XMOS_USB_N] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1480 mm)
+    Rule: hálózatosztály 'power'; error
+    @(136.2747 mm, 61.3253 mm): Track [VDD] on B.Cu, length 0.6286 mm
+    @(136.6748 mm, 61.3253 mm): Pad 20 [/XMOS/TDO] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1480 mm)
+    Rule: hálózatosztály 'power'; error
+    @(134.6000 mm, 63.0001 mm): Track [VDD] on B.Cu, length 0.6809 mm
+    @(134.6000 mm, 63.4001 mm): Pad 11 [/XMOS/VBUS_DETEC] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1961 mm)
+    Rule: hálózatosztály 'power'; error
+    @(139.9000 mm, 62.0000 mm): Track [VDD] on B.Cu, length 0.3000 mm
+    @(140.2752 mm, 61.3253 mm): Pad 29 [XMOS_USB_P] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1480 mm)
+    Rule: hálózatosztály 'power'; error
+    @(134.6000 mm, 63.0001 mm): Track [VDD] on B.Cu, length 0.6809 mm
+    @(134.6000 mm, 62.6001 mm): Pad 13 [unconnected-(U10-X1D10-Pad13)] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1480 mm)
+    Rule: hálózatosztály 'power'; error
+    @(136.2747 mm, 61.3253 mm): Track [VDD] on B.Cu, length 0.6286 mm
+    @(135.8747 mm, 61.3253 mm): Pad 18 [/XMOS/TDI] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1480 mm)
+    Rule: hálózatosztály 'power'; error
+    @(139.0751 mm, 61.3253 mm): Pad 26 [+1V8] of U10 on B.Cu
+    @(139.4751 mm, 61.3253 mm): Track [VDD] on B.Cu, length 0.6179 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1480 mm)
+    Rule: hálózatosztály 'power'; error
+    @(141.1499 mm, 66.2005 mm): Track [VDD] on B.Cu, length 0.6597 mm
+    @(141.1499 mm, 65.8004 mm): Pad 41 [Net-(U10-X0D35)] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1480 mm)
+    Rule: hálózatosztály 'power'; error
+    @(139.4751 mm, 61.3253 mm): Track [VDD] on B.Cu, length 0.6179 mm
+    @(139.8752 mm, 61.3253 mm): Pad 28 [XMOS_USB_N] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1961 mm)
+    Rule: hálózatosztály 'power'; error
+    @(135.7000 mm, 62.0000 mm): Track [VDD] on B.Cu, length 0.7039 mm
+    @(135.8747 mm, 61.3253 mm): Pad 18 [/XMOS/TDI] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1967 mm)
+    Rule: hálózatosztály 'power'; error
+    @(140.0000 mm, 67.2000 mm): Track [VDD] on B.Cu, length 0.6752 mm
+    @(139.8752 mm, 67.8753 mm): Pad 48 [unconnected-(U10-X0D42-Pad48)] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1480 mm)
+    Rule: hálózatosztály 'power'; error
+    @(141.1499 mm, 66.2005 mm): Track [VDD] on B.Cu, length 0.6597 mm
+    @(141.1499 mm, 66.6005 mm): Pad 43 [Net-(U10-X0D36)] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1840 mm)
+    Rule: hálózatosztály 'power'; error
+    @(137.1000 mm, 79.3000 mm): Pad 3 [+3V3] of U6 on F.Cu
+    @(137.7000 mm, 80.1000 mm): Via [ESP_3V3] on F.Cu - B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály '+1V8' szigetelési távolság 0,2000 mm; tényleges 0,1981 mm)
+    Rule: hálózatosztály '+1V8'; error
+    @(139.0751 mm, 61.3253 mm): Track [+1V8] on B.Cu, length 0.8004 mm
+    @(138.6750 mm, 61.3253 mm): Pad 25 [unconnected-(U10-NC-Pad25)] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály '+1V8' szigetelési távolság 0,2000 mm; tényleges 0,1981 mm)
+    Rule: hálózatosztály '+1V8'; error
+    @(141.1499 mm, 61.8000 mm): Track [+1V8] on B.Cu, length 1.2502 mm
+    @(141.1499 mm, 62.2000 mm): Pad 32 [/XMOS/MIC_DATA_1] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály '+1V8' szigetelési távolság 0,2000 mm; tényleges 0,1981 mm)
+    Rule: hálózatosztály '+1V8'; error
+    @(135.0746 mm, 61.3253 mm): Pad 16 [Net-(U10-XIN)] of U10 on B.Cu
+    @(135.4746 mm, 61.3253 mm): Track [+1V8] on B.Cu, length 0.6507 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály '+1V8' szigetelési távolság 0,2000 mm; tényleges 0,1981 mm)
+    Rule: hálózatosztály '+1V8'; error
+    @(135.8747 mm, 61.3253 mm): Pad 18 [/XMOS/TDI] of U10 on B.Cu
+    @(135.4746 mm, 61.3253 mm): Track [+1V8] on B.Cu, length 0.6507 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály '+1V8' szigetelési távolság 0,2000 mm; tényleges 0,1981 mm)
+    Rule: hálózatosztály '+1V8'; error
+    @(135.0746 mm, 61.3253 mm): Track [Net-(U10-XIN)] on B.Cu, length 1.3393 mm
+    @(135.4746 mm, 61.3253 mm): Pad 17 [+1V8] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,3500 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(144.2000 mm, 113.3000 mm): Track [MUTE_ON] on B.Cu, length 17.8775 mm
+    @(144.7000 mm, 114.1000 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 22.6000 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,3500 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(144.2000 mm, 95.4225 mm): Track [MUTE_ON] on B.Cu, length 2.7895 mm
+    @(144.7000 mm, 114.1000 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 22.6000 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1475 mm)
+    Rule: hálózatosztály 'power'; error
+    @(136.4000 mm, 60.8000 mm): Track [Net-(U10-PLL_AVDD)] on F.Cu, length 1.6971 mm
+    @(137.7350 mm, 60.8000 mm): Pad 2 [VDD] of FB5 on F.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2250 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(144.2000 mm, 113.3000 mm): Via [MUTE_ON] on F.Cu - B.Cu
+    @(144.7000 mm, 114.1000 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 22.6000 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1480 mm)
+    Rule: hálózatosztály 'power'; error
+    @(140.2752 mm, 61.3253 mm): Pad 29 [XMOS_USB_P] of U10 on B.Cu
+    @(140.6753 mm, 61.3253 mm): Track [+3V3] on B.Cu, length 1.1253 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1900 mm)
+    Rule: hálózatosztály 'power'; error
+    @(131.7000 mm, 80.2800 mm): Pad 2 [GND] of C70 on B.Cu
+    @(132.4000 mm, 80.1350 mm): Via [+3V3] on F.Cu - B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1422 mm)
+    Rule: hálózatosztály 'power'; error
+    @(161.0000 mm, 74.5000 mm): Via [+3V3] on F.Cu - B.Cu
+    @(161.2750 mm, 75.6600 mm): Pad 3 [/XMOS/TDI] of J4 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1900 mm)
+    Rule: hálózatosztály 'power'; error
+    @(123.6000 mm, 81.1000 mm): Track [ESP_MUTE_DET] on B.Cu, length 9.9000 mm
+    @(132.4000 mm, 80.6350 mm): Via [+3V3] on F.Cu - B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1864 mm)
+    Rule: hálózatosztály 'power'; error
+    @(137.6357 mm, 81.1643 mm): Track [+3V3] on F.Cu, length 3.2023 mm
+    @(139.8000 mm, 79.9000 mm): Via [ESP_MUTE_DET] on F.Cu - B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1347 mm)
+    Rule: hálózatosztály 'power'; error
+    @(113.2300 mm, 101.4700 mm): Track [+3V3] on F.Cu, length 1.5132 mm
+    @(113.7300 mm, 101.7675 mm): Pad 13 [Net-(U7-EN)] of U7 on F.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,3250 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(142.1000 mm, 115.4000 mm): Via [+14V] on F.Cu - B.Cu
+    @(138.2941 mm, 116.0000 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 4.5059 mm
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,4321 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(143.4000 mm, 114.4000 mm): Via [+14V] on F.Cu - B.Cu
+    @(142.8000 mm, 116.0000 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 2.6870 mm
+[clearance]: Szigetelési távolság megsértése (forrszem szigetelési távolság 1,0000 mm; tényleges 0,8991 mm)
+    Local override; error
+    @(158.3000 mm, 88.2000 mm): Via [GND] on F.Cu - B.Cu
+    @(162.8102 mm, 89.1000 mm): Pad [<no net>] of TP14 on B.Cu
+[hole_clearance]: Furat szigetelési távolság megsértése (forrszem szigetelési távolság 1,0000 mm; tényleges 0,9491 mm)
+    Local override; error
+    @(162.8102 mm, 89.1000 mm): Pad [<no net>] of TP14 on B.Cu
+    @(158.3000 mm, 88.2000 mm): Via [GND] on F.Cu - B.Cu
+[clearance]: Szigetelési távolság megsértése (forrszem szigetelési távolság 1,0000 mm; tényleges 0,6351 mm)
+    Local override; error
+    @(159.2000 mm, 86.7000 mm): Via [GND] on F.Cu - B.Cu
+    @(162.8102 mm, 89.1000 mm): Pad [<no net>] of TP14 on B.Cu
+[hole_clearance]: Furat szigetelési távolság megsértése (forrszem szigetelési távolság 1,0000 mm; tényleges 0,6851 mm)
+    Local override; error
+    @(162.8102 mm, 89.1000 mm): Pad [<no net>] of TP14 on B.Cu
+    @(159.2000 mm, 86.7000 mm): Via [GND] on F.Cu - B.Cu
+[hole_clearance]: Furat szigetelési távolság megsértése (forrszem szigetelési távolság 1,0000 mm; tényleges 0,9491 mm)
+    Local override; error
+    @(162.8102 mm, 89.1000 mm): Pad [<no net>] of TP14 on B.Cu
+    @(158.3000 mm, 88.2000 mm): Via [GND] on F.Cu - B.Cu
+[hole_clearance]: Furat szigetelési távolság megsértése (forrszem szigetelési távolság 1,0000 mm; tényleges 0,6851 mm)
+    Local override; error
+    @(162.8102 mm, 89.1000 mm): Pad [<no net>] of TP14 on B.Cu
+    @(159.2000 mm, 86.7000 mm): Via [GND] on F.Cu - B.Cu
+[hole_clearance]: Furat szigetelési távolság megsértése (forrszem szigetelési távolság 1,0000 mm; tényleges 0,0000 mm)
+    Local override; error
+    @(162.8102 mm, 89.1000 mm): Pad [<no net>] of TP14 on B.Cu
+    @(162.8102 mm, 89.1000 mm): NPTH pad of TP14
+[hole_clearance]: Furat szigetelési távolság megsértése (forrszem szigetelési távolság 1,0000 mm; tényleges 0,0000 mm)
+    Local override; error
+    @(135.8648 mm, 115.9141 mm): Pad [<no net>] of TP15 on B.Cu
+    @(135.8648 mm, 115.9141 mm): NPTH pad of TP15
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1633 mm)
+    Rule: hálózatosztály 'power'; error
+    @(134.6000 mm, 66.6005 mm): Pad 3 [/XMOS/QSPI_CS_N] of U10 on B.Cu
+    @(135.3159 mm, 64.6003 mm): Pad 61 [VDD] of U10 on B.Cu
+[hole_clearance]: Furat szigetelési távolság megsértése (forrszem szigetelési távolság 1,0000 mm; tényleges 0,0000 mm)
+    Local override; error
+    @(108.8000 mm, 89.1000 mm): Pad [<no net>] of TP16 on B.Cu
+    @(108.8000 mm, 89.1000 mm): NPTH pad of TP16
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1571 mm)
+    Rule: hálózatosztály 'power'; error
+    @(134.6000 mm, 65.8004 mm): Pad 5 [/XMOS/QSPI_CLK] of U10 on B.Cu
+    @(135.3159 mm, 64.6003 mm): Pad 61 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1571 mm)
+    Rule: hálózatosztály 'power'; error
+    @(134.6000 mm, 65.4004 mm): Pad 6 [/XMOS/SPI_CS_N] of U10 on B.Cu
+    @(135.3159 mm, 64.6003 mm): Pad 61 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1571 mm)
+    Rule: hálózatosztály 'power'; error
+    @(134.6000 mm, 65.0003 mm): Pad 7 [Net-(U10-X0D11)] of U10 on B.Cu
+    @(135.3159 mm, 64.6003 mm): Pad 61 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,1500 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(142.5000 mm, 82.1500 mm): Pad 7 [Net-(U15-REXT)] of U15 on B.Cu
+    @(142.9000 mm, 82.1500 mm): Pad 8 [Net-(U15-ELEC0)] of U15 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,1500 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(143.3000 mm, 82.1500 mm): Pad 9 [Net-(U15-ELEC1)] of U15 on B.Cu
+    @(142.9000 mm, 82.1500 mm): Pad 8 [Net-(U15-ELEC0)] of U15 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1571 mm)
+    Rule: hálózatosztály 'power'; error
+    @(134.6000 mm, 64.6003 mm): Pad 8 [VDDIO] of U10 on B.Cu
+    @(135.3159 mm, 64.6003 mm): Pad 61 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,1500 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(143.3000 mm, 82.1500 mm): Pad 9 [Net-(U15-ELEC1)] of U15 on B.Cu
+    @(143.7000 mm, 82.1500 mm): Pad 10 [Net-(U15-ELEC2)] of U15 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'touch' szigetelési távolság 0,5000 mm; tényleges 0,2096 mm)
+    Rule: hálózatosztály 'touch'; error
+    @(144.3500 mm, 82.8000 mm): Pad 11 [Net-(U15-ELEC10)] of U15 on B.Cu
+    @(143.7000 mm, 82.1500 mm): Pad 10 [Net-(U15-ELEC2)] of U15 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1571 mm)
+    Rule: hálózatosztály 'power'; error
+    @(134.6000 mm, 64.2002 mm): Pad 9 [Net-(U10-X1D00)] of U10 on B.Cu
+    @(135.3159 mm, 64.6003 mm): Pad 61 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1571 mm)
+    Rule: hálózatosztály 'power'; error
+    @(134.6000 mm, 63.8002 mm): Pad 10 [unconnected-(U10-X1D01-Pad10)] of U10 on B.Cu
+    @(135.3159 mm, 64.6003 mm): Pad 61 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1571 mm)
+    Rule: hálózatosztály 'power'; error
+    @(134.6000 mm, 63.4001 mm): Pad 11 [/XMOS/VBUS_DETEC] of U10 on B.Cu
+    @(135.3159 mm, 64.6003 mm): Pad 61 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1500 mm)
+    Rule: hálózatosztály 'power'; error
+    @(142.5000 mm, 85.0500 mm): Pad 19 [Net-(U15-ELEC10)] of U15 on B.Cu
+    @(142.1000 mm, 85.0500 mm): Pad 20 [+3V3] of U15 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1633 mm)
+    Rule: hálózatosztály 'power'; error
+    @(134.6000 mm, 62.6001 mm): Pad 13 [unconnected-(U10-X1D10-Pad13)] of U10 on B.Cu
+    @(135.3159 mm, 64.6003 mm): Pad 61 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály '+1V8' szigetelési távolság 0,2000 mm; tényleges 0,1461 mm)
+    Rule: hálózatosztály '+1V8'; error
+    @(135.4746 mm, 61.3253 mm): Pad 17 [+1V8] of U10 on B.Cu
+    @(135.0746 mm, 61.3253 mm): Pad 16 [Net-(U10-XIN)] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1633 mm)
+    Rule: hálózatosztály 'power'; error
+    @(135.8747 mm, 61.3253 mm): Pad 18 [/XMOS/TDI] of U10 on B.Cu
+    @(137.8749 mm, 62.0412 mm): Pad 62 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály '+1V8' szigetelési távolság 0,2000 mm; tényleges 0,1461 mm)
+    Rule: hálózatosztály '+1V8'; error
+    @(135.8747 mm, 61.3253 mm): Pad 18 [/XMOS/TDI] of U10 on B.Cu
+    @(135.4746 mm, 61.3253 mm): Pad 17 [+1V8] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1572 mm)
+    Rule: hálózatosztály 'power'; error
+    @(136.6748 mm, 61.3253 mm): Pad 20 [/XMOS/TDO] of U10 on B.Cu
+    @(137.8749 mm, 62.0412 mm): Pad 62 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1572 mm)
+    Rule: hálózatosztály 'power'; error
+    @(137.0748 mm, 61.3253 mm): Pad 21 [/XMOS/RST_N] of U10 on B.Cu
+    @(137.8749 mm, 62.0412 mm): Pad 62 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1572 mm)
+    Rule: hálózatosztály 'power'; error
+    @(137.4749 mm, 61.3253 mm): Pad 22 [Net-(U10-PLL_AVDD)] of U10 on B.Cu
+    @(137.8749 mm, 62.0412 mm): Pad 62 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1572 mm)
+    Rule: hálózatosztály 'power'; error
+    @(137.8749 mm, 61.3253 mm): Pad 23 [/XMOS/TMS] of U10 on B.Cu
+    @(137.8749 mm, 62.0412 mm): Pad 62 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1572 mm)
+    Rule: hálózatosztály 'power'; error
+    @(138.2750 mm, 61.3253 mm): Pad 24 [/XMOS/TCK] of U10 on B.Cu
+    @(137.8749 mm, 62.0412 mm): Pad 62 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály '+1V8' szigetelési távolság 0,2000 mm; tényleges 0,1461 mm)
+    Rule: hálózatosztály '+1V8'; error
+    @(138.6750 mm, 61.3253 mm): Pad 25 [unconnected-(U10-NC-Pad25)] of U10 on B.Cu
+    @(139.0751 mm, 61.3253 mm): Pad 26 [+1V8] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1572 mm)
+    Rule: hálózatosztály 'power'; error
+    @(138.6750 mm, 61.3253 mm): Pad 25 [unconnected-(U10-NC-Pad25)] of U10 on B.Cu
+    @(137.8749 mm, 62.0412 mm): Pad 62 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1572 mm)
+    Rule: hálózatosztály 'power'; error
+    @(139.0751 mm, 61.3253 mm): Pad 26 [+1V8] of U10 on B.Cu
+    @(137.8749 mm, 62.0412 mm): Pad 62 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1633 mm)
+    Rule: hálózatosztály 'power'; error
+    @(139.8752 mm, 61.3253 mm): Pad 28 [XMOS_USB_N] of U10 on B.Cu
+    @(137.8749 mm, 62.0412 mm): Pad 62 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1633 mm)
+    Rule: hálózatosztály 'power'; error
+    @(141.1499 mm, 62.6001 mm): Pad 33 [/XMOS/XL_DN1] of U10 on B.Cu
+    @(140.4340 mm, 64.6003 mm): Pad 63 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1571 mm)
+    Rule: hálózatosztály 'power'; error
+    @(141.1499 mm, 63.8002 mm): Pad 36 [Net-(U10-X1D18)] of U10 on B.Cu
+    @(140.4340 mm, 64.6003 mm): Pad 63 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1571 mm)
+    Rule: hálózatosztály 'power'; error
+    @(141.1499 mm, 64.6003 mm): Pad 38 [VDDIO] of U10 on B.Cu
+    @(140.4340 mm, 64.6003 mm): Pad 63 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1571 mm)
+    Rule: hálózatosztály 'power'; error
+    @(141.1499 mm, 65.8004 mm): Pad 41 [Net-(U10-X0D35)] of U10 on B.Cu
+    @(140.4340 mm, 64.6003 mm): Pad 63 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1633 mm)
+    Rule: hálózatosztály 'power'; error
+    @(141.1499 mm, 66.6005 mm): Pad 43 [Net-(U10-X0D36)] of U10 on B.Cu
+    @(140.4340 mm, 64.6003 mm): Pad 63 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1633 mm)
+    Rule: hálózatosztály 'power'; error
+    @(139.8752 mm, 67.8753 mm): Pad 48 [unconnected-(U10-X0D42-Pad48)] of U10 on B.Cu
+    @(137.8749 mm, 67.1594 mm): Pad 64 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1572 mm)
+    Rule: hálózatosztály 'power'; error
+    @(139.0751 mm, 67.8753 mm): Pad 50 [unconnected-(U10-X0D41-Pad50)] of U10 on B.Cu
+    @(137.8749 mm, 67.1594 mm): Pad 64 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1572 mm)
+    Rule: hálózatosztály 'power'; error
+    @(138.2750 mm, 67.8753 mm): Pad 52 [VDDIO] of U10 on B.Cu
+    @(137.8749 mm, 67.1594 mm): Pad 64 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1572 mm)
+    Rule: hálózatosztály 'power'; error
+    @(137.8749 mm, 67.8753 mm): Pad 53 [unconnected-(U10-X1D34-Pad53)] of U10 on B.Cu
+    @(137.8749 mm, 67.1594 mm): Pad 64 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1572 mm)
+    Rule: hálózatosztály 'power'; error
+    @(137.4749 mm, 67.8753 mm): Pad 54 [I2C2_SDA] of U10 on B.Cu
+    @(137.8749 mm, 67.1594 mm): Pad 64 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1572 mm)
+    Rule: hálózatosztály 'power'; error
+    @(136.6748 mm, 67.8753 mm): Pad 56 [unconnected-(U10-X0D32-Pad56)] of U10 on B.Cu
+    @(137.8749 mm, 67.1594 mm): Pad 64 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1633 mm)
+    Rule: hálózatosztály 'power'; error
+    @(135.8747 mm, 67.8753 mm): Pad 58 [unconnected-(U10-X0D33-Pad58)] of U10 on B.Cu
+    @(137.8749 mm, 67.1594 mm): Pad 64 [VDD] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1571 mm)
+    Rule: hálózatosztály 'power'; error
+    @(140.4340 mm, 64.6003 mm): Pad 63 [VDD] of U10 on B.Cu
+    @(141.1499 mm, 65.0003 mm): Pad 39 [Net-(U10-X1D22)] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1571 mm)
+    Rule: hálózatosztály 'power'; error
+    @(140.4340 mm, 64.6003 mm): Pad 63 [VDD] of U10 on B.Cu
+    @(141.1499 mm, 65.4004 mm): Pad 40 [I2C2_SCL] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1571 mm)
+    Rule: hálózatosztály 'power'; error
+    @(140.4340 mm, 64.6003 mm): Pad 63 [VDD] of U10 on B.Cu
+    @(141.1499 mm, 63.4001 mm): Pad 35 [/XMOS/XL_DN0] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1571 mm)
+    Rule: hálózatosztály 'power'; error
+    @(140.4340 mm, 64.6003 mm): Pad 63 [VDD] of U10 on B.Cu
+    @(141.1499 mm, 64.2002 mm): Pad 37 [Net-(U10-X1D19)] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1572 mm)
+    Rule: hálózatosztály 'power'; error
+    @(137.8749 mm, 67.1594 mm): Pad 64 [VDD] of U10 on B.Cu
+    @(138.6750 mm, 67.8753 mm): Pad 51 [unconnected-(U10-X0D43-Pad51)] of U10 on B.Cu
+[clearance]: Szigetelési távolság megsértése (hálózatosztály 'power' szigetelési távolság 0,2000 mm; tényleges 0,1572 mm)
+    Rule: hálózatosztály 'power'; error
+    @(137.8749 mm, 67.1594 mm): Pad 64 [VDD] of U10 on B.Cu
+    @(137.0748 mm, 67.8753 mm): Pad 55 [unconnected-(U10-X0D31-Pad55)] of U10 on B.Cu
+[malformed_courtyard]: A lábkiosztás hibás udvarral rendelkezik (önmetsző)
+    Local override; error
+    @(137.8749 mm, 64.6003 mm): Footprint U10
+[malformed_courtyard]: A lábkiosztás hibás udvarral rendelkezik (önmetsző)
+    Local override; error
+    @(137.8749 mm, 64.6003 mm): Footprint U10
+[malformed_courtyard]: A lábkiosztás hibás udvarral rendelkezik (nem zárt alakzat)
+    Local override; error
+    @(137.8749 mm, 64.6003 mm): Footprint U10
+[malformed_courtyard]: A lábkiosztás hibás udvarral rendelkezik (nem zárt alakzat)
+    Local override; error
+    @(137.8749 mm, 64.6003 mm): Footprint U10
+[malformed_courtyard]: A lábkiosztás hibás udvarral rendelkezik (önmetsző)
+    Local override; error
+    @(137.8749 mm, 64.6003 mm): Footprint U10
+[malformed_courtyard]: A lábkiosztás hibás udvarral rendelkezik (önmetsző)
+    Local override; error
+    @(137.8749 mm, 64.6003 mm): Footprint U10
+[malformed_courtyard]: A lábkiosztás hibás udvarral rendelkezik (nem zárt alakzat)
+    Local override; error
+    @(137.8749 mm, 64.6003 mm): Footprint U10
+[malformed_courtyard]: A lábkiosztás hibás udvarral rendelkezik (nem zárt alakzat)
+    Local override; error
+    @(137.8749 mm, 64.6003 mm): Footprint U10
+[malformed_courtyard]: A lábkiosztás hibás udvarral rendelkezik (önmetsző)
+    Local override; error
+    @(137.8749 mm, 64.6003 mm): Footprint U10
+[malformed_courtyard]: A lábkiosztás hibás udvarral rendelkezik (önmetsző)
+    Local override; error
+    @(137.8749 mm, 64.6003 mm): Footprint U10
+[malformed_courtyard]: A lábkiosztás hibás udvarral rendelkezik (önmetsző)
+    Local override; error
+    @(137.8749 mm, 64.6003 mm): Footprint U10
+[malformed_courtyard]: A lábkiosztás hibás udvarral rendelkezik (önmetsző)
+    Local override; error
+    @(137.8749 mm, 64.6003 mm): Footprint U10
+[malformed_courtyard]: A lábkiosztás hibás udvarral rendelkezik (önmetsző)
+    Local override; error
+    @(137.8749 mm, 64.6003 mm): Footprint U10
+[malformed_courtyard]: A lábkiosztás hibás udvarral rendelkezik (önmetsző)
+    Local override; error
+    @(137.8749 mm, 64.6003 mm): Footprint U10
+[malformed_courtyard]: A lábkiosztás hibás udvarral rendelkezik (önmetsző)
+    Local override; error
+    @(137.8749 mm, 64.6003 mm): Footprint U10
+[malformed_courtyard]: A lábkiosztás hibás udvarral rendelkezik (önmetsző)
+    Local override; error
+    @(137.8749 mm, 64.6003 mm): Footprint U10
+[malformed_courtyard]: A lábkiosztás hibás udvarral rendelkezik (önmetsző)
+    Local override; error
+    @(137.8749 mm, 64.6003 mm): Footprint U10
+[malformed_courtyard]: A lábkiosztás hibás udvarral rendelkezik (önmetsző)
+    Local override; error
+    @(137.8749 mm, 64.6003 mm): Footprint U10
+[malformed_courtyard]: A lábkiosztás hibás udvarral rendelkezik (önmetsző)
+    Local override; error
+    @(137.8749 mm, 64.6003 mm): Footprint U10
+[malformed_courtyard]: A lábkiosztás hibás udvarral rendelkezik (önmetsző)
+    Local override; error
+    @(137.8749 mm, 64.6003 mm): Footprint U10
+[solder_mask_bridge]: Az alsó forrasztásgátló réteg apertúrája különböző hálózatú elemeket köt össze
+    Rule: panel beállítás forrasztásgátló réteg min. szélesség; error
+    @(138.2252 mm, 115.9311 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 0.0974 mm
+    @(135.8648 mm, 115.9141 mm): Pad [<no net>] of TP15 on B.Cu
+[solder_mask_bridge]: Az alsó forrasztásgátló réteg apertúrája különböző hálózatú elemeket köt össze
+    Rule: panel beállítás forrasztásgátló réteg min. szélesség; error
+    @(138.2941 mm, 116.0000 mm): Track [Net-(U15-ELEC1)] on B.Cu, length 4.5059 mm
+    @(135.8648 mm, 115.9141 mm): Pad [<no net>] of TP15 on B.Cu
+[solder_mask_bridge]: Az alsó forrasztásgátló réteg apertúrája különböző hálózatú elemeket köt össze
+    Rule: panel beállítás forrasztásgátló réteg min. szélesség; error
+    @(117.9113 mm, 89.0887 mm): Track [Net-(U15-ELEC0)] on B.Cu, length 6.2486 mm
+    @(108.8000 mm, 89.1000 mm): Pad [<no net>] of TP16 on B.Cu
+[solder_mask_bridge]: Az alsó forrasztásgátló réteg apertúrája különböző hálózatú elemeket köt össze
+    Rule: panel beállítás forrasztásgátló réteg min. szélesség; error
+    @(160.3102 mm, 89.1000 mm): Track [Net-(U15-ELEC2)] on B.Cu, length 8.0610 mm
+    @(162.8102 mm, 89.1000 mm): Pad [<no net>] of TP14 on B.Cu
+[solder_mask_bridge]: Az alsó forrasztásgátló réteg apertúrája különböző hálózatú elemeket köt össze
+    Rule: panel beállítás forrasztásgátló réteg min. szélesség; error
+    @(162.9000 mm, 89.1000 mm): Track [Net-(U15-ELEC2)] on B.Cu, length 0.0898 mm
+    @(162.8102 mm, 89.1000 mm): Pad [<no net>] of TP14 on B.Cu
+[solder_mask_bridge]: Az alsó forrasztásgátló réteg apertúrája különböző hálózatú elemeket köt össze
+    Rule: panel beállítás forrasztásgátló réteg min. szélesség; error
+    @(162.9000 mm, 89.1000 mm): Track [Net-(U15-ELEC2)] on B.Cu, length 1.414e-06 mm
+    @(162.8102 mm, 89.1000 mm): Pad [<no net>] of TP14 on B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(101.5000 mm, 87.1000 mm): Via [Net-(LED1-DOUT)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(122.9000 mm, 93.4000 mm): Via [VDD_MIC] on F.Cu - B.Cu
+[padstack]: Forrszem-készlet kérdéses (a negatív forraszpaszta margó nagyobb a forrszemnél; nem jön létre forraszpaszta maszk)
+    Local override; warning
+    @(152.9636 mm, 69.9790 mm): Pad A1 [GND] of J1 on F.Cu
+[padstack]: Forrszem-készlet kérdéses (a negatív forraszpaszta margó nagyobb a forrszemnél; nem jön létre forraszpaszta maszk)
+    Local override; warning
+    @(152.6100 mm, 69.6254 mm): Pad A2 [unconnected-(J1-TX1+-PadA2)] of J1 on F.Cu
+[padstack]: Forrszem-készlet kérdéses (a negatív forraszpaszta margó nagyobb a forrszemnél; nem jön létre forraszpaszta maszk)
+    Local override; warning
+    @(152.2565 mm, 69.2719 mm): Pad A3 [unconnected-(J1-TX1--PadA3)] of J1 on F.Cu
+[padstack]: Forrszem-készlet kérdéses (a negatív forraszpaszta margó nagyobb a forrszemnél; nem jön létre forraszpaszta maszk)
+    Local override; warning
+    @(151.9029 mm, 68.9183 mm): Pad A4 [Net-(D1-A2)] of J1 on F.Cu
+[padstack]: Forrszem-készlet kérdéses (a negatív forraszpaszta margó nagyobb a forrszemnél; nem jön létre forraszpaszta maszk)
+    Local override; warning
+    @(151.5494 mm, 68.5648 mm): Pad A5 [Net-(J1-CC1)] of J1 on F.Cu
+[padstack]: Forrszem-készlet kérdéses (a negatív forraszpaszta margó nagyobb a forrszemnél; nem jön létre forraszpaszta maszk)
+    Local override; warning
+    @(151.1958 mm, 68.2112 mm): Pad A6 [/Power/USB_D_P] of J1 on F.Cu
+[padstack]: Forrszem-készlet kérdéses (a negatív forraszpaszta margó nagyobb a forrszemnél; nem jön létre forraszpaszta maszk)
+    Local override; warning
+    @(150.4887 mm, 67.5041 mm): Pad A7 [/Power/USB_D_N] of J1 on F.Cu
+[padstack]: Forrszem-készlet kérdéses (a negatív forraszpaszta margó nagyobb a forrszemnél; nem jön létre forraszpaszta maszk)
+    Local override; warning
+    @(150.1352 mm, 67.1506 mm): Pad A8 [unconnected-(J1-SBU1-PadA8)] of J1 on F.Cu
+[padstack]: Forrszem-készlet kérdéses (a negatív forraszpaszta margó nagyobb a forrszemnél; nem jön létre forraszpaszta maszk)
+    Local override; warning
+    @(149.7816 mm, 66.7969 mm): Pad A9 [Net-(D1-A2)] of J1 on F.Cu
+[padstack]: Forrszem-készlet kérdéses (a negatív forraszpaszta margó nagyobb a forrszemnél; nem jön létre forraszpaszta maszk)
+    Local override; warning
+    @(149.4281 mm, 66.4435 mm): Pad A10 [unconnected-(J1-RX2--PadA10)] of J1 on F.Cu
+[padstack]: Forrszem-készlet kérdéses (a negatív forraszpaszta margó nagyobb a forrszemnél; nem jön létre forraszpaszta maszk)
+    Local override; warning
+    @(149.0745 mm, 66.0898 mm): Pad A11 [unconnected-(J1-RX2+-PadA11)] of J1 on F.Cu
+[padstack]: Forrszem-készlet kérdéses (a negatív forraszpaszta margó nagyobb a forrszemnél; nem jön létre forraszpaszta maszk)
+    Local override; warning
+    @(148.7210 mm, 65.7364 mm): Pad A12 [GND] of J1 on F.Cu
+[padstack]: Forrszem-készlet kérdéses (a negatív forraszpaszta margó nagyobb a forrszemnél; nem jön létre forraszpaszta maszk)
+    Local override; warning
+    @(149.6049 mm, 64.7109 mm): Pad B1 [GND] of J1 on F.Cu
+[padstack]: Forrszem-készlet kérdéses (a negatív forraszpaszta margó nagyobb a forrszemnél; nem jön létre forraszpaszta maszk)
+    Local override; warning
+    @(150.2061 mm, 65.3121 mm): Pad B2 [unconnected-(J1-TX2+-PadB2)] of J1 on F.Cu
+[padstack]: Forrszem-készlet kérdéses (a negatív forraszpaszta margó nagyobb a forrszemnél; nem jön létre forraszpaszta maszk)
+    Local override; warning
+    @(150.5595 mm, 65.6655 mm): Pad B3 [unconnected-(J1-TX2--PadB3)] of J1 on F.Cu
+[padstack]: Forrszem-készlet kérdéses (a negatív forraszpaszta margó nagyobb a forrszemnél; nem jön létre forraszpaszta maszk)
+    Local override; warning
+    @(150.9132 mm, 66.0192 mm): Pad B4 [Net-(D1-A2)] of J1 on F.Cu
+[padstack]: Forrszem-készlet kérdéses (a negatív forraszpaszta margó nagyobb a forrszemnél; nem jön létre forraszpaszta maszk)
+    Local override; warning
+    @(151.2666 mm, 66.3726 mm): Pad B5 [Net-(J1-CC2)] of J1 on F.Cu
+[padstack]: Forrszem-készlet kérdéses (a negatív forraszpaszta margó nagyobb a forrszemnél; nem jön létre forraszpaszta maszk)
+    Local override; warning
+    @(151.6203 mm, 66.7263 mm): Pad B6 [/Power/USB_D_P] of J1 on F.Cu
+[padstack]: Forrszem-készlet kérdéses (a negatív forraszpaszta margó nagyobb a forrszemnél; nem jön létre forraszpaszta maszk)
+    Local override; warning
+    @(151.9737 mm, 67.0797 mm): Pad B7 [/Power/USB_D_N] of J1 on F.Cu
+[padstack]: Forrszem-készlet kérdéses (a negatív forraszpaszta margó nagyobb a forrszemnél; nem jön létre forraszpaszta maszk)
+    Local override; warning
+    @(152.3274 mm, 67.4334 mm): Pad B8 [unconnected-(J1-SBU2-PadB8)] of J1 on F.Cu
+[padstack]: Forrszem-készlet kérdéses (a negatív forraszpaszta margó nagyobb a forrszemnél; nem jön létre forraszpaszta maszk)
+    Local override; warning
+    @(152.6808 mm, 67.7868 mm): Pad B9 [Net-(D1-A2)] of J1 on F.Cu
+[padstack]: Forrszem-készlet kérdéses (a negatív forraszpaszta margó nagyobb a forrszemnél; nem jön létre forraszpaszta maszk)
+    Local override; warning
+    @(153.0345 mm, 68.1405 mm): Pad B10 [unconnected-(J1-RX1--PadB10)] of J1 on F.Cu
+[padstack]: Forrszem-készlet kérdéses (a negatív forraszpaszta margó nagyobb a forrszemnél; nem jön létre forraszpaszta maszk)
+    Local override; warning
+    @(153.3879 mm, 68.4939 mm): Pad B11 [unconnected-(J1-RX1+-PadB11)] of J1 on F.Cu
+[padstack]: Forrszem-készlet kérdéses (a negatív forraszpaszta margó nagyobb a forrszemnél; nem jön létre forraszpaszta maszk)
+    Local override; warning
+    @(153.9891 mm, 69.0951 mm): Pad B12 [GND] of J1 on F.Cu
+[items_not_allowed]: Nem engedélyezett elemek (tiltott terület 'Antenne keepout')
+    Rule: tiltott terület 'Antenne keepout'; error (excluded)
+    @(112.7494 mm, 67.9506 mm): Pad 1 [Net-(AE1-Pad1)] of AE1 on F.Cu
+[items_not_allowed]: Nem engedélyezett elemek (tiltott terület 'Antenne keepout')
+    Rule: tiltott terület 'Antenne keepout'; error (excluded)
+    @(114.8000 mm, 65.9000 mm): Pad 2 [<no net>] of AE1 on F.Cu
+[courtyards_overlap]: Courtyards overlap
+    Rule: panel beállítási megkötések udvar; error (excluded)
+    @(161.2750 mm, 73.1200 mm): Footprint J4
+    @(155.6278 mm, 73.1393 mm): Footprint J3
+[copper_edge_clearance]: Panel él szigetelési távolság megsértése (panel beállítási megkötések él szigetelési távolság 0,2540 mm; tényleges 0,0627 mm)
+    Rule: panel beállítási megkötések él; error (excluded)
+    @(103.6154 mm, 81.8630 mm): Circle on Edge.Cuts
+    @(104.0891 mm, 82.3133 mm): Pad 3_1 [GND] of MK1 on F.Cu
+[copper_edge_clearance]: Panel él szigetelési távolság megsértése (panel beállítási megkötések él szigetelési távolság 0,2540 mm; tényleges 0,0654 mm)
+    Rule: panel beállítási megkötések él; error (excluded)
+    @(103.6154 mm, 81.8630 mm): Circle on Edge.Cuts
+    @(103.1522 mm, 81.3764 mm): Pad 3_2 [GND] of MK1 on F.Cu
+[copper_edge_clearance]: Panel él szigetelési távolság megsértése (panel beállítási megkötések él szigetelési távolság 0,2540 mm; tényleges 0,0772 mm)
+    Rule: panel beállítási megkötések él; error (excluded)
+    @(128.4419 mm, 121.2425 mm): Circle on Edge.Cuts
+    @(128.9121 mm, 120.7655 mm): Pad 3_1 [GND] of MK3 on F.Cu
+[copper_edge_clearance]: Panel él szigetelési távolság megsértése (panel beállítási megkötések él szigetelési távolság 0,2540 mm; tényleges 0,0729 mm)
+    Rule: panel beállítási megkötések él; error (excluded)
+    @(128.4419 mm, 121.2425 mm): Circle on Edge.Cuts
+    @(127.9752 mm, 121.7024 mm): Pad 3_2 [GND] of MK3 on F.Cu
+[copper_edge_clearance]: Panel él szigetelési távolság megsértése (panel beállítási megkötések él szigetelési távolság 0,2540 mm; tényleges 0,0670 mm)
+    Rule: panel beállítási megkötések él; error (excluded)
+    @(167.9454 mm, 96.6040 mm): Circle on Edge.Cuts
+    @(167.4774 mm, 96.1146 mm): Pad 3_1 [GND] of MK2 on F.Cu
+[copper_edge_clearance]: Panel él szigetelési távolság megsértése (panel beállítási megkötések él szigetelési távolság 0,2540 mm; tényleges 0,0610 mm)
+    Rule: panel beállítási megkötések él; error (excluded)
+    @(167.9454 mm, 96.6040 mm): Circle on Edge.Cuts
+    @(168.4143 mm, 97.0515 mm): Pad 3_2 [GND] of MK2 on F.Cu
+
+** Found 64 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(98.7000 mm, 54.5000 mm): Zone 'GND' [GND] on F.Cu, priority 0
+    @(98.7000 mm, 54.5000 mm): Zone 'GND' [GND] on F.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(187.3750 mm, 73.6100 mm): Pad 1 [GND] of L9 on F.Cu
+    @(190.2700 mm, 73.5800 mm): Pad 1 [GND] of C101 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(190.2700 mm, 73.5800 mm): Pad 1 [GND] of C101 on F.Cu
+    @(190.2700 mm, 75.5500 mm): Pad 1 [GND] of C102 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(190.2700 mm, 75.5500 mm): Pad 1 [GND] of C102 on F.Cu
+    @(191.2300 mm, 77.5200 mm): Pad 2 [GND] of C103 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(190.2700 mm, 81.4600 mm): Pad 1 [GND] of C105 on F.Cu
+    @(98.7000 mm, 54.5000 mm): Zone 'GND' [GND] on F.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(191.2300 mm, 77.5200 mm): Pad 2 [GND] of C103 on F.Cu
+    @(194.1000 mm, 77.5200 mm): Pad 2 [GND] of C109 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(191.2300 mm, 79.4900 mm): Pad 2 [GND] of C104 on F.Cu
+    @(191.2300 mm, 77.5200 mm): Pad 2 [GND] of C103 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(191.2300 mm, 79.4900 mm): Pad 2 [GND] of C104 on F.Cu
+    @(190.2700 mm, 81.4600 mm): Pad 1 [GND] of C105 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(193.5150 mm, 86.0700 mm): Pad 33 [GND] of U16 on F.Cu
+    @(194.1000 mm, 81.4600 mm): Pad 2 [GND] of C111 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(193.5150 mm, 86.0700 mm): Pad 33 [GND] of U16 on F.Cu
+    @(198.4600 mm, 87.1600 mm): Pad 4 [GND] of Y2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(194.1000 mm, 73.5800 mm): Pad 2 [GND] of C107 on F.Cu
+    @(196.0100 mm, 73.5800 mm): Pad 1 [GND] of C113 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(194.1000 mm, 73.5800 mm): Pad 2 [GND] of C107 on F.Cu
+    @(193.1400 mm, 71.6100 mm): Pad 1 [GND] of C106 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(194.1000 mm, 75.5500 mm): Pad 2 [GND] of C108 on F.Cu
+    @(196.0100 mm, 75.5500 mm): Pad 1 [GND] of C114 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(194.1000 mm, 77.5200 mm): Pad 2 [GND] of C109 on F.Cu
+    @(194.1000 mm, 75.5500 mm): Pad 2 [GND] of C108 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(194.1000 mm, 79.4900 mm): Pad 2 [GND] of C110 on F.Cu
+    @(194.1000 mm, 77.5200 mm): Pad 2 [GND] of C109 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(194.1000 mm, 81.4600 mm): Pad 2 [GND] of C111 on F.Cu
+    @(194.1000 mm, 79.4900 mm): Pad 2 [GND] of C110 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(196.0100 mm, 73.5800 mm): Pad 1 [GND] of C113 on F.Cu
+    @(196.0100 mm, 75.5500 mm): Pad 1 [GND] of C114 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(196.0100 mm, 73.5800 mm): Pad 1 [GND] of C113 on F.Cu
+    @(196.9700 mm, 71.6100 mm): Pad 2 [GND] of C112 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(199.8600 mm, 88.2600 mm): Pad 2 [GND] of Y2 on F.Cu
+    @(198.4600 mm, 87.1600 mm): Pad 4 [GND] of Y2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(200.7050 mm, 74.4000 mm): Pad 2 [GND] of C115 on F.Cu
+    @(196.9700 mm, 71.6100 mm): Pad 2 [GND] of C112 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(199.2000 mm, 71.8850 mm): Pad 1 [+3V3] of FB6 on F.Cu
+    @(161.6000 mm, 74.5000 mm): Track [+3V3] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(106.5000 mm, 94.3000 mm): Track [VDD_MIC] on B.Cu, length 20.8475 mm
+    @(122.9000 mm, 104.4000 mm): Track [VDD_MIC] on F.Cu, length 11.0000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(162.9000 mm, 89.1000 mm): Track [Net-(U15-ELEC2)] on B.Cu, length 0.0898 mm
+    @(160.3102 mm, 89.1000 mm): Track [Net-(U15-ELEC2)] on B.Cu, length 8.0610 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(188.3450 mm, 71.6200 mm): Pad 2 [Net-(AE2-Pad1)] of L8 on F.Cu
+    @(198.5550 mm, 84.1650 mm): Pad 1 [Net-(AE2-Pad1)] of AE2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(191.0700 mm, 84.3200 mm): Pad 1 [Net-(U16-ANT)] of U16 on F.Cu
+    @(191.2300 mm, 71.6100 mm): Pad 2 [Net-(U16-ANT)] of C100 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(187.3750 mm, 71.6200 mm): Pad 1 [Net-(C100-Pad1)] of L8 on F.Cu
+    @(188.3450 mm, 73.6100 mm): Pad 2 [Net-(C100-Pad1)] of L9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(188.3450 mm, 73.6100 mm): Pad 2 [Net-(C100-Pad1)] of L9 on F.Cu
+    @(190.2700 mm, 71.6100 mm): Pad 1 [Net-(C100-Pad1)] of C100 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(191.2300 mm, 73.5800 mm): Pad 2 [Net-(C101-Pad2)] of C101 on F.Cu
+    @(188.3450 mm, 75.6000 mm): Pad 2 [Net-(C101-Pad2)] of L10 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(199.8600 mm, 87.1600 mm): Pad 3 [Net-(C101-Pad2)] of Y2 on F.Cu
+    @(191.2300 mm, 73.5800 mm): Pad 2 [Net-(C101-Pad2)] of C101 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(191.2300 mm, 75.5500 mm): Pad 2 [Net-(U16-XTAL_N)] of C102 on F.Cu
+    @(192.7650 mm, 83.6250 mm): Pad 30 [Net-(U16-XTAL_N)] of U16 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(192.7650 mm, 83.6250 mm): Pad 30 [Net-(U16-XTAL_N)] of U16 on F.Cu
+    @(198.4600 mm, 88.2600 mm): Pad 1 [Net-(U16-XTAL_N)] of Y2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(188.3700 mm, 79.5800 mm): Pad 2 [ESP_C6_RST] of R74 on F.Cu
+    @(191.0700 mm, 85.8200 mm): Pad 4 [ESP_C6_RST] of U16 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(190.2700 mm, 77.5200 mm): Pad 1 [ESP_C6_RST] of C103 on F.Cu
+    @(188.3700 mm, 79.5800 mm): Pad 2 [ESP_C6_RST] of R74 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(200.4450 mm, 76.8800 mm): Pad 2 [ESP_C6_RST] of D7 on F.Cu
+    @(190.2700 mm, 77.5200 mm): Pad 1 [ESP_C6_RST] of C103 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(188.3700 mm, 81.5700 mm): Pad 2 [ESP_C6_BOOT] of R75 on F.Cu
+    @(191.0700 mm, 86.8200 mm): Pad 6 [ESP_C6_BOOT] of U16 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(190.2700 mm, 79.4900 mm): Pad 1 [ESP_C6_BOOT] of C104 on F.Cu
+    @(188.3700 mm, 81.5700 mm): Pad 2 [ESP_C6_BOOT] of R75 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(187.3500 mm, 79.5800 mm): Pad 1 [C6_3V3] of R74 on F.Cu
+    @(187.3500 mm, 81.5700 mm): Pad 1 [C6_3V3] of R75 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(187.3500 mm, 81.5700 mm): Pad 1 [C6_3V3] of R75 on F.Cu
+    @(187.3500 mm, 83.5600 mm): Pad 1 [C6_3V3] of R76 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(187.3500 mm, 83.5600 mm): Pad 1 [C6_3V3] of R76 on F.Cu
+    @(187.3500 mm, 85.5500 mm): Pad 1 [C6_3V3] of R77 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(187.3500 mm, 85.5500 mm): Pad 1 [C6_3V3] of R77 on F.Cu
+    @(191.0700 mm, 86.3200 mm): Pad 5 [C6_3V3] of U16 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(188.3450 mm, 77.5900 mm): Pad 2 [C6_3V3] of L11 on F.Cu
+    @(187.3500 mm, 79.5800 mm): Pad 1 [C6_3V3] of R74 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(191.2300 mm, 81.4600 mm): Pad 2 [C6_3V3] of C105 on F.Cu
+    @(193.1400 mm, 81.4600 mm): Pad 1 [C6_3V3] of C111 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(191.7650 mm, 83.6250 mm): Pad 32 [C6_3V3] of U16 on F.Cu
+    @(191.0700 mm, 86.3200 mm): Pad 5 [C6_3V3] of U16 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(193.1400 mm, 79.4900 mm): Pad 1 [C6_3V3] of C110 on F.Cu
+    @(196.9700 mm, 75.5500 mm): Pad 2 [C6_3V3] of C114 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(193.1400 mm, 81.4600 mm): Pad 1 [C6_3V3] of C111 on F.Cu
+    @(193.1400 mm, 79.4900 mm): Pad 1 [C6_3V3] of C110 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(193.2650 mm, 83.6250 mm): Pad 29 [C6_3V3] of U16 on F.Cu
+    @(191.7650 mm, 83.6250 mm): Pad 32 [C6_3V3] of U16 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(193.2650 mm, 83.6250 mm): Pad 29 [C6_3V3] of U16 on F.Cu
+    @(193.1400 mm, 81.4600 mm): Pad 1 [C6_3V3] of C111 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(193.2650 mm, 83.6250 mm): Pad 29 [C6_3V3] of U16 on F.Cu
+    @(195.9600 mm, 86.3200 mm): Pad 20 [C6_3V3] of U16 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(196.0100 mm, 71.6100 mm): Pad 1 [C6_3V3] of C112 on F.Cu
+    @(194.1000 mm, 71.6100 mm): Pad 2 [C6_3V3] of C106 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(196.0100 mm, 71.6100 mm): Pad 1 [C6_3V3] of C112 on F.Cu
+    @(196.9700 mm, 73.5800 mm): Pad 2 [C6_3V3] of C113 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(196.9700 mm, 73.5800 mm): Pad 2 [C6_3V3] of C113 on F.Cu
+    @(196.9700 mm, 75.5500 mm): Pad 2 [C6_3V3] of C114 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(196.9700 mm, 73.5800 mm): Pad 2 [C6_3V3] of C113 on F.Cu
+    @(199.1550 mm, 74.4000 mm): Pad 1 [C6_3V3] of C115 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(199.0450 mm, 76.8800 mm): Pad 1 [C6_3V3] of D7 on F.Cu
+    @(196.9700 mm, 75.5500 mm): Pad 2 [C6_3V3] of C114 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(199.1550 mm, 74.4000 mm): Pad 1 [C6_3V3] of C115 on F.Cu
+    @(200.6700 mm, 71.8850 mm): Pad 2 [C6_3V3] of FB6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(188.3700 mm, 85.5500 mm): Pad 2 [ESP_C6_GPIO9] of R77 on F.Cu
+    @(194.7650 mm, 88.5150 mm): Pad 15 [ESP_C6_GPIO9] of U16 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(193.1400 mm, 73.5800 mm): Pad 1 [ESP_C6_GPIO9] of C107 on F.Cu
+    @(188.3700 mm, 85.5500 mm): Pad 2 [ESP_C6_GPIO9] of R77 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(187.3750 mm, 77.5900 mm): Pad 1 [VDDA3P3] of L11 on F.Cu
+    @(193.1400 mm, 77.5200 mm): Pad 1 [VDDA3P3] of C109 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(191.0700 mm, 84.8200 mm): Pad 2 [VDDA3P3] of U16 on F.Cu
+    @(193.1400 mm, 77.5200 mm): Pad 1 [VDDA3P3] of C109 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(191.0700 mm, 85.3200 mm): Pad 3 [VDDA3P3] of U16 on F.Cu
+    @(191.0700 mm, 84.8200 mm): Pad 2 [VDDA3P3] of U16 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(193.1400 mm, 77.5200 mm): Pad 1 [VDDA3P3] of C109 on F.Cu
+    @(193.1400 mm, 75.5500 mm): Pad 1 [VDDA3P3] of C108 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(187.3750 mm, 75.6000 mm): Pad 1 [Net-(U16-XTAL_P)] of L10 on F.Cu
+    @(192.2650 mm, 83.6250 mm): Pad 31 [Net-(U16-XTAL_P)] of U16 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(188.3700 mm, 83.5600 mm): Pad 2 [Net-(U16-GPIO8)] of R76 on F.Cu
+    @(194.2650 mm, 88.5150 mm): Pad 14 [Net-(U16-GPIO8)] of U16 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.2470 mm, 71.0076 mm): Pad 4 [C6_USB_N] of U2 on B.Cu
+    @(195.2650 mm, 88.5150 mm): Pad 16 [C6_USB_N] of U16 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.6005 mm, 70.6541 mm): Pad 3 [C6_USB_P] of U2 on B.Cu
+    @(195.9600 mm, 87.8200 mm): Pad 17 [C6_USB_P] of U16 on F.Cu
+
+** Found 12 Footprint errors **
+[net_conflict]: Nem található megfelelő láb a kapcsolási rajzban
+    Local override; warning
+    @(154.2223 mm, 70.5871 mm): PTH pad 0 [GND] of J1
+[net_conflict]: Nem található megfelelő láb a kapcsolási rajzban
+    Local override; warning
+    @(158.0124 mm, 66.7970 mm): PTH pad 0 [GND] of J1
+[net_conflict]: Nem található megfelelő láb a kapcsolási rajzban
+    Local override; warning
+    @(148.1129 mm, 64.4777 mm): PTH pad 0 [GND] of J1
+[net_conflict]: Nem található megfelelő láb a kapcsolási rajzban
+    Local override; warning
+    @(151.9030 mm, 60.6876 mm): PTH pad 0 [GND] of J1
+[net_conflict]: Nem található forrszem a kapcsolási rajz SH1 (GND) lábához
+    Local override; warning
+    @(152.9000 mm, 65.8000 mm): Footprint J1
+[net_conflict]: Nem található forrszem a kapcsolási rajz SH2 (GND) lábához
+    Local override; warning
+    @(152.9000 mm, 65.8000 mm): Footprint J1
+[net_conflict]: Nem található forrszem a kapcsolási rajz SH3 (GND) lábához
+    Local override; warning
+    @(152.9000 mm, 65.8000 mm): Footprint J1
+[net_conflict]: Nem található forrszem a kapcsolási rajz SH4 (GND) lábához
+    Local override; warning
+    @(152.9000 mm, 65.8000 mm): Footprint J1
+[net_conflict]: Nem található forrszem a kapcsolási rajz 1 (Net-(U15-ELEC2)) lábához
+    Local override; warning
+    @(162.8102 mm, 89.1000 mm): Footprint TP14
+[net_conflict]: Nem található forrszem a kapcsolási rajz 1 (Net-(U15-ELEC1)) lábához
+    Local override; warning
+    @(135.8648 mm, 115.9141 mm): Footprint TP15
+[net_conflict]: Nem található forrszem a kapcsolási rajz 1 (Net-(U15-ELEC0)) lábához
+    Local override; warning
+    @(108.8000 mm, 89.1000 mm): Footprint TP16
+[net_conflict]: Nem található forrszem a kapcsolási rajz MP lábához
+    Local override; warning
+    @(161.2750 mm, 73.1200 mm): Footprint J4
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Silkscreen clearance
+    - Silkscreen clipped by solder mask
+    - Silkscreen clipped by board edge
+    - Text thickness out of range
+    - PTH inside courtyard
+    - NPTH inside courtyard
+    - Footprint component type doesn't match footprint pads
+    - Footprint not found in libraries
+    - Footprint doesn't match copy in library
+
+** End of Report **
