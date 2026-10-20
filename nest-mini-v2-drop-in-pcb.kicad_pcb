@@ -1583,7 +1583,7 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/b82d794a-21d4-4a42-894b-78979157dbcb/a64b1ae8-bf87-4875-b574-e3ca9751e675")
 		(sheetname "/ESP32-C6FH8/")
-		(sheetfile "esp32c6fh8_sch.kicad_sch")
+		(sheetfile "esp32c6.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2378,7 +2378,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/dcd51ef8-e6e5-42e9-a87f-b2b61a7d4918")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2831,7 +2831,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/87749594-6ea7-4ec5-8dcd-cb1f0cc1efac")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3297,7 +3297,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b82d794a-21d4-4a42-894b-78979157dbcb/e973bdd7-55c9-4a42-a29c-42f46ce2ca24")
 		(sheetname "/ESP32-C6FH8/")
-		(sheetfile "esp32c6fh8_sch.kicad_sch")
+		(sheetfile "esp32c6.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3739,7 +3739,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/c0e935f3-8253-4351-a1ad-ab2efab36784")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5314,7 +5314,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/2de5abff-4425-4049-a6a7-e5cfda1f9174")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5767,7 +5767,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b82d794a-21d4-4a42-894b-78979157dbcb/f78142f9-e28d-4563-8609-0b25ce03ddd3")
 		(sheetname "/ESP32-C6FH8/")
-		(sheetfile "esp32c6fh8_sch.kicad_sch")
+		(sheetfile "esp32c6.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6610,7 +6610,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b82d794a-21d4-4a42-894b-78979157dbcb/0fb645f4-ce89-4eee-bae9-da148bd9ac14")
 		(sheetname "/ESP32-C6FH8/")
-		(sheetfile "esp32c6fh8_sch.kicad_sch")
+		(sheetfile "esp32c6.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7764,7 +7764,7 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/c68f5d0e-df7f-4c96-aa6e-2d4ee8cf5d9f")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8645,7 +8645,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/303bebd2-802e-4df8-b9ed-cc47b7122dfe")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10969,7 +10969,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/b82d794a-21d4-4a42-894b-78979157dbcb/b7c3a9d0-0578-4918-98cb-d78dc1d1de26")
 		(sheetname "/ESP32-C6FH8/")
-		(sheetfile "esp32c6fh8_sch.kicad_sch")
+		(sheetfile "esp32c6.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12671,7 +12671,7 @@
 		)
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/595ee42b-6eca-4de4-826b-70cd8757e121")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13120,7 +13120,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/23416f39-f3d4-4d6b-9454-9e84097e9ac2")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13551,7 +13551,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/b82d794a-21d4-4a42-894b-78979157dbcb/c9d246db-80eb-4e29-a445-53e935b9cedb")
 		(sheetname "/ESP32-C6FH8/")
-		(sheetfile "esp32c6fh8_sch.kicad_sch")
+		(sheetfile "esp32c6.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14708,7 +14708,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/9bab0a89-460a-4ce3-9822-c5fbffc8d054")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16177,7 +16177,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/b82d794a-21d4-4a42-894b-78979157dbcb/8753fe2d-98f9-4b2b-bc4c-1eba2c27bf24")
 		(sheetname "/ESP32-C6FH8/")
-		(sheetfile "esp32c6fh8_sch.kicad_sch")
+		(sheetfile "esp32c6.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16600,7 +16600,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b82d794a-21d4-4a42-894b-78979157dbcb/eaa62a66-df35-4fcd-a819-3b71ac6dc87d")
 		(sheetname "/ESP32-C6FH8/")
-		(sheetfile "esp32c6fh8_sch.kicad_sch")
+		(sheetfile "esp32c6.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16977,7 +16977,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/f5e885a3-f8a5-4419-9939-d95d368868bf")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17430,7 +17430,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/c1d656e9-b93f-45cc-86ad-78e9b8781721")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18284,7 +18284,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/51ba04c3-5ef7-498e-bdb0-8726f85da2b4")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18711,7 +18711,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/20e9fa8b-1437-4d14-ab68-195a4fd18971")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19547,7 +19547,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b82d794a-21d4-4a42-894b-78979157dbcb/30d93ed8-ccf7-4e5d-a16c-53aad0a44a9b")
 		(sheetname "/ESP32-C6FH8/")
-		(sheetfile "esp32c6fh8_sch.kicad_sch")
+		(sheetfile "esp32c6.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19989,7 +19989,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/65dc73a0-8042-45fa-a4a8-70ca9b390aa9")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20390,7 +20390,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/e8bb13d4-b890-4298-b795-062920fb54d4")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21093,7 +21093,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b82d794a-21d4-4a42-894b-78979157dbcb/3ef1769c-3867-4948-9e3e-e8c643604793")
 		(sheetname "/ESP32-C6FH8/")
-		(sheetfile "esp32c6fh8_sch.kicad_sch")
+		(sheetfile "esp32c6.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21535,7 +21535,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b82d794a-21d4-4a42-894b-78979157dbcb/39861aa2-d1bc-44fa-a7c2-1c7277739975")
 		(sheetname "/ESP32-C6FH8/")
-		(sheetfile "esp32c6fh8_sch.kicad_sch")
+		(sheetfile "esp32c6.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -22365,7 +22365,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/77911299-5ff9-4c91-8e2d-ff059b97daf2")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -22818,7 +22818,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/357e7a76-89e7-453b-83f7-2288c4749afc")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23271,7 +23271,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b82d794a-21d4-4a42-894b-78979157dbcb/27d6acf2-d5fb-4c20-80cf-8390f9bd8cda")
 		(sheetname "/ESP32-C6FH8/")
-		(sheetfile "esp32c6fh8_sch.kicad_sch")
+		(sheetfile "esp32c6.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23687,7 +23687,7 @@
 		(property ki_fp_filters "*SOIC*5.3x5.3mm*P1.27mm*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/83ef5512-14c6-45a0-8eb4-869eece7f8fc")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -24430,7 +24430,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b82d794a-21d4-4a42-894b-78979157dbcb/30157bb8-0d18-416d-bc94-2a9dee8df1cb")
 		(sheetname "/ESP32-C6FH8/")
-		(sheetfile "esp32c6fh8_sch.kicad_sch")
+		(sheetfile "esp32c6.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -25934,7 +25934,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/b82d794a-21d4-4a42-894b-78979157dbcb/7b8e025f-058c-4414-946e-0f463b9dbcb5")
 		(sheetname "/ESP32-C6FH8/")
-		(sheetfile "esp32c6fh8_sch.kicad_sch")
+		(sheetfile "esp32c6.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -27536,7 +27536,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/6fbc64d3-040f-4ce8-afe7-2116f75c29b2")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -28253,7 +28253,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/b339f965-2f54-41de-8975-6a9946e72d16")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -28641,7 +28641,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/b996f03b-edc4-4948-bcf0-ffd629f6f715")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -29583,7 +29583,7 @@
 		)
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/7af89961-fe18-4cb3-ae14-c5a70a6013e0")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -32178,7 +32178,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/b5c6d420-c323-4eb7-ad7d-23bc252ea276")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -32566,7 +32566,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/2886b0ec-413d-4a81-8ef3-80679068914e")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -34637,7 +34637,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/c2bdff49-b49f-4660-b7ab-2058cb03b585")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -35063,7 +35063,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/b82d794a-21d4-4a42-894b-78979157dbcb/d15f6d5b-f1dd-471a-aa45-f86c67a77f05")
 		(sheetname "/ESP32-C6FH8/")
-		(sheetfile "esp32c6fh8_sch.kicad_sch")
+		(sheetfile "esp32c6.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -35816,7 +35816,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/95899c64-c58d-495f-91fa-75f63ed2de90")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -36926,7 +36926,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/bb4b86aa-8734-419e-a8f7-cb70c99a1d55")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -37835,7 +37835,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b82d794a-21d4-4a42-894b-78979157dbcb/ad1f53af-bbd9-4299-a1ac-c8de0258346a")
 		(sheetname "/ESP32-C6FH8/")
-		(sheetfile "esp32c6fh8_sch.kicad_sch")
+		(sheetfile "esp32c6.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -38730,7 +38730,7 @@
 		)
 		(path "/b82d794a-21d4-4a42-894b-78979157dbcb/c6664504-a406-4780-bd03-73203d098465")
 		(sheetname "/ESP32-C6FH8/")
-		(sheetfile "esp32c6fh8_sch.kicad_sch")
+		(sheetfile "esp32c6.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -39125,7 +39125,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/62d483f0-6818-4ee5-a73a-9a409002efa0")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -40459,7 +40459,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/38185c3c-397e-4a35-bdb5-96be8ae6261a")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -41710,7 +41710,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b82d794a-21d4-4a42-894b-78979157dbcb/c774b4b3-1cd0-479e-a8cf-4d64ef8ea23a")
 		(sheetname "/ESP32-C6FH8/")
-		(sheetfile "esp32c6fh8_sch.kicad_sch")
+		(sheetfile "esp32c6.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -42152,7 +42152,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/048d4e0f-d043-4ef3-a040-328a63d8ff90")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -43385,7 +43385,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/2fcd4acd-88be-4950-9dee-6f010dda76cf")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -43825,7 +43825,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/a6c73fcd-1838-44f8-9303-5c474e398c0d")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -44260,7 +44260,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/f051e46b-f436-434e-bb58-3b9c4652d9a4")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -45502,7 +45502,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b82d794a-21d4-4a42-894b-78979157dbcb/40ea5f0b-369e-4cd9-819a-0f9c33f2aa63")
 		(sheetname "/ESP32-C6FH8/")
-		(sheetfile "esp32c6fh8_sch.kicad_sch")
+		(sheetfile "esp32c6.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -45942,7 +45942,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/b6ea72f8-6e29-488f-bb23-cbd197c93293")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -46323,7 +46323,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/1d9d0f7e-7e92-4bed-9a0c-a21f99cbc686")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -46775,7 +46775,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/aff01ca6-0ded-40a2-93cc-1684e31dd8b8")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -49597,7 +49597,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b82d794a-21d4-4a42-894b-78979157dbcb/9971976c-356e-4fc2-bc42-3335d5ed9a7c")
 		(sheetname "/ESP32-C6FH8/")
-		(sheetfile "esp32c6fh8_sch.kicad_sch")
+		(sheetfile "esp32c6.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -50015,7 +50015,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/52fddef2-71d5-4370-8793-84acae2e23d4")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -50475,7 +50475,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/851d0f11-3f2a-4e8c-a00f-de7d53b04042")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -51965,7 +51965,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/2467a985-ac9f-4d32-bda6-e0710fc47e0d")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -53105,7 +53105,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/e991dfa4-ad14-4a89-a6c6-aecade14ffcc")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -53506,7 +53506,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/b0185192-2c58-4b9a-a4ed-8a1575a4d192")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -55821,7 +55821,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b82d794a-21d4-4a42-894b-78979157dbcb/f6b34246-d86a-46b9-b1b3-a339f0eb122d")
 		(sheetname "/ESP32-C6FH8/")
-		(sheetfile "esp32c6fh8_sch.kicad_sch")
+		(sheetfile "esp32c6.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -56718,7 +56718,7 @@
 		)
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/9c49b241-e8ac-4916-8a16-9ca189239d60")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -57178,7 +57178,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/13bbf62c-1de4-4605-aa9d-8bf567446159")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -58796,7 +58796,7 @@
 		)
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/4a4265a1-088c-44f8-ab19-76d60974c1c1")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -59624,7 +59624,7 @@
 		)
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/316cad73-2ecf-4f99-ad12-0a14b82c0e4d")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -60460,7 +60460,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/9e37c3c7-e6aa-4c21-b09b-6787fdca8a7a")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -62086,7 +62086,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/813be5c1-b0a9-46e3-b311-59b38a0a7d4c")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -62498,7 +62498,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/8deabdc3-f8af-4f56-ad78-2b3d5118c213")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -62951,7 +62951,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/ee21e66f-189a-4c2b-8b46-e18493982265")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -63711,7 +63711,7 @@
 		)
 		(path "/b82d794a-21d4-4a42-894b-78979157dbcb/69bde1bc-3cff-462e-b15b-dc5b382d18c1")
 		(sheetname "/ESP32-C6FH8/")
-		(sheetfile "esp32c6fh8_sch.kicad_sch")
+		(sheetfile "esp32c6.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -65315,7 +65315,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b82d794a-21d4-4a42-894b-78979157dbcb/3ce0309d-4060-45a3-9a8d-376d11d6c995")
 		(sheetname "/ESP32-C6FH8/")
-		(sheetfile "esp32c6fh8_sch.kicad_sch")
+		(sheetfile "esp32c6.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -65705,7 +65705,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/93663b62-4027-40e4-8fa3-8da038ecf7a5")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -66221,7 +66221,7 @@
 		)
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/742f4c02-c397-47a6-930e-29bf4d74908e")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -67026,7 +67026,7 @@
 		)
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/d72cc174-4bfc-4f7e-9312-2737e028f2ff")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -67873,7 +67873,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b82d794a-21d4-4a42-894b-78979157dbcb/3609e566-e494-4c0c-af94-34f559be06f8")
 		(sheetname "/ESP32-C6FH8/")
-		(sheetfile "esp32c6fh8_sch.kicad_sch")
+		(sheetfile "esp32c6.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -68566,7 +68566,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/3cccbef9-2862-41d8-99b1-df333496769f")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -68967,7 +68967,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/0510abba-b1a9-45e3-8e04-42e79910bc1e")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -69801,7 +69801,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/b82d794a-21d4-4a42-894b-78979157dbcb/fd9b9d93-769e-437e-9c52-4243f82f8f2b")
 		(sheetname "/ESP32-C6FH8/")
-		(sheetfile "esp32c6fh8_sch.kicad_sch")
+		(sheetfile "esp32c6.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -70180,7 +70180,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b82d794a-21d4-4a42-894b-78979157dbcb/cf9cf477-2bab-4e62-9ca9-f7f968a6b710")
 		(sheetname "/ESP32-C6FH8/")
-		(sheetfile "esp32c6fh8_sch.kicad_sch")
+		(sheetfile "esp32c6.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -70623,7 +70623,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/8e3ee015-bc84-4d3f-8c6f-f49bb689b0d2")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -71039,7 +71039,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/95991b99-42db-4f46-ae05-929187097688")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -71373,7 +71373,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/47dff69d-3d76-4c83-a8a4-32d9f664a464")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -72490,7 +72490,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/8cecae39-4c3a-4164-ae3a-c823246315f9")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -72808,7 +72808,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/6ceae831-f424-4a00-9d41-b525ccbd8477")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -73263,7 +73263,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/29ba2e94-1018-4044-83ff-faea17f25ace")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -73611,7 +73611,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/311b2565-bb89-483d-8523-aaf797e9cf38")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -73859,7 +73859,7 @@
 		)
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/51739671-bd10-45ae-bf71-c3d931cd65bf")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -75454,7 +75454,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/ee0ad72d-7545-45ba-be38-40fd3723aa0a")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -75942,7 +75942,7 @@
 		)
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/a652b8da-7e37-42b2-b4fb-b0691ab2fc5d")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -76449,7 +76449,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/7da25fd9-e5c9-4632-bc59-97cebb18fd1d")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -76855,7 +76855,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/0c0ec49c-e157-404f-b8e3-f36255e6dc49")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -77201,7 +77201,7 @@
 		)
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/63fbd7ec-cf6c-4222-b953-f70b7f735f96")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -77780,7 +77780,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/258f9c58-a117-4a67-8087-b7698eb2e920")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -78161,7 +78161,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/cf3d481f-ac7b-4158-b65d-9328bea95512")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -78642,7 +78642,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/77563aff-429d-4322-83fb-8499ce239b7e")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -79061,7 +79061,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/0f13f17d-2fd4-4aec-94ca-8bd6fcf8e115")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -79479,7 +79479,7 @@
 		)
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/ed6d5ad2-14ae-4b36-bea1-b3bcf2cf6a08")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -80026,7 +80026,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/45c664f7-bd01-4d16-aa06-88deccadf995")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -80444,7 +80444,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/1ee43a01-f3ab-435c-a13f-4dc293b3dba0")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -80781,7 +80781,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b82d794a-21d4-4a42-894b-78979157dbcb/7d58fc8d-d740-4ffb-8c32-3538cf5bba7e")
 		(sheetname "/ESP32-C6FH8/")
-		(sheetfile "esp32c6fh8_sch.kicad_sch")
+		(sheetfile "esp32c6.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -81187,7 +81187,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/8ee27c46-9816-4d7d-8d4c-e47d320c1b9d")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -81538,7 +81538,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/17ed7f5d-ee00-4f1c-b3b6-326063acbf51")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -82000,7 +82000,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/6062e830-59e3-4dd6-a7a6-1e4ef7c9fb5f")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -82240,7 +82240,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/741cc6e2-2df5-4268-b366-8ae200e0a74e")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -82941,7 +82941,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b82d794a-21d4-4a42-894b-78979157dbcb/9bddb4e2-80a9-4d8a-b88e-1a6bc9f31899")
 		(sheetname "/ESP32-C6FH8/")
-		(sheetfile "esp32c6fh8_sch.kicad_sch")
+		(sheetfile "esp32c6.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -83738,7 +83738,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/c13e8b42-8650-4704-a7ec-4bb6522554c2")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -83991,7 +83991,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/8a45e5f2-1d26-42bf-a193-2dc2525a1f80")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -84271,7 +84271,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/e782e26c-10a7-4e7d-ab05-b73bc6e85f1a")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -84619,7 +84619,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/707ef980-b922-4bba-a8c6-d85609803a67")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -84967,7 +84967,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/77e7444a-a6be-419d-b6db-2bdc93a6aa08")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -85371,7 +85371,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/023f509b-9393-4ed2-9d32-50b319435c8f")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -85719,7 +85719,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/706f3cdd-381f-42b8-a90a-4d5ac1761e9f")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -86444,7 +86444,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/065d671e-d233-46a7-a6e2-06e87ed74f75")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -86792,7 +86792,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/bf7df6b3-656e-4c95-90f4-15a50e3f2e6e")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -87140,7 +87140,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/67fc1715-0e4b-4893-96a9-b2786b9a538e")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -87488,7 +87488,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/70610c67-0a3b-456a-9fb8-554b453d31e0")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -87836,7 +87836,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/dd60673e-447f-479c-8a34-bd5918f230bf")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -89002,7 +89002,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/051daaab-0a72-4687-9e79-65a023ff1683")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -89390,7 +89390,7 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/8fdd8bd6-ed75-4fe6-a41e-7012eef1808e")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -89761,7 +89761,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/91ef1d3c-960a-48b0-9a2b-3e654cf352a4")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -90054,7 +90054,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/3d956101-753d-40b5-bace-b10f57021100")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -90592,7 +90592,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/ee2be070-6661-443c-b039-4012096f9c84")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -90943,7 +90943,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/04174b9c-c4ae-42b9-abdd-edcdca795b74")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -91359,7 +91359,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/b6f48ed3-3bc8-428d-93bc-67481d0aae48")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -91710,7 +91710,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/0d7f88a7-9494-4865-83d0-5ea7f44617d9")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -92182,7 +92182,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/01d70240-05b6-4cb7-9b29-af7f561b6f5f")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -92435,7 +92435,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/1e39c4ac-f683-41cb-86c0-b7c3b9a324c0")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -92718,7 +92718,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/720cc22f-cc60-430d-b4a3-7e32a514379c")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -93135,7 +93135,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/27d8f871-3163-4cc0-b674-2cc1be1faeb4")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -93483,7 +93483,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/a27ca203-adc2-47ea-9db1-9ad72e03b398")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -93831,7 +93831,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/17aa8c16-edb2-4e5a-9186-af6d0bc64acc")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -94235,7 +94235,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/2498b8ec-861f-4a87-b49e-8262f4becbe3")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -94583,7 +94583,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/ce38775e-c69d-42ee-b1d7-1565b3f44df9")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -94934,7 +94934,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/323f4b12-d36e-43d6-92ee-fae087858286")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -95245,7 +95245,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/9225bf54-69e7-451b-b0f1-a75bb133308e/46029ab8-f390-4038-8b57-4ccf655152e5")
 		(sheetname "/ESP32-S3R8/")
-		(sheetfile "esp32.kicad_sch")
+		(sheetfile "esp32s3.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -96240,7 +96240,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/864cbcdf-a68f-4da7-86f6-61fb6cd7712e")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -96615,7 +96615,7 @@
 		(property ki_fp_filters "*SOIC*5.3x5.3mm*P1.27mm*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/18fd389f-38be-486f-b8fb-a15537a1d49e")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -97187,7 +97187,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/e8fb45fd-6279-423e-a5dc-8f5afcd670c3")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -97735,7 +97735,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/9e02f13c-db82-4edb-82e9-46a0d91a04c8")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -98463,7 +98463,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/93679319-8718-4dc4-a83b-0271421d5a2a")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -98879,7 +98879,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/473ad4d7-b1d6-4beb-99e8-29fb542cc5eb")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -99227,7 +99227,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc/8fdbdb81-6e11-4358-bed7-68117f9e81b6")
 		(sheetname "/ESP32-P4/")
-		(sheetfile "xmos.kicad_sch")
+		(sheetfile "esp32p4.kicad_sch")
 		(units
 			(unit
 				(name "A")

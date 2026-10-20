@@ -175,7 +175,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp32.kicad_sch"
+		(property "Sheetfile" "esp32s3.kicad_sch"
 			(at 121.92 65.3546 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -221,7 +221,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp32c6fh8_sch.kicad_sch"
+		(property "Sheetfile" "esp32c6.kicad_sch"
 			(at 209.55 65.3546 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -267,7 +267,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "xmos.kicad_sch"
+		(property "Sheetfile" "esp32p4.kicad_sch"
 			(at 30.48 122.5046 0)
 			(show_name no)
 			(do_not_autoplace no)
