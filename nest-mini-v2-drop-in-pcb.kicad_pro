@@ -749,7 +749,7 @@
         "clearance": 0.2,
         "name": "+1V8",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "tuning_profile": "",
@@ -757,16 +757,27 @@
         "via_drill": 0.3
       },
       {
-        "clearance": 0.12,
-        "diff_pair_gap": 0.1524,
-        "diff_pair_width": 0.141986,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.33,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "90_ohm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
+        "track_width": 0.33,
+        "tuning_profile": "",
+        "via_diameter": 0.4,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "i2s",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.4,
         "via_drill": 0.3
@@ -775,7 +786,7 @@
         "clearance": 0.2,
         "name": "power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "tuning_profile": "",
@@ -786,7 +797,7 @@
         "clearance": 0.5,
         "name": "touch",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "tuning_profile": "",
@@ -810,14 +821,6 @@
       },
       {
         "netclass": "90_ohm",
-        "pattern": "*_D_N"
-      },
-      {
-        "netclass": "90_ohm",
-        "pattern": "*_D_P"
-      },
-      {
-        "netclass": "90_ohm",
         "pattern": "*USB_N"
       },
       {
@@ -834,15 +837,19 @@
       },
       {
         "netclass": "touch",
-        "pattern": "Net-(U15-ELEC0)"
+        "pattern": "Net-(U7-ELEC0)"
       },
       {
         "netclass": "touch",
-        "pattern": "Net-(U15-ELEC1)"
+        "pattern": "Net-(U7-ELEC1)"
       },
       {
         "netclass": "touch",
-        "pattern": "Net-(U15-ELEC2)"
+        "pattern": "Net-(U7-ELEC2)"
+      },
+      {
+        "netclass": "i2s",
+        "pattern": ""
       }
     ]
   },
