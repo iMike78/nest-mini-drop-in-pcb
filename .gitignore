@@ -56,3 +56,7 @@ CLAUDE.md
 *agent*.md
 tools/scripts/New-RollbackPoint.ps1
 tools/scripts/Start-Konnect.ps1
+
+# Generated reports and schematic backups
+*.rpt
+*.kicad_sch-bak
