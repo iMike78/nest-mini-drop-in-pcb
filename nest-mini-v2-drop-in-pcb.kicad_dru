@@ -1,1 +1,15 @@
 (version 1)
+# ESP32-S3 (U5) RF neck
+(rule "RF neck at U5 - width"
+   (condition "A.NetClass == 'RF' && A.insideCourtyard('U5')")
+   (constraint track_width (min 0.127mm) (opt 0.15mm)))
+(rule "RF neck at U5 - clearance"
+   (condition "A.NetClass == 'RF' && (A.insideCourtyard('U5') || A.memberOfFootprint('U5'))")
+   (constraint clearance (min 0.127mm)))
+# ESP32-C6 (U8) RF neck
+(rule "RF neck at U8 - width"
+   (condition "A.NetClass == 'RF' && A.insideCourtyard('U8')")
+   (constraint track_width (min 0.127mm) (opt 0.15mm)))
+(rule "RF neck at U8 - clearance"
+   (condition "A.NetClass == 'RF' && (A.insideCourtyard('U8') || A.memberOfFootprint('U8'))")
+   (constraint clearance (min 0.127mm)))

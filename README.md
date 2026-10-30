@@ -31,90 +31,166 @@
 
 </div>
 
+
 # MiciMike drop-in PCB replacement for Google Nest Mini
 
-[MiciMike Nest Mini](https://github.com/iMike78/nest-mini-drop-in-pcb) is a drop-in PCB replacement for the ["Google Nest Mini" (Google's second-generation smart speaker with a barrel connector charging port)](https://en.wikipedia.org/wiki/Google_Nest_(smart_speakers)), built around ESP32-S3, ESP32-C6, and ESP32-P4 microcontrollers for running open-source firmware.
+[MiciMike Nest Mini](https://github.com/iMike78/nest-mini-drop-in-pcb) is an open-source drop-in PCB replacement for the ["Google Nest Mini" (Google's second-generation smart speaker with a barrel connector charging port)](https://en.wikipedia.org/wiki/Google_Nest_(smart_speakers)). It is built around the ESP32-S3, ESP32-P4 and (optionally) ESP32-C6 and is meant to run open-source firmware, primarily [ESPHome](https://esphome.io).
 
-Tip! If you are instead looking for a similar drop-in PCB replacement for the "Google Home Mini" (Google's first-generation smart speaker hardware with a Micro-USB charging port) then check out the sister-project at https://github.com/iMike78/home-mini-v1-drop-in-pcb
+Tip! If you are instead looking for a similar drop-in PCB replacement for the "Google Home Mini" (Google's first-generation smart speaker with a Micro-USB charging port), check out the sister project at https://github.com/iMike78/home-mini-v1-drop-in-pcb
 
-Both of these are fully open-source hardware projects, taking some concept inspiration from the [Onju Voice](https://github.com/justLV/onju-voice) however aiming to follow [Open Home Foundation's open voice assistants standard  with Home Assistant Voice Preview Edition as reference](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) for PCB designs and specifications.
+Both are fully open-source hardware projects. They take concept inspiration from the [Onju Voice](https://github.com/justLV/onju-voice) and from the [Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) by the Open Home Foundation and Nabu Casa.
 
 # Project scope
 
-The goal of this project and repository (which is similar to the [Onju Voice](https://github.com/justLV/onju-voice) but under a fully open-source hardware license) is to design a custom drop-in replacement PCB (Printed Circuit Board) for the Google Nest Mini (2nd Gen).
+The goal of this project is a custom replacement PCB for the Google Nest Mini (2nd Gen) that fits the original enclosure and reuses the original speaker, power supply, flex cable, mute switch and touch surface.
 
-This is primarly targeting people looking to convert/repurpose their old Google Nest Mini smart speakers into open-source hardware for [Voice Control of Home Assistant](https://www.home-assistant.io/voice_control/) and/or media player speaker output for [Music Assistant](https://www.music-assistant.io), (the hardware can however probably also be used with other applications as well with other firmware as it is based on the popular Espressif ESP32 platform).
+It primarily targets people who want to convert their old Google Nest Mini into an open-source [voice satellite for Home Assistant](https://www.home-assistant.io/voice_control/) and/or a media-player speaker for [Music Assistant](https://www.music-assistant.io). Because it is based on the Espressif ESP32 platform, the hardware can be used with other firmware as well.
 
-The current architecture uses an ESP32-S3 for Wi-Fi, Bluetooth LE, and [onboard wake-word detection](https://www.home-assistant.io/voice_control/about_wake_word/), with an ESP32-P4 as the high-performance audio and signal-processing controller. The ESP32-P4 replaces the previously planned XMOS XU316 and is intended to handle the microphone/audio pipeline and future local processing such as noise suppression, acoustic echo cancellation, interference cancellation, and automatic gain control. Firmware for this revised architecture is still under development.
+### Relation to the Home Assistant Voice Preview Edition
 
-Two hardware variants are planned. The full version includes an ESP32-C6 for Wi-Fi 6, Bluetooth LE, and 802.15.4, enabling OpenThread Border Router (OTBR) functionality. A second version omits the ESP32-C6 for installations that do not require OTBR/Thread border-router support.
+Earlier revisions of this board followed the Voice Preview Edition (Voice PE) reference design closely, including its XMOS XU316 audio processor. The goal is still the same kind of device: a local, open voice assistant for Home Assistant running ESPHome, with on-device wake word detection and a cleaned-up microphone signal.
 
-Functionality-wise it is made to mostly hardware comatible with the [Home Assistant Voice Preview Edition (a.k.a. Home Assistant Voice PE](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) reference design (which has been released as open-source hardware design from Open Home Foundation in coolaboration with Nabu Casa). The main difference will be due to constraints defined by the Google Nest Mini enclosure and comonents, (i.e. the nest-mini-drop-in-pcb project hardware design will be limited by the same type of physical capacity inputs as the original hardware from Google).
+The hardware has since moved away from the Voice PE. Microcontroller technology has evolved beyond the XMOS-based approach, and this revision uses an ESP32-P4 for audio processing instead. The P4 may not outperform the XMOS in every respect, but it is a more open platform: it is programmed with Espressif's open-source ESP-IDF, the same ecosystem as the ESP32-S3 and ESPHome, instead of a separate proprietary toolchain. As a result, this board is **not hardware-compatible** with the Voice PE, and the Voice PE firmware does not run on it unchanged.
 
-As such the scope of this project/repository is not to develop new features/functions for the ESPHome firmware, so if you want that then you instead need to turn to the firmware development of the Home Assistant Voice Preview Edition as well as to the upstream ESPHome mainline code:
+Developing new ESPHome features is out of scope for this repository. The Voice PE firmware remains a useful reference, and general features belong upstream in ESPHome:
 
 - https://github.com/esphome/home-assistant-voice-pe
   - https://github.com/esphome/esphome
       - https://github.com/esphome/feature-requests
 
-## Request for collaboration
-
-If you have some experience with PCB layout design, (and epecially with PCB routing, ground pouring, or noise-sensitive digital+analog layouts), **your help is highly appreciated**! Please feel free to open a new issue, submit suggestions/requests, and add input/feedback to existing issues, or fork this repository.
-
-For more information about the concept/idea see and contribute to related discussion also see this Home Assistant community forum thread:
-
-- https://community.home-assistant.io/t/any-news-on-alternative-to-onju-voice-pcb-repacement-design-for-google-nest-home-mini-speakers-with-added-xmos-chip-to-match-official-home-assistant-voice-preview-edition-reference-hardware/860001/
-
-### Current status
+## Current status
 
 > [!CAUTION]
-> This project is under active development and is **not ready for fabrication or general use**. I do not recommend using the current files to manufacture a PCB.
+> The rev 3 schematic and PCB are complete and pass ERC/DRC, but the design has **not yet been validated on hardware**. A prototype run is the next step. Do not order production quantities from these files yet.
 
-The hardware has undergone a major redesign across every hierarchical schematic sheet and the PCB. The optional ESP32-C6 section has been integrated for the OTBR-capable variant, and the former XMOS audio-processing section has been replaced by an ESP32-P4-based design. Power, audio, LED, ESP32-S3, ESP32-C6, ESP32-P4, and PCB placement/routing data have all changed.
+- Schematic and layout are complete (KiCad 10), with schematic/PCB parity and no unconnected items.
+- The final BOM / MPN review is still in progress.
+- Mechanical fit of the 5.1 mm tall amplifier output inductors (L11/L12) must be checked on the prototype.
+- The ESPHome configuration in this repository (`MiciMike.yaml`) targets an earlier hardware revision and **does not match** the current board.
+- ESP32-P4 audio firmware (microphone processing) is under development.
 
-The design is still incomplete: some connections remain unrouted, the schematic and PCB require further consistency review, and the ESP32-P4 audio firmware and end-to-end signal path have not yet been validated on hardware.
+## Hardware variants
 
-The current ESPHome configuration also targets an earlier hardware revision and does not match the present schematic. It should not be treated as working firmware for the current board design.
+One PCB, two assembly variants. They are defined as KiCad 10 design variants, so the BOM, position file and fabrication outputs can be generated per variant.
 
-Several hardware areas still require review before another prototype revision is considered, including the ESP32-P4 power and boot configuration, microphone and audio routing, mute detection, ESP32-C6 integration, power sequencing, signal integrity, and remaining PCB routing and clearance findings.
+| Variant | Description | Radios |
+|---|---|---|
+| **Full** | ESP32-S3 + ESP32-P4 + ESP32-C6 | Wi-Fi 4 / BLE (S3), Wi-Fi 6 / BLE / 802.15.4 Thread & Zigbee (C6) |
+| **No C6** | ESP32-S3 + ESP32-P4, the whole ESP32-C6 section not populated | Wi-Fi 4 / BLE (S3) |
 
-Development and documentation updates have been slower recently due to limited availability and work on the related Home Mini project. The README and design files will be updated as the review and redesign progress.
+In the **No C6** variant all 27 parts of the ESP32-C6 sheet are DNP (U8, Y2, AE2, its RF matching network, decoupling, FB2 and the C6 boot/reset parts). FB2 is the only feed of the C6 supply rail, so the whole C6 power domain is unpowered. The S3 GPIOs that connect to the C6 (reset, GPIO9/boot, UART) must not be used by the firmware in this variant.
+
+Example exports with `kicad-cli`:
+
+```
+kicad-cli sch export bom --variant "No C6" -o bom_noC6.csv nest-mini-v2-drop-in-pcb.kicad_sch
+kicad-cli pcb export pos --variant "No C6" --exclude-dnp -o pos_noC6.csv nest-mini-v2-drop-in-pcb.kicad_pcb
+```
+
+## Architecture
+
+| Block | Part | Role |
+|---|---|---|
+| Main MCU | ESP32-S3R8 (8 MB PSRAM) + 16 MB W25Q128 flash | Wi-Fi/BLE, ESPHome, wake word, I²S master to the amplifier, I²C master, LEDs, mute detection, boot/reset and UART control of the P4 and C6 |
+| Audio processor | ESP32-P4 + 16 MB W25Q128 flash | Microphone input and audio processing (noise suppression, AEC, AGC; firmware in development) |
+| Thread / Zigbee (optional) | ESP32-C6FH8 (8 MB in-package flash) | 802.15.4 radio, e.g. OpenThread Border Router (ESP-IDF `ot_br`) |
+| Amplifier | TAS5805M (TAS5805MPWPR) | Class-D amplifier with DSP, I²S audio, I²C control by the S3 |
+| Microphones | 3x TDK InvenSense T3902 (MMICT390200012) | PDM MEMS microphones to the ESP32-P4 |
+| Touch | MPR121 | Capacitive touch on the original touch surface, I²C with IRQ to the S3 |
+| LEDs | 4x SK6805-EC20 + 2x SK6812D-EC3210R (side-emitting, board edge) | Addressable RGB, driven by the S3 through an SN74AHCT1G125 3.3 V to 5 V level shifter |
+
+The ESP32-P4 replaces the XMOS XU316 used in earlier revisions.
+
+### Inter-chip links
+
+- **S3 → amplifier:** I²S (BCLK, LRCK, SDIN) and I²C control.
+- **Amplifier → P4 (AEC reference):** the TAS5805M SDOUT goes to the ESP32-P4, which receives BCLK/LRCK from the same I²S bus, so the P4 gets the post-DSP playback signal as the echo-cancellation reference.
+- **S3 ↔ P4:** I²S data line from the P4 to the S3 (I2S_DIN_SEC, processed microphone audio) and a second I²S clock pair (I2S2 BCLK/LRCLK), plus UART, P4_BOOT and P4_RST driven by the S3.
+- **S3 ↔ C6:** UART plus C6 reset and GPIO9 (boot), driven by the S3, for firmware updates of the C6 from the S3.
+- **I²C bus:** S3, TAS5805M and MPR121.
+
+## Power
+
+- **Input:** 14 V from the original Nest Mini power supply (14 V / 1.1 A), through the original flex cable (Hirose FH34SRJ-10S, 14 V on pins 7–10).
+- **Protection:** PMEG4030ER Schottky diode in series (reverse polarity) and SMAJ15A TVS on the 14 V rail.
+- **Rails:**
+  - 14 V → TPS62130 → 5 V (LEDs, microphone LDO, LED level shifter)
+  - 5 V → TPS62130 → 3.3 V, then separate filtered branches through ferrite beads for the S3, P4 and C6
+  - 3.3 V → TLV62569 → ESP32-P4 core supply (ESP_VDD_HP)
+  - 14 V → TAS5805M PVDD
+  - 5 V → TLV73333 → microphone supply (switched off by the mute switch)
+- **Bench supply / test pads:**
+
+| Pad | Rail | Type | Powers |
+|---|---|---|---|
+| TP1 (+) / TP4 (GND) | +14 V, **max 15 V** | 3 mm THT pads (front) | the whole board, including the amplifier |
+| TP2 | +5 V | 1 mm test pad (back) | everything except the amplifier (TAS5805M PVDD stays off) |
+| TP3 | +3.3 V | 1 mm test pad (back) | the ESP32s, flash, touch controller; no LEDs, no microphones, no amplifier |
+
+Use only one supply input at a time. When feeding +5 V or +3.3 V directly, the rail above it is not driven, and the regulator in front of it may be back-powered through its internal switch.
+
+> ⚠️ There is no USB-C port on this revision. The board is powered through the original flex cable or the bench / test pads above.
+
+## Audio
+
+- TAS5805M in **mono PBTL** mode with pre-filter paralleling (OUT_A+ ∥ OUT_B+ and OUT_A− ∥ OUT_B−), output filter with 2x Coilcraft XAL5050-103 (10 µH) inductors.
+- Original 4 Ω / 15 W speaker. The original firmware limits the amplifier to about 40 %. The firmware must set PBTL mode (`DAMP_PBTL`) and a gain / power limit that suits the speaker and the 14 V / 1.1 A supply.
+- Speaker connection: TE 1775443-2 connector (J5) or the parallel solder pads TP8/TP9.
+
+## Microphones and mute
+
+- 3 PDM microphones, connected to the ESP32-P4 through an SN74LVC125A buffer.
+- The original mute slide switch (flex cable pin 2) is read by the S3 and also acts **in hardware**: in the muted position the microphone LDO is switched off and the buffer outputs go high-impedance, so the microphones cannot be enabled from firmware.
+
+## Programming
+
+Each ESP has its own unpopulated 5-pin pogo / header footprint: GND, BOOT, RST, USB D−, USB D+.
+
+| Header | Chip | USB |
+|---|---|---|
+| J1 | ESP32-S3 | native USB (USB Serial/JTAG) |
+| J2 | ESP32-C6 | native USB (USB Serial/JTAG) |
+| J3 | ESP32-P4 | USB 1.1 FS (GPIO24/25) |
+
+After the first flash, the S3 can update the P4 and the C6 over UART, controlling their boot and reset lines.
+
+## PCB
+
+- 4 layers, 1.6 mm: F.Cu signal / In1 solid GND / In2 power planes / B.Cu signal.
+- All vias 0.4 / 0.3 mm (24 thermal vias under the TAS5805M).
+- Two Johanson 2450AT18A100E chip antennas (S3 and C6), each with its own keepout, LC matching network, RF netclass and GND via fence.
+- GND stitching vias along the board edge.
+- Custom DRC rules (`.kicad_dru`) allow the narrow RF track at the ESP32-S3 and ESP32-C6 antenna pins.
+- Intentional DRC exclusions (microphone pads at the acoustic openings, touch pads with NPTH, I²S fan-out, programming footprint overlap) are documented with reasons in the project file.
+
+## Hardware changes compared to rev 2
+
+- XMOS XU316 replaced by ESP32-P4 (with its own flash and TLV62569 core supply).
+- ESP32-C6 section added as an assembly option (Full / No C6 variants).
+- USB-C input, FUSB302B PD controller, USB mux and the GPIO expander removed. Power comes from the original 14 V input, or from the 14 V / 5 V / 3.3 V bench and test pads.
+- Programming moved to per-chip pogo footprints with USB.
+- S3 controls the P4 and C6 boot/reset lines and has a UART to both.
+- 14 V input protection added (series Schottky + TVS), plus bench supply pads TP1/TP4 (14 V) and test pads TP2 (5 V) / TP3 (3.3 V).
+- Speaker solder pads TP8/TP9 added next to the speaker connector.
+- TAS5805M changed to mono PBTL with 10 µH / XAL5050 output inductors.
+- Microphone buffer and microphone LDO controlled by the hardware mute switch.
+- TPS62130 regulators: DEF tied to GND, PG not used.
+- Complete re-layout in KiCad 10, with RF keepouts, matching networks and via fencing for both antennas.
 
 ## Tools used
 
 - 🛠️ KiCad 10
 - 🧰 SnapEDA / LCSC for footprint sourcing
 
-## Known hardware specifications
-
-- 4-layer PCB
-- ESP32-S3R8 bare chip (Wi-Fi, Bluetooth LE, and onboard wake-word detection)
-- Two planned variants:
-  - OTBR variant with an ESP32-C6FH8 bare chip (Wi-Fi 6, Bluetooth LE, and 802.15.4 radio for Thread/Zigbee connectivity; 8 MB in-package flash)
-  - non-OTBR variant without the ESP32-C6
-- ESP32-P4 bare chip (high-performance RISC-V application/audio processor; no integrated radio)
-- 16 MB external SPI flash for the ESP32-S3
-- 16 MB external SPI flash for the ESP32-P4
-- Dual I²S buses (simultaneous audio input and output)
-- TAS5805M (TAS5805MPWPR) stereo Class-D amplifier with integrated DSP (I2S audio, I2C control), configured for mono BTL speaker output
-- 3x TDK MMICT390200012 MEMS microphones
-- 6x addressable RGB LEDs: 4x SK6805-EC20 and 2x SK6812D-EC3210R
-- USB-C and 14 V power inputs (do not connect at the same time)
-- MPR121 capacitive touch controller (used for touch input instead of ESP32-S3 native touch sensing)
-
----
-
-> ⚠️ Flashing via USB-C requires disconnecting the main 14V power input. See silkscreen note on PCB for details.
-
 ## References
 
-### Home Assistant Voice Preview Edition resources including PCB design files
+### Home Assistant Voice Preview Edition resources (inspiration)
 - https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/
   - https://voice-pe.home-assistant.io/resources/
     - https://support.nabucasa.com/hc/en-us/articles/26195279589277-Home-Assistant-Voice-Preview-Edition-PCB-design-files
       - https://raw.githubusercontent.com/NabuCasa/support/refs/heads/main/static/docs/voice/home_assistant_voice_pe_schematic_v1.0_241009.pdf
 
-#### ESPHome firmware for Home Assistant Voice PE:
+#### ESPHome firmware for Home Assistant Voice PE
 
 - https://github.com/esphome/home-assistant-voice-pe
   - https://esphome.github.io/home-assistant-voice-pe/
@@ -128,9 +204,11 @@ Development and documentation updates have been slower recently due to limited a
 
 ## License
 
-This project is licensed under the [CERN Open Hardware License Version 2 - Strongly Reciprocal (CERN-OHL-S v2)]
+This project is licensed under the [CERN Open Hardware License Version 2 - Strongly Reciprocal (CERN-OHL-S v2)](LICENCE).
 Any modified version of this hardware must also be distributed under the same license.
 
-☕ If you’d like to support this project, feel free to [buy me a coffee on Ko-fi](https://ko-fi.com/imike78)!
+## Development note
 
+AI agents were used as assistants during the development of this hardware, for design review, verification and documentation. All design decisions and the final design files are the author's own.
 
+☕ If you'd like to support this project, feel free to [buy me a coffee on Ko-fi](https://ko-fi.com/imike78)!

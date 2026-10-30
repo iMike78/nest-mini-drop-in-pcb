@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.7,
-          "width": 1.7
+          "height": 0.25,
+          "width": 0.825
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,11 +60,11 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.15,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
-          "remove_islands": 2,
+          "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -83,27 +83,55 @@
       ],
       "drc_exclusions": [
         [
-          "copper_edge_clearance|103252316|82200117|eabbda25-34ba-4083-9542-488ed5ed87a4|0421e471-77a1-4c6e-a453-0e4093e385e3",
+          "clearance|123000000|92600000|49f80e15-a180-4ceb-96d4-6d74b544b5b8|68e183b7-0434-475d-ad2e-0ddfe972f992",
           ""
         ],
         [
-          "copper_edge_clearance|103413466|82312384|eabbda25-34ba-4083-9542-488ed5ed87a4|ebd4f518-8b01-4122-9ddd-776f36256901",
+          "clearance|123000000|93550000|79912b40-9672-45a4-93b5-cef96b965a4e|cd4c9ab9-a586-4e7d-94f1-3e1288ba52c1",
           ""
         ],
         [
-          "copper_edge_clearance|128235823|121701191|63af9ebd-1c49-4227-9397-978019d0428a|f31018d2-8eda-4a1d-abce-bce82c092a77",
+          "clearance|123400000|93550000|68e183b7-0434-475d-ad2e-0ddfe972f992|7b69de56-333e-4dfb-8ce4-ffd0aac5a1b0",
           ""
         ],
         [
-          "copper_edge_clearance|128813539|121587597|63af9ebd-1c49-4227-9397-978019d0428a|2a0640ad-5d9c-475a-982c-68870b14e7e4",
+          "copper_edge_clearance|103252320|82200113|eabbda25-34ba-4083-9542-488ed5ed87a4|0421e471-77a1-4c6e-a453-0e4093e385e3",
           ""
         ],
         [
-          "copper_edge_clearance|167581156|96942194|cc545a54-294c-4f44-88d7-66669761960d|e3e92497-42ce-42fa-8a86-a1aa6fe68e08",
+          "copper_edge_clearance|103413470|82312374|eabbda25-34ba-4083-9542-488ed5ed87a4|ebd4f518-8b01-4122-9ddd-776f36256901",
           ""
         ],
         [
-          "copper_edge_clearance|167945362|97095000|cc545a54-294c-4f44-88d7-66669761960d|07301a4a-6029-4a33-9a75-ba061718a39f",
+          "copper_edge_clearance|108800000|89100000|5373f326-0605-4bd9-9f5f-37cb3cdb4215|d5f6b70e-58e7-44db-bde9-43c0064dd21b",
+          ""
+        ],
+        [
+          "copper_edge_clearance|128235829|121701178|63af9ebd-1c49-4227-9397-978019d0428a|f31018d2-8eda-4a1d-abce-bce82c092a77",
+          ""
+        ],
+        [
+          "copper_edge_clearance|128813508|121587568|63af9ebd-1c49-4227-9397-978019d0428a|2a0640ad-5d9c-475a-982c-68870b14e7e4",
+          ""
+        ],
+        [
+          "copper_edge_clearance|135815362|115914000|1aa2cdff-8549-489d-b032-785a82bd6042|f56c68d3-4735-4b2f-81bb-f3bceffd02e6",
+          ""
+        ],
+        [
+          "copper_edge_clearance|162810000|89100000|3c32a755-9131-4ee5-aa41-1ddabedbea22|56bebddb-d411-407a-9c76-163efb2bea6e",
+          ""
+        ],
+        [
+          "copper_edge_clearance|167581139|96942210|cc545a54-294c-4f44-88d7-66669761960d|e3e92497-42ce-42fa-8a86-a1aa6fe68e08",
+          ""
+        ],
+        [
+          "copper_edge_clearance|167945362|97094991|cc545a54-294c-4f44-88d7-66669761960d|07301a4a-6029-4a33-9a75-ba061718a39f",
+          ""
+        ],
+        [
+          "courtyards_overlap|118958286|78135000|26e58e8c-3f70-4409-8e2f-5a79ae26fd44|9491576f-78ef-4997-a03a-90fa2d9d5c3a",
           ""
         ],
         [
@@ -111,27 +139,23 @@
           ""
         ],
         [
-          "hole_clearance|135864847|115914061|06a982c1-52d7-46ba-8176-b6c788dff7fc|1963ac6c-acf4-48f1-b586-cd22c8d69a9d",
+          "hole_clearance|108800000|89100000|d5f6b70e-58e7-44db-bde9-43c0064dd21b|50ded784-7802-48b3-90d8-248e0cdd1bba",
           ""
         ],
         [
-          "hole_clearance|162810174|89099999|cb5c2de4-c3a2-40ad-aefd-26c7d006c193|8bd34b9d-85e5-49a4-9526-584bd2408da7",
+          "hole_clearance|135864800|115914000|f56c68d3-4735-4b2f-81bb-f3bceffd02e6|1963ac6c-acf4-48f1-b586-cd22c8d69a9d",
           ""
         ],
         [
-          "items_not_allowed|112961522|68657717|7afd9e01-1e47-4e08-b90b-61ac7200172f|00000000-0000-0000-0000-000000000000",
+          "hole_clearance|135864800|115914100|06a982c1-52d7-46ba-8176-b6c788dff7fc|1963ac6c-acf4-48f1-b586-cd22c8d69a9d",
           ""
         ],
         [
-          "items_not_allowed|114443121|65337640|a5e2e91c-68f8-46b8-8ba3-96b76d18040a|00000000-0000-0000-0000-000000000000",
+          "hole_clearance|162810000|89100000|56bebddb-d411-407a-9c76-163efb2bea6e|8bd34b9d-85e5-49a4-9526-584bd2408da7",
           ""
         ],
         [
-          "items_not_allowed|156291345|66279860|6fdf0487-8891-4642-b3aa-fcb91748362b|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|158477591|68466106|8b60debd-349a-4a15-8ea8-057109244f88|00000000-0000-0000-0000-000000000000",
+          "hole_clearance|162810200|89100000|cb5c2de4-c3a2-40ad-aefd-26c7d006c193|8bd34b9d-85e5-49a4-9526-584bd2408da7",
           ""
         ]
       ],
@@ -749,7 +773,7 @@
         "clearance": 0.2,
         "name": "+1V8",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "tuning_profile": "",
@@ -757,14 +781,14 @@
         "via_drill": 0.3
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.127,
         "diff_pair_gap": 0.2,
         "diff_pair_width": 0.33,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "90_ohm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.33,
         "tuning_profile": "",
@@ -773,9 +797,18 @@
       },
       {
         "clearance": 0.2,
-        "name": "i2s",
+        "name": "RF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.35,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.2,
+        "name": "i2s",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -786,7 +819,7 @@
         "clearance": 0.2,
         "name": "power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "tuning_profile": "",
@@ -797,7 +830,7 @@
         "clearance": 0.5,
         "name": "touch",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "tuning_profile": "",
@@ -848,8 +881,28 @@
         "pattern": "Net-(U7-ELEC2)"
       },
       {
-        "netclass": "i2s",
-        "pattern": ""
+        "netclass": "RF",
+        "pattern": "Net-(AE1-Pad1)"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "Net-(C24-Pad1)"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "Net-(U5-LNA_IN)"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "Net-(AE2-Pad1)"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "Net-(C55-Pad1)"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "Net-(U8-ANT)"
       }
     ]
   },
@@ -1307,8 +1360,17 @@
         "uuid": "204e071a-14ed-47a0-be54-332ac2b951cf"
       }
     ],
-    "used_designators": "AE1-2,L1-12,D1-4,#PWR1-233,LED1-6,C1-139,FB1-5,J1-5,MK1-3,POWER_IN1,Q1-3,R1-72,R74-76,SW1-2,TP1-11,U1-13,X1,Y1-3",
-    "variants": []
+    "used_designators": "AE1-2,L1-12,D1-6,#PWR1-235,LED1-6,#PWRe1,C1-139,FB1-5,J1-5,MK1-3,POWER_IN1,Q1-3,#FLG1-11,R1-72,R74-76,SW1-2,TP1-11,U1-13,X1,Y1-3",
+    "variants": [
+      {
+        "description": "Projekt with S3, P4 and C6 for Thread/Matter capability",
+        "name": "Full"
+      },
+      {
+        "description": "Full functionality without Thred/Matter",
+        "name": "No C6"
+      }
+    ]
   },
   "sheets": [
     [
