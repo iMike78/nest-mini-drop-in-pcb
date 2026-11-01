@@ -133,7 +133,7 @@ Use only one supply input at a time. When feeding +5 V or +3.3 V directly, the r
 
 ## Audio
 
-- TAS5805M in **mono PBTL** mode with pre-filter paralleling (OUT_A+ ∥ OUT_B+ and OUT_A− ∥ OUT_B−), output filter with 2x Coilcraft XAL5050-103 (10 µH) inductors.
+- TAS5805M in **mono PBTL** mode with pre-filter paralleling (OUT_A+ ∥ OUT_A− → L11 and OUT_B+ ∥ OUT_B− → L12, per TI TAS5805M PBTL wiring), output filter with 2x Coilcraft XAL5050-103 (10 µH) inductors.
 - Original 4 Ω / 15 W speaker. The original firmware limits the amplifier to about 40 %. The firmware must set PBTL mode (`DAMP_PBTL`) and a gain / power limit that suits the speaker and the 14 V / 1.1 A supply.
 - Speaker connection: TE 1775443-2 connector (J5) or the parallel solder pads TP8/TP9.
 

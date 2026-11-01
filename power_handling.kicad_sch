@@ -6,7 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Drop in replacement PCB for Nest mini GEN2")
-		(rev "v1")
+		(date "2026-10-31")
+		(rev "v3")
 		(company "by iMike78 (inpired by Onju voice and HA VPE)")
 	)
 	(lib_symbols
@@ -8647,7 +8648,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "40k"
+		(property "Value" "40.2k"
 			(at 78.74 125.984 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8712,7 +8713,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C3016445"
+		(property "Supplier Part" "C12447"
 			(at 77.47 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8723,7 +8724,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "VO"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 77.47 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8734,7 +8735,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "SCR0603F40K"
+		(property "Manufacturer Part" "0603WAF4022T5E"
 			(at 77.47 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8745,7 +8746,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C3016445"
+		(property "LCSC Part #" "C12447"
 			(at 77.47 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8993,7 +8994,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X5R"
+		(property "Dielectric" "C0G"
 			(at 222.758 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9003,7 +9004,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 222.504 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9024,7 +9025,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" ""
+		(property "Supplier Part" "C1555"
 			(at 218.44 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9035,7 +9036,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "FH"
 			(at 218.44 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9046,7 +9047,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "0402CG220J500NT"
 			(at 218.44 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9057,7 +9058,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C1555"
 			(at 218.44 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9649,7 +9650,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C45783"
+		(property "Supplier Part" "C1779"
 			(at 158.75 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -9671,7 +9672,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "CL21A226MAQNNNE"
+		(property "Manufacturer Part" "CL21A475KAQNNNE"
 			(at 158.75 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -9682,7 +9683,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C45783"
+		(property "LCSC Part #" "C1779"
 			(at 158.75 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -10338,7 +10339,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" ""
+		(property "Supplier Part" "C2828669"
 			(at 209.55 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10349,7 +10350,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "Viking"
 			(at 209.55 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10360,7 +10361,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "ARG03DTC4993"
 			(at 209.55 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10371,7 +10372,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C2828669"
 			(at 209.55 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -12938,7 +12939,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" ""
+		(property "Supplier Part" "C2828669"
 			(at 209.55 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -12949,7 +12950,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "Viking"
 			(at 209.55 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -12960,7 +12961,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "ARG03DTC4993"
 			(at 209.55 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -12971,7 +12972,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C2828669"
 			(at 209.55 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -13129,6 +13130,61 @@
 			)
 		)
 		(property "Description" "40V, 3A low Vf MEGA Schottky barrier rectifier, SOD-123W"
+			(at 63.5 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" "POWER"
+			(at 63.5 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C389355"
+			(at 63.5 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 63.5 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "PMEG4030ER,115"
+			(at 63.5 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C389355"
 			(at 63.5 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -15003,7 +15059,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV62569DRL"
+		(property "Value" "TLV62569DRLR"
 			(at 182.88 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15115,6 +15171,28 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 182.88 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 182.88 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "TLV62569DRLR"
 			(at 182.88 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -15472,7 +15550,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C25530"
+		(property "Supplier Part" "C25741"
 			(at 177.8 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -15494,7 +15572,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "0402WGJ0104TCE"
+		(property "Manufacturer Part" "0402WGF1003TCE"
 			(at 177.8 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -15505,7 +15583,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25530"
+		(property "LCSC Part #" "C25741"
 			(at 177.8 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -16549,7 +16627,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C25530"
+		(property "Supplier Part" "C25741"
 			(at 39.37 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -16571,7 +16649,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "0402WGJ0104TCE"
+		(property "Manufacturer Part" "0402WGF1003TCE"
 			(at 39.37 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -16582,7 +16660,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25530"
+		(property "LCSC Part #" "C25741"
 			(at 39.37 88.9 0)
 			(hide yes)
 			(show_name no)

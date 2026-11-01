@@ -87,7 +87,7 @@
           ""
         ],
         [
-          "clearance|123000000|93550000|79912b40-9672-45a4-93b5-cef96b965a4e|cd4c9ab9-a586-4e7d-94f1-3e1288ba52c1",
+          "clearance|123400000|93550000|68e183b7-0434-475d-ad2e-0ddfe972f992|79912b40-9672-45a4-93b5-cef96b965a4e",
           ""
         ],
         [
@@ -355,7 +355,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "v1"
+      "sch_revision": "v3"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -389,6 +389,14 @@
         ""
       ],
       [
+        "pin_to_pin|1028700|647700|e7ba63eb-fb66-4b74-9c0f-8f909231b8c3|b9d98506-1b6d-442c-900e-1024c2287a83|/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e|/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e|/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e",
+        "Intentional PBTL wiring"
+      ],
+      [
+        "pin_to_pin|1028700|698500|387ba096-c748-41e0-b8ac-dc1c3af26ed2|2d42c4ed-04ec-4eba-9de6-ae259a9438e6|/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e|/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e|/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e",
+        "Intentional PBTL wiring"
+      ],
+      [
         "pin_to_pin|1473200|1016000|387ba096-c748-41e0-b8ac-dc1c3af26ed2|b9d98506-1b6d-442c-900e-1024c2287a83|/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e|/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e|/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e",
         "BTL out"
       ],
@@ -398,6 +406,14 @@
       ],
       [
         "power_pin_not_driven|1016000|533400|3be7bb48-9872-4e02-8fef-7b5083b334ad|00000000-0000-0000-0000-000000000000|/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc|/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1028700|469900|57228c24-ad98-4720-86a9-b4f001b6f410|00000000-0000-0000-0000-000000000000|/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e|/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1028700|495300|ee0a1894-f86e-4de3-a449-3b5716afa2ce|00000000-0000-0000-0000-000000000000|/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e|/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e|",
         ""
       ],
       [
@@ -414,6 +430,10 @@
       ],
       [
         "power_pin_not_driven|1473200|812800|ee0a1894-f86e-4de3-a449-3b5716afa2ce|00000000-0000-0000-0000-000000000000|/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e|/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1511300|381000|94092866-8a69-4515-9d03-805bae943a3f|00000000-0000-0000-0000-000000000000|/204e071a-14ed-47a0-be54-332ac2b951cf/9225bf54-69e7-451b-b0f1-a75bb133308e|/204e071a-14ed-47a0-be54-332ac2b951cf/9225bf54-69e7-451b-b0f1-a75bb133308e|",
         ""
       ],
       [
@@ -446,6 +466,10 @@
       ],
       [
         "power_pin_not_driven|2133600|1562100|a795b6a7-42da-4c00-b805-107c053e144e|00000000-0000-0000-0000-000000000000|/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc|/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|2260600|1092200|0d36a48b-fec0-4694-be9e-4c2e5ed109b6|00000000-0000-0000-0000-000000000000|/204e071a-14ed-47a0-be54-332ac2b951cf/9225bf54-69e7-451b-b0f1-a75bb133308e|/204e071a-14ed-47a0-be54-332ac2b951cf/9225bf54-69e7-451b-b0f1-a75bb133308e|",
         ""
       ],
       [
@@ -1092,6 +1116,12 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "Voltage",
           "name": "Voltage",
@@ -1255,12 +1285,6 @@
         },
         {
           "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "DCR",
           "name": "DCR",
           "show": false
@@ -1301,7 +1325,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Function"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -1360,7 +1384,7 @@
         "uuid": "204e071a-14ed-47a0-be54-332ac2b951cf"
       }
     ],
-    "used_designators": "AE1-2,L1-12,D1-6,#PWR1-235,LED1-6,#PWRe1,C1-139,FB1-5,J1-5,MK1-3,POWER_IN1,Q1-3,#FLG1-11,R1-72,R74-76,SW1-2,TP1-11,U1-13,X1,Y1-3",
+    "used_designators": "AE1-2,L1-13,D1-6,#PWR1-235,LED1-6,#PWRe1,C1-139,FB1-5,J1-5,MK1-3,POWER_IN1,Q1-3,#FLG1-11,R1-72,R74-76,SW1-2,TP1-11,U1-13,X1,Y1-3",
     "variants": [
       {
         "description": "Projekt with S3, P4 and C6 for Thread/Matter capability",

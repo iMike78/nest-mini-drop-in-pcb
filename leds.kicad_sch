@@ -6,7 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Drop in replacement PCB for Nest mini GEN2")
-		(rev "v1")
+		(date "2026-10-31")
+		(rev "v3")
 		(company "by iMike78 (inpired by Onju voice and HA VPE)")
 	)
 	(lib_symbols
@@ -2016,7 +2017,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X5R"
+		(property "Dielectric" "X7R"
 			(at 107.188 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2136,6 +2137,28 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 102.87 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 102.87 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 102.87 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -2383,7 +2406,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X5R"
+		(property "Dielectric" "X7R"
 			(at 237.998 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2503,6 +2526,28 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 233.68 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 233.68 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 233.68 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3227,7 +3272,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X5R"
+		(property "Dielectric" "X7R"
 			(at 226.568 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3347,6 +3392,28 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 222.25 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 222.25 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 222.25 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4339,7 +4406,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X5R"
+		(property "Dielectric" "X7R"
 			(at 130.048 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4458,6 +4525,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 125.73 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
+			(at 125.73 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ad3581bb-040d-4352-a79d-b890142b2155")
 		)
@@ -4539,7 +4628,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X5R"
+		(property "Dielectric" "X7R"
 			(at 147.828 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4659,6 +4748,28 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 143.51 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 143.51 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 143.51 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5063,7 +5174,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X5R"
+		(property "Dielectric" "X7R"
 			(at 38.608 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5193,6 +5304,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 34.29 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
+			(at 34.29 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ad431743-15af-45b5-8cb7-9abe38f8e750")
 		)
@@ -5274,7 +5407,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X5R"
+		(property "Dielectric" "X7R"
 			(at 187.198 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5394,6 +5527,28 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 182.88 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 182.88 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 182.88 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6059,6 +6214,28 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C7484"
+			(at 76.2 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C7484"
+			(at 76.2 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4d7c4511-bc79-480f-9cca-ce5187640773")
 		)
@@ -6502,7 +6679,7 @@
 				)
 			)
 		)
-		(property "Value" "47R"
+		(property "Value" "33R"
 			(at 95.25 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6545,7 +6722,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Tolerance" "1%"
 			(at 95.25 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -6623,6 +6800,50 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 95.25 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 95.25 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 95.25 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF330JTCE"
+			(at 95.25 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C25105"
 			(at 95.25 121.92 90)
 			(hide yes)
 			(show_name no)

@@ -6,7 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Drop in replacement PCB for Nest mini GEN2")
-		(rev "v1")
+		(date "2026-10-31")
+		(rev "v3")
 		(company "by iMike78 (inpired by Onju voice and HA VPE)")
 	)
 	(lib_symbols
@@ -4483,12 +4484,6 @@
 		(uuid "9c444dd5-c397-4d5a-8698-e1034bbe4067")
 	)
 	(junction
-		(at 53.34 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e116d3e-966a-4f50-b17a-0cb6045dd21a")
-	)
-	(junction
 		(at 247.65 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4535,6 +4530,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccf206d5-e27e-434c-86a5-db4e0f4bec3a")
+	)
+	(junction
+		(at 53.34 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d47ae674-cf27-4988-a351-88e3af5f9d1b")
 	)
 	(junction
 		(at 237.49 38.1)
@@ -4703,6 +4704,16 @@
 			(type default)
 		)
 		(uuid "08e2f026-0e0e-4a50-ab4c-99dffee58118")
+	)
+	(wire
+		(pts
+			(xy 68.58 60.96) (xy 100.33 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aca7d25-a391-49c7-a8b4-665b08233e02")
 	)
 	(wire
 		(pts
@@ -5376,13 +5387,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 60.96) (xy 100.33 60.96)
+			(xy 86.36 58.42) (xy 100.33 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82977bc8-d8e3-4793-aec3-da3a261acab4")
+		(uuid "837f927d-c387-4fe3-98b0-0fbe65118d24")
 	)
 	(wire
 		(pts
@@ -5443,6 +5454,16 @@
 			(type default)
 		)
 		(uuid "8a1a9e7a-5c30-4eb4-bf8b-3938714c7618")
+	)
+	(wire
+		(pts
+			(xy 53.34 58.42) (xy 78.74 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ba3ef46-dfce-47bd-8ce8-020d058b41bb")
 	)
 	(wire
 		(pts
@@ -5733,16 +5754,6 @@
 			(type default)
 		)
 		(uuid "c37dc674-bf5a-44fd-8870-d6b588da6b72")
-	)
-	(wire
-		(pts
-			(xy 100.33 58.42) (xy 53.34 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4130317-7edf-44da-929e-e3064b8ec248")
 	)
 	(wire
 		(pts
@@ -7359,6 +7370,17 @@
 				)
 			)
 		)
+		(property "Supplier Part" "C1525"
+			(at 208.28 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d2f2ea14-0083-49d3-98bc-7937738d9af9")
 		)
@@ -8025,6 +8047,17 @@
 				)
 			)
 		)
+		(property "Supplier Part" "C52923"
+			(at 170.18 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "179f7bf7-2c38-44b2-89b0-ebfba0701f10")
 		)
@@ -8214,7 +8247,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C1525"
 			(at 218.44 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -8236,7 +8269,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 218.44 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -8325,6 +8358,17 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 218.44 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 218.44 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -8825,6 +8869,17 @@
 				)
 			)
 		)
+		(property "Supplier Part" "C16526"
+			(at 27.94 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ad626556-08fb-4861-8ddf-7f9d4f91e207")
 		)
@@ -9151,6 +9206,17 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 40.64 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C434826"
 			(at 40.64 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -9515,6 +9581,17 @@
 				)
 			)
 		)
+		(property "Supplier Part" "C1525"
+			(at 176.53 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "07c99239-d425-48b7-a1d8-3c36c7aee71e")
 		)
@@ -9825,6 +9902,17 @@
 				)
 			)
 		)
+		(property "Supplier Part" "C1525"
+			(at 222.25 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3aea8899-b991-40b0-8545-ab1f18a7daaa")
 		)
@@ -10092,6 +10180,17 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 153.67 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 153.67 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -11865,6 +11964,28 @@
 				)
 			)
 		)
+		(property "Supplier Part" "C91322"
+			(at 241.3 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "MPR121QR2"
+			(at 241.3 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "11"
 			(uuid "8b91efbd-d87d-4182-8871-86d74349a41f")
 		)
@@ -12194,6 +12315,17 @@
 				)
 			)
 		)
+		(property "Supplier Part" "C1547"
+			(at 39.37 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0f077059-f4ac-4ec3-b3b1-1908ffc5f0d6")
 		)
@@ -12385,7 +12517,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "0402WGF1004TCE"
 			(at 265.43 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -12396,7 +12528,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C26087"
+		(property "LCSC Part #" "C26083"
 			(at 265.43 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -12418,7 +12550,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGJ0105TCE"
+		(property "MPN" ""
 			(at 265.43 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -12485,6 +12617,17 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 265.43 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C26083"
 			(at 265.43 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -12652,7 +12795,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X5R"
+		(property "Dielectric" "NP0"
 			(at 53.34 50.292 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12673,7 +12816,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "50V"
 			(at 53.34 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -12839,6 +12982,17 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 53.34 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C327292"
 			(at 53.34 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -13214,6 +13368,17 @@
 				)
 			)
 		)
+		(property "Supplier Part" "C2913194"
+			(at 125.73 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "35"
 			(uuid "308f8603-0f11-4c62-9673-510283fdb40e")
 		)
@@ -13481,7 +13646,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "FOJAN"
 			(at 218.44 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -13492,7 +13657,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "FRC0402F7502TS"
 			(at 218.44 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -13503,7 +13668,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C2909383"
 			(at 218.44 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -13525,7 +13690,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF7502TCE"
+		(property "MPN" "FRC0402F7502TS"
 			(at 218.44 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -13602,6 +13767,17 @@
 				)
 			)
 		)
+		(property "Supplier Part" "C2909383"
+			(at 218.44 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9d0c6ec2-47c5-4b87-adff-5ae649bc9447")
 		)
@@ -13612,6 +13788,272 @@
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/9225bf54-69e7-451b-b0f1-a75bb133308e"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 82.55 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "811445e3-aafb-49ca-8228-b04fcd936b4e")
+		(property "Reference" "L13"
+			(at 78.74 56.642 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24nH"
+			(at 87.376 56.896 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 82.55 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 82.55 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" "ESP32-S3"
+			(at 82.55 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C341784"
+			(at 82.55 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 82.55 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "LQW15AN24NJ00D"
+			(at 82.55 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CL" ""
+			(at 82.55 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 82.55 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 82.55 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 82.55 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer part #" ""
+			(at 82.55 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Isat" ""
+			(at 82.55 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" ""
+			(at 82.55 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating" ""
+			(at 82.55 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Priority" ""
+			(at 82.55 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" ""
+			(at 82.55 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 82.55 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 82.55 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C341784"
+			(at 82.55 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dcd3b597-13aa-4139-bbd2-c9c6571f40a3")
+		)
+		(pin "1"
+			(uuid "f6a34e14-1de3-4579-b807-f49c7723412f")
+		)
+		(instances
+			(project "nest-mini-v2-drop-in-pcb"
+				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/9225bf54-69e7-451b-b0f1-a75bb133308e"
+					(reference "L13")
 					(unit 1)
 				)
 			)
@@ -13683,7 +14125,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Tolerance" "1%"
 			(at 83.82 180.848 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13859,6 +14301,17 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 81.28 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C25900"
 			(at 81.28 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -14204,6 +14657,17 @@
 				)
 			)
 		)
+		(property "Supplier Part" "C97521"
+			(at 133.35 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "86452d9d-37c3-4965-a958-44749cf49afa")
 		)
@@ -14489,6 +14953,17 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 182.88 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 182.88 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -15087,6 +15562,17 @@
 				)
 			)
 		)
+		(property "Supplier Part" "C52923"
+			(at 237.49 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1ddc95fa-debf-4556-b02d-e82d7365ec0d")
 		)
@@ -15519,6 +16005,17 @@
 				)
 			)
 		)
+		(property "Supplier Part" "C89334"
+			(at 17.78 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3f5fafb8-1c09-410e-bf3a-e56cdc53bc1f")
 		)
@@ -15783,6 +16280,17 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 196.85 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C48346"
 			(at 196.85 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -16292,6 +16800,17 @@
 				)
 			)
 		)
+		(property "Supplier Part" "C162540"
+			(at 217.17 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2a8a45d0-e533-4ee4-a7c7-9f7fba5a7398")
 		)
@@ -16637,6 +17156,17 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 36.83 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C14663"
 			(at 36.83 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -17270,6 +17800,17 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 26.67 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C14709"
 			(at 26.67 175.26 90)
 			(hide yes)
 			(show_name no)
@@ -17934,6 +18475,17 @@
 				)
 			)
 		)
+		(property "Supplier Part" "C1525"
+			(at 176.53 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e9c291f5-ce4b-49f5-af56-4a8a686b5508")
 		)
@@ -18211,6 +18763,17 @@
 				)
 			)
 		)
+		(property "Supplier Part" "C15525"
+			(at 247.65 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9518fdaa-ca67-429e-aaee-3d67c3475a0a")
 		)
@@ -18292,7 +18855,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Tolerance" "1%"
 			(at 76.2 180.848 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18468,6 +19031,17 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 73.66 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C25900"
 			(at 73.66 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -18656,29 +19230,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C424431"
-			(at 53.34 67.31 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yajingxin"
-			(at 53.34 67.31 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "TAXM40M4ZCBCDT2T"
+		(property "Manufacturer" "Murata"
 			(at 53.34 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -18700,7 +19252,7 @@
 				)
 			)
 		)
-		(property "MPN" "TAXM40M4ZCBCDT2T"
+		(property "MPN" ""
 			(at 53.34 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -18811,6 +19363,39 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 53.34 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C1870451"
+			(at 53.34 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "XRCGB40M000F1S1BR0"
+			(at 53.34 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C1870451"
 			(at 53.34 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -19651,6 +20236,17 @@
 				)
 			)
 		)
+		(property "Supplier Part" "C52923"
+			(at 189.23 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f7ff865f-2b7e-4728-b9a1-0559e2c29f26")
 		)
@@ -19918,6 +20514,17 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 227.33 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C1525"
 			(at 227.33 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -20205,6 +20812,17 @@
 				)
 			)
 		)
+		(property "Supplier Part" "C1525"
+			(at 167.64 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "abb41da3-ff97-490d-b3e2-036cfee77e4f")
 		)
@@ -20470,6 +21088,17 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 39.37 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C1547"
 			(at 39.37 73.66 90)
 			(hide yes)
 			(show_name no)

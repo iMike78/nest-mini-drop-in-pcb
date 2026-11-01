@@ -6,7 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Drop in replacement PCB for Nest mini GEN2")
-		(rev "v1")
+		(date "2026-10-31")
+		(rev "v3")
 		(company "by iMike78 (inpired by Onju voice and HA VPE)")
 	)
 	(lib_symbols
@@ -5827,6 +5828,213 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_BJT:Q_NPN_BEC"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NPN_BEC"
+				(at 5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "NPN transistor, base/emitter/collector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BJT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_NPN_BEC_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NPN_BEC_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -11398,6 +11606,17 @@
 				)
 			)
 		)
+		(property "Supplier Part" "C1547"
+			(at 118.11 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b2723bd3-6c6f-419d-b281-b01591e58e98")
 		)
@@ -12397,6 +12616,28 @@
 				)
 			)
 		)
+		(property "Supplier Part" "C17168"
+			(at 54.61 140.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" "ESP32-P4"
+			(at 54.61 140.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0e835726-46a2-4369-b143-0e78acbe6e52")
 		)
@@ -12488,7 +12729,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 170.688 190.754 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12509,7 +12750,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" ""
+		(property "Supplier Part" "C15195"
 			(at 166.37 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -12531,7 +12772,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "CL05B103KB5NNNC"
 			(at 166.37 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -12609,6 +12850,17 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 166.37 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C15195"
 			(at 166.37 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -13478,7 +13730,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 301.498 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13488,7 +13740,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "16V"
 			(at 301.498 141.224 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13509,7 +13761,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C86018"
+		(property "Supplier Part" "C23630"
 			(at 297.18 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -13520,7 +13772,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 297.18 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -13531,7 +13783,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "GRM188R71A225KE15D"
+		(property "Manufacturer Part" "CL10A225KO8NNNC"
 			(at 297.18 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -13542,7 +13794,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C86018"
+		(property "LCSC Part #" "C23630"
 			(at 297.18 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -14745,6 +14997,17 @@
 				)
 			)
 		)
+		(property "Supplier Part" "C97521"
+			(at 297.18 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "bb40f48b-b7d3-4e2c-9409-327ad8308b2e")
 		)
@@ -15388,7 +15651,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Tolerance" "1%"
 			(at 293.37 74.676 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15796,6 +16059,17 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 102.87 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C1547"
 			(at 102.87 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -16507,7 +16781,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Tolerance" "1%"
 			(at 379.984 26.924 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16528,7 +16802,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" ""
+		(property "Supplier Part" "C25744"
 			(at 377.19 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -16550,7 +16824,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "0402WGF1002TCE"
 			(at 377.19 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -16561,7 +16835,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C25744"
 			(at 377.19 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -16818,7 +17092,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 50.038 273.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16839,7 +17113,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" ""
+		(property "Supplier Part" "C15849"
 			(at 45.72 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -16861,7 +17135,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "CL05A105KA5NQNC"
+		(property "Manufacturer Part" "CL10A105KB8NNNC"
 			(at 45.72 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -16872,7 +17146,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C52923"
+		(property "LCSC Part #" "C15849"
 			(at 45.72 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -17060,7 +17334,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" ""
+		(property "Supplier Part" "C25741"
 			(at 308.61 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -17082,7 +17356,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "0402WGF1003TCE"
 			(at 308.61 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -17093,7 +17367,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C25741"
 			(at 308.61 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -17338,7 +17612,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Tolerance" "1%"
 			(at 381 190.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18202,7 +18476,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "T3902"
+		(property "MP" "MMICT390200012"
 			(at 349.25 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -19006,7 +19280,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Tolerance" "1%"
 			(at 391.16 203.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19925,7 +20199,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "10V"
 			(at 48.768 174.244 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19946,7 +20220,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" ""
+		(property "Supplier Part" "C19702"
 			(at 44.45 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -19968,7 +20242,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C19702"
 			(at 44.45 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -20046,6 +20320,17 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 44.45 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CL10A106KP8NNNC"
 			(at 44.45 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -20449,7 +20734,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "ESP32-P4NRW32X"
 			(at 69.85 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20559,6 +20844,50 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 124.46 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C54540373"
+			(at 124.46 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Espressif Systems"
+			(at 124.46 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "ESP32-P4NRW32X"
+			(at 124.46 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C54540373"
 			(at 124.46 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -21132,7 +21461,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "RB521S30T1G"
+		(property "MP" "RB521S30T1G-DW"
 			(at 370.84 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -21168,7 +21497,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "ON SEMICONDUCTOR"
+		(property "MANUFACTURER" "DOWO"
 			(at 370.84 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -21202,7 +21531,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "ON SEMICONDUCTOR"
+		(property "Manufacturer" "DOWO"
 			(at 370.84 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -21213,7 +21542,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "RB521S30T1G"
+		(property "Manufacturer Part" "RB521S30T1G-DW"
 			(at 370.84 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -21746,6 +22075,17 @@
 				)
 			)
 		)
+		(property "Supplier Part" "C1525"
+			(at 317.5 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "64dbeb7c-f785-4e60-906b-3c3fad60549a")
 		)
@@ -21903,7 +22243,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Tolerance" "1%"
 			(at 391.16 231.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22828,7 +23168,7 @@
 				)
 			)
 		)
-		(property "Function" "ESP32-C6"
+		(property "Function" "ESP32-P4"
 			(at 270.51 266.7 0)
 			(hide yes)
 			(show_name no)
@@ -23226,7 +23566,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Tolerance" "1%"
 			(at 391.16 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23459,7 +23799,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "10V"
 			(at 221.488 78.994 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23480,7 +23820,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" ""
+		(property "Supplier Part" "C19702"
 			(at 217.17 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -23502,7 +23842,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "CL10A106KP8NNNC"
 			(at 217.17 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -23513,7 +23853,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C19702"
 			(at 217.17 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -24543,7 +24883,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "T3902"
+		(property "MP" "MMICT390200012"
 			(at 349.25 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -25293,7 +25633,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "10V"
 			(at 22.098 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25314,7 +25654,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" ""
+		(property "Supplier Part" "C19702"
 			(at 17.78 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -25336,7 +25676,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "CL10A106KP8NNNC"
 			(at 17.78 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -25347,7 +25687,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C19702"
 			(at 17.78 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -26068,6 +26408,17 @@
 				)
 			)
 		)
+		(property "Supplier Part" "C14663"
+			(at 127 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ac944616-9fea-43da-8652-8eb3f6de62c1")
 		)
@@ -26225,7 +26576,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Tolerance" "1%"
 			(at 292.608 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26458,7 +26809,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "10V"
 			(at 55.118 72.644 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26479,7 +26830,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" ""
+		(property "Supplier Part" "C19702"
 			(at 50.8 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -26501,7 +26852,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "CL10A106KP8NNNC"
 			(at 50.8 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -26512,7 +26863,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C19702"
 			(at 50.8 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -26913,7 +27264,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Tolerance" "1%"
 			(at 401.574 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28232,7 +28583,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C424431"
+		(property "LCSC Part #" "C1870451"
 			(at 111.76 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -28243,7 +28594,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yajingxin"
+		(property "Manufacturer" "Murata"
 			(at 111.76 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -28254,7 +28605,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "TAXM40M4ZCBCDT2T"
+		(property "Manufacturer Part" "XRCGB40M000F1S1BR0"
 			(at 111.76 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -28276,7 +28627,7 @@
 				)
 			)
 		)
-		(property "MPN" "TAXM40M4ZCBCDT2T"
+		(property "MPN" ""
 			(at 111.76 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -28387,6 +28738,17 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 111.76 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C1870451"
 			(at 111.76 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -29636,7 +29998,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Tolerance" "1%"
 			(at 367.03 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31042,6 +31404,17 @@
 				)
 			)
 		)
+		(property "Supplier Part" "C14709"
+			(at 116.84 260.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "08de8c29-35cc-4484-9543-c39f8cd732b9")
 		)
@@ -31432,7 +31805,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Tolerance" "1%"
 			(at 381 218.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32275,7 +32648,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Tolerance" "1%"
 			(at 381 246.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34331,7 +34704,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "T3902"
+		(property "MP" "MMICT390200012"
 			(at 349.25 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -35345,7 +35718,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 192.278 191.262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35366,7 +35739,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" ""
+		(property "Supplier Part" "C19666"
 			(at 187.96 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -35388,7 +35761,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "CL10A475KO8NNNC"
 			(at 187.96 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -35399,7 +35772,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C19666"
 			(at 187.96 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -35737,7 +36110,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_NPN_BCE")
+		(lib_id "Transistor_BJT:Q_NPN_BEC")
 		(at 328.93 151.13 0)
 		(unit 1)
 		(body_style 1)
@@ -35759,7 +36132,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC847B"
+		(property "Value" "MMBT3904"
 			(at 334.01 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35814,7 +36187,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C20069135"
+		(property "Supplier Part" "C20526"
 			(at 328.93 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -35825,7 +36198,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "hongjiacheng"
+		(property "MANUFACTURER" "CJ(Jiangsu Changjing Electronics Technology Co., Ltd.)"
 			(at 328.93 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -35836,7 +36209,7 @@
 				)
 			)
 		)
-		(property "MP" "BC847B"
+		(property "MP" "MMBT3904"
 			(at 328.93 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -35847,7 +36220,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "hongjiacheng"
+		(property "Manufacturer" "CJ(Jiangsu Changjing Electronics Technology Co., Ltd.)"
 			(at 328.93 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -35858,7 +36231,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "BC847B"
+		(property "Manufacturer Part" "MMBT3904"
 			(at 328.93 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -35869,7 +36242,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C20069135"
+		(property "LCSC Part #" "C20526"
 			(at 328.93 151.13 0)
 			(hide yes)
 			(show_name no)

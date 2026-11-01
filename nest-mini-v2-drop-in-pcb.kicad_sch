@@ -6,7 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Drop in replacement PCB for Nest mini GEN2")
-		(rev "v1")
+		(date "2026-10-31")
+		(rev "v3")
 		(company "by iMike78 (inpired by Onju voice and HA VPE)")
 	)
 	(lib_symbols)

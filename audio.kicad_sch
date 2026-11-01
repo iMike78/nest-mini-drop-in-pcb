@@ -6,7 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Drop in replacement PCB for Nest mini GEN2")
-		(rev "v1")
+		(date "2026-10-31")
+		(rev "v3")
 		(company "by iMike78 (inpired by Onju voice and HA VPE)")
 	)
 	(lib_symbols
@@ -3534,13 +3535,13 @@
 		)
 	)
 	(junction
-		(at 165.1 63.5)
+		(at 168.91 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0eae401f-23ab-4eb3-b648-f30a0cc925b3")
 	)
 	(junction
-		(at 153.67 64.77)
+		(at 157.48 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0fb994aa-ff28-41ef-a8fa-b3af0f6acf93")
@@ -3550,18 +3551,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16f25302-e4d2-4cc5-81d0-99f8fe4fcea2")
-	)
-	(junction
-		(at 105.41 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f109c2b-cb74-4efb-bde5-712dd3dbef9a")
-	)
-	(junction
-		(at 105.41 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25eaeaee-c1cd-4d85-bf87-658d0b54c9c8")
 	)
 	(junction
 		(at 105.41 62.23)
@@ -3600,6 +3589,12 @@
 		(uuid "6bc7c1b5-a6e6-427d-8f14-e81d27aadd94")
 	)
 	(junction
+		(at 105.41 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6db962ea-59e5-48b5-b948-e3c482a8fe79")
+	)
+	(junction
 		(at 118.11 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3618,13 +3613,13 @@
 		(uuid "89dc38a6-bd36-4be5-8f44-fa23548e9f2e")
 	)
 	(junction
-		(at 123.19 64.77)
+		(at 105.41 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "906cb06b-80d4-48f8-8e2e-95e2a389d5a1")
+		(uuid "9d8278c4-d293-42d9-a5b3-39a11c867d9b")
 	)
 	(junction
-		(at 165.1 60.96)
+		(at 168.91 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e9b291a-9ed1-46a2-be5f-aac575bd86b4")
@@ -3648,7 +3643,7 @@
 		(uuid "ab0eaa87-5aa3-4915-9f8e-9e366e395b42")
 	)
 	(junction
-		(at 153.67 59.69)
+		(at 157.48 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad786873-af97-4992-9411-b13a0f347a94")
@@ -3658,12 +3653,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af54ba2a-84fd-4d35-8d2b-1c563de3d997")
-	)
-	(junction
-		(at 111.76 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b56950f1-98c3-497b-a65a-ca4823788d19")
 	)
 	(junction
 		(at 148.59 24.13)
@@ -3678,10 +3667,16 @@
 		(uuid "cddc8f72-bf86-40dc-aa13-96e92a3d7029")
 	)
 	(junction
-		(at 105.41 69.85)
+		(at 111.76 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d445fb3b-1355-494f-a589-93fcec9fdb14")
+		(uuid "cdfd6073-5b1b-4da0-9fc1-4ea99243ad1c")
+	)
+	(junction
+		(at 105.41 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e76cee00-ceef-4218-8487-69ef1a3e7cdb")
 	)
 	(junction
 		(at 44.45 179.07)
@@ -3793,6 +3788,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 69.85) (xy 105.41 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "139cf7eb-c6c5-4289-87d6-01196e31e93e")
+	)
+	(wire
+		(pts
 			(xy 49.53 54.61) (xy 50.8 54.61)
 		)
 		(stroke
@@ -3813,7 +3818,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 66.04) (xy 153.67 64.77)
+			(xy 157.48 68.58) (xy 157.48 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3863,23 +3868,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 64.77) (xy 153.67 64.77)
+			(xy 162.56 67.31) (xy 157.48 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2294b445-2967-40cb-83d3-49eb8a80b9ed")
-	)
-	(wire
-		(pts
-			(xy 105.41 69.85) (xy 111.76 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23c3d1e1-96ab-4a07-8ee1-0a855aad1bf0")
 	)
 	(wire
 		(pts
@@ -3963,7 +3958,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 60.96) (xy 165.1 60.96)
+			(xy 162.56 63.5) (xy 168.91 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3983,7 +3978,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 59.69) (xy 153.67 59.69)
+			(xy 162.56 62.23) (xy 157.48 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4053,7 +4048,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 59.69) (xy 111.76 59.69)
+			(xy 137.16 62.23) (xy 111.76 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4093,16 +4088,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 73.66) (xy 105.41 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61c8bb0b-0750-4498-8b83-308d521df841")
-	)
-	(wire
-		(pts
 			(xy 111.76 31.75) (xy 111.76 33.02)
 		)
 		(stroke
@@ -4110,16 +4095,6 @@
 			(type default)
 		)
 		(uuid "63d108e1-6f5c-4fa4-a6b4-f8251081f330")
-	)
-	(wire
-		(pts
-			(xy 111.76 59.69) (xy 111.76 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "646174f6-59eb-4369-92fb-ac9fc210587c")
 	)
 	(wire
 		(pts
@@ -4163,13 +4138,23 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 59.69) (xy 153.67 59.69)
+			(xy 144.78 62.23) (xy 157.48 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6b427446-4a7b-47df-aea5-7538e1e46e45")
+	)
+	(wire
+		(pts
+			(xy 111.76 64.77) (xy 111.76 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bb2a78b-740d-4120-9155-7762bff392ce")
 	)
 	(wire
 		(pts
@@ -4193,16 +4178,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 67.31) (xy 105.41 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "735dbff4-1a59-46d6-9b0d-a8e756d8ef93")
-	)
-	(wire
-		(pts
 			(xy 111.76 24.13) (xy 120.65 24.13)
 		)
 		(stroke
@@ -4213,13 +4188,23 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 73.66) (xy 153.67 74.93)
+			(xy 157.48 76.2) (xy 157.48 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7893fae1-2173-407a-aeac-04df4bc825bc")
+	)
+	(wire
+		(pts
+			(xy 127 69.85) (xy 127 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78bfb523-37fc-4329-9416-cd933592a9c1")
 	)
 	(wire
 		(pts
@@ -4240,6 +4225,26 @@
 			(type default)
 		)
 		(uuid "7ac372b5-788c-4348-a31e-6af4288497c1")
+	)
+	(wire
+		(pts
+			(xy 105.41 67.31) (xy 105.41 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b5868ce-8b79-449b-af1d-25fd5e9085bd")
+	)
+	(wire
+		(pts
+			(xy 105.41 72.39) (xy 105.41 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fe1b264-0f09-4408-b43c-35c883de4ae7")
 	)
 	(wire
 		(pts
@@ -4280,6 +4285,16 @@
 			(type default)
 		)
 		(uuid "8498e9db-d330-4156-b7d4-937e70cfb194")
+	)
+	(wire
+		(pts
+			(xy 105.41 64.77) (xy 111.76 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86d58964-d3ef-4d73-afff-a4e50b7db85a")
 	)
 	(wire
 		(pts
@@ -4333,7 +4348,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 63.5) (xy 165.1 63.5)
+			(xy 177.8 66.04) (xy 168.91 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4343,7 +4358,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 63.5) (xy 158.75 63.5)
+			(xy 127 67.31) (xy 137.16 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91300a97-8aa7-4ac0-97f0-46830f5c4531")
+	)
+	(wire
+		(pts
+			(xy 168.91 66.04) (xy 162.56 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4373,16 +4398,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 62.23) (xy 111.76 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bc05566-72ae-4cc8-94ad-aca6a1d25718")
-	)
-	(wire
-		(pts
 			(xy 105.41 92.71) (xy 105.41 95.25)
 		)
 		(stroke
@@ -4403,7 +4418,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 63.5) (xy 158.75 64.77)
+			(xy 162.56 66.04) (xy 162.56 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4413,7 +4428,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 64.77) (xy 153.67 64.77)
+			(xy 144.78 67.31) (xy 157.48 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4473,6 +4488,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 69.85) (xy 127 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aba2b543-0e8d-4123-9c48-a5014c1239c2")
+	)
+	(wire
+		(pts
 			(xy 125.73 172.72) (xy 135.89 172.72)
 		)
 		(stroke
@@ -4513,16 +4538,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 64.77) (xy 123.19 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8d58e36-184f-4b42-b766-22efd4ae1b73")
-	)
-	(wire
-		(pts
 			(xy 44.45 59.69) (xy 105.41 59.69)
 		)
 		(stroke
@@ -4553,7 +4568,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 60.96) (xy 173.99 60.96)
+			(xy 168.91 63.5) (xy 177.8 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4643,33 +4658,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 58.42) (xy 153.67 59.69)
+			(xy 157.48 60.96) (xy 157.48 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cda00645-2ba5-43d9-9b5e-566dfa2fe06c")
-	)
-	(wire
-		(pts
-			(xy 105.41 72.39) (xy 123.19 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2a3d509-b31e-4b59-9a62-beceec813ba6")
-	)
-	(wire
-		(pts
-			(xy 123.19 64.77) (xy 133.35 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d68a29f8-643c-49cb-a3f2-ad40ff671227")
 	)
 	(wire
 		(pts
@@ -4683,16 +4678,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 64.77) (xy 123.19 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db90138a-b48d-4b8f-b1e7-e1ec4954be8b")
-	)
-	(wire
-		(pts
 			(xy 46.99 69.85) (xy 44.45 69.85)
 		)
 		(stroke
@@ -4703,7 +4688,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 60.96) (xy 158.75 59.69)
+			(xy 162.56 63.5) (xy 162.56 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4813,7 +4798,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 50.8) (xy 153.67 49.53)
+			(xy 157.48 53.34) (xy 157.48 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5143,7 +5128,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "16V"
 			(at 122.428 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5164,7 +5149,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" ""
+		(property "Supplier Part" "C19666"
 			(at 118.11 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5175,7 +5160,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 118.11 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5197,7 +5182,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C19666"
 			(at 118.11 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5264,6 +5249,17 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 118.11 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CL10A475KO8NNNC"
 			(at 118.11 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5365,7 +5361,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 133.096 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5386,7 +5382,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C14663"
 			(at 128.27 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5397,7 +5393,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 128.27 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5408,7 +5404,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
 			(at 128.27 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5497,6 +5493,17 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 128.27 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C14663"
 			(at 128.27 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5680,7 +5687,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 137.16 64.77 90)
+		(at 140.97 67.31 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5690,7 +5697,7 @@
 		(dnp no)
 		(uuid "16972415-7d44-4c41-ab17-5e7d1e060f73")
 		(property "Reference" "L12"
-			(at 133.096 63.246 90)
+			(at 136.906 65.786 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5700,7 +5707,7 @@
 			)
 		)
 		(property "Value" "10uH"
-			(at 142.24 63.246 90)
+			(at 146.05 65.786 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5710,7 +5717,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL5050-XXX"
-			(at 137.16 64.77 0)
+			(at 140.97 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5721,7 +5728,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 64.77 0)
+			(at 140.97 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5732,7 +5739,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 137.16 64.77 0)
+			(at 140.97 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5743,7 +5750,7 @@
 			)
 		)
 		(property "DCR" "41 mOhm"
-			(at 134.874 66.294 90)
+			(at 138.684 68.834 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5753,7 +5760,7 @@
 			)
 		)
 		(property "Current" "4.9A"
-			(at 141.732 66.294 90)
+			(at 145.542 68.834 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5763,7 +5770,7 @@
 			)
 		)
 		(property "Function" "TAS"
-			(at 137.16 64.77 90)
+			(at 140.97 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5773,8 +5780,8 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
-			(at 137.16 64.77 90)
+		(property "LCSC Part #" "C5441578"
+			(at 140.97 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5785,7 +5792,7 @@
 			)
 		)
 		(property "Manufacturer" "Coilcraft"
-			(at 137.16 64.77 90)
+			(at 140.97 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5796,7 +5803,7 @@
 			)
 		)
 		(property "Manufacturer Part" "XAL5050-103MEC"
-			(at 137.16 64.77 90)
+			(at 140.97 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5806,8 +5813,8 @@
 				)
 			)
 		)
-		(property "Supplier Part" ""
-			(at 137.16 64.77 90)
+		(property "Supplier Part" "C5441578"
+			(at 140.97 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5818,7 +5825,7 @@
 			)
 		)
 		(property "Isat" ""
-			(at 137.16 64.77 90)
+			(at 140.97 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5829,7 +5836,7 @@
 			)
 		)
 		(property "Part" ""
-			(at 137.16 64.77 90)
+			(at 140.97 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5840,7 +5847,7 @@
 			)
 		)
 		(property "Power Rating" ""
-			(at 137.16 64.77 90)
+			(at 140.97 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5851,7 +5858,7 @@
 			)
 		)
 		(property "Priority" ""
-			(at 137.16 64.77 90)
+			(at 140.97 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5862,7 +5869,7 @@
 			)
 		)
 		(property "Rating" ""
-			(at 137.16 64.77 90)
+			(at 140.97 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5873,7 +5880,7 @@
 			)
 		)
 		(property "Status" ""
-			(at 137.16 64.77 90)
+			(at 140.97 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5884,7 +5891,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 137.16 64.77 90)
+			(at 140.97 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5985,7 +5992,7 @@
 				)
 			)
 		)
-		(property "Voltage" "50V"
+		(property "Voltage" "25V"
 			(at 53.848 63.754 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6006,7 +6013,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" ""
+		(property "Supplier Part" "C21120"
 			(at 50.8 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6017,7 +6024,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 50.8 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6028,7 +6035,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "CL10B224KA8NNNC"
 			(at 50.8 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6039,7 +6046,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C21120"
 			(at 50.8 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6222,7 +6229,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 153.67 74.93 0)
+		(at 157.48 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6232,7 +6239,7 @@
 		(dnp no)
 		(uuid "253403ce-d74b-4c5d-865b-1add009f4c67")
 		(property "Reference" "#PWR0182"
-			(at 153.67 81.28 0)
+			(at 157.48 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6243,7 +6250,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 153.924 78.486 0)
+			(at 157.734 81.026 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6253,7 +6260,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 74.93 0)
+			(at 157.48 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6264,7 +6271,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 74.93 0)
+			(at 157.48 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6275,7 +6282,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 153.67 74.93 0)
+			(at 157.48 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6451,7 +6458,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 193.04 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6472,7 +6479,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C14663"
 			(at 189.23 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6483,7 +6490,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 189.23 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6494,7 +6501,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
 			(at 189.23 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6583,6 +6590,17 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 189.23 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C14663"
 			(at 189.23 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6760,6 +6778,50 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C25900"
+			(at 26.67 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 26.67 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF4701TCE"
+			(at 26.67 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C25900"
+			(at 26.67 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "92acbe4d-841e-4243-8b58-792353a809a9")
 		)
@@ -6777,17 +6839,17 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 165.1 60.96 0)
+		(at 168.91 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3b5bfafd-a4e5-4726-8085-2d6080ea86a2")
 		(property "Reference" "TP8"
-			(at 167.64 56.3879 0)
+			(at 171.45 58.9279 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6798,8 +6860,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SP OUT"
-			(at 166.624 57.658 0)
+		(property "Value" "SP+"
+			(at 170.434 60.198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6810,7 +6872,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 170.18 60.96 0)
+			(at 173.99 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6821,7 +6883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 60.96 0)
+			(at 173.99 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6832,7 +6894,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 165.1 60.96 0)
+			(at 168.91 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7063,7 +7125,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic Industry"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 121.92 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -7074,7 +7136,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-6GEY0R00V"
+		(property "MPN" "0805W8F0000T5E"
 			(at 121.92 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -7150,7 +7212,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C17168"
+		(property "LCSC Part #" "C17477"
 			(at 121.92 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -7161,7 +7223,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "ERJ-6GEY0R00V"
+		(property "Manufacturer Part" "0805W8F0000T5E"
 			(at 121.92 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -7282,6 +7344,17 @@
 				)
 			)
 		)
+		(property "Supplier Part" "C17477"
+			(at 121.92 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "40898d85-3163-40dc-95a2-1329a170af07")
 		)
@@ -7376,7 +7449,7 @@
 	)
 	(symbol
 		(lib_id "New_Library:1775443-2")
-		(at 179.07 60.96 0)
+		(at 182.88 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7384,10 +7457,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "466d2e34-5680-4b7b-94e0-cd627530c7b2")
 		(property "Reference" "J5"
-			(at 191.77 60.9599 0)
+			(at 195.58 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7398,7 +7470,7 @@
 			)
 		)
 		(property "Value" "1775443-2"
-			(at 191.77 63.4999 0)
+			(at 195.58 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7409,7 +7481,7 @@
 			)
 		)
 		(property "Footprint" "Onju:1775443-2"
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7421,7 +7493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7432,7 +7504,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7443,7 +7515,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/1775443-2/TE+Connectivity/view-part/?ref=eda"
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7455,7 +7527,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7467,7 +7539,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7479,7 +7551,7 @@
 			)
 		)
 		(property "PARTREV" "B5"
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7491,7 +7563,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/1775443-2/TE+Connectivity/view-part/?ref=snap"
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7503,7 +7575,7 @@
 			)
 		)
 		(property "Description_1" "Connector Header Surface Mount 2 position 0.059 (1.50mm)"
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7515,7 +7587,7 @@
 			)
 		)
 		(property "Number_of_Positions" "2"
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7527,7 +7599,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TE Connectivity"
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7539,7 +7611,7 @@
 			)
 		)
 		(property "Comment" "1775443-2"
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7551,7 +7623,7 @@
 			)
 		)
 		(property "MF" "TE Connectivity"
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7563,7 +7635,7 @@
 			)
 		)
 		(property "Product_Type" "Connector"
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7575,7 +7647,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "5mm"
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7587,7 +7659,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7598,8 +7670,8 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "1775443-2"
-			(at 179.07 60.96 0)
+		(property "MP" "5-1775443-2"
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7611,7 +7683,7 @@
 			)
 		)
 		(property "EU_RoHS_Compliance" "Compliant"
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7623,7 +7695,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7635,7 +7707,7 @@
 			)
 		)
 		(property "Centerline_Pitch" "1.5 mm[.059 in]"
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7647,7 +7719,7 @@
 			)
 		)
 		(property "Function" "TAS"
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7658,7 +7730,7 @@
 			)
 		)
 		(property "Supplier Part" "C5162845"
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7669,7 +7741,7 @@
 			)
 		)
 		(property "Manufacturer" "TE Connectivity"
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7679,8 +7751,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "1775443-2"
-			(at 179.07 60.96 0)
+		(property "Manufacturer Part" "5-1775443-2"
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7691,7 +7763,7 @@
 			)
 		)
 		(property "LCSC Part #" "C5162845"
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7702,7 +7774,7 @@
 			)
 		)
 		(property "Isat" ""
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7713,7 +7785,7 @@
 			)
 		)
 		(property "Part" ""
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7724,7 +7796,7 @@
 			)
 		)
 		(property "Power Rating" ""
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7735,7 +7807,7 @@
 			)
 		)
 		(property "Priority" ""
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7746,7 +7818,7 @@
 			)
 		)
 		(property "Rating" ""
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7757,7 +7829,7 @@
 			)
 		)
 		(property "Status" ""
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7768,7 +7840,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 179.07 60.96 0)
+			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7869,7 +7941,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "16V"
 			(at 183.134 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7890,7 +7962,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" ""
+		(property "Supplier Part" "C19666"
 			(at 180.34 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -7901,7 +7973,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 180.34 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -7923,7 +7995,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C19666"
 			(at 180.34 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -7990,6 +8062,17 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 180.34 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CL10A475KO8NNNC"
 			(at 180.34 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8091,7 +8174,7 @@
 				)
 			)
 		)
-		(property "Voltage" "50V"
+		(property "Voltage" "25V"
 			(at 53.848 71.374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8112,7 +8195,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" ""
+		(property "Supplier Part" "C21120"
 			(at 50.8 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8123,7 +8206,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 50.8 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8134,7 +8217,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "CL10B224KA8NNNC"
 			(at 50.8 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8145,7 +8228,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C21120"
 			(at 50.8 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8250,17 +8333,17 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 165.1 63.5 180)
+		(at 168.91 66.04 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4d73791d-5fb9-4eab-80b0-de6599da91ea")
 		(property "Reference" "TP9"
-			(at 167.64 65.5319 0)
+			(at 171.45 68.0719 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8271,8 +8354,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SP OUT"
-			(at 166.37 67.056 0)
+		(property "Value" "SP-"
+			(at 170.18 69.596 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8283,7 +8366,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 160.02 63.5 0)
+			(at 163.83 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8294,7 +8377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 63.5 0)
+			(at 163.83 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8305,7 +8388,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 165.1 63.5 0)
+			(at 168.91 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8648,7 +8731,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C86816"
+		(property "LCSC Part #" "C45783"
 			(at 148.59 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -8659,7 +8742,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 148.59 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -8670,7 +8753,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "GRM21BR61E226ME44L"
+		(property "Manufacturer Part" "CL21A226MAQNNNE"
 			(at 148.59 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -8681,7 +8764,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C86816"
+		(property "Supplier Part" "C45783"
 			(at 148.59 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -9171,7 +9254,7 @@
 				)
 			)
 		)
-		(property "Voltage" "50V"
+		(property "Voltage" "25V"
 			(at 64.008 66.294 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9192,7 +9275,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" ""
+		(property "Supplier Part" "C21120"
 			(at 60.96 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -9203,7 +9286,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 60.96 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -9214,7 +9297,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "CL10B224KA8NNNC"
 			(at 60.96 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -9225,7 +9308,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C21120"
 			(at 60.96 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -9404,7 +9487,7 @@
 				)
 			)
 		)
-		(property "Voltage" "50V"
+		(property "Voltage" "25V"
 			(at 64.008 73.914 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9425,7 +9508,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" ""
+		(property "Supplier Part" "C21120"
 			(at 60.96 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9436,7 +9519,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 60.96 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9447,7 +9530,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "CL10B224KA8NNNC"
 			(at 60.96 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9458,7 +9541,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C21120"
 			(at 60.96 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9692,6 +9775,61 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 72.39 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C21189"
+			(at 72.39 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 72.39 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF0000T5E"
+			(at 72.39 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C21189"
+			(at 72.39 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" "ESP32-P4"
 			(at 72.39 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -10194,7 +10332,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C86816"
+		(property "LCSC Part #" "C45783"
 			(at 111.76 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -10205,7 +10343,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 111.76 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -10216,7 +10354,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "GRM21BR61E226ME44L"
+		(property "Manufacturer Part" "CL21A226MAQNNNE"
 			(at 111.76 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -10227,7 +10365,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C86816"
+		(property "Supplier Part" "C45783"
 			(at 111.76 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -10815,7 +10953,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C86816"
+		(property "LCSC Part #" "C45783"
 			(at 139.7 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -10826,7 +10964,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 139.7 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -10837,7 +10975,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "GRM21BR61E226ME44L"
+		(property "Manufacturer Part" "CL21A226MAQNNNE"
 			(at 139.7 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -10848,7 +10986,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C86816"
+		(property "Supplier Part" "C45783"
 			(at 139.7 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11030,7 +11168,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 153.67 69.85 0)
+		(at 157.48 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11040,7 +11178,7 @@
 		(dnp no)
 		(uuid "ad36317b-59d5-4cd5-9a7a-d13a3fbadd3e")
 		(property "Reference" "C101"
-			(at 156.464 68.072 0)
+			(at 160.274 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11051,7 +11189,7 @@
 			)
 		)
 		(property "Value" "0.68uF"
-			(at 156.464 69.85 0)
+			(at 160.274 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11062,7 +11200,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 154.6352 73.66 0)
+			(at 158.4452 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11073,7 +11211,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 69.85 0)
+			(at 157.48 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11084,7 +11222,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 153.67 69.85 0)
+			(at 157.48 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11095,7 +11233,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 158.496 71.628 0)
+			(at 162.306 74.168 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11105,7 +11243,7 @@
 			)
 		)
 		(property "Function" "TAS"
-			(at 153.67 69.85 0)
+			(at 157.48 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11115,8 +11253,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "MuRata"
-			(at 153.67 69.85 0)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 157.48 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11126,8 +11264,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "GRM188R72A10"
-			(at 153.67 69.85 0)
+		(property "Manufacturer Part" "CL21B684KBFVPNE"
+			(at 157.48 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11137,8 +11275,8 @@
 				)
 			)
 		)
-		(property "Voltage" "100V"
-			(at 153.67 69.85 0)
+		(property "Voltage" "50V"
+			(at 157.48 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11149,7 +11287,7 @@
 			)
 		)
 		(property "Isat" ""
-			(at 153.67 69.85 0)
+			(at 157.48 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11160,7 +11298,7 @@
 			)
 		)
 		(property "Part" ""
-			(at 153.67 69.85 0)
+			(at 157.48 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11171,7 +11309,7 @@
 			)
 		)
 		(property "Power Rating" ""
-			(at 153.67 69.85 0)
+			(at 157.48 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11182,7 +11320,7 @@
 			)
 		)
 		(property "Priority" ""
-			(at 153.67 69.85 0)
+			(at 157.48 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11193,7 +11331,7 @@
 			)
 		)
 		(property "Rating" ""
-			(at 153.67 69.85 0)
+			(at 157.48 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11204,7 +11342,7 @@
 			)
 		)
 		(property "Status" ""
-			(at 153.67 69.85 0)
+			(at 157.48 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11215,7 +11353,29 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 153.67 69.85 0)
+			(at 157.48 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C472832"
+			(at 157.48 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C472832"
+			(at 157.48 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11338,7 +11498,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C86816"
+		(property "LCSC Part #" "C45783"
 			(at 120.65 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11349,7 +11509,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 120.65 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11360,7 +11520,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "GRM21BR61E226ME44L"
+		(property "Manufacturer Part" "CL21A226MAQNNNE"
 			(at 120.65 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11371,7 +11531,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C86816"
+		(property "Supplier Part" "C45783"
 			(at 120.65 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11476,7 +11636,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 137.16 59.69 90)
+		(at 140.97 62.23 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11486,7 +11646,7 @@
 		(dnp no)
 		(uuid "b2cf0507-c3c3-4793-a625-3e5f4af4a32a")
 		(property "Reference" "L11"
-			(at 133.096 58.166 90)
+			(at 136.906 60.706 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11496,7 +11656,7 @@
 			)
 		)
 		(property "Value" "10uH"
-			(at 142.24 58.166 90)
+			(at 146.05 60.706 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11506,7 +11666,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL5050-XXX"
-			(at 137.16 59.69 0)
+			(at 140.97 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11517,7 +11677,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 59.69 0)
+			(at 140.97 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11528,7 +11688,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 137.16 59.69 0)
+			(at 140.97 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11539,7 +11699,7 @@
 			)
 		)
 		(property "DCR" "41 mOhm"
-			(at 134.874 61.214 90)
+			(at 138.684 63.754 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11549,7 +11709,7 @@
 			)
 		)
 		(property "Current" "4.9A"
-			(at 141.732 61.214 90)
+			(at 145.542 63.754 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11559,7 +11719,7 @@
 			)
 		)
 		(property "Function" "TAS"
-			(at 137.16 59.69 90)
+			(at 140.97 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11569,8 +11729,8 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
-			(at 137.16 59.69 90)
+		(property "LCSC Part #" "C5441578"
+			(at 140.97 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11581,7 +11741,7 @@
 			)
 		)
 		(property "Manufacturer" "Coilcraft"
-			(at 137.16 59.69 90)
+			(at 140.97 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11592,7 +11752,7 @@
 			)
 		)
 		(property "Manufacturer Part" "XAL5050-103MEC"
-			(at 137.16 59.69 90)
+			(at 140.97 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11602,8 +11762,8 @@
 				)
 			)
 		)
-		(property "Supplier Part" ""
-			(at 137.16 59.69 90)
+		(property "Supplier Part" "C5441578"
+			(at 140.97 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11614,7 +11774,7 @@
 			)
 		)
 		(property "Isat" ""
-			(at 137.16 59.69 90)
+			(at 140.97 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11625,7 +11785,7 @@
 			)
 		)
 		(property "Part" ""
-			(at 137.16 59.69 90)
+			(at 140.97 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11636,7 +11796,7 @@
 			)
 		)
 		(property "Power Rating" ""
-			(at 137.16 59.69 90)
+			(at 140.97 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11647,7 +11807,7 @@
 			)
 		)
 		(property "Priority" ""
-			(at 137.16 59.69 90)
+			(at 140.97 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11658,7 +11818,7 @@
 			)
 		)
 		(property "Rating" ""
-			(at 137.16 59.69 90)
+			(at 140.97 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11669,7 +11829,7 @@
 			)
 		)
 		(property "Status" ""
-			(at 137.16 59.69 90)
+			(at 140.97 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11680,7 +11840,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 137.16 59.69 90)
+			(at 140.97 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11941,7 +12101,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 153.67 54.61 180)
+		(at 157.48 57.15 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11951,7 +12111,7 @@
 		(dnp no)
 		(uuid "c24ced49-2b1f-4cdb-991e-7e42a7662804")
 		(property "Reference" "C100"
-			(at 160.274 52.832 0)
+			(at 164.084 55.372 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11962,7 +12122,7 @@
 			)
 		)
 		(property "Value" "0.68uF"
-			(at 163.068 54.61 0)
+			(at 166.878 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11973,7 +12133,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 152.7048 50.8 0)
+			(at 156.5148 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11984,7 +12144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 54.61 0)
+			(at 157.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11995,7 +12155,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 153.67 54.61 0)
+			(at 157.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12006,7 +12166,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 158.496 56.388 0)
+			(at 162.306 58.928 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12016,7 +12176,7 @@
 			)
 		)
 		(property "Function" "TAS"
-			(at 153.67 54.61 0)
+			(at 157.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12026,8 +12186,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "MuRata"
-			(at 153.67 54.61 0)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 157.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12037,8 +12197,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "GRM188R72A10"
-			(at 153.67 54.61 0)
+		(property "Manufacturer Part" "CL21B684KBFVPNE"
+			(at 157.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12048,8 +12208,8 @@
 				)
 			)
 		)
-		(property "Voltage" "100V"
-			(at 153.67 54.61 0)
+		(property "Voltage" "50V"
+			(at 157.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12060,7 +12220,7 @@
 			)
 		)
 		(property "Isat" ""
-			(at 153.67 54.61 0)
+			(at 157.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12071,7 +12231,7 @@
 			)
 		)
 		(property "Part" ""
-			(at 153.67 54.61 0)
+			(at 157.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12082,7 +12242,7 @@
 			)
 		)
 		(property "Power Rating" ""
-			(at 153.67 54.61 0)
+			(at 157.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12093,7 +12253,7 @@
 			)
 		)
 		(property "Priority" ""
-			(at 153.67 54.61 0)
+			(at 157.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12104,7 +12264,7 @@
 			)
 		)
 		(property "Rating" ""
-			(at 153.67 54.61 0)
+			(at 157.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12115,7 +12275,7 @@
 			)
 		)
 		(property "Status" ""
-			(at 153.67 54.61 0)
+			(at 157.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12126,7 +12286,29 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 153.67 54.61 0)
+			(at 157.48 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C472832"
+			(at 157.48 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C472832"
+			(at 157.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12367,6 +12549,50 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 85.09 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C478472"
+			(at 85.09 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 85.09 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "TAS5805MPWPR"
+			(at 85.09 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C478472"
 			(at 85.09 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -12912,7 +13138,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 112.268 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12922,7 +13148,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 112.268 56.134 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12943,7 +13169,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" ""
+		(property "Supplier Part" "C52923"
 			(at 107.95 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -12965,7 +13191,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "CL05A105KA5NQNC"
 			(at 107.95 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -12976,7 +13202,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C52923"
 			(at 107.95 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -13146,6 +13372,61 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C148216"
+			(at 25.4 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 25.4 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "SMAJ15A"
+			(at 25.4 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C148216"
+			(at 25.4 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" "POWER"
+			(at 25.4 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "73abca69-6bc9-4185-9a2c-db8ca43136e6")
 		)
@@ -13302,6 +13583,61 @@
 				)
 			)
 		)
+		(property "Function" "TAS"
+			(at 35.56 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C17888"
+			(at 35.56 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 35.56 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "1206W4F0000T5E"
+			(at 35.56 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C17888"
+			(at 35.56 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e0781910-21d6-4df4-9459-862d3ac78eed")
 		)
@@ -13398,7 +13734,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 153.67 49.53 180)
+		(at 157.48 52.07 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13408,7 +13744,7 @@
 		(dnp no)
 		(uuid "edf9ab8e-b62c-415d-88e3-3fd22325d837")
 		(property "Reference" "#PWR0181"
-			(at 153.67 43.18 0)
+			(at 157.48 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13419,7 +13755,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 153.416 45.974 0)
+			(at 157.226 48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13429,7 +13765,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 49.53 0)
+			(at 157.48 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13440,7 +13776,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 49.53 0)
+			(at 157.48 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13451,7 +13787,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 153.67 49.53 0)
+			(at 157.48 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13495,7 +13831,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "max +15V!"
+		(property "Value" "+15V!"
 			(at 22.098 168.148 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13547,13 +13883,6 @@
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
 					(reference "TP1")
 					(unit 1)
-					(variant
-						(name "Full")
-						(field
-							(name "Value")
-							(value "+15V!")
-						)
-					)
 				)
 			)
 		)
