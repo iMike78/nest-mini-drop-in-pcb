@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.25,
-          "width": 0.825
+          "drill": 3.5,
+          "height": 7.0,
+          "width": 7.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -83,79 +83,15 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|123000000|92600000|49f80e15-a180-4ceb-96d4-6d74b544b5b8|68e183b7-0434-475d-ad2e-0ddfe972f992",
+          "clearance|123000000|93162600|79912b40-9672-45a4-93b5-cef96b965a4e|d4f5ece6-802e-4cb2-b847-17645fcc0b43",
           ""
         ],
         [
-          "clearance|123400000|93550000|68e183b7-0434-475d-ad2e-0ddfe972f992|79912b40-9672-45a4-93b5-cef96b965a4e",
-          ""
-        ],
-        [
-          "clearance|123400000|93550000|68e183b7-0434-475d-ad2e-0ddfe972f992|7b69de56-333e-4dfb-8ce4-ffd0aac5a1b0",
-          ""
-        ],
-        [
-          "copper_edge_clearance|103252320|82200113|eabbda25-34ba-4083-9542-488ed5ed87a4|0421e471-77a1-4c6e-a453-0e4093e385e3",
-          ""
-        ],
-        [
-          "copper_edge_clearance|103413470|82312374|eabbda25-34ba-4083-9542-488ed5ed87a4|ebd4f518-8b01-4122-9ddd-776f36256901",
-          ""
-        ],
-        [
-          "copper_edge_clearance|108800000|89100000|5373f326-0605-4bd9-9f5f-37cb3cdb4215|d5f6b70e-58e7-44db-bde9-43c0064dd21b",
-          ""
-        ],
-        [
-          "copper_edge_clearance|128235829|121701178|63af9ebd-1c49-4227-9397-978019d0428a|f31018d2-8eda-4a1d-abce-bce82c092a77",
-          ""
-        ],
-        [
-          "copper_edge_clearance|128813508|121587568|63af9ebd-1c49-4227-9397-978019d0428a|2a0640ad-5d9c-475a-982c-68870b14e7e4",
-          ""
-        ],
-        [
-          "copper_edge_clearance|135815362|115914000|1aa2cdff-8549-489d-b032-785a82bd6042|f56c68d3-4735-4b2f-81bb-f3bceffd02e6",
-          ""
-        ],
-        [
-          "copper_edge_clearance|162810000|89100000|3c32a755-9131-4ee5-aa41-1ddabedbea22|56bebddb-d411-407a-9c76-163efb2bea6e",
-          ""
-        ],
-        [
-          "copper_edge_clearance|167581139|96942210|cc545a54-294c-4f44-88d7-66669761960d|e3e92497-42ce-42fa-8a86-a1aa6fe68e08",
-          ""
-        ],
-        [
-          "copper_edge_clearance|167945362|97094991|cc545a54-294c-4f44-88d7-66669761960d|07301a4a-6029-4a33-9a75-ba061718a39f",
+          "clearance|123000000|93550000|79912b40-9672-45a4-93b5-cef96b965a4e|cd4c9ab9-a586-4e7d-94f1-3e1288ba52c1",
           ""
         ],
         [
           "courtyards_overlap|118958286|78135000|26e58e8c-3f70-4409-8e2f-5a79ae26fd44|9491576f-78ef-4997-a03a-90fa2d9d5c3a",
-          ""
-        ],
-        [
-          "hole_clearance|108800000|89100000|c221ed83-f951-4ee6-accb-3c6d4a7c8558|50ded784-7802-48b3-90d8-248e0cdd1bba",
-          ""
-        ],
-        [
-          "hole_clearance|108800000|89100000|d5f6b70e-58e7-44db-bde9-43c0064dd21b|50ded784-7802-48b3-90d8-248e0cdd1bba",
-          ""
-        ],
-        [
-          "hole_clearance|135864800|115914000|f56c68d3-4735-4b2f-81bb-f3bceffd02e6|1963ac6c-acf4-48f1-b586-cd22c8d69a9d",
-          ""
-        ],
-        [
-          "hole_clearance|135864800|115914100|06a982c1-52d7-46ba-8176-b6c788dff7fc|1963ac6c-acf4-48f1-b586-cd22c8d69a9d",
-          ""
-        ],
-        [
-          "hole_clearance|162810000|89100000|56bebddb-d411-407a-9c76-163efb2bea6e|8bd34b9d-85e5-49a4-9526-584bd2408da7",
-          ""
-        ],
-        [
-          "hole_clearance|162810200|89100000|cb5c2de4-c3a2-40ad-aefd-26c7d006c193|8bd34b9d-85e5-49a4-9526-584bd2408da7",
           ""
         ]
       ],
@@ -1384,7 +1320,7 @@
         "uuid": "204e071a-14ed-47a0-be54-332ac2b951cf"
       }
     ],
-    "used_designators": "AE1-2,L1-13,D1-6,#PWR1-235,LED1-6,#PWRe1,C1-139,FB1-5,J1-5,MK1-3,POWER_IN1,Q1-3,#FLG1-11,R1-72,R74-76,SW1-2,TP1-11,U1-13,X1,Y1-3",
+    "used_designators": "#PWR1-235,D1-6,AE1-2,L1-13,#PWRe1,C1-139,LED1-6,FB1-5,J1-5,MK1-3,POWER_IN1,Q1-3,R1-72,R74-76,#FLG1-11,SW1-2,TP1-11,U1-13,X1,Y1-3",
     "variants": [
       {
         "description": "Projekt with S3, P4 and C6 for Thread/Matter capability",

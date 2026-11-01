@@ -6876,12 +6876,6 @@
 		(uuid "1de07c58-a736-4e73-a612-4bf99e6c7c9a")
 	)
 	(junction
-		(at 398.78 231.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21b7ac78-1da5-42d2-a354-5754774e9439")
-	)
-	(junction
 		(at 29.21 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6948,6 +6942,12 @@
 		(uuid "54ed5327-4137-4ab9-9ea6-022c0f356cda")
 	)
 	(junction
+		(at 379.73 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a10b34b-f8dc-4288-a598-1a89b08b2327")
+	)
+	(junction
 		(at 285.75 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6996,10 +6996,22 @@
 		(uuid "8abb31df-6593-43b7-b21b-bc5c93e67395")
 	)
 	(junction
+		(at 379.73 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cd8dc8a-c9da-496d-a93b-7ed2e1577763")
+	)
+	(junction
 		(at 54.61 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8eb34e90-4c3b-476d-8572-b02cba71454a")
+	)
+	(junction
+		(at 379.73 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9201190e-8bf0-4dbe-9816-136149f71f7c")
 	)
 	(junction
 		(at 317.5 21.59)
@@ -7018,12 +7030,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7850202-1736-4d4e-b1eb-e5d9ed9754de")
-	)
-	(junction
-		(at 397.51 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b11bb8dc-49f7-4931-8da8-897cd9bb5e38")
 	)
 	(junction
 		(at 127 260.35)
@@ -7108,12 +7114,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de4a7e0c-70b8-48b0-a9bf-1ed955f63b29")
-	)
-	(junction
-		(at 398.78 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de52053d-39df-4928-8d2e-1b30e550badd")
 	)
 	(junction
 		(at 200.66 152.4)
@@ -7579,7 +7579,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 218.44) (xy 397.51 218.44)
+			(xy 382.27 220.98) (xy 394.97 220.98)
 		)
 		(stroke
 			(width 0)
@@ -8389,7 +8389,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 246.38) (xy 374.65 246.38)
+			(xy 374.65 250.19) (xy 372.11 250.19)
 		)
 		(stroke
 			(width 0)
@@ -8466,16 +8466,6 @@
 			(type default)
 		)
 		(uuid "58e01974-c141-4a66-bc04-f3d08b5d26bc")
-	)
-	(wire
-		(pts
-			(xy 398.78 187.96) (xy 398.78 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59de2e10-63ff-4b72-80c3-d7b037b102e2")
 	)
 	(wire
 		(pts
@@ -8606,6 +8596,16 @@
 			(type default)
 		)
 		(uuid "64adaaac-0c81-40ca-a136-4bf40638c90a")
+	)
+	(wire
+		(pts
+			(xy 379.73 175.26) (xy 387.35 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66898644-c80f-46af-9c4e-ca4240517249")
 	)
 	(wire
 		(pts
@@ -8869,16 +8869,6 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 175.26) (xy 398.78 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d878bf7-334f-47de-b7fe-ab629a0d2090")
-	)
-	(wire
-		(pts
 			(xy 377.19 31.75) (xy 377.19 33.02)
 		)
 		(stroke
@@ -9079,13 +9069,23 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 190.5) (xy 374.65 190.5)
+			(xy 374.65 193.04) (xy 372.11 193.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8c06f72e-c4f5-49a3-b12a-24913303bec1")
+	)
+	(wire
+		(pts
+			(xy 379.73 182.88) (xy 379.73 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c982aa3-874c-4fab-a2b4-f58794580387")
 	)
 	(wire
 		(pts
@@ -9249,7 +9249,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 190.5) (xy 397.51 190.5)
+			(xy 382.27 193.04) (xy 394.97 193.04)
 		)
 		(stroke
 			(width 0)
@@ -9299,7 +9299,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 218.44) (xy 374.65 208.28)
+			(xy 372.11 220.98) (xy 372.11 208.28)
 		)
 		(stroke
 			(width 0)
@@ -9349,7 +9349,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 175.26) (xy 387.35 175.26)
+			(xy 370.84 175.26) (xy 379.73 175.26)
 		)
 		(stroke
 			(width 0)
@@ -9359,7 +9359,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 246.38) (xy 397.51 246.38)
+			(xy 382.27 250.19) (xy 394.97 250.19)
 		)
 		(stroke
 			(width 0)
@@ -9399,7 +9399,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 236.22) (xy 374.65 236.22)
+			(xy 367.03 236.22) (xy 372.11 236.22)
 		)
 		(stroke
 			(width 0)
@@ -9469,7 +9469,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 203.2) (xy 387.35 203.2)
+			(xy 367.03 203.2) (xy 379.73 203.2)
 		)
 		(stroke
 			(width 0)
@@ -9489,17 +9489,7 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 231.14) (xy 398.78 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad2270a0-0ef8-497c-8761-e3c778565c65")
-	)
-	(wire
-		(pts
-			(xy 367.03 180.34) (xy 374.65 180.34)
+			(xy 367.03 180.34) (xy 372.11 180.34)
 		)
 		(stroke
 			(width 0)
@@ -9629,7 +9619,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 190.5) (xy 374.65 180.34)
+			(xy 372.11 193.04) (xy 372.11 180.34)
 		)
 		(stroke
 			(width 0)
@@ -9759,7 +9749,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 246.38) (xy 374.65 236.22)
+			(xy 372.11 250.19) (xy 372.11 236.22)
 		)
 		(stroke
 			(width 0)
@@ -9869,16 +9859,6 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 243.84) (xy 398.78 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb85174d-f19b-4492-9aac-bd0c71daea50")
-	)
-	(wire
-		(pts
 			(xy 377.19 21.59) (xy 377.19 22.86)
 		)
 		(stroke
@@ -9926,6 +9906,16 @@
 			(type default)
 		)
 		(uuid "ceb8a06c-68ee-4dc2-acfb-6e246faedb30")
+	)
+	(wire
+		(pts
+			(xy 379.73 203.2) (xy 387.35 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7128c6-0c63-43a4-8efa-9e08f428723d")
 	)
 	(wire
 		(pts
@@ -9999,7 +9989,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 208.28) (xy 374.65 208.28)
+			(xy 367.03 208.28) (xy 372.11 208.28)
 		)
 		(stroke
 			(width 0)
@@ -10169,7 +10159,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 231.14) (xy 387.35 231.14)
+			(xy 370.84 231.14) (xy 379.73 231.14)
 		)
 		(stroke
 			(width 0)
@@ -10229,6 +10219,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 231.14) (xy 387.35 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf0b906-d29c-4f75-8397-46e4b9b5a2f8")
+	)
+	(wire
+		(pts
 			(xy 44.45 165.1) (xy 44.45 166.37)
 		)
 		(stroke
@@ -10239,7 +10239,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 218.44) (xy 374.65 218.44)
+			(xy 374.65 220.98) (xy 372.11 220.98)
 		)
 		(stroke
 			(width 0)
@@ -10438,7 +10438,7 @@
 		(uuid "2952065a-121f-490f-bc0e-b83dd69fa69f")
 	)
 	(label "MIC_DATA_M_1"
-		(at 397.51 190.5 180)
+		(at 394.97 193.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10458,7 +10458,7 @@
 		(uuid "36fcb7dc-6cc5-4ab6-af5a-75c153731c5b")
 	)
 	(label "MIC_DATA_M_2"
-		(at 397.51 246.38 180)
+		(at 394.97 250.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10558,7 +10558,7 @@
 		(uuid "7aeb212a-21c0-427b-8f7d-b6774f1aaa11")
 	)
 	(label "MIC_DATA_M_1"
-		(at 397.51 218.44 180)
+		(at 394.97 220.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12216,83 +12216,6 @@
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
 					(reference "C79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 397.51 210.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "045dec68-6e78-4852-9da7-79494a06e590")
-		(property "Reference" "#PWR0157"
-			(at 397.51 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 397.51 215.138 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 397.51 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 397.51 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 397.51 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "17e8965a-e1ba-4757-baba-cc9fc2b586d5")
-		)
-		(instances
-			(project "nest-mini-v2-drop-in-pcb"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -14134,84 +14057,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 398.78 190.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "113a31ca-8610-48ba-9d66-4f049107e2a2")
-		(property "Reference" "#PWR0161"
-			(at 398.78 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 398.78 195.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 398.78 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 398.78 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 398.78 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c974ce3f-7d32-48aa-a251-65207c942b1f")
-		)
-		(instances
-			(project "nest-mini-v2-drop-in-pcb"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0161")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 369.57 148.59 0)
 		(unit 1)
 		(body_style 1)
@@ -15036,239 +14881,6 @@
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
 					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 397.51 207.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1d9d0f7e-7e92-4bed-9a0c-a21f99cbc686")
-		(property "Reference" "C85"
-			(at 399.796 204.978 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 399.796 206.756 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 398.4752 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 397.51 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 397.51 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 401.828 208.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 401.828 209.804 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Function" "MIC"
-			(at 397.51 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" "C1525"
-			(at 397.51 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 397.51 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "CL05B104KO5NNNC"
-			(at 397.51 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C1525"
-			(at 397.51 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Isat" ""
-			(at 397.51 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" ""
-			(at 397.51 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power Rating" ""
-			(at 397.51 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Priority" ""
-			(at 397.51 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rating" ""
-			(at 397.51 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Status" ""
-			(at 397.51 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" ""
-			(at 397.51 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e22b644c-870f-4830-b760-a17cd6166ee9")
-		)
-		(pin "2"
-			(uuid "697c4ef9-dd67-4fa0-aa20-b85c6e03b8b8")
-		)
-		(instances
-			(project "nest-mini-v2-drop-in-pcb"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -17550,7 +17162,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 381 190.5 270)
+		(at 378.46 193.04 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17560,7 +17172,7 @@
 		(dnp no)
 		(uuid "2fcd4acd-88be-4950-9dee-6f010dda76cf")
 		(property "Reference" "R60"
-			(at 376.682 188.468 90)
+			(at 374.142 191.008 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17570,7 +17182,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 381.508 188.468 90)
+			(at 378.968 191.008 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17580,7 +17192,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 381 188.722 90)
+			(at 378.46 191.262 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17591,7 +17203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 381 190.5 0)
+			(at 378.46 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17602,7 +17214,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 381 190.5 0)
+			(at 378.46 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17613,7 +17225,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 381 190.5 90)
+			(at 378.46 193.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17623,7 +17235,7 @@
 			)
 		)
 		(property "Function" "MIC"
-			(at 381 190.5 90)
+			(at 378.46 193.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17634,7 +17246,7 @@
 			)
 		)
 		(property "Supplier Part" "C25076"
-			(at 381 190.5 90)
+			(at 378.46 193.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17645,7 +17257,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 381 190.5 90)
+			(at 378.46 193.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17656,7 +17268,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0402WGF1000TCE"
-			(at 381 190.5 90)
+			(at 378.46 193.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17667,7 +17279,7 @@
 			)
 		)
 		(property "LCSC Part #" "C25076"
-			(at 381 190.5 90)
+			(at 378.46 193.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17678,7 +17290,7 @@
 			)
 		)
 		(property "Isat" ""
-			(at 381 190.5 90)
+			(at 378.46 193.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17689,7 +17301,7 @@
 			)
 		)
 		(property "Part" ""
-			(at 381 190.5 90)
+			(at 378.46 193.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17700,7 +17312,7 @@
 			)
 		)
 		(property "Power Rating" ""
-			(at 381 190.5 90)
+			(at 378.46 193.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17711,7 +17323,7 @@
 			)
 		)
 		(property "Priority" ""
-			(at 381 190.5 90)
+			(at 378.46 193.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17722,7 +17334,7 @@
 			)
 		)
 		(property "Rating" ""
-			(at 381 190.5 90)
+			(at 378.46 193.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17733,7 +17345,7 @@
 			)
 		)
 		(property "Status" ""
-			(at 381 190.5 90)
+			(at 378.46 193.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17744,7 +17356,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 381 190.5 90)
+			(at 378.46 193.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19515,6 +19127,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 379.73 210.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3e699fbb-5f20-4285-ad82-38eadbd8c599")
+		(property "Reference" "#PWR0157"
+			(at 379.73 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 379.73 215.138 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 379.73 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 379.73 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 379.73 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ad988ef-0894-4129-b6d7-91f2ffbff21f")
+		)
+		(instances
+			(project "nest-mini-v2-drop-in-pcb"
+				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
+					(reference "#PWR0157")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "New_Library:VDD_MIC")
 		(at 397.51 201.93 0)
 		(unit 1)
@@ -19586,6 +19275,239 @@
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
 					(reference "#PWR0156")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 379.73 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3f2a6367-af1c-47ab-870c-4b972a1ba30c")
+		(property "Reference" "C86"
+			(at 382.016 177.038 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 382.016 178.816 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 380.6952 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 379.73 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 379.73 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 384.048 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 384.048 181.864 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" "MIC"
+			(at 379.73 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C1525"
+			(at 379.73 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 379.73 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
+			(at 379.73 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 379.73 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Isat" ""
+			(at 379.73 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" ""
+			(at 379.73 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating" ""
+			(at 379.73 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Priority" ""
+			(at 379.73 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" ""
+			(at 379.73 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 379.73 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 379.73 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e6747bf-7043-4891-abc4-0f3ca6475af4")
+		)
+		(pin "2"
+			(uuid "756c5469-3780-4986-a1bf-0183b116e80b")
+		)
+		(instances
+			(project "nest-mini-v2-drop-in-pcb"
+				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
+					(reference "C86")
 					(unit 1)
 				)
 			)
@@ -21657,6 +21579,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 379.73 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5ae96d33-7356-4a75-96d3-301c6e61c184")
+		(property "Reference" "#PWR0161"
+			(at 379.73 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 379.73 188.214 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 379.73 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 379.73 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 379.73 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95635d75-d161-4e48-a19c-a4803a03c615")
+		)
+		(instances
+			(project "nest-mini-v2-drop-in-pcb"
+				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
+					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 127 260.35 270)
 		(unit 1)
@@ -22862,6 +22861,239 @@
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
 					(reference "C134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 379.73 207.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "69d85957-4436-4ca4-9e2d-0dba51f53c64")
+		(property "Reference" "C85"
+			(at 382.016 204.978 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 382.016 206.756 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 380.6952 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 379.73 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 379.73 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 384.048 208.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 384.048 209.804 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" "MIC"
+			(at 379.73 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C1525"
+			(at 379.73 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 379.73 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
+			(at 379.73 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 379.73 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Isat" ""
+			(at 379.73 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" ""
+			(at 379.73 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating" ""
+			(at 379.73 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Priority" ""
+			(at 379.73 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" ""
+			(at 379.73 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 379.73 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 379.73 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ede256f5-f041-407c-83d3-8d5a3a72baf6")
+		)
+		(pin "2"
+			(uuid "1c6ad97e-b88e-4d57-833f-6421185e18e8")
+		)
+		(instances
+			(project "nest-mini-v2-drop-in-pcb"
+				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
+					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -27675,7 +27907,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3k"
+		(property "Value" "100k"
 			(at 322.58 149.352 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27739,7 +27971,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C25890"
+		(property "Supplier Part" "C25741"
 			(at 318.77 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -27761,7 +27993,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "0402WGF3301TCE"
+		(property "Manufacturer Part" "0402WGF1003TCE"
 			(at 318.77 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -27772,7 +28004,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25890"
+		(property "LCSC Part #" "C25741"
 			(at 318.77 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -29170,239 +29402,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 398.78 240.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "93663b62-4027-40e4-8fa3-8da038ecf7a5")
-		(property "Reference" "C87"
-			(at 401.066 237.998 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 401.066 239.776 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 399.7452 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 398.78 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 398.78 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 403.098 241.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 403.098 242.824 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Function" "MIC"
-			(at 398.78 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" "C1525"
-			(at 398.78 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 398.78 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "CL05B104KO5NNNC"
-			(at 398.78 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C1525"
-			(at 398.78 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Isat" ""
-			(at 398.78 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" ""
-			(at 398.78 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power Rating" ""
-			(at 398.78 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Priority" ""
-			(at 398.78 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rating" ""
-			(at 398.78 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Status" ""
-			(at 398.78 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" ""
-			(at 398.78 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7cb28bbd-8708-4343-b3bd-c472a46b7e6c")
-		)
-		(pin "2"
-			(uuid "b0019c1d-f74d-452d-ba0b-74e6d0c0ed8f")
-		)
-		(instances
-			(project "nest-mini-v2-drop-in-pcb"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C87")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 331.47 139.7 180)
 		(unit 1)
@@ -29929,6 +29928,84 @@
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
 					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 379.73 238.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9880da0b-62fd-470e-9fcf-d97842e45567")
+		(property "Reference" "#PWR0163"
+			(at 379.73 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 379.73 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 379.73 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 379.73 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 379.73 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4c38d8e-03ae-4815-8172-7b8fd9287117")
+		)
+		(instances
+			(project "nest-mini-v2-drop-in-pcb"
+				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
+					(reference "#PWR0163")
 					(unit 1)
 				)
 			)
@@ -31431,319 +31508,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 398.78 184.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b0185192-2c58-4b9a-a4ed-8a1575a4d192")
-		(property "Reference" "C86"
-			(at 401.066 182.118 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 401.066 183.896 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 399.7452 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 398.78 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 398.78 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 403.098 185.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 403.098 186.944 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Function" "MIC"
-			(at 398.78 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" "C1525"
-			(at 398.78 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 398.78 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "CL05B104KO5NNNC"
-			(at 398.78 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C1525"
-			(at 398.78 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Isat" ""
-			(at 398.78 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" ""
-			(at 398.78 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power Rating" ""
-			(at 398.78 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Priority" ""
-			(at 398.78 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rating" ""
-			(at 398.78 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Status" ""
-			(at 398.78 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" ""
-			(at 398.78 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "da7831ab-94e6-42e9-be07-f3608d924168")
-		)
-		(pin "2"
-			(uuid "c354281a-c132-46a8-9793-13ec0e2ab308")
-		)
-		(instances
-			(project "nest-mini-v2-drop-in-pcb"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "C86")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 398.78 246.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0c32209-c415-45d8-a319-e73e0c3ee3b7")
-		(property "Reference" "#PWR0163"
-			(at 398.78 252.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 398.78 251.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 398.78 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 398.78 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 398.78 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a804503a-50da-4518-9f5c-ab9efc5381c1")
-		)
-		(instances
-			(project "nest-mini-v2-drop-in-pcb"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0163")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 381 218.44 270)
+		(at 378.46 220.98 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31753,7 +31519,7 @@
 		(dnp no)
 		(uuid "b339f965-2f54-41de-8975-6a9946e72d16")
 		(property "Reference" "R61"
-			(at 376.682 216.408 90)
+			(at 374.142 218.948 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31763,7 +31529,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 381.762 216.408 90)
+			(at 379.222 218.948 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31773,7 +31539,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 381 216.662 90)
+			(at 378.46 219.202 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31784,7 +31550,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 381 218.44 0)
+			(at 378.46 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31795,7 +31561,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 381 218.44 0)
+			(at 378.46 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31806,7 +31572,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 381 218.44 90)
+			(at 378.46 220.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31816,7 +31582,7 @@
 			)
 		)
 		(property "Function" "MIC"
-			(at 381 218.44 90)
+			(at 378.46 220.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31827,7 +31593,7 @@
 			)
 		)
 		(property "Supplier Part" "C25076"
-			(at 381 218.44 90)
+			(at 378.46 220.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31838,7 +31604,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 381 218.44 90)
+			(at 378.46 220.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31849,7 +31615,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0402WGF1000TCE"
-			(at 381 218.44 90)
+			(at 378.46 220.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31860,7 +31626,7 @@
 			)
 		)
 		(property "LCSC Part #" "C25076"
-			(at 381 218.44 90)
+			(at 378.46 220.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31871,7 +31637,7 @@
 			)
 		)
 		(property "Isat" ""
-			(at 381 218.44 90)
+			(at 378.46 220.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31882,7 +31648,7 @@
 			)
 		)
 		(property "Part" ""
-			(at 381 218.44 90)
+			(at 378.46 220.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31893,7 +31659,7 @@
 			)
 		)
 		(property "Power Rating" ""
-			(at 381 218.44 90)
+			(at 378.46 220.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31904,7 +31670,7 @@
 			)
 		)
 		(property "Priority" ""
-			(at 381 218.44 90)
+			(at 378.46 220.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31915,7 +31681,7 @@
 			)
 		)
 		(property "Rating" ""
-			(at 381 218.44 90)
+			(at 378.46 220.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31926,7 +31692,7 @@
 			)
 		)
 		(property "Status" ""
-			(at 381 218.44 90)
+			(at 378.46 220.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31937,7 +31703,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 381 218.44 90)
+			(at 378.46 220.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32586,7 +32352,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 381 246.38 270)
+		(at 378.46 250.19 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32596,7 +32362,7 @@
 		(dnp no)
 		(uuid "bb4b86aa-8734-419e-a8f7-cb70c99a1d55")
 		(property "Reference" "R62"
-			(at 376.682 244.348 90)
+			(at 374.142 248.158 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32606,7 +32372,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 381.508 244.348 90)
+			(at 378.968 248.158 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32616,7 +32382,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 381 244.602 90)
+			(at 378.46 248.412 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32627,7 +32393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 381 246.38 0)
+			(at 378.46 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32638,7 +32404,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 381 246.38 0)
+			(at 378.46 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32649,7 +32415,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 381 246.38 90)
+			(at 378.46 250.19 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32659,7 +32425,7 @@
 			)
 		)
 		(property "Function" "MIC"
-			(at 381 246.38 90)
+			(at 378.46 250.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32670,7 +32436,7 @@
 			)
 		)
 		(property "Supplier Part" "C25076"
-			(at 381 246.38 90)
+			(at 378.46 250.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32681,7 +32447,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 381 246.38 90)
+			(at 378.46 250.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32692,7 +32458,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0402WGF1000TCE"
-			(at 381 246.38 90)
+			(at 378.46 250.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32703,7 +32469,7 @@
 			)
 		)
 		(property "LCSC Part #" "C25076"
-			(at 381 246.38 90)
+			(at 378.46 250.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32714,7 +32480,7 @@
 			)
 		)
 		(property "Isat" ""
-			(at 381 246.38 90)
+			(at 378.46 250.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32725,7 +32491,7 @@
 			)
 		)
 		(property "Part" ""
-			(at 381 246.38 90)
+			(at 378.46 250.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32736,7 +32502,7 @@
 			)
 		)
 		(property "Power Rating" ""
-			(at 381 246.38 90)
+			(at 378.46 250.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32747,7 +32513,7 @@
 			)
 		)
 		(property "Priority" ""
-			(at 381 246.38 90)
+			(at 378.46 250.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32758,7 +32524,7 @@
 			)
 		)
 		(property "Rating" ""
-			(at 381 246.38 90)
+			(at 378.46 250.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32769,7 +32535,7 @@
 			)
 		)
 		(property "Status" ""
-			(at 381 246.38 90)
+			(at 378.46 250.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32780,7 +32546,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 381 246.38 90)
+			(at 378.46 250.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34303,6 +34069,239 @@
 			(project "nest-mini-v2-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 379.73 234.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cf4729fa-0677-457b-9e6d-52feac307a63")
+		(property "Reference" "C87"
+			(at 382.016 232.918 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 382.016 234.696 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 380.6952 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 379.73 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 379.73 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 384.048 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 384.048 237.744 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" "MIC"
+			(at 379.73 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C1525"
+			(at 379.73 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 379.73 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
+			(at 379.73 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 379.73 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Isat" ""
+			(at 379.73 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" ""
+			(at 379.73 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating" ""
+			(at 379.73 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Priority" ""
+			(at 379.73 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" ""
+			(at 379.73 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 379.73 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 379.73 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03e46abe-5ef2-4202-be17-06db79e15937")
+		)
+		(pin "2"
+			(uuid "29a02c47-62f3-47eb-9499-81e373f85525")
+		)
+		(instances
+			(project "nest-mini-v2-drop-in-pcb"
+				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
+					(reference "C87")
 					(unit 1)
 				)
 			)

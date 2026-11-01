@@ -9817,7 +9817,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Cenker_CKCS4020"
+		(property "Footprint" "Onju:IND_SRP4020TA-2R2M"
 			(at 199.39 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11426,7 +11426,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Cenker_CKCS4020"
+		(property "Footprint" "Onju:IND_SRP4020TA-2R2M"
 			(at 69.85 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -16794,7 +16794,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Cenker_CKCS4020"
+		(property "Footprint" "Onju:IND_SRP4020TA-2R2M"
 			(at 208.28 35.56 0)
 			(hide yes)
 			(show_name no)

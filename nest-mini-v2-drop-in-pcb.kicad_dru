@@ -13,3 +13,8 @@
 (rule "RF neck at U8 - clearance"
    (condition "A.NetClass == 'RF' && (A.insideCourtyard('U8') || A.memberOfFootprint('U8'))")
    (constraint clearance (min 0.127mm)))
+# MPR121 (U7) fan-out: electrode and REXT traces run side by side at the 0.5 mm pitch IC.
+# The 0.5 mm 'touch' clearance is meant against other nets; between two touch nets 0.25 mm is accepted.
+(rule "touch to touch"
+   (condition "A.NetClass == 'touch' && B.NetClass == 'touch'")
+   (constraint clearance (min 0.25mm)))
